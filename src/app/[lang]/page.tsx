@@ -49,6 +49,7 @@ export default function HomePage({ params }: PageProps) {
 
       <section className="relative overflow-hidden py-12">
         <div className="absolute inset-0 bg-[url('/hero-bg.jpg')] bg-cover bg-center" />
+        <div className="absolute inset-0 bg-brand-navy/35" />
         <div className="relative mx-auto flex w-full max-w-6xl flex-col gap-8 px-6">
           <div className="rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-sm">
             <h2 className="text-lg font-semibold text-slate-900">
