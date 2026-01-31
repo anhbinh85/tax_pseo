@@ -32,7 +32,6 @@ git commit -m "Initial commit"
 git branch -M main
 git push -u origin main
 ```
-
 ## 7) Verify
 - Open the repo in your browser and confirm files are visible.
 

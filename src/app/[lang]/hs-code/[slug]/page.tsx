@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AIInsight } from "@/components/AIInsight";
+import { DeepTaxCalculator } from "@/components/DeepTaxCalculator";
 import { TaxTable } from "@/components/TaxTable";
 import { getGradientClass } from "@/lib/gradient";
 import {
@@ -88,6 +89,43 @@ export default function DetailPage({ params }: PageProps) {
     if (trimmed.includes("%")) return trimmed;
     const hasNumber = /\d/.test(trimmed);
     return hasNumber ? `${trimmed}%` : trimmed;
+  };
+
+  const parseRate = (value?: string | null) => {
+    if (!value) return 0;
+    const cleaned = value.replace(",", ".");
+    const match = cleaned.match(/-?\d+(\.\d+)?/);
+    return match ? Number(match[0]) : 0;
+  };
+
+  const importOptions: Record<string, number> = {
+    mfn: parseRate(item.taxes?.mfn),
+    nk_tt: parseRate(item.taxes?.nk_tt),
+    form_e: parseRate(item.taxes?.form_e),
+    form_d: parseRate(item.taxes?.form_d),
+    ajcep: parseRate(item.taxes?.ajcep),
+    vjepa: parseRate(item.taxes?.vjepa),
+    akfta: parseRate(item.taxes?.akfta),
+    aanzfta: parseRate(item.taxes?.aanzfta),
+    aifta: parseRate(item.taxes?.aifta),
+    vkfta: parseRate(item.taxes?.vkfta),
+    vcfta: parseRate(item.taxes?.vcfta),
+    vn_eaeu: parseRate(item.taxes?.vn_eaeu),
+    cptpp: parseRate(item.taxes?.cptpp),
+    ahkfta: parseRate(item.taxes?.ahkfta),
+    vncu: parseRate(item.taxes?.vncu),
+    eur1: parseRate(item.taxes?.eur1),
+    ukv: parseRate(item.taxes?.ukv),
+    vn_lao: parseRate(item.taxes?.vn_lao),
+    vifta: parseRate(item.taxes?.vifta),
+    rcept: parseRate(item.taxes?.rcept)
+  };
+
+  const exportOptions: Record<string, number> = {
+    xk: parseRate(item.export_tax),
+    xk_cptpp: parseRate(item.export_cptpp),
+    xk_ev: parseRate(item.export_ev),
+    xk_ukv: parseRate(item.export_ukv)
   };
 
   const infoRows = [
@@ -183,6 +221,20 @@ export default function DetailPage({ params }: PageProps) {
         </div>
 
         <TaxTable lang={lang} taxes={item.taxes} />
+
+        <DeepTaxCalculator
+          lang={lang}
+          rates={{
+            mfn: parseRate(item.taxes?.mfn),
+            formE: parseRate(item.taxes?.form_e),
+            formD: parseRate(item.taxes?.form_d),
+            vat: parseRate(item.vat),
+            excise: parseRate(item.excise_tax),
+            env: parseRate(item.env_tax),
+            importOptions,
+            exportOptions
+          }}
+        />
 
         <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
           <div className="flex items-center justify-between">
