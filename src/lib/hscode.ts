@@ -8,6 +8,14 @@ export type HscodeItem = {
   name_en: string;
   unit: string;
   vat: string | null;
+  excise_tax?: string | null;
+  export_tax?: string | null;
+  export_cptpp?: string | null;
+  export_ev?: string | null;
+  export_ukv?: string | null;
+  env_tax?: string | null;
+  policy?: string | null;
+  vat_reduction?: string | null;
   taxes: Record<string, string>;
 };
 

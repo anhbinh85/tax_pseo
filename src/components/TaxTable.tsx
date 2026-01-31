@@ -22,7 +22,7 @@ const taxLabels: Record<string, { label: string; flag: string }> = {
   ukv: { label: "UKVFTA", flag: "🇬🇧" },
   vn_lao: { label: "VN-LAO", flag: "🇱🇦" },
   vifta: { label: "VIFTA", flag: "🇮🇱" },
-  rcept: { label: "RCEP", flag: "🌏" }
+  rcept: { label: "RCEPT", flag: "🌏" }
 };
 
 const taxOrder = [
@@ -44,6 +44,15 @@ const taxOrder = [
   "vifta",
   "rcept"
 ];
+
+const formatPercent = (value?: string | null) => {
+  if (!value) return "";
+  const trimmed = value.trim();
+  if (!trimmed || trimmed === "*" || trimmed === "-") return trimmed;
+  if (trimmed.includes("%")) return trimmed;
+  const hasNumber = /\d/.test(trimmed);
+  return hasNumber ? `${trimmed}%` : trimmed;
+};
 
 export const TaxTable = ({ lang, taxes }: Props) => {
   const strings = getLocaleStrings(lang);
@@ -83,7 +92,7 @@ export const TaxTable = ({ lang, taxes }: Props) => {
               >
                 <div className="flex items-center justify-between">
                   <div className="text-sm font-semibold text-slate-900">
-                    {tax.flag} {tax.label}
+                    <span className="text-xl">{tax.flag}</span> {tax.label}
                   </div>
                   {isFree && (
                     <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-700">
@@ -92,7 +101,7 @@ export const TaxTable = ({ lang, taxes }: Props) => {
                   )}
                 </div>
                 <div className="mt-3 text-2xl font-semibold text-slate-900">
-                  {tax.value}
+                  {formatPercent(tax.value) || strings.notAvailable}
                 </div>
               </div>
             );

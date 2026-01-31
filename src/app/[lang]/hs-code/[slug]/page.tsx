@@ -81,6 +81,49 @@ export default function DetailPage({ params }: PageProps) {
     (entry) => entry.slug !== item.slug
   );
 
+  const formatPercent = (value?: string | null) => {
+    if (!value) return strings.checkPolicy;
+    const trimmed = value.trim();
+    if (!trimmed || trimmed === "*" || trimmed === "-") return trimmed;
+    if (trimmed.includes("%")) return trimmed;
+    const hasNumber = /\d/.test(trimmed);
+    return hasNumber ? `${trimmed}%` : trimmed;
+  };
+
+  const infoRows = [
+    {
+      label: lang === "en" ? "Excise Tax (TTĐB)" : "Thuế TTĐB",
+      value: formatPercent(item.excise_tax)
+    },
+    {
+      label: lang === "en" ? "Export Tax (XK)" : "Thuế XK",
+      value: formatPercent(item.export_tax)
+    },
+    {
+      label: lang === "en" ? "Export CPTPP" : "XK CPTPP",
+      value: formatPercent(item.export_cptpp)
+    },
+    {
+      label: lang === "en" ? "Export EVFTA" : "XK EVFTA",
+      value: formatPercent(item.export_ev)
+    },
+    {
+      label: lang === "en" ? "Export UKVFTA" : "XK UKVFTA",
+      value: formatPercent(item.export_ukv)
+    },
+    {
+      label:
+        lang === "en"
+          ? "Environmental Protection Tax"
+          : "Thuế BVMT",
+      value: formatPercent(item.env_tax)
+    },
+    {
+      label: lang === "en" ? "VAT Reduction" : "Giảm VAT",
+      value: formatPercent(item.vat_reduction)
+    }
+  ].filter((entry) => entry.value && entry.value !== strings.checkPolicy);
+
   return (
     <main className="min-h-screen bg-slate-100">
       <div className="bg-brand-navy text-white">
@@ -110,14 +153,14 @@ export default function DetailPage({ params }: PageProps) {
                 item.taxes?.mfn?.replace(/\s/g, "") === "0%" ? "text-emerald-600" : "text-slate-900"
               }`}
             >
-              {item.taxes?.mfn || strings.checkPolicy}
+              {formatPercent(item.taxes?.mfn)}
             </div>
             <div className="mt-4 rounded-lg border border-slate-100 bg-slate-50 px-3 py-2">
               <div className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
                 {lang === "en" ? "Base Duty (NK TT)" : "Thuế cơ bản (NK TT)"}
               </div>
               <div className="mt-1 text-sm font-semibold text-slate-800">
-                {item.taxes?.nk_tt || strings.checkPolicy}
+                {formatPercent(item.taxes?.nk_tt)}
               </div>
             </div>
           </div>
@@ -126,7 +169,7 @@ export default function DetailPage({ params }: PageProps) {
               {strings.vat}
             </div>
             <div className="mt-3 text-3xl font-semibold text-slate-900">
-              {item.vat || strings.notAvailable}
+              {formatPercent(item.vat)}
             </div>
           </div>
           <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -140,6 +183,49 @@ export default function DetailPage({ params }: PageProps) {
         </div>
 
         <TaxTable lang={lang} taxes={item.taxes} />
+
+        <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div className="flex items-center justify-between">
+            <h2 className="text-lg font-semibold text-slate-900">
+              {lang === "en"
+                ? "Additional Taxes & Policy"
+                : "Thuế bổ sung & Chính sách"}
+            </h2>
+          </div>
+          {infoRows.length === 0 && !item.policy ? (
+            <div className="mt-3 text-sm text-slate-600">
+              {strings.notAvailable}
+            </div>
+          ) : (
+            <div className="mt-4 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+              {infoRows.map((entry) => (
+                <div
+                  key={entry.label}
+                  className="rounded-xl border border-slate-200 bg-slate-50 p-4"
+                >
+                  <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                    {entry.label}
+                  </div>
+                  <div className="mt-2 text-lg font-semibold text-slate-900">
+                    {entry.value}
+                  </div>
+                </div>
+              ))}
+              {item.policy && (
+                <div className="rounded-xl border border-slate-200 bg-white p-4 md:col-span-2 lg:col-span-3">
+                  <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                    {lang === "en"
+                      ? "Product Policy by HS Code"
+                      : "Chính sách mặt hàng theo mã HS"}
+                  </div>
+                  <div className="mt-2 text-sm text-slate-700">
+                    {item.policy}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </section>
 
         <AIInsight hs_code={item.hs_code} name_en={item.name_en} lang={lang} />
 

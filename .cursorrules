@@ -55,3 +55,5 @@ Your goal is to build a high-performance, bilingual (English/Vietnamese) lookup 
 # Workflow
 1. Always check if `src/data/hscode.json` exists before building pages.
 2. If modifying the CSV parser, explicitly reference the specific column names from the `BT2026.csv` file.
+3. Never revise code or update code without user's commanding
+

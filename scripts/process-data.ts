@@ -51,6 +51,14 @@ const main = () => {
   const mfnIndex = getHeaderIndex("NK ưu đãi", 13);
   const vatIndex = getHeaderIndex("VAT", 16);
   const unitIndex = getHeaderIndex("Unit of quantity", 9);
+  const exciseIndex = getHeaderIndex("TT ĐB", 81);
+  const exportIndex = getHeaderIndex("XK", 84);
+  const exportCptppIndex = getHeaderIndex("XK CP TPP", 87);
+  const exportEvIndex = getHeaderIndex("XK EV", 90);
+  const exportUkvIndex = getHeaderIndex("XK UKV", 93);
+  const envTaxIndex = getHeaderIndex("Thuế BV MT", 96);
+  const policyIndex = getHeaderIndex("Chính sách mặt hàng theo mã HS", 99);
+  const vatReduceIndex = getHeaderIndex("Giảm VAT", 100);
 
   const ftaColumns = [
     { key: "form_e", label: "ACFTA" },
@@ -77,6 +85,7 @@ const main = () => {
   }));
 
   const records = allRows.slice(8).filter((row) => row.length > 0);
+  const seenCodes = new Set<string>();
 
   const data = records
     .map((row) => {
@@ -85,6 +94,8 @@ const main = () => {
 
       const cleanCode = hsCode.replace(/[\.\s]/g, "");
       if (!/^\d{8,}$/.test(cleanCode)) return null;
+      if (seenCodes.has(cleanCode)) return null;
+      seenCodes.add(cleanCode);
 
       const taxes: Record<string, string> = {};
       const nkTt = normalizeValue(row[nkTtIndex]);
@@ -105,6 +116,14 @@ const main = () => {
         name_en: (row[7] ?? "").toString().trim(),
         unit: (row[unitIndex] ?? "").toString().trim(),
         vat: normalizeValue(row[vatIndex]),
+        excise_tax: normalizeValue(row[exciseIndex]),
+        export_tax: normalizeValue(row[exportIndex]),
+        export_cptpp: normalizeValue(row[exportCptppIndex]),
+        export_ev: normalizeValue(row[exportEvIndex]),
+        export_ukv: normalizeValue(row[exportUkvIndex]),
+        env_tax: normalizeValue(row[envTaxIndex]),
+        policy: normalizeValue(row[policyIndex]),
+        vat_reduction: normalizeValue(row[vatReduceIndex]),
         taxes
       };
     })
