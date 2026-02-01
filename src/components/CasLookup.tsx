@@ -96,7 +96,7 @@ export const CasLookup = ({ lang }: Props) => {
         <div className="space-y-3">
           {suggestions.map((item) => (
             <div
-              key={`${item.cas}-${item.name}`}
+              key={`${item.cas}-${item.name_en ?? item.name_vi ?? "cas"}`}
               className="rounded-xl border border-slate-200 bg-white p-4"
             >
               <div className="text-sm font-semibold text-slate-900">
