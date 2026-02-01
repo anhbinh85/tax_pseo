@@ -14,7 +14,6 @@ type PageProps = {
 export default function HomePage({ params }: PageProps) {
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang as Locale;
-  const strings = getLocaleStrings(lang);
   const chapters = hasHscodeData() ? getChapterCodes() : [];
 
   return (
