@@ -61,7 +61,7 @@ export const HsCodePdfButton = ({ lang, item }: Props) => {
 
       const capture = async (element: HTMLElement) =>
         html2canvas(element, {
-          scale: 2,
+          scale: 1.3,
           useCORS: true,
           backgroundColor: "#f8fafc",
           scrollX: 0,
@@ -112,10 +112,10 @@ export const HsCodePdfButton = ({ lang, item }: Props) => {
             sliceHeight
           );
 
-          const imgData = sliceCanvas.toDataURL("image/png");
+          const imgData = sliceCanvas.toDataURL("image/jpeg", 0.78);
           if (page > 0) doc.addPage();
           const renderHeight = sliceHeight * scale;
-          doc.addImage(imgData, "PNG", margin, margin, usableWidth, renderHeight);
+          doc.addImage(imgData, "JPEG", margin, margin, usableWidth, renderHeight);
           addWatermark();
         }
       };
@@ -133,7 +133,8 @@ export const HsCodePdfButton = ({ lang, item }: Props) => {
           if (!isFirstPage && cursorY === margin) {
             // no-op, already on a new page
           }
-          doc.addImage(canvas, "PNG", margin, cursorY, usableWidth, imgHeight);
+          const imgData = canvas.toDataURL("image/jpeg", 0.78);
+          doc.addImage(imgData, "JPEG", margin, cursorY, usableWidth, imgHeight);
           addWatermark();
           cursorY += imgHeight + 12;
           isFirstPage = false;
@@ -142,7 +143,8 @@ export const HsCodePdfButton = ({ lang, item }: Props) => {
 
         if (imgHeight <= usableHeight) {
           if (!isFirstPage) doc.addPage();
-          doc.addImage(canvas, "PNG", margin, margin, usableWidth, imgHeight);
+          const imgData = canvas.toDataURL("image/jpeg", 0.78);
+          doc.addImage(imgData, "JPEG", margin, margin, usableWidth, imgHeight);
           addWatermark();
           cursorY = margin + imgHeight + 12;
           isFirstPage = false;
