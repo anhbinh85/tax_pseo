@@ -27,6 +27,7 @@ export const HsSuggest = ({ lang }: Props) => {
   const [description, setDescription] = useState("");
   const [imageDataUrl, setImageDataUrl] = useState<string | null>(null);
   const [imageHint, setImageHint] = useState<string | null>(null);
+  const [fileInputKey, setFileInputKey] = useState(0);
   const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -94,15 +95,34 @@ export const HsSuggest = ({ lang }: Props) => {
     }
   };
 
+  const handleClear = () => {
+    setDescription("");
+    setImageDataUrl(null);
+    setImageHint(null);
+    setSuggestions([]);
+    setError(null);
+    setFileInputKey((prev) => prev + 1);
+  };
+
   return (
     <section className="space-y-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-      <div className="space-y-1">
-        <h2 className="text-lg font-semibold text-slate-900">
+      <div className="rounded-xl border border-brand-red/30 bg-gradient-to-r from-brand-red/10 via-white to-white px-4 py-3">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-red">
+              {lang === "en" ? "AI Lookup" : "Tra cứu AI"}
+            </p>
+            <h2 className="mt-1 text-lg font-semibold text-slate-900">
           {lang === "en"
             ? "AI HS Code Suggestion"
             : "Gợi ý mã HS bằng AI"}
-        </h2>
-        <p className="text-sm text-slate-600">
+            </h2>
+          </div>
+          <span className="rounded-full bg-brand-red px-3 py-1 text-xs font-semibold text-white shadow-sm">
+            {lang === "en" ? "Recommended" : "Nên dùng"}
+          </span>
+        </div>
+        <p className="mt-2 text-sm text-slate-600">
           {lang === "en"
             ? "Use text, an image, or both. AI will suggest likely HS codes."
             : "Có thể dùng mô tả, hình ảnh, hoặc cả hai. AI sẽ gợi ý mã HS phù hợp."}
@@ -122,6 +142,7 @@ export const HsSuggest = ({ lang }: Props) => {
           onChange={(event) => setDescription(event.target.value)}
         />
         <input
+          key={fileInputKey}
           type="file"
           accept={SUPPORTED_IMAGE_EXTS.join(",")}
           onChange={(event) => handleImageChange(event.target.files?.[0])}
@@ -137,20 +158,29 @@ export const HsSuggest = ({ lang }: Props) => {
             ? "AI can be wrong. Please validate its result."
             : "AI có thể sai. Vui lòng kiểm tra lại kết quả."}
         </div>
-        <button
-          type="button"
-          onClick={handleSubmit}
-          className="rounded-xl bg-slate-900 px-5 py-2 text-sm font-semibold text-white hover:bg-slate-800 disabled:cursor-not-allowed disabled:bg-slate-300"
-          disabled={!description.trim() && !imageDataUrl}
-        >
-          {loading
-            ? lang === "en"
-              ? "Finding..."
-              : "Đang gợi ý..."
-            : lang === "en"
-              ? "Suggest HS Code"
-              : "Gợi ý mã HS"}
-        </button>
+        <div className="flex flex-wrap items-center gap-3">
+          <button
+            type="button"
+            onClick={handleSubmit}
+            className="rounded-xl bg-slate-900 px-5 py-2 text-sm font-semibold text-white hover:bg-slate-800 disabled:cursor-not-allowed disabled:bg-slate-300"
+            disabled={!description.trim() && !imageDataUrl}
+          >
+            {loading
+              ? lang === "en"
+                ? "Finding..."
+                : "Đang gợi ý..."
+              : lang === "en"
+                ? "Suggest HS Code"
+                : "Gợi ý mã HS"}
+          </button>
+          <button
+            type="button"
+            onClick={handleClear}
+            className="rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:border-slate-300 hover:bg-slate-50"
+          >
+            {lang === "en" ? "Clear" : "Xoá"}
+          </button>
+        </div>
         {error && <div className="text-sm text-red-600">{error}</div>}
       </div>
 
@@ -164,11 +194,19 @@ export const HsSuggest = ({ lang }: Props) => {
       )}
 
       {suggestions.length > 0 && (
-        <div className="space-y-3">
+        <div className="space-y-3 rounded-2xl border border-emerald-200 bg-emerald-50/60 p-4 shadow-sm">
+          <div className="flex items-center justify-between">
+            <div className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-700">
+              {lang === "en" ? "AI Result" : "Kết quả AI"}
+            </div>
+            <span className="rounded-full bg-emerald-600 px-3 py-1 text-xs font-semibold text-white">
+              {lang === "en" ? "Matched" : "Gợi ý"}
+            </span>
+          </div>
           {suggestions.map((item) => (
             <div
               key={item.hs_code}
-              className="block rounded-xl border border-slate-200 bg-white p-4"
+              className="block rounded-xl border border-emerald-200 bg-white p-4 shadow-sm"
             >
               <div className="text-sm font-semibold text-slate-900">
                 {item.hs_code} - {lang === "en" ? item.name_en : item.name_vi}

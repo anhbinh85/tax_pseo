@@ -4,7 +4,7 @@ import { SearchBar } from "@/components/SearchBar";
 import { HsSuggest } from "@/components/HsSuggest";
 import { CasLookup } from "@/components/CasLookup";
 import { getChapterCodes, hasHscodeData } from "@/lib/hscode";
-import { isLocale, type Locale } from "@/lib/i18n";
+import { getLocaleStrings, isLocale, type Locale } from "@/lib/i18n";
 import { SITE_YEAR } from "@/lib/site";
 
 type PageProps = {
@@ -14,6 +14,7 @@ type PageProps = {
 export default function HomePage({ params }: PageProps) {
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang as Locale;
+  const strings = getLocaleStrings(lang);
   const chapters = hasHscodeData() ? getChapterCodes() : [];
 
   return (
