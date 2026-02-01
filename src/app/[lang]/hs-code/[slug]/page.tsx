@@ -1,7 +1,9 @@
 import Link from "next/link";
+import Script from "next/script";
 import { notFound } from "next/navigation";
 import { AIInsight } from "@/components/AIInsight";
 import { DeepTaxCalculator } from "@/components/DeepTaxCalculator";
+import { HsCodePdfButton } from "@/components/HsCodePdfButton";
 import { TaxTable } from "@/components/TaxTable";
 import { getGradientClass } from "@/lib/gradient";
 import {
@@ -128,6 +130,51 @@ export default function DetailPage({ params }: PageProps) {
     xk_ukv: parseRate(item.export_ukv)
   };
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name:
+      lang === "en"
+        ? `HS Code ${item.hs_code}: ${item.name_en}`
+        : `Mã HS ${item.hs_code}: ${item.name_vi}`,
+    description:
+      lang === "en"
+        ? `Import tax rate for ${item.name_en} in Vietnam 2026. MFN Rate: ${formatPercent(
+            item.taxes?.mfn
+          )}.`
+        : `Thuế nhập khẩu cho ${item.name_vi} năm 2026. Thuế MFN: ${formatPercent(
+            item.taxes?.mfn
+          )}.`,
+    sku: item.hs_code,
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "VND",
+      availability: "https://schema.org/InStock",
+      seller: {
+        "@type": "Organization",
+        name: "Vietnam Import Tax Portal"
+      }
+    },
+    additionalProperty: [
+      {
+        "@type": "PropertyValue",
+        name: "Import Tax (MFN)",
+        value: formatPercent(item.taxes?.mfn)
+      },
+      {
+        "@type": "PropertyValue",
+        name: "VAT",
+        value: formatPercent(item.vat)
+      },
+      {
+        "@type": "PropertyValue",
+        name: "Legal Decree",
+        value: "26/2023/ND-CP"
+      }
+    ]
+  };
+
   const infoRows = [
     {
       label: lang === "en" ? "Excise Tax (TTĐB)" : "Thuế TTĐB",
@@ -164,146 +211,188 @@ export default function DetailPage({ params }: PageProps) {
 
   return (
     <main className="min-h-screen bg-slate-100">
-      <div className="bg-brand-navy text-white">
-        <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-10">
-          <div className="text-xs uppercase tracking-[0.2em] text-slate-300">
-            {lang === "en" ? "Tariff Dashboard" : "Bảng điều khiển thuế"}
+      <Script
+        id="json-ld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div id="hs-code-pdf-root">
+        <div className="bg-brand-navy text-white" data-pdf-section>
+          <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-10">
+            <div className="text-xs uppercase tracking-[0.2em] text-slate-300">
+              {lang === "en" ? "Tariff Dashboard" : "Bảng điều khiển thuế"}
+            </div>
+            <h1 className="text-2xl font-semibold md:text-3xl">
+              {lang === "en"
+                ? `${item.name_en} (${item.hs_code})`
+                : `${item.name_vi} (${item.hs_code})`}
+            </h1>
+            <p className="text-sm text-slate-300">
+              {lang === "en" ? item.name_vi : item.name_en}
+            </p>
+            <div>
+              <Link
+                href={`/${lang}`}
+                className="inline-flex items-center justify-center rounded-full bg-brand-red px-4 py-2 text-sm font-semibold text-white shadow-md hover:bg-red-700"
+              >
+                {lang === "en" ? "Home" : "Trang chủ"}
+              </Link>
+            </div>
           </div>
-          <h1 className="text-2xl font-semibold md:text-3xl">
-            {lang === "en"
-              ? `${item.name_en} (${item.hs_code})`
-              : `${item.name_vi} (${item.hs_code})`}
-          </h1>
-          <p className="text-sm text-slate-300">
-            {lang === "en" ? item.name_vi : item.name_en}
-          </p>
+        </div>
+
+        <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-10">
+          <div className="grid gap-4 md:grid-cols-3" data-pdf-section>
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                {lang === "en" ? "Import Duty (MFN)" : "Thuế nhập khẩu (MFN)"}
+              </div>
+              <div
+                className={`mt-3 text-3xl font-semibold ${
+                  item.taxes?.mfn?.replace(/\s/g, "") === "0%" ? "text-emerald-600" : "text-slate-900"
+                }`}
+              >
+                {formatPercent(item.taxes?.mfn)}
+              </div>
+              <div className="mt-4 rounded-lg border border-slate-100 bg-slate-50 px-3 py-2">
+                <div className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                  {lang === "en" ? "Base Duty (NK TT)" : "Thuế cơ bản (NK TT)"}
+                </div>
+                <div className="mt-1 text-sm font-semibold text-slate-800">
+                  {formatPercent(item.taxes?.nk_tt)}
+                </div>
+              </div>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                {strings.vat}
+              </div>
+              <div className="mt-3 text-3xl font-semibold text-slate-900">
+                {formatPercent(item.vat)}
+              </div>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                {strings.unit}
+              </div>
+              <div className="mt-3 text-3xl font-semibold text-slate-900">
+                {item.unit || strings.notAvailable}
+              </div>
+            </div>
+          </div>
+
+          <div data-pdf-section>
+            <TaxTable lang={lang} taxes={item.taxes} />
+          </div>
+
+          <DeepTaxCalculator
+            lang={lang}
+            rates={{
+              mfn: parseRate(item.taxes?.mfn),
+              formE: parseRate(item.taxes?.form_e),
+              formD: parseRate(item.taxes?.form_d),
+              vat: parseRate(item.vat),
+              excise: parseRate(item.excise_tax),
+              env: parseRate(item.env_tax),
+              importOptions,
+              exportOptions
+            }}
+          />
+
+          <section
+            className="rounded-2xl border border-amber-200 bg-amber-50/70 p-6 shadow-sm"
+            data-pdf-section
+          >
+            <div className="flex items-center justify-between">
+              <h2 className="text-lg font-semibold text-slate-900">
+                {lang === "en"
+                  ? "Additional Taxes & Policy"
+                  : "Thuế bổ sung & Chính sách"}
+              </h2>
+              <span className="text-xs font-semibold uppercase tracking-wide text-amber-700">
+                {lang === "en" ? "Compliance" : "Tuân thủ"}
+              </span>
+            </div>
+            {infoRows.length === 0 && !item.policy ? (
+              <div className="mt-3 text-sm text-slate-600">
+                {strings.notAvailable}
+              </div>
+            ) : (
+              <div className="mt-4 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+                {infoRows.map((entry) => (
+                  <div
+                    key={entry.label}
+                    className="rounded-xl border border-slate-200 bg-slate-50 p-4"
+                  >
+                    <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                      {entry.label}
+                    </div>
+                    <div className="mt-2 text-lg font-semibold text-slate-900">
+                      {entry.value}
+                    </div>
+                  </div>
+                ))}
+                {item.policy && (
+                  <div className="rounded-xl border border-amber-200 bg-white p-4 md:col-span-2 lg:col-span-3">
+                    <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                      {lang === "en"
+                        ? "Product Policy by HS Code"
+                        : "Chính sách mặt hàng theo mã HS"}
+                    </div>
+                    <div className="mt-2 text-sm text-slate-700">
+                      {item.policy}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+            <div className="mt-5 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-red-200 bg-red-50 px-4 py-3">
+              <div className="text-sm text-red-700">
+                {lang === "en"
+                  ? "Need more clarification on policy or tax treatment? Contact us for details."
+                  : "Cần làm rõ thêm về chính sách hoặc thuế suất? Liên hệ để được tư vấn chi tiết."}
+              </div>
+              <Link
+                href={`/${lang}/contact`}
+                className="inline-flex items-center justify-center rounded-full bg-brand-red px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-700"
+              >
+                {lang === "en" ? "Contact" : "Liên hệ"}
+              </Link>
+            </div>
+          </section>
+
+          <div data-pdf-section>
+            <AIInsight hs_code={item.hs_code} name_en={item.name_en} lang={lang} />
+          </div>
+
+          {related.length > 0 && (
+            <section className="space-y-4" data-pdf-section>
+              <h2 className="text-xl font-semibold text-slate-900">
+                {strings.relatedTitle}
+              </h2>
+              <div className="grid gap-3 md:grid-cols-2">
+                {related.slice(0, 8).map((entry) => (
+                  <Link
+                    key={entry.slug}
+                    href={`/${lang}/hs-code/${entry.slug}`}
+                    className="rounded-xl border border-slate-200 bg-white p-4 text-sm hover:bg-slate-50"
+                  >
+                    <div className="font-semibold text-slate-900">
+                      {entry.hs_code}
+                    </div>
+                    <div className="text-slate-600">
+                      {lang === "en" ? entry.name_en : entry.name_vi}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-10">
-        <div className="grid gap-4 md:grid-cols-3">
-          <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-              {lang === "en" ? "Import Duty (MFN)" : "Thuế nhập khẩu (MFN)"}
-            </div>
-            <div
-              className={`mt-3 text-3xl font-semibold ${
-                item.taxes?.mfn?.replace(/\s/g, "") === "0%" ? "text-emerald-600" : "text-slate-900"
-              }`}
-            >
-              {formatPercent(item.taxes?.mfn)}
-            </div>
-            <div className="mt-4 rounded-lg border border-slate-100 bg-slate-50 px-3 py-2">
-              <div className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
-                {lang === "en" ? "Base Duty (NK TT)" : "Thuế cơ bản (NK TT)"}
-              </div>
-              <div className="mt-1 text-sm font-semibold text-slate-800">
-                {formatPercent(item.taxes?.nk_tt)}
-              </div>
-            </div>
-          </div>
-          <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-              {strings.vat}
-            </div>
-            <div className="mt-3 text-3xl font-semibold text-slate-900">
-              {formatPercent(item.vat)}
-            </div>
-          </div>
-          <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-              {strings.unit}
-            </div>
-            <div className="mt-3 text-3xl font-semibold text-slate-900">
-              {item.unit || strings.notAvailable}
-            </div>
-          </div>
-        </div>
-
-        <TaxTable lang={lang} taxes={item.taxes} />
-
-        <DeepTaxCalculator
-          lang={lang}
-          rates={{
-            mfn: parseRate(item.taxes?.mfn),
-            formE: parseRate(item.taxes?.form_e),
-            formD: parseRate(item.taxes?.form_d),
-            vat: parseRate(item.vat),
-            excise: parseRate(item.excise_tax),
-            env: parseRate(item.env_tax),
-            importOptions,
-            exportOptions
-          }}
-        />
-
-        <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-          <div className="flex items-center justify-between">
-            <h2 className="text-lg font-semibold text-slate-900">
-              {lang === "en"
-                ? "Additional Taxes & Policy"
-                : "Thuế bổ sung & Chính sách"}
-            </h2>
-          </div>
-          {infoRows.length === 0 && !item.policy ? (
-            <div className="mt-3 text-sm text-slate-600">
-              {strings.notAvailable}
-            </div>
-          ) : (
-            <div className="mt-4 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-              {infoRows.map((entry) => (
-                <div
-                  key={entry.label}
-                  className="rounded-xl border border-slate-200 bg-slate-50 p-4"
-                >
-                  <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-                    {entry.label}
-                  </div>
-                  <div className="mt-2 text-lg font-semibold text-slate-900">
-                    {entry.value}
-                  </div>
-                </div>
-              ))}
-              {item.policy && (
-                <div className="rounded-xl border border-slate-200 bg-white p-4 md:col-span-2 lg:col-span-3">
-                  <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-                    {lang === "en"
-                      ? "Product Policy by HS Code"
-                      : "Chính sách mặt hàng theo mã HS"}
-                  </div>
-                  <div className="mt-2 text-sm text-slate-700">
-                    {item.policy}
-                  </div>
-                </div>
-              )}
-            </div>
-          )}
-        </section>
-
-        <AIInsight hs_code={item.hs_code} name_en={item.name_en} lang={lang} />
-
-        {related.length > 0 && (
-          <section className="space-y-4">
-            <h2 className="text-xl font-semibold text-slate-900">
-              {strings.relatedTitle}
-            </h2>
-            <div className="grid gap-3 md:grid-cols-2">
-              {related.slice(0, 8).map((entry) => (
-                <Link
-                  key={entry.slug}
-                  href={`/${lang}/hs-code/${entry.slug}`}
-                  className="rounded-xl border border-slate-200 bg-white p-4 text-sm hover:bg-slate-50"
-                >
-                  <div className="font-semibold text-slate-900">
-                    {entry.hs_code}
-                  </div>
-                  <div className="text-slate-600">
-                    {lang === "en" ? entry.name_en : entry.name_vi}
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </section>
-        )}
+      <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 pb-10">
+        <HsCodePdfButton lang={lang} item={item} />
       </div>
     </main>
   );

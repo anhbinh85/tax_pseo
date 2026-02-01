@@ -42,10 +42,13 @@ export const AIInsight = ({ hs_code, name_en, lang }: Props) => {
   }, [hs_code, name_en]);
 
   return (
-    <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+    <div className="rounded-2xl border border-amber-200 bg-gradient-to-br from-amber-50 via-white to-white p-6 shadow-sm">
       <div className="flex items-center justify-between">
-        <span className="rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
+        <span className="rounded-full bg-brand-navy px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-gold">
           {strings.aiBadge}
+        </span>
+        <span className="text-xs font-semibold uppercase tracking-wide text-amber-700">
+          {lang === "en" ? "Recommended" : "Gợi ý nhanh"}
         </span>
       </div>
       {loading ? (
@@ -54,7 +57,7 @@ export const AIInsight = ({ hs_code, name_en, lang }: Props) => {
           <div className="h-3 w-4/6 rounded bg-slate-200" />
         </div>
       ) : (
-        <p className="mt-4 text-sm text-slate-700">
+        <p id="ai-insight-text" className="mt-4 text-sm text-slate-700">
           {text ?? strings.notAvailable}
         </p>
       )}

@@ -9,3 +9,39 @@
 body {
   @apply bg-white text-slate-900;
 }
+
+.pdf-mode select,
+.pdf-mode input {
+  height: 36px;
+  line-height: 20px;
+}
+
+.pdf-mode select {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.pdf-mode .rounded-xl,
+.pdf-mode .rounded-2xl {
+  overflow: visible;
+}
+
+.pdf-only {
+  display: none;
+}
+
+.pdf-mode .pdf-only {
+  display: block;
+  white-space: normal;
+  line-height: 1.3;
+  height: auto;
+  overflow: visible;
+}
+
+.pdf-mode .pdf-hide {
+  display: none;
+}
+
+.pdf-mode .rounded-lg {
+  overflow: visible;
+}
