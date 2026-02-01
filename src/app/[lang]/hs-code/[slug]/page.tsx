@@ -8,7 +8,6 @@ import { TaxTable } from "@/components/TaxTable";
 import { SITE_YEAR } from "@/lib/site";
 import {
   findBySlug,
-  getAllHscodes,
   getRelatedByChapter,
   hasHscodeData
 } from "@/lib/hscode";
@@ -18,14 +17,8 @@ type PageProps = {
   params: { lang: string; slug: string };
 };
 
-export const generateStaticParams = () => {
-  if (!hasHscodeData()) return [];
-  const data = getAllHscodes();
-  return data.flatMap((item) => [
-    { lang: "vi", slug: item.slug },
-    { lang: "en", slug: item.slug }
-  ]);
-};
+export const dynamicParams = true;
+export const revalidate = 60 * 60 * 24;
 
 export const generateMetadata = ({ params }: PageProps) => {
   if (!isLocale(params.lang)) return {};

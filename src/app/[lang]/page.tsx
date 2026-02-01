@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { SearchBar } from "@/components/SearchBar";
 import { HsSuggest } from "@/components/HsSuggest";
+import { CasLookup } from "@/components/CasLookup";
 import { getChapterCodes, hasHscodeData } from "@/lib/hscode";
 import { isLocale, type Locale } from "@/lib/i18n";
 import { SITE_YEAR } from "@/lib/site";
@@ -62,6 +63,9 @@ export default function HomePage({ params }: PageProps) {
             </p>
             <div className="mt-4">
               <HsSuggest lang={lang} />
+            </div>
+            <div className="mt-6">
+              <CasLookup lang={lang} />
             </div>
           </div>
 

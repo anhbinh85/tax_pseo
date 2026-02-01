@@ -1,5 +1,6 @@
 import "./globals.css";
 import { headers } from "next/headers";
+import Script from "next/script";
 import { Be_Vietnam_Pro } from "next/font/google";
 
 const beVietnamPro = Be_Vietnam_Pro({
@@ -24,12 +25,33 @@ export default function RootLayout({
 }) {
   const pathname = getPathname();
   const lang = getHtmlLang(pathname);
+  const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+  const gscId = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 
   return (
     <html lang={lang}>
+      <head>
+        {gscId && (
+          <meta name="google-site-verification" content={gscId} />
+        )}
+      </head>
       <body
         className={`${beVietnamPro.className} min-h-screen bg-slate-100 text-slate-900 antialiased`}
       >
+        {gaId && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="ga-setup" strategy="afterInteractive">
+              {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${gaId}');`}
+            </Script>
+          </>
+        )}
         <div className="flex min-h-screen flex-col">
           <LangSwitch />
           <div className="flex-1">{children}</div>

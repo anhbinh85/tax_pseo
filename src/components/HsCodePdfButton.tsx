@@ -68,6 +68,21 @@ export const HsCodePdfButton = ({ lang, item }: Props) => {
           scrollY: -window.scrollY
         });
 
+      const addWatermark = () => {
+        const pageWidth = doc.internal.pageSize.getWidth();
+        const pageHeight = doc.internal.pageSize.getHeight();
+        doc.setTextColor(225, 225, 225);
+        doc.setFontSize(28);
+        doc.setFont("DejaVu", "bold");
+        doc.text("vietnamhs.info", pageWidth / 2, pageHeight / 2, {
+          align: "center",
+          angle: -30
+        });
+        doc.setTextColor(15, 23, 42);
+        doc.setFont("DejaVu", "normal");
+        doc.setFontSize(10);
+      };
+
       const addCanvasWithSlicing = (canvas: HTMLCanvasElement) => {
         const scale = usableWidth / canvas.width;
         const pageHeightPx = Math.floor(usableHeight / scale);
@@ -101,6 +116,7 @@ export const HsCodePdfButton = ({ lang, item }: Props) => {
           if (page > 0) doc.addPage();
           const renderHeight = sliceHeight * scale;
           doc.addImage(imgData, "PNG", margin, margin, usableWidth, renderHeight);
+          addWatermark();
         }
       };
 
@@ -118,6 +134,7 @@ export const HsCodePdfButton = ({ lang, item }: Props) => {
             // no-op, already on a new page
           }
           doc.addImage(canvas, "PNG", margin, cursorY, usableWidth, imgHeight);
+          addWatermark();
           cursorY += imgHeight + 12;
           isFirstPage = false;
           continue;
@@ -126,6 +143,7 @@ export const HsCodePdfButton = ({ lang, item }: Props) => {
         if (imgHeight <= usableHeight) {
           if (!isFirstPage) doc.addPage();
           doc.addImage(canvas, "PNG", margin, margin, usableWidth, imgHeight);
+          addWatermark();
           cursorY = margin + imgHeight + 12;
           isFirstPage = false;
           continue;

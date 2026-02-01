@@ -1,0 +1,4202 @@
+[
+  {
+    "cas": "1341-49-7",
+    "name": "|1. |Amon hydro |Ammonium hydrogen|28261900||NH4HF2 |"
+  },
+  {
+    "cas": "75-07-0",
+    "name": "|2. |Axetaldehyt |Acetaldehyde |29121200| |C2H4O |"
+  },
+  {
+    "cas": "75-05-8",
+    "name": "|3. |Axetonitril |Acetonitrile |29269000| |C2H3N |"
+  },
+  {
+    "cas": "513-86-0",
+    "name": "|4. |Axetyl metyl |Acethyl methyl |29144000| |C4H8O2 |"
+  },
+  {
+    "cas": "74-86-2",
+    "name": "|5. |Axetylen |Acetylene |29012910| |C2H2 |"
+  },
+  {
+    "cas": "107-02-8",
+    "name": "|8. |Acrolein |Acrolein |29121990| |C3H4O |"
+  },
+  {
+    "cas": "79-06-1",
+    "name": "|9. |Acrylamit |Acryl amide |29241900| |C3H5NO |"
+  },
+  {
+    "cas": "107-13-1",
+    "name": "|10.|Acrylo nitril |Acrylo nitrile |29261000| |C3H3N |"
+  },
+  {
+    "cas": "814-68-6",
+    "name": "|11.|Acryloyl clorit |Acryloyl chloride|29161900| |C3H3ClO |"
+  },
+  {
+    "cas": "111-69-3",
+    "name": "|12.|Adiponitril |Adiponitrile |29269000| |C6H8N2 |"
+  },
+  {
+    "cas": "116-06-3",
+    "name": "|14.|Aldicarb |Aldicarb |29309090| |C7H14N2O2S |"
+  },
+  {
+    "cas": "309-00-2",
+    "name": "|15.|Aldrin |Aldrin |29038200| |C12H8Cl6 |"
+  },
+  {
+    "cas": "591-87-7",
+    "name": "|17.|Allyl axetat |Allyl acetate |29153990| |C5H8O2 |"
+  },
+  {
+    "cas": "106-95-6",
+    "name": "|18.|Allyl bromua |Allyl bromide |29033990| |C3H5Br |"
+  },
+  {
+    "cas": "2937-50-0",
+    "name": "|19.|Allyl clo fomat |Allyl chloro |29159090||C4H5O2Cl |"
+  },
+  {
+    "cas": "557-31-3",
+    "name": "|20.|Allyl etyl ete |Allyl ethyl ether|29091900| |C5H10O |"
+  },
+  {
+    "cas": "106-92-3",
+    "name": "|21.|Allyl glycidyl |Allyl glycidyl |29109000| |C6H10O2 |"
+  },
+  {
+    "cas": "57-06-7",
+    "name": "|22.|Allyl |Allyl |29309090| |C4H5NS |"
+  },
+  {
+    "cas": "107-11-9",
+    "name": "|23.|Allyl amin |Allyl amine |29211900| |C3H7N |"
+  },
+  {
+    "cas": "107-37-9",
+    "name": "|24.|Allyl triclo |Allyl trichloro |29319090| |C3H5Cl3Si |"
+  },
+  {
+    "cas": "319-84-6",
+    "name": "|25.|Alpha-hexaclo |Alpha-hexachloro |29038100| |C6H6Cl6 |"
+  },
+  {
+    "cas": "123-15-9",
+    "name": "|27.|Alpha-metyl |Alpha-methyl |29121990| |C6H12o |"
+  },
+  {
+    "cas": "86-88-4",
+    "name": "|28.|Alpha-naphthyl |Alpha-naphthyl |29309090| |C11H10N2S |"
+  },
+  {
+    "cas": "4468-48-8",
+    "name": "|29.|Alpha-phenyl |3-Oxo-2-phenyl |29269000||C10H9ON |"
+  },
+  {
+    "cas": "80-56-8",
+    "name": "|30.|Alpha-Pinen |Alpha-pinene |29021900| |C10H16 |"
+  },
+  {
+    "cas": "95-85-2",
+    "name": "|32.|2-Amino-4-clo |2-Amino-4- |29222900| |C6H6ONCl |"
+  },
+  {
+    "cas": "2032-59-9",
+    "name": "|33.|Aminocarb |Aminocarb |29242990||C11H16O2N2 |"
+  },
+  {
+    "cas": "462-08-8",
+    "name": "|34.|Aminopyridin |3 - |29333990|;|C5H6N2 |"
+  },
+  {
+    "cas": "504-24-5",
+    "name": "| | |-Aminopyridine; | |;| |"
+  },
+  {
+    "cas": "504-29-0",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "7664-41-7",
+    "name": "|36.|Amoiac |Ammonia |28141000||NH3 |"
+  },
+  {
+    "cas": "7790-98-9",
+    "name": "|38.|Amoni perclorat |Ammonium |28299090||NH4ClO4 |"
+  },
+  {
+    "cas": "7727-54-0",
+    "name": "|39.|Amoni persunphat|Ammonium |28334000||H8N2O8S2 |"
+  },
+  {
+    "cas": "628-63-7",
+    "name": "|40.|Amyl axetat |Amyl acetate |29153990| |C7H14O2 |"
+  },
+  {
+    "cas": "106-27-4",
+    "name": "|41.|Amyl butyrat |Amyl butyrate |29156000| |C9H18O2 |"
+  },
+  {
+    "cas": "543-59-9",
+    "name": "|42.|Amyl clo |n-Amyl chloride |29031990| |C5H11Cl |"
+  },
+  {
+    "cas": "638-49-3",
+    "name": "|43.|Amyl format |Amyl formate |29151300| |C7N5Cl3 |"
+  },
+  {
+    "cas": "110-66-7",
+    "name": "|44.|Amyl mercaptan |Amyl mercaptan |29309090| |C5H12S |"
+  },
+  {
+    "cas": "1002-16-0",
+    "name": "|45.|Amyl nitrat |1-Pentyl nitrate |29209090||C5H11O3N |"
+  },
+  {
+    "cas": "110-46-3",
+    "name": "|46.|Amyl nitrit |Amyl nitrite |29209090| |C5H11O2N |"
+  },
+  {
+    "cas": "107-72-2",
+    "name": "|47.|Amyl triclo |Amyl trichloro |29319090| |C5H11Cl3Si |"
+  },
+  {
+    "cas": "494-52-0",
+    "name": "|48.|Anabasine |Anabasine |29399990| |C10H14N2 |"
+  },
+  {
+    "cas": "142-04-1",
+    "name": "|49.|Anilin |Aniline |29214100| |C6H8NCl |"
+  },
+  {
+    "cas": "536-90-3",
+    "name": "|50.|Anisidin |Anisidin |29222900| |C7H9ON |"
+  },
+  {
+    "cas": "100-66-3",
+    "name": "|51.|Anisol (metoxy |Anisole (methoxy |29093000| |C7H8O |"
+  },
+  {
+    "cas": "107-05-1",
+    "name": "|52.|Anlyl clorua |Allyl chloride |29032900| |C3H5Cl |"
+  },
+  {
+    "cas": "84-65-1",
+    "name": "|53.|Anthraquinon |Anthraquinone |29146100| |C14H8O2 |"
+  },
+  {
+    "cas": "7647-18-9",
+    "name": "|55.|Antimony |Antimony |28273990||SbCl5 |"
+  },
+  {
+    "cas": "7783-70-2",
+    "name": "|56.|Antimony |Antimony |28261990||SbF5 |"
+  },
+  {
+    "cas": "7803-52-3",
+    "name": "|57.|Antimony hydril |Antimony hydril |28500000||H3Sb |"
+  },
+  {
+    "cas": "7440-37-1",
+    "name": "|58.|Argon |Argon |28042100||Ar |"
+  },
+  {
+    "cas": "75-07-0",
+    "name": "|60.|Axetaldehit |Acetadehyde |29121200| |C2H4O |"
+  },
+  {
+    "cas": "107-29-9",
+    "name": "|61.|Axetaldehit oxim|Acetaldehyde |29280090| |C2H5ON |"
+  },
+  {
+    "cas": "50-78-2",
+    "name": "|62.|Axit 2-axetyloxy|2-Acetyloxy |29182200| |C9H8O4 |"
+  },
+  {
+    "cas": "598-78-7",
+    "name": "|63.|Axit 2-clo |2-Chloropropionic|29159070| |C3H5O2Cl |"
+  },
+  {
+    "cas": "79-10-7",
+    "name": "|64.|Axit acrylic |Acrylic acid |29161100| |C3H4O2 |"
+  },
+  {
+    "cas": "7578-36-1",
+    "name": "|65.|Axit bo triflo |Boron trifluoride|29420000||C2H4O2F3B |"
+  },
+  {
+    "cas": "79-08-3",
+    "name": "|66.|Axit brom axetic|Bromoacetic acid |29159090| |C2H3O2Br |"
+  },
+  {
+    "cas": "107-92-6",
+    "name": "|67.|Axit butyric |Butyric acid |29156000| |C4H8O2 |"
+  },
+  {
+    "cas": "79-11-8",
+    "name": "|68.|Axit clo axetic |Chloro acetic |29154000| |C2H3O2Cl |"
+  },
+  {
+    "cas": "7790-94-5",
+    "name": "|69.|Axit clo |Chloro sulfuric |28062000||CIHSO3 |"
+  },
+  {
+    "cas": "7790-93-4",
+    "name": "|70.|Axit cloric |Chloric acid |28111990||HClO3 |"
+  },
+  {
+    "cas": "1319-77-3",
+    "name": "|71.|Axit cresylic |Cresylic acid |29071200||C7H8O |"
+  },
+  {
+    "cas": "107-93-7",
+    "name": "|72.|Axit crotonic |Crotonic acid |29161900| |C4H6O2 |"
+  },
+  {
+    "cas": "79-43-6",
+    "name": "|73.|Axit diclo |Dichloro acetic |29154000| |C2H2O2Cl2 |"
+  },
+  {
+    "cas": "2782-57-2",
+    "name": "|74.|Axit diclo |Dichloro |29336900||C3HO3N3Cl2 |"
+  },
+  {
+    "cas": "7789-21-1",
+    "name": "|77.|Axit flo |Fluoro sulfonic |28111990||HSO3F |"
+  },
+  {
+    "cas": "79-31-2",
+    "name": "|80.|Axit isobutyric |Isobutyric acid |29156000| |C4H8O2 |"
+  },
+  {
+    "cas": "79-41-4",
+    "name": "|81.|Axit metacrylic |Methacrylic acid |29161300| |C4H6O2 |"
+  },
+  {
+    "cas": "625-45-6",
+    "name": "|82.|Axit methoxy |Methoxy acetic |29189900| |C3H6O3 |"
+  },
+  {
+    "cas": "98-47-5",
+    "name": "|84.|Axit 3-nitro |3-Nitro benzene |29049000| |C6H5O5NS |"
+  },
+  {
+    "cas": "127-68-4",
+    "name": "|85.|Axit 4-nitro |4-Nitro benzene |29049000| |C6H5O5NS |"
+  },
+  {
+    "cas": "7601-90-3",
+    "name": "|86.|Axit percloric |Perchloric acid |28111990||HClO4 |"
+  },
+  {
+    "cas": "1333-39-7",
+    "name": "|87.|Axit phenol |Phenol sulfonic |29089900||C6H6O4S |"
+  },
+  {
+    "cas": "7664-38-2",
+    "name": "|88.|Axit photphoric |Phosphoric acid |280920 ||H3PO4 |"
+  },
+  {
+    "cas": "79-09-4",
+    "name": "|89.|Axit propionic |Propanoic acid |29155000| |C3H6O2 |"
+  },
+  {
+    "cas": "7783-06-6",
+    "name": "|90.|Axit selenic |Selenic acid |28111990||H2SeO4 |"
+  },
+  {
+    "cas": "7783-00-8",
+    "name": "|91.|Axit selenious |Selenious acid |28111990||H2SeO3 |"
+  },
+  {
+    "cas": "68-11-1",
+    "name": "|92.|Axit |Thioglycolic acid|29309090| |C2H4O2S |"
+  },
+  {
+    "cas": "76-03-9",
+    "name": "|93.|Axit triclo |Trichloro acetic |29154000| |C2HO2Cl3 |"
+  },
+  {
+    "cas": "87-51-4",
+    "name": "|94.|Axit indolaxetic|Indolacetic acid |29183000| |C10H8NO2 |"
+  },
+  {
+    "cas": "87-90-1",
+    "name": "|95.|Axit triclo |Trichloro |29336900| |C3O3N3Cl3 |"
+  },
+  {
+    "cas": "93-76-5",
+    "name": "|96.|Axit |(2,4,5-Trichloro |29189100| |C8H5Cl3O3 |"
+  },
+  {
+    "cas": "1912-24-9",
+    "name": "|97.|Atrazin |Atrazine |29339990||C8H14ClN5 |"
+  },
+  {
+    "cas": "76-05-1",
+    "name": "|99.|Axit triflo |Trifluoro acetic |29159090| |C2HO2F3 |"
+  },
+  {
+    "cas": "2642-71-9",
+    "name": "|100|Azinphos-etyl |azinphos-ethyl |29339990||C11H16N3O3PS|"
+  },
+  {
+    "cas": "86-50-0",
+    "name": "|101|Azinphos-metyl |azinphos-methyl |29339990| |C10H12N3O3PS|"
+  },
+  {
+    "cas": "7761-88-8",
+    "name": "|102|Bạc nitrat |Silver nitrate |28432100||AgNO3 |"
+  },
+  {
+    "cas": "7440-39-3",
+    "name": "|103|Bari |Barium |28051900||Ba |"
+  },
+  {
+    "cas": "1304-28-5",
+    "name": "|108|Bari oxit |Barium oxide |28164000||BaO |"
+  },
+  {
+    "cas": "1304-29-6",
+    "name": "|110|Bari peroxit |Barium peroxide |28164000||BaO2 |"
+  },
+  {
+    "cas": "56-55-3",
+    "name": "|112|1,2-Benzoanthrac|1, |29029090| |C18H12 |"
+  },
+  {
+    "cas": "98-87-3",
+    "name": "|113|Benzal clorua |Benzal chloride |29039900| |C7H6Cl2 |"
+  },
+  {
+    "cas": "71-43-2",
+    "name": "|115|Benzen |Benzene |27071000| |C6H6 |"
+  },
+  {
+    "cas": "106-50-3",
+    "name": "|116|Benzen diamin |Benzen diamin |29215100|;|C6H8N2 |"
+  },
+  {
+    "cas": "108-45-2",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "95-54-5",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "624-18-0",
+    "name": "|117|1,4-Benzen |1,4-Benzene |29215900| |C6H10N2Cl2 |"
+  },
+  {
+    "cas": "98-09-9",
+    "name": "|118|Benzen sunphonyl|Benzene sulfonyl |29049000| |C6H5O2ClS |"
+  },
+  {
+    "cas": "92-87-5",
+    "name": "|119|Benzidin |Benzidine |29215990| |C12H12N2 |"
+  },
+  {
+    "cas": "98-07-7",
+    "name": "|120|Benzo triclorua |Benzo trichloride|29039900| |C7H5Cl3 |"
+  },
+  {
+    "cas": "583-63-1",
+    "name": "|121|Benzo quinon |Benzoquinone |29146900|;|C6H4O2 |"
+  },
+  {
+    "cas": "106-51-4",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "98-08-8",
+    "name": "|122|Benzo triflorua |Benzo trifluoride|29039900| |C7H5F3 |"
+  },
+  {
+    "cas": "98-88-4",
+    "name": "|123|Benzoyl clorua |Benzoyl chloride |29163200| |C7H5OCl |"
+  },
+  {
+    "cas": "94-36-0",
+    "name": "|124|Benzoyl peroxit |Benzoyl peroxide |29163200| |C14H10O4 |"
+  },
+  {
+    "cas": "85-68-7",
+    "name": "|125|Benzyl butyl |Benzyl butyl |29173490| |C19H20O4 |"
+  },
+  {
+    "cas": "100-44-7",
+    "name": "|126|Benzyl clorua |Benzyl chloride |29039100| |C6H5Cl |"
+  },
+  {
+    "cas": "103-83-3",
+    "name": "|127|Benzyl dimetyl |Dimethyl benzyl |29214900| |C9H13N |"
+  },
+  {
+    "cas": "7440-41-7",
+    "name": "|129|Beryllium |Beryllium |811211 ||Be |"
+  },
+  {
+    "cas": "319-85-7",
+    "name": "|130|Beta-hexaclo |Beta-hexachloro |29038100| |C6H6Cl6 |"
+  },
+  {
+    "cas": "92-67-1",
+    "name": "|132|4-Biphenyl amin |4-Amino biphenyl |29214900| |C12H11N |"
+  },
+  {
+    "cas": "1336-36-3",
+    "name": "|133|Biphenyl |Polychlorinated |27109100||--- |"
+  },
+  {
+    "cas": "485-31-4",
+    "name": "|134|Binapacryl |Binapacryl |29161600| |C15H18N2O6 |"
+  },
+  {
+    "cas": "117-81-7",
+    "name": "|135|Bis (2-etyl |Bis (2-ethyl |29173200| |C24H38O4 |"
+  },
+  {
+    "cas": "131-73-7",
+    "name": "|136|Bis(2,4,6-trinit|Bis(2,4,6-trinitr|29214400| |C12H5N7O12 |"
+  },
+  {
+    "cas": "505-60-2",
+    "name": "|137|Bis(2-clo etyl) |Bis(2-chloro |29309090| |C4H8Cl2S |"
+  },
+  {
+    "cas": "3030-47-5",
+    "name": "|138|Bis(2-dimetyl |Bis(2-dimethyl |29212900||C9H23N3 |"
+  },
+  {
+    "cas": "111-96-6",
+    "name": "|139|Bis(2-methoxy |Bis(2-methoxy |29091900| |C6H14O3 |"
+  },
+  {
+    "cas": "117-82-8",
+    "name": "|140|Bis(2-methoxy |Bis(2-methoxy |29173490| |C24H38O4 |"
+  },
+  {
+    "cas": "112-49-2",
+    "name": "|141|1,2-Bis(2-methox|1,2-Bis(2-methoxy|29091900| |C8H18O4 |"
+  },
+  {
+    "cas": "542-88-1",
+    "name": "|142|Bis(clom etyl) |Bis(chloro |29091900| |C2H4Cl2O |"
+  },
+  {
+    "cas": "2167-23-9",
+    "name": "|143|2,2-Bis(tert-but|2,2-Bis(tert-buty|29096000||C12H26O4 |"
+  },
+  {
+    "cas": "3006-86-8",
+    "name": "|144|1,1-Bis(tert-but|1,1-Bis(tert-buty|29096000||C14H28O4 |"
+  },
+  {
+    "cas": "109-63-7",
+    "name": "|147|Bo triflo dietyl|Boron trifluoride|29420000| |C4H10OF3B |"
+  },
+  {
+    "cas": "7637-07-2",
+    "name": "|148|Bo trifluorua |Boron trifluoride|28129000||BF3 |"
+  },
+  {
+    "cas": "353-42-4",
+    "name": "|151|Hợp chất của |Boron trifluoride|29420000| |C2H6BF3O |"
+  },
+  {
+    "cas": "1303-86-2",
+    "name": "|152|Boron trioxit |Diboron trioxide |28100000||B2O3 |"
+  },
+  {
+    "cas": "137-26-8",
+    "name": "|153|Bột dustable |Dustable powder |---- |,|--- |"
+  },
+  {
+    "cas": "1563-66-2",
+    "name": "| |hợp của benomyl |containing a | || |"
+  },
+  {
+    "cas": "7429-90-5",
+    "name": "|154|Bột nhôm |Aluminium powder |76031000||Al |"
+  },
+  {
+    "cas": "598-31-2",
+    "name": "|155|Brom axeton |Bromo acetone |29147000| |C3H5BrO |"
+  },
+  {
+    "cas": "78-76-2",
+    "name": "|156|Brom butan |2-Bromo butane; |29033990|; |C4H9Br |"
+  },
+  {
+    "cas": "109-65-9",
+    "name": "|. | |1-Bromo butane | | | |"
+  },
+  {
+    "cas": "106-96-7",
+    "name": "|158|3-Bromo propyn |3-Bromo propyne |29033990| |C3H3Br |"
+  },
+  {
+    "cas": "7789-30-2",
+    "name": "|159|Brom pentaflorua|Bromine |28129000||BrF5 |"
+  },
+  {
+    "cas": "106-94-5",
+    "name": "|160|1-Brom propan |1-Propyl bromide |29033990| |C3H7Br |"
+  },
+  {
+    "cas": "52-51-7",
+    "name": "|161|2-Brom-2-nitro-1|2-Bromo-2-nitro-1|29055900| |C3H6O4NBr |"
+  },
+  {
+    "cas": "7726-95-6",
+    "name": "|162|Brom |Bromine |28013000||Br2 |"
+  },
+  {
+    "cas": "592-55-2",
+    "name": "|163|1-Brom-2-ethoxy-|Ethane, 1 |29091900| |C4H9Obr |"
+  },
+  {
+    "cas": "107-82-4",
+    "name": "|164|1-Brom-3-metyl |1-Bromo-3- methyl|29033990| |C5H11Br |"
+  },
+  {
+    "cas": "75-25-2",
+    "name": "|165|Bromoform |Bromoform |29033990| |CHBr3 |"
+  },
+  {
+    "cas": "507-19-7",
+    "name": "|166|Brom metyl |Bromo methyl |29033990|;|C4H9Br |"
+  },
+  {
+    "cas": "78-77-3",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "75-26-3",
+    "name": "|167|2-Bromo propan |2-Bromo propane |29033990| |C3H7Br |"
+  },
+  {
+    "cas": "107-81-3",
+    "name": "|168|2-Brom-pentan |2-Bromo pentane |29033990| |C5H11Br |"
+  },
+  {
+    "cas": "108-86-1",
+    "name": "|169|Bromua benzen |Bromo benzene |29039900| |C6H5Br |"
+  },
+  {
+    "cas": "106-99-0",
+    "name": "|170|1,3-Butadien |1,3-Butadiene |29012400| |CH2CHCHCH2 |"
+  },
+  {
+    "cas": "513-48-4",
+    "name": "|171|Butan iodua |Butane, 2-iodo- |29033990| |C4H9I |"
+  },
+  {
+    "cas": "106-97-8",
+    "name": "|172|Butan |Butane |27111300| |C4H10 |"
+  },
+  {
+    "cas": "431-03-8",
+    "name": "|173|2,3-Butan dion |2,3-Butane dione |29141900| |C4H6O2 |"
+  },
+  {
+    "cas": "71-36-3",
+    "name": "|174|Butanol |Butanol |29051300|; |C4H10O |"
+  },
+  {
+    "cas": "75-65-0",
+    "name": "|. | | | |; | |"
+  },
+  {
+    "cas": "78-92-2",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "123-73-9",
+    "name": "|175|Butenal |Crotonaldehyde, |29121990| |C4H6O |"
+  },
+  {
+    "cas": "106-98-9",
+    "name": "|176|Buten |Butene |29012300|;|C4H8 |"
+  },
+  {
+    "cas": "590-18-1",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "624-64-6",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "1663-39-4",
+    "name": "|178|Tert-butyl |Tert-butyl |29161200||C7H12O2 |"
+  },
+  {
+    "cas": "123-86-4",
+    "name": "|179|Butyl axetat |n-Butyl acetate |29153300| |C6H12O2 |"
+  },
+  {
+    "cas": "109-79-5",
+    "name": "|180|Butyl mercaptan |Butyl mercaptan |29309090| |C4H10S |"
+  },
+  {
+    "cas": "628-28-4",
+    "name": "|181|Butyl metyl ete |Butyl methyl |29091900| |C5H12O |"
+  },
+  {
+    "cas": "544-16-1",
+    "name": "|182|Butyl nitrit |Butyl nitrite |29209090| |C4H9O2N |"
+  },
+  {
+    "cas": "590-01-2",
+    "name": "|183|Butyl propionat |Butyl propionate |2955000 | |C7H14O2 |"
+  },
+  {
+    "cas": "7521-80-4",
+    "name": "|184|n-Butyl triclo |n-Butyl trichloro|29319090||C4H9Cl3Si |"
+  },
+  {
+    "cas": "111-34-2",
+    "name": "|185|Butyl vinyl ete |Butyl vinyl ether|29091900|;|C6H12O |"
+  },
+  {
+    "cas": "926-02-3",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "104-51-8",
+    "name": "|186|Butylbenzen |Butyl benzene |29029020| |C10H14 |"
+  },
+  {
+    "cas": "106-88-7",
+    "name": "|187|1,2-Butylen oxit|1,2-Butylene |29109000| |C4H8O |"
+  },
+  {
+    "cas": "98-51-1",
+    "name": "|188|Butyl toluen |Butyl toluene |29029090| |C11H16 |"
+  },
+  {
+    "cas": "110-65-6",
+    "name": "|189|1,4-Butynediol |1,4-Butynediol |29053900| |C4H6O2 |"
+  },
+  {
+    "cas": "123-72-8",
+    "name": "|190|Butyraldehit |Butyraldehyde |29121910| |C4H8O |"
+  },
+  {
+    "cas": "106-31-0",
+    "name": "|191|Butyric anhydrit|Butyric anhydride|29159090| |C8H14O3 |"
+  },
+  {
+    "cas": "109-74-0",
+    "name": "|192|Butyronitril |Butyronitrile |29269000| |C4H7N |"
+  },
+  {
+    "cas": "141-75-3",
+    "name": "|193|Butyryl clorua |Butyryl chloride |29159090| |C4H7OCl |"
+  },
+  {
+    "cas": "75-44-5",
+    "name": "|198|Cacbon diclorua |Carbonic |28112990| |CCl2O |"
+  },
+  {
+    "cas": "75-15-0",
+    "name": "|199|Cacbon disunfua |Carbon disulfide |28131000| |CS2 |"
+  },
+  {
+    "cas": "630-08-0",
+    "name": "|200|Cacbon monoxit |Carbon monoxide |28112990| |CO |"
+  },
+  {
+    "cas": "558-13-4",
+    "name": "|201|Cacbon |Tetrabromo |29033990| |CBr4 |"
+  },
+  {
+    "cas": "353-50-4",
+    "name": "|202|Cacbonyl florua |Carbonyl fluoride|28129000| |COF2 |"
+  },
+  {
+    "cas": "7790-79-6",
+    "name": "|205|Cadimi florua |Cadmium fluoride |28261900||CdF2 |"
+  },
+  {
+    "cas": "1306-19-0",
+    "name": "|206|Cadimi oxit |Cadmium oxide |28259000||CdO |"
+  },
+  {
+    "cas": "1306-24-7",
+    "name": "|207|Cadimi selenua |Cadmium selenide |28429090||CdSe |"
+  },
+  {
+    "cas": "1306-23-6",
+    "name": "|208|Cadimi sulfua |Cadmium sulfide |28309010||CdS |"
+  },
+  {
+    "cas": "1306-25-8",
+    "name": "|211|Cadmi tellurua |Cadmium telluride|28530000||CdTe |"
+  },
+  {
+    "cas": "8001-35-2",
+    "name": "|213|Campheclo |Camphechlo |38085000||C10H10Cl8 |"
+  },
+  {
+    "cas": "7440-70-2",
+    "name": "|214|Canxi |Calcium |28051200||Ca |"
+  },
+  {
+    "cas": "75-20-7",
+    "name": "|215|Canxi cacbua |Calcium carbide |28491000| |CaC2 |"
+  },
+  {
+    "cas": "7778-54-3",
+    "name": "|217|Canxi hypoclorua|Calcium |28281000||Ca(ClO)2 |"
+  },
+  {
+    "cas": "1305-79-9",
+    "name": "|220|Canxi peroxit |Calcium peroxide |28259000||CaO2 |"
+  },
+  {
+    "cas": "9007-13-0",
+    "name": "|221|Canxi resinat |Calcium resinate |29319090||C40H58O4Ca |"
+  },
+  {
+    "cas": "2425-06-1",
+    "name": "|223|Captafol |Captafol |29305000||C10H9O2NCl4S|"
+  },
+  {
+    "cas": "63-25-2",
+    "name": "|224|Cacbaryl |Cacbaryl |29242990| |C12H11NO2 |"
+  },
+  {
+    "cas": "1563-66-2",
+    "name": "|226|Cacbofuran |Carbofuran |29329910||C12H15NO3 |"
+  },
+  {
+    "cas": "75-15-0",
+    "name": "|227|Cacbon disunfit |Carbon disulfide |28131000| |CS2 |"
+  },
+  {
+    "cas": "463-58-1",
+    "name": "|228|Cacbon oxysunfit|Carbon oxysulfide|28530000| |COS |"
+  },
+  {
+    "cas": "56-23-5",
+    "name": "|229|Cacbon |Carbon |29031400| |CCl4 |"
+  },
+  {
+    "cas": "786-19-6",
+    "name": "|230|Cacbon |Carbon phenothion|29309090| |C11H16ClO2PS|"
+  },
+  {
+    "cas": "75-44-5",
+    "name": "|231|Carbonyl |Carbonyl |281210 | |CCl2O |"
+  },
+  {
+    "cas": "7789-18-6",
+    "name": "|232|Ceri nitrat |Caesium nitrate |28342990||Cs(NO3)2 |"
+  },
+  {
+    "cas": "590-21-6",
+    "name": "|236|1-Clo propylen |1-Chlo propylene |29032900| |C3H5Cl |"
+  },
+  {
+    "cas": "470-90-6",
+    "name": "|237|Chlorfenvinphos |Chlorfenvinphos |29199000| |C12H14Cl3O4P|"
+  },
+  {
+    "cas": "7782-50-5",
+    "name": "|238|Clorin |Chlorine |28011000||Cl2 |"
+  },
+  {
+    "cas": "67-66-3",
+    "name": "|240|Cloroform |Chloroform |29031300| |CHCl3 |"
+  },
+  {
+    "cas": "107-30-2",
+    "name": "|241|Clo metyl metyl |Chloromethyl |29091900| |C2H5ClO |"
+  },
+  {
+    "cas": "76-06-2",
+    "name": "|242|Clopicrin: |Chloropicrin: |29049000| |CCl3NO2 |"
+  },
+  {
+    "cas": "1861-32-1",
+    "name": "|244|Chlorthal-dimety|Chlorthal-dimethy|29173990||C10H6Cl4O4 |"
+  },
+  {
+    "cas": "557-98-2",
+    "name": "|246|2-Clo propylen |2-Chloro |29032900| |C3H5Cl |"
+  },
+  {
+    "cas": "88-88-0",
+    "name": "|247|Clo trinitro |Chloro trinitro |29049000| |C6H2ClN3O6 |"
+  },
+  {
+    "cas": "6164-98-3",
+    "name": "|248|Chlordimeform |Chlordimeform |29252100||C10H13ClN2 |"
+  },
+  {
+    "cas": "510-15-6",
+    "name": "|249|Clobenzilat |Chlorobenzilate |29181800| |C16H14Cl2O3 |"
+  },
+  {
+    "cas": "218-01-9",
+    "name": "|250|Chrysen |Chrysen |29029090| |C18H12 |"
+  },
+  {
+    "cas": "107-20-0",
+    "name": "|251|2-Clo |2-Chloro |29130000| |C2H5ClO |"
+  },
+  {
+    "cas": "78-95-5",
+    "name": "|252|Clo axeton |Chloro acetone |29147000| |C3H5OCl |"
+  },
+  {
+    "cas": "107-14-2",
+    "name": "|253|Clo axetonitril |Chloro |29269000| |C2H2NCl |"
+  },
+  {
+    "cas": "106-47-8",
+    "name": "|254|Clo anilin |Chloro aniline |29214200|;|C6H6NCl |"
+  },
+  {
+    "cas": "95-51-2",
+    "name": "| | | | |; | |"
+  },
+  {
+    "cas": "108-42-9",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "108-90-7",
+    "name": "|255|Clo benzen |Chlorobenzene |29039100| |C6H5Cl |"
+  },
+  {
+    "cas": "88-16-4",
+    "name": "|256|Clo benzo |Chlorobenzotri |29039900|; |C7H4F3Cl |"
+  },
+  {
+    "cas": "104-83-6",
+    "name": "|. |triflorua |fluoride | |;| |"
+  },
+  {
+    "cas": "611-19-8",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "620-20-2",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "59-50-7",
+    "name": "|257|Clo cresol |Chloro cresol |29081900|; |C7H7OCl |"
+  },
+  {
+    "cas": "608-26-4",
+    "name": "|. | | | | | |"
+  },
+  {
+    "cas": "353-59-3",
+    "name": "|258|Clo diflo brom |Bromo chloro |29037600| |CF2ClBr |"
+  },
+  {
+    "cas": "75-45-6",
+    "name": "|259|Clo diflo metan |Chloro difluoro |29037100| |CHF2Cl |"
+  },
+  {
+    "cas": "97-00-7",
+    "name": "|260|2,4- Clo dinitro|2,4-Dinitro |29049000| |C6H3O4N2Cl |"
+  },
+  {
+    "cas": "107-07-3",
+    "name": "|261|Clo etanol |Chloro ethanol |29055900| |C2H5ClO |"
+  },
+  {
+    "cas": "3188-13-4",
+    "name": "|262|Clo metyl etyl |Chloro methyl |29091900||C3H7OCl |"
+  },
+  {
+    "cas": "121-87-9",
+    "name": "|263|Clo nitro anilin|Chloro nitro |29214200| |C6H5O2N2Cl |"
+  },
+  {
+    "cas": "106-48-9",
+    "name": "|264|Clo phenol |Chlorophenol |29081900|;|C6H5OCl |"
+  },
+  {
+    "cas": "108-43-0",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "95-57-8",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "532-27-4",
+    "name": "|265|2-Clo-1-phenyl |2-Chloro-1-phenyl|29147000| |C8H7OCl |"
+  },
+  {
+    "cas": "126-99-8",
+    "name": "|266|Clo pren |Chloroprene |29032900| |C4H5Cl |"
+  },
+  {
+    "cas": "540-54-5",
+    "name": "|267|1-Clo propan |n-Propyl chloride|29031990| |C3H7Cl |"
+  },
+  {
+    "cas": "302-17-0",
+    "name": "|268|Clo ral hydrat |Chloral hydrate |29055900| |C2H3Cl3O2 |"
+  },
+  {
+    "cas": "305-03-3",
+    "name": "|269|Clo rambucil |Chlorambucil |29224990| |C14H19Cl2NO2|"
+  },
+  {
+    "cas": "95-69-2",
+    "name": "|271|Clo toluidin |Chloro toluidine |29214300|; |C7H8NCl |"
+  },
+  {
+    "cas": "95-74-9",
+    "name": "|. | | | |; | |"
+  },
+  {
+    "cas": "95-79-4",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "7790-91-2",
+    "name": "|272|Clo triflorua |Chlorine |28121000||ClF3 |"
+  },
+  {
+    "cas": "75-88-7",
+    "name": "|273|1-Clo-2,2,2-trif|1 |29037900| |C2H2F3Cl |"
+  },
+  {
+    "cas": "75-88-7",
+    "name": "|274|1-Clo-2,2,2-trif|1 |29037900| |C2H2F3Cl |"
+  },
+  {
+    "cas": "88-73-3",
+    "name": "|275|1-Clo-2-nitro |1 |29049000| |C6H4O2NCl |"
+  },
+  {
+    "cas": "121-73-3",
+    "name": "|276|1-Clo-3-nitro |1-Chloro-3-nitro |29049000| |C6H4O2NCl |"
+  },
+  {
+    "cas": "79-04-9",
+    "name": "|277|Cloaxetyl clorua|Chloroa cetyl |29159090| |C2H2OCl2 |"
+  },
+  {
+    "cas": "1702-17-6",
+    "name": "|278|Clopyralit |Clopyralid |29333990||C6H3O2NCl2 |"
+  },
+  {
+    "cas": "57-74-9",
+    "name": "|279|Clordran |Chlordrane |29038200| |C10H6Cl8 |"
+  },
+  {
+    "cas": "2921-88-2",
+    "name": "|280|Clorpyrifos |Chlorpyrifos |29333990||C9H11O3NCl3S|"
+  },
+  {
+    "cas": "74-87-3",
+    "name": "|281|Clorua metyl |Methyl chloride |29031110| |CH3Cl |"
+  },
+  {
+    "cas": "7646-79-9",
+    "name": "|283|Coban diclorua |Cobalt dichloride|28273910||CoCl2 |"
+  },
+  {
+    "cas": "106-44-5",
+    "name": "|285|Cresol |Cresol |29071200|;|C7H8O |"
+  },
+  {
+    "cas": "108-39-4",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "95-48-7",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "535-89-7",
+    "name": "|286|Crimidin |Crimidine |29335990| |C7H10ClN3 |"
+  },
+  {
+    "cas": "123-73-9",
+    "name": "|288|Crotonal dehyt |Crotonal dehyde |29121910|;|C4H6O |"
+  },
+  {
+    "cas": "4170-30-3",
+    "name": "| | | | || |"
+  },
+  {
+    "cas": "460-19-5",
+    "name": "|290|Cyanogen (Etan |Cyanogen (Ethane |28530000| |C2N2 |"
+  },
+  {
+    "cas": "506-77-4",
+    "name": "|291|Cyanogen clorit |Cyanogen chloride|28530000| |CClN |"
+  },
+  {
+    "cas": "75-86-5",
+    "name": "|292|2-Cyanopropan-2-|2-cyanopropan-2-o|29269000| |C4H7NO |"
+  },
+  {
+    "cas": "3734-95-0",
+    "name": "|295|Cyathoat |Cyathoate |29309090||C10H19N2O4PS|"
+  },
+  {
+    "cas": "287-23-0",
+    "name": "|296|Cyclo butan |Cyclo butane |29021900| |C4H8 |"
+  },
+  {
+    "cas": "4904-61-4",
+    "name": "|297|1,5,9-Cyclo |1,5,9-Cyclo |29021900||C12H18 |"
+  },
+  {
+    "cas": "291-64-5",
+    "name": "|298|Cyclo heptan |Cyclo heptane |29021900| |C7H14 |"
+  },
+  {
+    "cas": "544-25-2",
+    "name": "|299|Cyclo heptatrien|Cyclo heptatriene|29021900| |C7H8 |"
+  },
+  {
+    "cas": "628-92-2",
+    "name": "|300|Cyclo hepten |Cyclo heptene |29021900| |C7H12 |"
+  },
+  {
+    "cas": "110-82-7",
+    "name": "|301|Cyclo hexan |Cyclo hexane |29021100| |C6H12 |"
+  },
+  {
+    "cas": "108-94-1",
+    "name": "|302|Cyclo hexanon |Cyclo hexanone |29142200| |C6H10O |"
+  },
+  {
+    "cas": "110-83-8",
+    "name": "|303|Cyclo hexen |Cyclo hexene |29021900| |C6H10 |"
+  },
+  {
+    "cas": "66-81-9",
+    "name": "|304|Cycloheximit |Cyclo heximide |29419000| |C15H23NO4 |"
+  },
+  {
+    "cas": "622-45-7",
+    "name": "|305|Cyclo hexyl |Cyclo hexyl |29153990| |C8H14O2 |"
+  },
+  {
+    "cas": "3173-53-3",
+    "name": "|306|Cyclo hexyl |Cyclohexyl |29291090||C7H11ON |"
+  },
+  {
+    "cas": "1569-69-3",
+    "name": "|307|Cyclo hexyl |Cyclo hexyl |29309090||C6H12S |"
+  },
+  {
+    "cas": "108-91-8",
+    "name": "|308|Cyclo hexyl amin|Cyclo hexyl amine|29419000| |C6H13N |"
+  },
+  {
+    "cas": "629-20-9",
+    "name": "|309|Cyclo |1,3,5,7-cyclo |29021900| |C8H8 |"
+  },
+  {
+    "cas": "287-92-3",
+    "name": "|310|Cyclo pentan |Cyclo pentane |29021900| |C5H12 |"
+  },
+  {
+    "cas": "96-41-3",
+    "name": "|311|Cyclo pentanol |Cyclo pentanol |29061900| |C5H11O |"
+  },
+  {
+    "cas": "120-92-3",
+    "name": "|312|Cyclo pentanon |Cyclo pentanone |29142900| |C5H8O |"
+  },
+  {
+    "cas": "142-29-0",
+    "name": "|313|Cyclo penten |Cyclo pentene |29021900| |C5H8 |"
+  },
+  {
+    "cas": "75-19-4",
+    "name": "|314|Cyclo propan |Cyclo propane |29021900| |C3H6 |"
+  },
+  {
+    "cas": "2691-41-0",
+    "name": "|315|Cyclo |Cyclo |29339990||C4H8N8O8 |"
+  },
+  {
+    "cas": "121-82-4",
+    "name": "|316|Cyclotrimetylen |Cyclo |29336900| |C3H6N6O6 |"
+  },
+  {
+    "cas": "99-87-6",
+    "name": "|317|Cymen (Metyl |Cymen (Methyl |29029000| |C10H14 |"
+  },
+  {
+    "cas": "91-17-8",
+    "name": "|318|Decahydro |Decahydro |29021900| |C10H18 |"
+  },
+  {
+    "cas": "126-75-0",
+    "name": "|319|Demeton |Demeton |29309090| |C8H19O3PS2 |"
+  },
+  {
+    "cas": "919-86-8",
+    "name": "|320|Demeton-s-metyl |Demeton-s-methyl |29309090| |C6H15O3S2P |"
+  },
+  {
+    "cas": "101-77-9",
+    "name": "|321|4,4’-Diamino |4,4’-Methylene |29215900| |C13H14N2 |"
+  },
+  {
+    "cas": "818-08-6",
+    "name": "|322|Di butyl oxit |Dibultyltin oxide|29319090| |C8H18OSn |"
+  },
+  {
+    "cas": "75-09-2",
+    "name": "|323|Di clo metan |Dichloromethane |29031200| |CH2Cl2 |"
+  },
+  {
+    "cas": "110-18-9",
+    "name": "|324|1,2-Di-(dimetyl |1,2-Di-(dimethyl |29212900| |C6H16N2 |"
+  },
+  {
+    "cas": "557-40-4",
+    "name": "|326|Diallyl ete |Diallyl ether |29091900| |C6H10O |"
+  },
+  {
+    "cas": "124-02-7",
+    "name": "|327|Diallyl amin |Diallyl amine |29091900| |C6H11N |"
+  },
+  {
+    "cas": "95-80-7",
+    "name": "|328|2,4-Diamino |2,4-Diamino |29215100| |C7H10N2 |"
+  },
+  {
+    "cas": "333-41-5",
+    "name": "|329|Diazinon |Diazinon |29335910| |C12H21O3N2SP|"
+  },
+  {
+    "cas": "87-31-0",
+    "name": "|330|Diazo dinitro |Diazo dinitro |29349990| |C6H2N4O5 |"
+  },
+  {
+    "cas": "334-88-3",
+    "name": "|331|Diazo metan |Diazo methane |29270090| |CH2N2 |"
+  },
+  {
+    "cas": "53-70-3",
+    "name": "|332|Dibenz(a,h) |Dibenz(a,h) |29029090| |C22H14 |"
+  },
+  {
+    "cas": "53-70-3",
+    "name": "|333|Dibenz(a,h) |Dibenz(a,h) |29029000| |C22H14 |"
+  },
+  {
+    "cas": "2144-45-8",
+    "name": "|334|Dibenzyl peroxy |Dibenzyl peroxy |29209090||C16H14O6 |"
+  },
+  {
+    "cas": "122-39-4",
+    "name": "|335|Diphenyl amin |N-Phenyl aniline |29214200| |C12H11N |"
+  },
+  {
+    "cas": "96-12-8",
+    "name": "|337|1,2-Dibrom-3-clo|1,2-Dibrom-3- |29037900| |C3H5Br2Cl |"
+  },
+  {
+    "cas": "106-93-4",
+    "name": "|338|1,2-Dibro etan |1,2-Dibromo |29033100| |C2H4Br2 |"
+  },
+  {
+    "cas": "142-96-1",
+    "name": "|339|Dibutyl ete |Dibutyl ether |29091900| |C8H18O |"
+  },
+  {
+    "cas": "84-74-2",
+    "name": "|340|Dibutyl phthalat|Dibutyl phthalate|29173490| |C16H22O4 |"
+  },
+  {
+    "cas": "102-81-8",
+    "name": "|341|Dibutyl amino |Dibutyl amino |29221990| |C6H15ON |"
+  },
+  {
+    "cas": "1194-65-6",
+    "name": "|342|Dichlobenil |Dichlobenil |29269000||C7H3Cl2N |"
+  },
+  {
+    "cas": "62-73-7",
+    "name": "|343|Dichlorvos |Dichlorvos |29199000| |C4H7Cl2O4P |"
+  },
+  {
+    "cas": "99-30-9",
+    "name": "|344|Dicloran |Dicloran |29214200| |C6H4Cl2N2O2 |"
+  },
+  {
+    "cas": "115-32-2",
+    "name": "|345|Dicofol |Dicofol |29062900| |C14H9Cl5O |"
+  },
+  {
+    "cas": "4109-96-0",
+    "name": "|346|Dichlorosilan |Dichloro silane |28530000||Cl2H2Si |"
+  },
+  {
+    "cas": "534-07-6",
+    "name": "|347|1,3-Diclo aceton|1,3-Dichloroaceto|29147000| |C3H4Cl2O |"
+  },
+  {
+    "cas": "79-36-7",
+    "name": "|348|Diclo acetyl |Dichloroacetyl |29159090| |C2HOCl3 |"
+  },
+  {
+    "cas": "608-27-5",
+    "name": "|349|Diclo anilin |Dichloro aniline |29214200|;|C6H5NCl2 |"
+  },
+  {
+    "cas": "626-43-7",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "554-00-7",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "608-31-1",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "95-76-1",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "91-94-1",
+    "name": "|350|3,3’-Diclo |3,3’-Dichloro |29215900| |C12H10Cl2N2 |"
+  },
+  {
+    "cas": "111-44-4",
+    "name": "|351|2,2’-Diclo |2,2’-Dichloro |29091900| |C4H8Cl2O |"
+  },
+  {
+    "cas": "75-34-3",
+    "name": "|352|Diclo etan |Dichloro ethane |29031990|; |C2H4Cl2 |"
+  },
+  {
+    "cas": "107-06-2",
+    "name": "|. | | | | | |"
+  },
+  {
+    "cas": "540-59-0",
+    "name": "|353|Diclo etylen |Dicloetylen |29032900|;|C2H2Cl2 |"
+  },
+  {
+    "cas": "75-35-4",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "628-76-2",
+    "name": "|354|1,5-Diclo pentan|1,5-Dichloro |29031990| |C5H10Cl2 |"
+  },
+  {
+    "cas": "120-83-2",
+    "name": "|355|2,4-Diclo phenol|2,4-Dichloro |29081900| |C6H4OCl2 |"
+  },
+  {
+    "cas": "102-36-3",
+    "name": "|356|Diclo phenyl |Dichlorophenyl |29291090|;|C7H3ONCl2 |"
+  },
+  {
+    "cas": "2612-57-9",
+    "name": "| | | | || |"
+  },
+  {
+    "cas": "78-87-5",
+    "name": "|357|1,2-Diclo propan|1,2-Dichloro |29031900| |C3H6Cl2 |"
+  },
+  {
+    "cas": "96-23-1",
+    "name": "|358|1,3-Diclo |1,3-Dichloro |29055900| |C3H6OCl2 |"
+  },
+  {
+    "cas": "542-75-6",
+    "name": "|359|Diclo propen |1,3-Dichloro |29032900| |C3H4Cl2 |"
+  },
+  {
+    "cas": "594-72-9",
+    "name": "|360|1,1 -Diclo-1 |1,1 |29049000| |C2H3O2NCl2 |"
+  },
+  {
+    "cas": "141-66-2",
+    "name": "|362|Dicrotophos |Dicrotophos |29201900| |C8H16NO5P |"
+  },
+  {
+    "cas": "101-83-7",
+    "name": "|363|Dicyclo hexyl |Dicyclo hexyl |29213000| |C12H23N |"
+  },
+  {
+    "cas": "60-57-1",
+    "name": "|364|Dieldrin |Dieldrin |29104000| |C12H8Cl6O |"
+  },
+  {
+    "cas": "84-66-2",
+    "name": "|365|Dietyl phthalat |Diethyl phthalate|29173490| |C12H14O4 |"
+  },
+  {
+    "cas": "693-21-0",
+    "name": "|366|Dietylen glycol |Diethylene glycol|29299090| |C4H8N2O7 |"
+  },
+  {
+    "cas": "462-95-3",
+    "name": "|367|Dietoxy metan |Diethoxy methane |29110000| |C5H12O2 |"
+  },
+  {
+    "cas": "3054-95-3",
+    "name": "|368|3,3-Dietoxy |3,3 -Diethoxy |29110000||C7H14O2 |"
+  },
+  {
+    "cas": "105-58-8",
+    "name": "|369|Dietyl cacbonat |Diethyl cacbonate|29209090| |C5H10O3 |"
+  },
+  {
+    "cas": "1719-53-5",
+    "name": "|370|Dietyl diclo |Diethyl |29319090||C4H10Cl2Si |"
+  },
+  {
+    "cas": "557-20-0",
+    "name": "|371|Dietyl kẽm |Diethyl zinc |29319090| |C4H10Zn |"
+  },
+  {
+    "cas": "96-22-0",
+    "name": "|372|Dietyl keton |3-Pentanone |29141900| |C5H10O |"
+  },
+  {
+    "cas": "762-04-9",
+    "name": "|374|Dietyl photphit |Diethyl Phosphite|29209090| |C4H11O3P |"
+  },
+  {
+    "cas": "64-67-5",
+    "name": "|375|Dietyl sulfat |Dietyl sulfate |29209090| |C4H10O4S |"
+  },
+  {
+    "cas": "352-93-2",
+    "name": "|376|Dietyl sunfua |Diethyl sulfide |29309090| |C4H10S |"
+  },
+  {
+    "cas": "109-55-7",
+    "name": "|377|Dietyl amino |Diethyl amino |29212900| |C5H14N2 |"
+  },
+  {
+    "cas": "123-91-1",
+    "name": "|379|1,4-Dietylen |1,4-Dioxane |29329990| |C4H8O2 |"
+  },
+  {
+    "cas": "111-40-0",
+    "name": "|380|Dietylen triamin|Diethylene |29212900| |C4H13N3 |"
+  },
+  {
+    "cas": "2524-04-1",
+    "name": "|381|Dietyl thiophot |Diethylthio |29209090||C4H10O2ClSP |"
+  },
+  {
+    "cas": "75-10-5",
+    "name": "|382|Diflo metan |Difluoro methane |29033990| |CH2F2 |"
+  },
+  {
+    "cas": "75-37-6",
+    "name": "|383|Diflo etan |Difluoro ethane |29033990| |C2H4F2 |"
+  },
+  {
+    "cas": "2614-76-8",
+    "name": "|384|2,2-Dihydro |2,2-Dihydro |29173990||C3H8O4 |"
+  },
+  {
+    "cas": "110-87-2",
+    "name": "|385|Dihydropyran |2,3-Dihydropyran |29329990| |C5H8O |"
+  },
+  {
+    "cas": "108-83-8",
+    "name": "|386|Diisobutyl keton|Diisobutyl ketone|29141900| |C9H18O |"
+  },
+  {
+    "cas": "84-69-5",
+    "name": "|387|Diisobutyl |Diisobutyl |29173490| |C16H22O4 |"
+  },
+  {
+    "cas": "110-96-3",
+    "name": "|388|Diisobutyl amin |Diisobutyl amine |29211900| |C8H19N |"
+  },
+  {
+    "cas": "107-39-1",
+    "name": "|389|Diisobutylen |Diisobutylene |29012990| |C8H16 |"
+  },
+  {
+    "cas": "3437-84-1",
+    "name": "|390|Di-isobutyryl |Di-isobutyryl |29096000||C8H14O4 |"
+  },
+  {
+    "cas": "108-20-3",
+    "name": "|391|Diisopropyl ete |Diisopropyl ether|29091900| |C6H14O |"
+  },
+  {
+    "cas": "108-18-9",
+    "name": "|392|Diisopropyl amin|Diisopropyl amine|29211900| |C6H15N |"
+  },
+  {
+    "cas": "674-82-8",
+    "name": "|393|Diketen |Diketene |29322000| |C4H4O2 |"
+  },
+  {
+    "cas": "115-26-4",
+    "name": "|394|Dimefox |Dimefox |29299090| |C4H12FN2OP |"
+  },
+  {
+    "cas": "110-71-4",
+    "name": "|395|1,2-Dimethoxy |1,2-dimethoxyetha|29091900| |C4H10O2 |"
+  },
+  {
+    "cas": "124-40-3",
+    "name": "|396|Dimetyl amin |Dimethyl amine |29211100| |C2H7N |"
+  },
+  {
+    "cas": "2439-35-2",
+    "name": "|397|2-Dimetyla mino |2-Dimethyl amino |29221990||C7H13NO2 |"
+  },
+  {
+    "cas": "79-44-7",
+    "name": "|399|Dimetyl |Dimethyl |29241900| |C3H6CINO |"
+  },
+  {
+    "cas": "75-78-5",
+    "name": "|400|Dimetyl |Dimethyl |29319090| |C2H6Cl2Si |"
+  },
+  {
+    "cas": "62-75-9",
+    "name": "|401|Dimetyl |Dimethyl |29299090| |C2H6N2O |"
+  },
+  {
+    "cas": "463-82-1",
+    "name": "|402|2,2-Dimetyl |2,2-Dimethylpropa|29011000| |C5H12 |"
+  },
+  {
+    "cas": "534-15-6",
+    "name": "|403|1,1 -Dimetoxy |1,1 -Dimethoxy |29110000| |C4H10O2 |"
+  },
+  {
+    "cas": "616-38-6",
+    "name": "|404|Dimetyl cacbon |Dimethyl |29209090| |C3H6O3 |"
+  },
+  {
+    "cas": "624-92-0",
+    "name": "|405|Dimetyl disunfua|Dimethyl |29309090| |C2H6S2 |"
+  },
+  {
+    "cas": "540-73-8",
+    "name": "|406|1,2-Dimetyl |1,2-Dimetylhydraz|29280090| |C2H8N2 |"
+  },
+  {
+    "cas": "544-97-8",
+    "name": "|407|Dimetyl kẽm |Dimethylzinc |29319090| |C2H6Zn |"
+  },
+  {
+    "cas": "105-67-9",
+    "name": "|408|Xylenol |Xylenol |29071910|;|C8H10O |"
+  },
+  {
+    "cas": "108-68-9",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "526-75-0",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "576-26-1",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "95-65-8",
+    "name": "| | | | |; | |"
+  },
+  {
+    "cas": "95-87-4",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "868-85-9",
+    "name": "|409|Dimetyl photphit|Dimethyl |29209090| |C2H7O3P |"
+  },
+  {
+    "cas": "75-18-3",
+    "name": "|411|Dimetyl sunfua |Dimethyl sulfide |29309090| |C2H6S |"
+  },
+  {
+    "cas": "77-78-1",
+    "name": "|412|Dimetyl sunphat |Dimethyl sulfate |29209010| |C2H6O4S |"
+  },
+  {
+    "cas": "2524-03-0",
+    "name": "|413|Dimetyl |Dimethyl |29209090||C2H6ClO2PS |"
+  },
+  {
+    "cas": "79-44-7",
+    "name": "|414|Dimetyl amin |Dimethyl |29241900| |C3H6ClNO |"
+  },
+  {
+    "cas": "926-64-7",
+    "name": "|415|2-Dimetyl amino |2-Dimethyl amino |29269000| |C4H8N2 |"
+  },
+  {
+    "cas": "2867-47-2",
+    "name": "|416|2-Dimetyl-amino-|2-Dimetyl-amino-e|29221990||C8H15NO2 |"
+  },
+  {
+    "cas": "2867-47-2",
+    "name": "|417|Dimetyl amino |2-Dimethyl amino |29221990||C8H15O2N |"
+  },
+  {
+    "cas": "79-29-8",
+    "name": "|418|2,3-Dimetyl |2,3-Dimethyl |29011000| |C6H14 |"
+  },
+  {
+    "cas": "78-62-6",
+    "name": "|419|Dimetyl dietoxy |Dimethyl diethoxy|29319080| |C6H16O2Si |"
+  },
+  {
+    "cas": "62-75-9",
+    "name": "|420|Dimetylnitro |Dimethyl |29299090| |C2H6N2O |"
+  },
+  {
+    "cas": "2050-92-2",
+    "name": "|421|Di-n-amyl amin |Di-n-amyl amine |29211900||C10H23N |"
+  },
+  {
+    "cas": "1420-07-1",
+    "name": "|423|Dinoterb |Dinoterb |29089900||C10H12N2O5 |"
+  },
+  {
+    "cas": "111-92-2",
+    "name": "|424|Di-n-butylamin |Dibutylamine |29211900| |C8H19N |"
+  },
+  {
+    "cas": "1313-60-6",
+    "name": "|425|Dinatri peroxit |Sodium peroxide |28153000||Na2O2 |"
+  },
+  {
+    "cas": "97-02-9",
+    "name": "|428|2,4-Dinitro |2,4-Dinitro |29214200| |C6H5O4N3 |"
+  },
+  {
+    "cas": "528-29-0",
+    "name": "|429|Dinitro benzen |Dinitro benzene |29042090|;|C6H4O4N2 |"
+  },
+  {
+    "cas": "99-65-0",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "534-52-1",
+    "name": "|430|Dinitro-o-cresol|Dinitro-o-cresol |29089200| |C7H6N2O5 |"
+  },
+  {
+    "cas": "51-28-5",
+    "name": "|431|2,4-Dinitro |2,4-dinitro |29089900| |C6H4N2O5 |"
+  },
+  {
+    "cas": "602-01-7",
+    "name": "|432|Dinitro toluen |Dinitro toluene |29042090|;|C7H6O4N2 |"
+  },
+  {
+    "cas": "606-20-2",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "610-39-9",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "121-14-2",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "88-85-7",
+    "name": "|434|Dinoseb |Dinoseb |29089100| |C10H12N2O5 |"
+  },
+  {
+    "cas": "111-43-3",
+    "name": "|435|Di-n-propyl ete |Di-n-propyl ether|29091900| |C6H14O |"
+  },
+  {
+    "cas": "78-34-2",
+    "name": "|437|Dioxathion (hỗn |Dioxathion |29329990| |C12H26O6S4P2|"
+  },
+  {
+    "cas": "646-06-0",
+    "name": "|438|Dioxolan |Dioxolane |29329990| |C3H6O2 |"
+  },
+  {
+    "cas": "82-66-6",
+    "name": "|439|Diphacinon |Diphacinone |9143900 | |C23H16O3 |"
+  },
+  {
+    "cas": "122-39-4",
+    "name": "|440|Diphenyl amin |Diphenyl amine |29214400| |C12H11N |"
+  },
+  {
+    "cas": "80-10-4",
+    "name": "|441|Diphenyl diclo |Diphenyl dichloro|29319090| |C12H10Cl2Si |"
+  },
+  {
+    "cas": "122-66-7",
+    "name": "|442|1,2-Diphenyl |1,2-Diphenyl |29280090| |C12H12N2 |"
+  },
+  {
+    "cas": "123-19-3",
+    "name": "|443|Dipropyl keton |Dipropyl ketone |29141900| |C7H14O |"
+  },
+  {
+    "cas": "142-84-7",
+    "name": "|444|Dipropyl amin |Dipropyl amine |29211900| |C6H15N |"
+  },
+  {
+    "cas": "298-04-4",
+    "name": "|446|Disulfoton |Disulfoton |29309090| |C8H19O2PS3 |"
+  },
+  {
+    "cas": "112-53-8",
+    "name": "|447|Dodecan-1-ol |Dodecan-1-ol |29051700| |C12H26O |"
+  },
+  {
+    "cas": "2385-85-5",
+    "name": "|448|Dodecaclo |Dodecachloro |29038900||C10Cl12 |"
+  },
+  {
+    "cas": "7758-89-6",
+    "name": "|449|Đồng (I) clorua |Đồng (I) clorua |28273990||CuCl |"
+  },
+  {
+    "cas": "7447-39-4",
+    "name": "|450|Đồng (II) clorua|Copper (II) |28273990||CuCl2 |"
+  },
+  {
+    "cas": "115-29-7",
+    "name": "|451|Endosulfan (hỗn |Endosulfane |29209090| |C25H6O3S |"
+  },
+  {
+    "cas": "72-20-8",
+    "name": "|452|Endrin |Endrine |29061900| |C12H8Cl6O |"
+  },
+  {
+    "cas": "3132-64-7",
+    "name": "|453|Epibrom hydrin |Epibromo hydrin |29109000||C3H5Obr |"
+  },
+  {
+    "cas": "106-89-8",
+    "name": "|454|Epiclo hydrin |Epichloro hydrin |29103000| |C3H5ClO |"
+  },
+  {
+    "cas": "2104-64-5",
+    "name": "|455|Epn |Epn |29319090||C14H14NO4PS |"
+  },
+  {
+    "cas": "556-52-5",
+    "name": "|456|2,3 -Epoxy-1 |2,3-Epoxy-1 |29109000| |C3H6O2 |"
+  },
+  {
+    "cas": "4016-11-9",
+    "name": "|457|1,2-Epoxy-3-etho|1,2-Epoxy-3-ethox|29109000||C5H10O2 |"
+  },
+  {
+    "cas": "141-43-5",
+    "name": "|458|Etanol amin |Ethano lamine |29221100| |C2H7ON |"
+  },
+  {
+    "cas": "74-84-0",
+    "name": "|459|Etan |Ethane |29011000| |C2H6 |"
+  },
+  {
+    "cas": "563-12-2",
+    "name": "|460|Ethion |Ethion |29309090| |C9H22O4P2S4 |"
+  },
+  {
+    "cas": "111-15-9",
+    "name": "|461|2-Ethoxy etyl |2-Ethoxy ethyl |29153920| |C6H12O3 |"
+  },
+  {
+    "cas": "107-00-6",
+    "name": "|462|Etyl axetylen |Ethyl acetylene |29012400| |C4H6 |"
+  },
+  {
+    "cas": "51-79-6",
+    "name": "|463|Etyl carbany |Ethyl carbamate |29241900| |C3H7O2N |"
+  },
+  {
+    "cas": "91-53-2",
+    "name": "|465|Ethoxyquin |Ethoxyquin |29333990| |C14H19NO |"
+  },
+  {
+    "cas": "75-00-3",
+    "name": "|467|Etyl chlorit |Ethyl chloride |29031190| |C2H5Cl |"
+  },
+  {
+    "cas": "541-41-3",
+    "name": "|468|Etyl clo format |Ethyl chloro |29159090| |C3H5ClO2 |"
+  },
+  {
+    "cas": "75-08-1",
+    "name": "|469|Etyl mercaptan |Ethyl mercaptan |29309090| |C2H6S |"
+  },
+  {
+    "cas": "625-58-1",
+    "name": "|470|Etyl nitrat |Ethyl nitrate |29209090| |C2H5NO3 |"
+  },
+  {
+    "cas": "109-95-5",
+    "name": "|471|Etyl nitrit |Ethyl nitrite |29209090| |C2H5NO2 |"
+  },
+  {
+    "cas": "623-70-1",
+    "name": "|472|Etyl |Ethyl |29161900| |C6H10O2 |"
+  },
+  {
+    "cas": "75-04-7",
+    "name": "|473|Etyl amin (Etan |Ethylamine |29211900| |C2H7N |"
+  },
+  {
+    "cas": "113-18-8",
+    "name": "|474|Ethchlorvynol |Ethchlorvynol |29055100| |C7H9ClO |"
+  },
+  {
+    "cas": "628-96-6",
+    "name": "|475|Etylen glycol |Ethylene glycol |29209090| |C2H4N2O6 |"
+  },
+  {
+    "cas": "75-21-8",
+    "name": "|476|Etylen oxit |Ethylene oxide |29101000| |C2H4O |"
+  },
+  {
+    "cas": "107-15-3",
+    "name": "|477|Etylen diamin |Ethylene diamine |29212100| |C2H8N2 |"
+  },
+  {
+    "cas": "151-56-4",
+    "name": "|478|Etylen imin |Ethylene imine |29093000| |C2H5N |"
+  },
+  {
+    "cas": "535-13-7",
+    "name": "|479|Etyl 2-clo |Ethyl 2- |29159090| |C5H9O2Cl |"
+  },
+  {
+    "cas": "140-88-5",
+    "name": "|480|Etyl acrylat |Ethyl acrylate |29161200| |C5H8O2 |"
+  },
+  {
+    "cas": "541-85-5",
+    "name": "|481|Etyl amyl ceton |Ethyl amyl ketone|29141900| |C8H16O |"
+  },
+  {
+    "cas": "141-78-6",
+    "name": "|482|Etyl axetat |Ethyl acetate |29153100| |C4H8O2 |"
+  },
+  {
+    "cas": "150-46-9",
+    "name": "|483|Etyl borat |Triethyl borate |29209090| |C6H15O3B |"
+  },
+  {
+    "cas": "105-36-2",
+    "name": "|484|Etyl bromaxetat |Ethyl |29159090| |C4H7O2Br |"
+  },
+  {
+    "cas": "74-96-4",
+    "name": "|485|Etyl bromua |Bromo ethane |29033990| |C2H5Br |"
+  },
+  {
+    "cas": "628-81-9",
+    "name": "|487|Etyl butyl ete |Ethyl butyl ether|29091900| |C6H14O |"
+  },
+  {
+    "cas": "105-39-5",
+    "name": "|488|Etyl clo axetat |Ethyl |29154000| |C4H7O2Cl |"
+  },
+  {
+    "cas": "142-62-1",
+    "name": "|489|Etyl clo |Ethyl |29159090| |C6H12O2 |"
+  },
+  {
+    "cas": "1789-58-8",
+    "name": "|490|Etyl diclo silan|Ethyl dichloro |29319090||C2H6Cl2Si |"
+  },
+  {
+    "cas": "60-29-7",
+    "name": "|491|Etyl ete |Ethyl ether |29094900| |C4H10O |"
+  },
+  {
+    "cas": "109-94-4",
+    "name": "|492|Etyl format |Ethyl formate |29151300| |C3H6O2 |"
+  },
+  {
+    "cas": "5397-31-9",
+    "name": "|493|3-(2-Etylhexylox|3-(2- |29221990||C11H25NO |"
+  },
+  {
+    "cas": "97-62-1",
+    "name": "|494|Etyl isobutyrat |Ethyl isobutyrate|29156000| |C6H12O2 |"
+  },
+  {
+    "cas": "687-47-8",
+    "name": "|495|Etyl lactat |Ethyl lactate |29181100| |C5H10O3 |"
+  },
+  {
+    "cas": "97-63-2",
+    "name": "|496|Etyl metacrylat |Ethyl |29161490| |C6H10O2 |"
+  },
+  {
+    "cas": "122-51-0",
+    "name": "|497|Etyl orthoformat|Ethyl |29159090| |C7H16O3 |"
+  },
+  {
+    "cas": "105-37-3",
+    "name": "|498|Etyl propionat |Ethyl propionate |29155000| |C5H10O2 |"
+  },
+  {
+    "cas": "628-32-0",
+    "name": "|499|Etyl propyl ete |Ethyl propyl |29091900| |C5H12O |"
+  },
+  {
+    "cas": "115-21-9",
+    "name": "|500|Etyl triclo |Ethyl trichloro |29319090| |C2H5Cl3Si |"
+  },
+  {
+    "cas": "100-41-4",
+    "name": "|501|Etyl benzen |Ethyl benzene |29026000| |C8H10 |"
+  },
+  {
+    "cas": "137-32-6",
+    "name": "|502|2-Etyl butanol |2-Ethyl butanol |29051900| |C5H12O |"
+  },
+  {
+    "cas": "97-96-1",
+    "name": "|503|Etyl butyl |2-Ethyl butyr |29121990| |C6H12O |"
+  },
+  {
+    "cas": "110-80-5",
+    "name": "|504|2-Ethoxy etanol |2-Ethoxy ethanol |29094400| |C4H10O2 |"
+  },
+  {
+    "cas": "74-85-1",
+    "name": "|505|Etylen |Ethylene |29012100| |C2H4 |"
+  },
+  {
+    "cas": "151-56-4",
+    "name": "|506|Etylen imin |Ethylen imine |29339990| |C2H5N |"
+  },
+  {
+    "cas": "104-75-6",
+    "name": "|508|Etyl hexyl amin |2-Ethylhexyl |29211900| |C8H19N |"
+  },
+  {
+    "cas": "766-09-6",
+    "name": "|509|1-Etyl piperidin|1-Ethyl |29333990| |C7H15N |"
+  },
+  {
+    "cas": "122-14-5",
+    "name": "|510|Fenitrothion |O,O-Dimethyl O-4-|29201900| |C9H12O5NSP |"
+  },
+  {
+    "cas": "55-38-9",
+    "name": "|511|Fenthion |Fenthion |29309090| |C10H15O3S2P |"
+  },
+  {
+    "cas": "7782-41-4",
+    "name": "|512|Flo |Fluorine |28013000||F2 |"
+  },
+  {
+    "cas": "640-19-7",
+    "name": "|513|Fluoraxetamit |Fluoracetamide |29241200| |C2H4FNO |"
+  },
+  {
+    "cas": "462-06-6",
+    "name": "|514|Flo benzen |Fluoro benzene |29039900| |C6H5F |"
+  },
+  {
+    "cas": "7616-94-6",
+    "name": "|515|Flo percloryl |Perchloryl |28129000||FClO3 |"
+  },
+  {
+    "cas": "348-54-9",
+    "name": "|516|Floro anilin |Fluoro aniline |29214200| |C6H6NF |"
+  },
+  {
+    "cas": "352-32-9",
+    "name": "|517|Floro toluen |Fluoro toluene |29039900|;|C7H7F |"
+  },
+  {
+    "cas": "352-70-5",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "95-52-3",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "4301-50-2",
+    "name": "|518|Fluenetil |Fluenetil |29153990||C16H15FO2 |"
+  },
+  {
+    "cas": "144-49-0",
+    "name": "|519|Fluoroaxetic |Fluoroacetic acid|29159090| |C2H3FO2 |"
+  },
+  {
+    "cas": "900-95-8",
+    "name": "|522|Fentin axetat |Triphenylzinn |29319090| |C20H18O2Sn |"
+  },
+  {
+    "cas": "76-87-9",
+    "name": "|523|Fentin hydroxit |Hydroxy triphenyl|29319090| |C18H16OSn |"
+  },
+  {
+    "cas": "50-00-0",
+    "name": "|526|Formaldehit |Formaldehyde |29121110| |CH2O |"
+  },
+  {
+    "cas": "944-22-9",
+    "name": "|527|Fonofos |Fonofos |29309090| |C10H15OS2P |"
+  },
+  {
+    "cas": "98-01-1",
+    "name": "|528|Fufural |Furfural |29321200| |C5H4O2 |"
+  },
+  {
+    "cas": "110-00-9",
+    "name": "|530|Furan |Furan |29321900| |C4H4O |"
+  },
+  {
+    "cas": "98-00-0",
+    "name": "|531|Furfuryl alcohol|Furfuryl alcohol |29321300| |C5H6O2 |"
+  },
+  {
+    "cas": "617-89-0",
+    "name": "|532|Furfuryl amin |Furfuryl amine |29321900| |C5H7ON |"
+  },
+  {
+    "cas": "7440-55-3",
+    "name": "|533|Gali |Gallium |81129200||Ga |"
+  },
+  {
+    "cas": "96-48-0",
+    "name": "|534|Gamma-butyro |Dihidrofuran-2(3H|29322000| |C4H6O2 |"
+  },
+  {
+    "cas": "96-24-2",
+    "name": "|536|Glycerol |Glycerol |29055900| |C3H7O2Cl |"
+  },
+  {
+    "cas": "765-34-4",
+    "name": "|537|Glycid aldehit |Glycid aldehyde |29124900| |C3H4O2 |"
+  },
+  {
+    "cas": "506-93-4",
+    "name": "|538|Guanidine nitrat|Guanidine nitrate|29252900| |CH6O3N4 |"
+  },
+  {
+    "cas": "109-27-3",
+    "name": "|539|Guanyl-4- |1-guanyl-4-nitros|29299090| |C2H8N10O |"
+  },
+  {
+    "cas": "7440-59-7",
+    "name": "|540|Heli |Helium |28042900||He |"
+  },
+  {
+    "cas": "76-44-8",
+    "name": "|541|Heptaclorua |Heptachlorane |29038200| |C10H5Cl7 |"
+  },
+  {
+    "cas": "3194-55-6",
+    "name": "|543|Hexabrom xyclo |Hexabromo cyclo |29038900||C11H18Br6 |"
+  },
+  {
+    "cas": "118-74-1",
+    "name": "|545|Hexaclo benzen |Hexachloro |29039200| |C6Cl6 |"
+  },
+  {
+    "cas": "87-68-3",
+    "name": "|546|Hexaclo butadien|Hexachloro |29032900| |C4Cl6 |"
+  },
+  {
+    "cas": "77-47-4",
+    "name": "|547|Hexaclo |Hexachloro cyclo |29033990| |C5Cl6 |"
+  },
+  {
+    "cas": "608-73-1",
+    "name": "|548|Hexaclo |1,2,3,4,5,6- |29038100| |C6H6Cl6 |"
+  },
+  {
+    "cas": "70-30-4",
+    "name": "|549|Hexaclophen |Hexachlorophene |29081900| |C13H6O2Cl6 |"
+  },
+  {
+    "cas": "5894-60-0",
+    "name": "|550|Hexadecyltriclo |Hexadecyl |29319090||C16H33Cl3Si |"
+  },
+  {
+    "cas": "592-42-7",
+    "name": "|551|Hexadien |1,5-Hexadiene; |29012990|;|C6H10 |"
+  },
+  {
+    "cas": "592-45-0",
+    "name": "| | |2,4-Hexadiene | |;| |"
+  },
+  {
+    "cas": "592-46-1",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "684-16-2",
+    "name": "|552|Hexaflo axeton |Hexafluoroacetone|29147000| |C3OF6 |"
+  },
+  {
+    "cas": "66-25-1",
+    "name": "|558|Hexaldehit |Hexanal |29121990| |C6H12O |"
+  },
+  {
+    "cas": "680-31-9",
+    "name": "|560|Hexametyl |Hexamethyl |29299090| |C6H18N3OP |"
+  },
+  {
+    "cas": "680-31-9",
+    "name": "|561|Hexametyl |Hexamethyl |29212900| |C6H18N3OP |"
+  },
+  {
+    "cas": "822-06-0",
+    "name": "|562|Hexametylen |Hexamethylene |29291090| |C8H12N2O2 |"
+  },
+  {
+    "cas": "124-09-4",
+    "name": "|563|Hexametylen |Hexamethylene |29212200| |C6H16N2 |"
+  },
+  {
+    "cas": "111-49-9",
+    "name": "|564|Hexametylen imin|Hexamethylene |29339990| |C6H13N |"
+  },
+  {
+    "cas": "100-97-0",
+    "name": "|565|Hexamin |Hexamine |29336900| |C6H12N4 |"
+  },
+  {
+    "cas": "110-54-3",
+    "name": "|566|Hexan |Hexane |29011000| |C6H14 |"
+  },
+  {
+    "cas": "111-27-3",
+    "name": "|568|Hexanol |Hexanol |29051900| |C6H14O |"
+  },
+  {
+    "cas": "591-78-6",
+    "name": "|569|2-Hexanon |2-Hexanone |29141900| |C6H12O |"
+  },
+  {
+    "cas": "592-41-6",
+    "name": "|570|1-Hexen |1-Hexene |29012990| |C6H12 |"
+  },
+  {
+    "cas": "56-35-9",
+    "name": "| | | |,| | |"
+  },
+  {
+    "cas": "56-35-9",
+    "name": "| | | |;| | |"
+  },
+  {
+    "cas": "302-01-2",
+    "name": "|573|Hydrazin và các |Hydrazine and |28251000| |N2H4 |"
+  },
+  {
+    "cas": "7722-84-1",
+    "name": "|577|Hydro peroxit |Hydrogen peroxide|28470010||H2O2 |"
+  },
+  {
+    "cas": "7783-07-5",
+    "name": "|578|Hydro selenua |Hydrogen selenide|28470000||H2Se |"
+  },
+  {
+    "cas": "1333-74-0",
+    "name": "|579|Hydrogen |Hydrogen |28041000||H2 |"
+  },
+  {
+    "cas": "7664-39-3",
+    "name": "|580|Hydrogen fluorit|Hydrogen fluoride|28111100||HF |"
+  },
+  {
+    "cas": "7783-07-5",
+    "name": "|581|Hydrogen selenit|Hydrogen selenide|28111990||H2Se |"
+  },
+  {
+    "cas": "7783-06-4",
+    "name": "|582|Hydrogen sunphit|Hydrogen sulphide|28139000||H2S |"
+  },
+  {
+    "cas": "123-31-9",
+    "name": "|583|Hydroquinon |Hydroquinone |29072200| |C6H6O2 |"
+  },
+  {
+    "cas": "481-39-0",
+    "name": "|584|Hydroxy-1,4-naph|5-Hydroxy-1,4-nap|29420000| |C10H6O3 |"
+  },
+  {
+    "cas": "107-16-4",
+    "name": "|585|Hydroxy |Hydroxy |293299 | |C2H3NO |"
+  },
+  {
+    "cas": "107-16-4",
+    "name": "|587|Hydroxy |Hydroxy |29269000| |C2H3NO |"
+  },
+  {
+    "cas": "7803-49-8",
+    "name": "|588|Hydroxyl amin |Hydroxyl amine |28251000||H3NO |"
+  },
+  {
+    "cas": "5470-11-1",
+    "name": "|590|Hydroxyl amin |Hydroxyl amine |28251000||H3NOHCl |"
+  },
+  {
+    "cas": "53-86-1",
+    "name": "|591|Indomethacin |Indomethacine |29339990| |C19H16CNIO4 |"
+  },
+  {
+    "cas": "7783-66-6",
+    "name": "|592|lot pentaflorua |Iodine |28129000||IF5 |"
+  },
+  {
+    "cas": "7553-56-2",
+    "name": "|593|lot |Iodine |28012000||I2 |"
+  },
+  {
+    "cas": "507-02-8",
+    "name": "|594|Iot acetyl |Iodide acetyl |29159090| |C2H3OI |"
+  },
+  {
+    "cas": "513-38-2",
+    "name": "|595|Iot metyl propan|Iodo methyl |29033990| |C4H9I |"
+  },
+  {
+    "cas": "297-78-9",
+    "name": "|596|Isobenzan |Isobenzan |29329990| |C9H4Cl8O |"
+  },
+  {
+    "cas": "78-83-1",
+    "name": "|597|Isobutanol |Isobutanol |29051400| |C4H10O |"
+  },
+  {
+    "cas": "106-63-8",
+    "name": "|598|Isobutyl acrylat|Isobutyl acrylate|29161200| |C7H12O2 |"
+  },
+  {
+    "cas": "110-19-0",
+    "name": "|599|Isobutyl axetat |Isobutyl acetate |29153900| |C6H12O2 |"
+  },
+  {
+    "cas": "542-55-2",
+    "name": "|600|Isobutyl format |Isobutyl formate |29151300| |C5H10O2 |"
+  },
+  {
+    "cas": "97-85-8",
+    "name": "|601|Isobutyl |Isobutyl |29156000| |C8H16O2 |"
+  },
+  {
+    "cas": "97-86-9",
+    "name": "|602|Isobutyl |Isobutyl |29161400| |C8H14O2 |"
+  },
+  {
+    "cas": "540-42-1",
+    "name": "|603|Isobutyl |Isobutyl |29155000| |C7H14O2 |"
+  },
+  {
+    "cas": "78-81-9",
+    "name": "|604|Isobutyl amin |Isobutyl amine |29211900| |C4H11N |"
+  },
+  {
+    "cas": "78-84-2",
+    "name": "|605|Isobutyraldehit |Isobutyraldehyde |29121990| |C4H8O |"
+  },
+  {
+    "cas": "97-72-3",
+    "name": "|606|Isobutyric |Isobutyric |29159090| |C8H14O3 |"
+  },
+  {
+    "cas": "79-30-1",
+    "name": "|607|Isobutyryl |Isobutyryl |29159090| |C4H7OCl |"
+  },
+  {
+    "cas": "329-01-1",
+    "name": "|608|Isocyanato |Isocyanato |29291090| |C8H4ONF3 |"
+  },
+  {
+    "cas": "465-73-6",
+    "name": "|609|Isodrin |Isodrin |29039900| |C12H8Cl6 |"
+  },
+  {
+    "cas": "691-37-2",
+    "name": "|610|Isohexen |Isohexene |29012990| |C6H12 |"
+  },
+  {
+    "cas": "513-35-9",
+    "name": "|612|Isopenten |Isopentene |29012990| |C5H10 |"
+  },
+  {
+    "cas": "4098-71-9",
+    "name": "|613|Isophoron |Isophorone |29291090||C12H18N2O2 |"
+  },
+  {
+    "cas": "2855-13-2",
+    "name": "|614|Isophoron diamin|Isophorone |29213000||C9H8N2O |"
+  },
+  {
+    "cas": "67-63-0",
+    "name": "|615|Isopropanol |Isopropyl alcohol|29051200| |C3H8O |"
+  },
+  {
+    "cas": "108-22-5",
+    "name": "|616|Isopropenyl |Isopropenyl |29153990| |C5H8O2 |"
+  },
+  {
+    "cas": "98-83-9",
+    "name": "|617|Isopropenyl |Isopropenyl |29029020| |C9H10 |"
+  },
+  {
+    "cas": "108-21-4",
+    "name": "|618|Isopropyl axetat|Isopropyl acetate|29153900| |C5H10O2 |"
+  },
+  {
+    "cas": "638-11-9",
+    "name": "|619|Isopropyl |Isopropyl |29156000| |C7H14O2 |"
+  },
+  {
+    "cas": "105-48-6",
+    "name": "|620|Isopropyl |Isopropyl |29154000| |C5H9O2Cl |"
+  },
+  {
+    "cas": "75-30-9",
+    "name": "|621|Isopropyl iođua |2-Iodopropane |29033990| |C3H7I |"
+  },
+  {
+    "cas": "617-50-5",
+    "name": "|622|Isopropyl |Isopropyl |29156000| |C7H14O2 |"
+  },
+  {
+    "cas": "1795-48-8",
+    "name": "|623|Isopropyl |Isopropyl |29291090||C4H7NO |"
+  },
+  {
+    "cas": "1712-64-7",
+    "name": "|624|Isopropyl nitrat|Isopropyl nitrate|29209090||C3H7O3N |"
+  },
+  {
+    "cas": "637-78-5",
+    "name": "|625|Isopropyl |Isopropyl |29155000| |C6H12O2 |"
+  },
+  {
+    "cas": "98-82-8",
+    "name": "|626|Isopropyl benzen|Cumene |29027000| |C9H12 |"
+  },
+  {
+    "cas": "7440-09-7",
+    "name": "|627|Kali |Potassium |28051900||K |"
+  },
+  {
+    "cas": "7758-01-2",
+    "name": "|628|Kali bromat |Potassium bromate|28299090||KBrO3 |"
+  },
+  {
+    "cas": "7789-23-3",
+    "name": "|629|Kali florua |Potassium |28261990||KF |"
+  },
+  {
+    "cas": "7646-93-7",
+    "name": "|632|Kali hydro |Potassium |28332990||KHSO4 |"
+  },
+  {
+    "cas": "1310-58-3",
+    "name": "|633|Kali hydroxit |Potassium |28152000||KOH |"
+  },
+  {
+    "cas": "7758-09-0",
+    "name": "|635|Kali nitrit |Potassium nitrite|28341000||KNO2 |"
+  },
+  {
+    "cas": "7727-21-1",
+    "name": "|637|Kali persunphat |Potassium |28334000||K2S2O8 |"
+  },
+  {
+    "cas": "1312-73-8",
+    "name": "|638|Kali sunfua |Potassium sulfide|283090 ||K2S |"
+  },
+  {
+    "cas": "7646-85-7",
+    "name": "|639|Kẽm clorua |Zinc chloride |28273990||ZnCl2 |"
+  },
+  {
+    "cas": "7704-99-6",
+    "name": "|641|Kẽm hydrua |Zirconium (II) |28500000||ZrH2 |"
+  },
+  {
+    "cas": "7779-88-6",
+    "name": "|642|Kẽm nitrat |Zinc nitrate |28342990||Zn(NO3)2 |"
+  },
+  {
+    "cas": "1314-22-3",
+    "name": "|644|Kẽm peroxit |Zinc peroxide |28170020||ZnO2 |"
+  },
+  {
+    "cas": "1314-84-7",
+    "name": "|645|Kẽm photphua |Zinc phosphide |28480000||Zn3P3 |"
+  },
+  {
+    "cas": "7439-90-9",
+    "name": "|646|Krypton |Krypton |28042900||Kr |"
+  },
+  {
+    "cas": "58-89-9",
+    "name": "|647|Lindan |Lindane |29038100| |C6H6Cl6 |"
+  },
+  {
+    "cas": "7439-93-2",
+    "name": "|648|Liti |Lithium |28051900||Li |"
+  },
+  {
+    "cas": "7580-67-8",
+    "name": "|649|Liti hydrit |Lithium hydride |28500000||LiH |"
+  },
+  {
+    "cas": "1310-65-2",
+    "name": "|650|Liti hydroxit |Lithium hydroxide|28252000||LiOH |"
+  },
+  {
+    "cas": "7790-69-4",
+    "name": "|652|Liti nitrat |Lithium nitrate |28342980||LiNO3 |"
+  },
+  {
+    "cas": "7790-99-0",
+    "name": "|654|Iod monoclorua |Iodine |28121000||ICl |"
+  },
+  {
+    "cas": "7704-34-9",
+    "name": "|655|Lưu huỳnh |Sulfur |28020000||S |"
+  },
+  {
+    "cas": "7446-09-5",
+    "name": "|657|Lưu huỳnh dioxit|Sulfur dioxide |28112820||SO2 |"
+  },
+  {
+    "cas": "2551-62-4",
+    "name": "|659|Lưu huỳnh |Sulfur |28129000||SF6 |"
+  },
+  {
+    "cas": "7783-60-0",
+    "name": "|660|Lưu huỳnh |Sulfur |28129000||SF4 |"
+  },
+  {
+    "cas": "7446-11-9",
+    "name": "|661|Lưu huỳnh |Sulfur trioxide |28112990||SO3 |"
+  },
+  {
+    "cas": "7439-95-4",
+    "name": "|663|Magie |Magnesium |8104 ||Mg |"
+  },
+  {
+    "cas": "1335-26-8",
+    "name": "|666|Magie peroxit |Magnesium |28161000||MgO2 |"
+  },
+  {
+    "cas": "108-31-6",
+    "name": "|669|Maleic anhydrit |Maleic anhydride |29171400| |C4H2O3 |"
+  },
+  {
+    "cas": "109-77-3",
+    "name": "|670|Malono nitril |Malono nitrile |29269000| |C3H2N2 |"
+  },
+  {
+    "cas": "9008-34-8",
+    "name": "|672|Mangan resinat |Manganese |29319090||C41H58O4Mg |"
+  },
+  {
+    "cas": "108-41-8",
+    "name": "|673|M-clo toluen |1-chloro-3- |29039990| |C7H7Cl |"
+  },
+  {
+    "cas": "89-78-1",
+    "name": "|674|Menthol |Menthol | |; |C10H20O |"
+  },
+  {
+    "cas": "2216-51-5",
+    "name": "|. | | | || |"
+  },
+  {
+    "cas": "96-37-7",
+    "name": "|675|Metyl |Methyl |29021900| |C6H12 |"
+  },
+  {
+    "cas": "96-45-7",
+    "name": "|676|2-Mercapto |2-Mercapto |29332990| |C3H6N2S |"
+  },
+  {
+    "cas": "141-79-7",
+    "name": "|677|Mesityl oxit |Mesityl oxide |29141900| |C6H10O |"
+  },
+  {
+    "cas": "78-85-3",
+    "name": "|678|Metacryl aldehit|Methacryl |29121990| |C4H6O |"
+  },
+  {
+    "cas": "108-62-3",
+    "name": "|679|Metaldehit |Metaldehyde |29125000| |C8H16O4 |"
+  },
+  {
+    "cas": "67-56-1",
+    "name": "|680|Metanol |Methanol |29051100| |CH4O |"
+  },
+  {
+    "cas": "124-63-0",
+    "name": "|681|Metan sunphonyl |Methane sulfonyl |29049000| |CH3ClO2S |"
+  },
+  {
+    "cas": "513-42-8",
+    "name": "|682|Methallanol |Methallyl alcohol|29052900| |C4H8O |"
+  },
+  {
+    "cas": "74-82-8",
+    "name": "|684|Metan |Methane |27111490| |CH4 |"
+  },
+  {
+    "cas": "67-56-1",
+    "name": "|685|Metanol |Methanol |29051100| |CH4O |"
+  },
+  {
+    "cas": "110-49-6",
+    "name": "|687|2-Methoxy etyl |2-Methoxy ethyl |29153990| |C5H10O3 |"
+  },
+  {
+    "cas": "563-45-1",
+    "name": "|688|3-Metyl -1-buten|3-Methyl -1 |29012990| |C5H10 |"
+  },
+  {
+    "cas": "96-33-3",
+    "name": "|689|Metyl acrylat |Methyl acrylate |29161200| |C4H6O2 |"
+  },
+  {
+    "cas": "78-78-4",
+    "name": "|690|2-Metyl- butan |2-methyl- butane |29011000| |C5H12 |"
+  },
+  {
+    "cas": "74-87-3",
+    "name": "|691|Metyl clorit |Methyl chloride |29031110| |CH3Cl |"
+  },
+  {
+    "cas": "74-83-9",
+    "name": "|692|Metyl bromit |Bromo methane |29033910| |CH3Br |"
+  },
+  {
+    "cas": "298-00-0",
+    "name": "|693|Metyl-parathion |Metyl-parathion |29199000| |(CH3O)2P(S)O|"
+  },
+  {
+    "cas": "79-22-1",
+    "name": "|696|Metyl cloformat |Methyl |29159090| |C2H3ClO2 |"
+  },
+  {
+    "cas": "115-10-6",
+    "name": "|697|Metyl ete |Methyl ether |29091900| |C2H6O |"
+  },
+  {
+    "cas": "1338-23-4",
+    "name": "|698|Metyl etyl keton|Methyl ethyl |29096000||C8H18O6 |"
+  },
+  {
+    "cas": "107-31-3",
+    "name": "|699|Metyl format |Methyl formate |29151300| |C2H4O2 |"
+  },
+  {
+    "cas": "60-34-4",
+    "name": "|700|Metyl hydrazin |Methyl hydrazine |29280090| |CH6N2 |"
+  },
+  {
+    "cas": "624-83-9",
+    "name": "|702|Metyl isoxyanat |Methyl isocyanate|29291090| |C2H3NO |"
+  },
+  {
+    "cas": "74-93-1",
+    "name": "|703|Metyl mercaptan |Methyl mercaptan |29309090| |CH4S |"
+  },
+  {
+    "cas": "556-64-9",
+    "name": "|704|Metyl thioxyanat|Methyl |29309090| |C2H3NS |"
+  },
+  {
+    "cas": "78-79-5",
+    "name": "|705|2-Metyl-1,3-buta|2-Methyl-1,3-buta|29012400| |C5H8 |"
+  },
+  {
+    "cas": "563-46-2",
+    "name": "|706|Metyl-1-buten |2-Methyl-1 |29012990| |C5H10 |"
+  },
+  {
+    "cas": "126-98-7",
+    "name": "|707|2-Metyl-2-Propen|2-Methyl-2- |29269000| |C4H5N |"
+  },
+  {
+    "cas": "75-55-8",
+    "name": "|709|2-Metyl-aziridin|2-Methyl-Aziridin|29339990| |C3H7N |"
+  },
+  {
+    "cas": "101-14-4",
+    "name": "|710|4,4’-Metyl |4,4’-Methylenebis|29215900| |C13H12Cl2N2 |"
+  },
+  {
+    "cas": "108-23-6",
+    "name": "|711|1-Metyl etyl |1-Methyl ethyl |29151300| |C4H7CIO2 |"
+  },
+  {
+    "cas": "624-83-9",
+    "name": "|712|Metyl isoxyanat |Methyl isocyanate|29291090| |C2H3NO |"
+  },
+  {
+    "cas": "75-56-9",
+    "name": "|713|Metyl oxiran |Methyl oxirane |29102000| |C3H6O |"
+  },
+  {
+    "cas": "78-82-0",
+    "name": "|714|2-Metyl-propan |2-Methyl-Propane |29269000| |C4H7N |"
+  },
+  {
+    "cas": "115-11-7",
+    "name": "|715|2-Metyl propen |2-Methyl propene |29012300| |C4H8 |"
+  },
+  {
+    "cas": "108-99-6",
+    "name": "|716|3-Metyl pyridin |3-Methyl pyridine|29333990| |C6H7N |"
+  },
+  {
+    "cas": "75-79-6",
+    "name": "|717|Metyl triclo |Methyl trichloro |29319090| |CH3Cl3Si |"
+  },
+  {
+    "cas": "107-98-2",
+    "name": "|718|1-Metoxy-2-propa|l-Methoxy-2- |29094900| |C4H10O2 |"
+  },
+  {
+    "cas": "79-20-9",
+    "name": "|721|Metyl axetat |Methyl acetate |29150990| |C3H6O2 |"
+  },
+  {
+    "cas": "623-42-7",
+    "name": "|722|Metyl butyrat |Methyln-butyrate |29156000| |C5H10O2 |"
+  },
+  {
+    "cas": "96-34-4",
+    "name": "|723|Metyl clo axetat|Methyl |29153990| |C3H5ClO2 |"
+  },
+  {
+    "cas": "75-54-7",
+    "name": "|724|Metyl diclo |Methyl dichloro |29319041| |CH4Cl2Si |"
+  },
+  {
+    "cas": "60-34-4",
+    "name": "|725|Metyl hydrazin |Methyl hydrazine |29280090| |CH6N2 |"
+  },
+  {
+    "cas": "108-11-2",
+    "name": "|726|Metyl isobutyl |Methyl isobutyl |9051900 | |C6H14O |"
+  },
+  {
+    "cas": "108-10-1",
+    "name": "|727|Metyl isobutyl |Methyl isobutyl |29141300| |C6H12O |"
+  },
+  {
+    "cas": "563-80-4",
+    "name": "|728|Metyl |Methyl |29141900| |C5H10O |"
+  },
+  {
+    "cas": "556-61-6",
+    "name": "|729|Metyl |Methyl |29309090| |C2H3NS |"
+  },
+  {
+    "cas": "556-24-1",
+    "name": "|730|Metyl isovalerat|Methyl |29156090| |C6H12O2 |"
+  },
+  {
+    "cas": "624-83-9",
+    "name": "|731|Metyl isoxyanat |Methyl isocyanate|29291000| |C2H3NO |"
+  },
+  {
+    "cas": "74-88-4",
+    "name": "|732|Metyl lotua |Iodo methane |29033990| |CH3I |"
+  },
+  {
+    "cas": "80-62-6",
+    "name": "|733|Metyl metacrylat|Methyl |29161410| |C5H8O2 |"
+  },
+  {
+    "cas": "681-84-5",
+    "name": "|734|Metyl |Methyl |29209090| |C4H12O4Si |"
+  },
+  {
+    "cas": "554-12-1",
+    "name": "|735|Metyl propionat |Methyl propionate|29155000| |C4H8O2 |"
+  },
+  {
+    "cas": "557-17-5",
+    "name": "|736|Metyl propyl ete|Methyl propyl |29091900| |C4H10O |"
+  },
+  {
+    "cas": "107-87-9",
+    "name": "|737|Metyl propyl |2-Pentanone |29141900| |C5H10O |"
+  },
+  {
+    "cas": "1634-04-4",
+    "name": "|738|Metyl tert-butyl|Methyl tert-butyl|29091900||C5H12O |"
+  },
+  {
+    "cas": "78-94-4",
+    "name": "|739|Metyl vinyl |Methyl vinyl |29141900| |C4H6O |"
+  },
+  {
+    "cas": "104-90-5",
+    "name": "|740|Metyl-5-etyl |2-Methyl-5-ethyl |29333990| |C8H11N |"
+  },
+  {
+    "cas": "109-87-5",
+    "name": "|741|Metylal |Dimethoxy methane|29110000| |C3H8O2 |"
+  },
+  {
+    "cas": "563-47-3",
+    "name": "|742|Metylallyl clo |Methyl allyl |29032900| |C4H7Cl |"
+  },
+  {
+    "cas": "108-84-9",
+    "name": "|743|Metylamyl axetat|Methyl amyl |29153900| |C8H16O2 |"
+  },
+  {
+    "cas": "108-87-2",
+    "name": "|744|Metyl cyclo |Methyl |29021900| |C7H14 |"
+  },
+  {
+    "cas": "583-60-8",
+    "name": "|746|Metyl |Methyl |29142200|;|C7H12O |"
+  },
+  {
+    "cas": "589-92-4",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "591-24-2",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "105-59-9",
+    "name": "|747|Metyl dietanol |Methyl diethanol |29221990| |C5H13ON |"
+  },
+  {
+    "cas": "534-22-5",
+    "name": "|748|2-Metylfuran |2-Methylfuran |29321900| |C5H6O |"
+  },
+  {
+    "cas": "109-02-4",
+    "name": "|749|4-Metyl |4-Methyl |29349990| |C5H11ON |"
+  },
+  {
+    "cas": "926-56-7",
+    "name": "|750|Metyl pentadien |Methyl pentadiene|29012990| |C6H10 |"
+  },
+  {
+    "cas": "590-36-3",
+    "name": "|751|2-Metyl |2-Methyl-2-pentan|29051900| |C6H14O |"
+  },
+  {
+    "cas": "149-74-6",
+    "name": "|752|Metyl phenyl |Methyl phenyl |29319090| |C7H8Cl2Si |"
+  },
+  {
+    "cas": "626-67-5",
+    "name": "|753|1-Metyl |1-Methyl |29333990| |C6H13N |"
+  },
+  {
+    "cas": "96-47-9",
+    "name": "|754|Metyl |2-Methyl |29321900| |C5H10O |"
+  },
+  {
+    "cas": "7786-34-7",
+    "name": "|755|Mevinphos |Mevinphos |29199000||C7H13O6P |"
+  },
+  {
+    "cas": "108-05-4",
+    "name": "|756|Monovinyl axetat|Vinyl acetate |29153200| |C4H6O2 |"
+  },
+  {
+    "cas": "6923-22-4",
+    "name": "|758|Monocrotopho |Monocrotophos |29241200||C7H14NO5P |"
+  },
+  {
+    "cas": "110-91-8",
+    "name": "|759|Morpholin |Morpholine |29349990| |C4H9ON |"
+  },
+  {
+    "cas": "108-44-1",
+    "name": "|760|toluidin |Toluidin |29214300|;|C7H9N |"
+  },
+  {
+    "cas": "95-53-4",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "109-69-3",
+    "name": "|761|N- butyl clorua |n-Butylchloride |29031990| |C4H9Cl |"
+  },
+  {
+    "cas": "100-37-8",
+    "name": "|762|N,n-dietyl amino|n,n-Diethyl amino|29221990| |C6H15ON |"
+  },
+  {
+    "cas": "100-36-7",
+    "name": "|763|N,n-Dietyl |n,n-Diethyl |29212900| |C6H16N2 |"
+  },
+  {
+    "cas": "127-19-5",
+    "name": "|764|N,N-Dimetyl |N,N-dimethyl |29241900| |C4H9NO |"
+  },
+  {
+    "cas": "68-12-2",
+    "name": "|765|N,N-Dimetyl |N,N-dimethyl |29241900| |C3H7NO |"
+  },
+  {
+    "cas": "121-69-7",
+    "name": "|766|N,N-Dimetyl |n,n-Dimethyl |29214200| |C8H11N |"
+  },
+  {
+    "cas": "108-01-0",
+    "name": "|767|N,n-dimetyl |n,n-Dimetyl amino|29221990| |C4H11ON |"
+  },
+  {
+    "cas": "99-97-8",
+    "name": "|768|N,n-dimetyl-p-to|n,n-Dimethyl-p- |29214300| |C9H13N |"
+  },
+  {
+    "cas": "140-31-8",
+    "name": "|769|N-amino etyl |n-Amino ethyl |29335990| |C6H15N3 |"
+  },
+  {
+    "cas": "110-43-0",
+    "name": "|770|N-amyl metyl |2-Heptanone |29141900| |C7H14O |"
+  },
+  {
+    "cas": "110-58-7",
+    "name": "|771|Pentyl amin |Penthyl amine |29211999| |C5H13N |"
+  },
+  {
+    "cas": "91-20-3",
+    "name": "|772|Naphthalen |Naphthalene |29029000| |C10H8 |"
+  },
+  {
+    "cas": "91-59-8",
+    "name": "|773|2-Naphtyl amin |2-naphthyl amine | |29213000 |C10H9N |"
+  },
+  {
+    "cas": "7440-23-5",
+    "name": "|774|Natri |Sodium |28051100||Na |"
+  },
+  {
+    "cas": "1302-42-7",
+    "name": "|775|Natri aluminat |Sodium aluminate |28419000||NaAlO2 |"
+  },
+  {
+    "cas": "300-76-5",
+    "name": "|776|Naled |Naled |29199000| |(CH3O)2P(O)O|"
+  },
+  {
+    "cas": "9016-45-9",
+    "name": "|777|Nonylphenol |Ethoxylated |29072990||C15H23O.(C2H|"
+  },
+  {
+    "cas": "104-40-5",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "144-55-8",
+    "name": "|780|Natri bicacbonat|Sodium hydrogen |28363000| |NaHCO3 |"
+  },
+  {
+    "cas": "7789-38-0",
+    "name": "|781|Natri bromat |Sodium bromate |28299090||NaBrO3 |"
+  },
+  {
+    "cas": "3926-62-3",
+    "name": "|782|Natri clo axetat|Sodium |29154000||C2H3O2ClNa |"
+  },
+  {
+    "cas": "7758-19-2",
+    "name": "|783|Natri clorit |Sodium chlorite |28289090||NaClO2 |"
+  },
+  {
+    "cas": "62-74-8",
+    "name": "|784|Natri flo acetat|Sodium |29159090| |C2H3FO2.Na |"
+  },
+  {
+    "cas": "7775-09-9",
+    "name": "|785|Natri clorat |Sodium chlorate |2829110 ||NaClO3 |"
+  },
+  {
+    "cas": "831-52-7",
+    "name": "|786|Natri picramat |Sodium picramate |29089900| |C6H4N3NaO5 |"
+  },
+  {
+    "cas": "7681-49-4",
+    "name": "|788|Natri florua |Sodium fluoride |28261900||NaF |"
+  },
+  {
+    "cas": "1333-83-1",
+    "name": "|789|Natri |Sodium |28261900||NaHF2 |"
+  },
+  {
+    "cas": "1310-73-2",
+    "name": "|791|Natri hydroxit |Sodium hydroxide |28151200||NaOH |"
+  },
+  {
+    "cas": "124-41-4",
+    "name": "|793|Natri metylat |Sodium methylate |29051900| |CH3NaO |"
+  },
+  {
+    "cas": "1313-59-3",
+    "name": "|795|Natri oxit |Sodium oxide |28500000||Na2O |"
+  },
+  {
+    "cas": "7632-04-4",
+    "name": "|797|Natri perborat |Sodium perborate |28403000||NaBO3 |"
+  },
+  {
+    "cas": "7601-89-0",
+    "name": "|798|Natri perclorat |Sodium |28299010||NaClO4 |"
+  },
+  {
+    "cas": "7775-27-1",
+    "name": "|799|Natri persunphat|Sodium persulfate|28334000||Na2S2O8 |"
+  },
+  {
+    "cas": "6834-92-0",
+    "name": "|801|Natri silicat |Sodium |28391100||Na2SiO3 |"
+  },
+  {
+    "cas": "1313-82-2",
+    "name": "|802|Natri sunfua |Sodium sulfide |28301000||Na2S |"
+  },
+  {
+    "cas": "1330-43-4",
+    "name": "|803|Natri tetraborat|Sodium |28401100||Na2B4O7 |"
+  },
+  {
+    "cas": "7758-29-4",
+    "name": "|804|Natri |Sodium |283531 ||Na5P3O10 |"
+  },
+  {
+    "cas": "7775-14-6",
+    "name": "|805|Natri |Sodium dithionite|28311000||Na2S2O4 |"
+  },
+  {
+    "cas": "592-34-7",
+    "name": "|807|N-butyl clo |N-Butyl |29159090| |C5H9O2Cl |"
+  },
+  {
+    "cas": "592-84-7",
+    "name": "|808|N-butyl format |N-Butyl formate |29151300| |C5H10O2 |"
+  },
+  {
+    "cas": "111-36-4",
+    "name": "|809|N-Butyl |N-Butyl |29291090| |C5H9NO |"
+  },
+  {
+    "cas": "97-88-1",
+    "name": "|810|N-butyl |N-Butyl |29161490| |C8H14O2 |"
+  },
+  {
+    "cas": "109-73-9",
+    "name": "|811|N-butyl amin |n-Butyl amine |29211900| |C4H11N |"
+  },
+  {
+    "cas": "124-18-5",
+    "name": "|812|N-decan |N-Decane |29011000| |C10H22 |"
+  },
+  {
+    "cas": "7440-01-9",
+    "name": "|813|Neon |Neon |28042900||Ne |"
+  },
+  {
+    "cas": "103-69-5",
+    "name": "|814|N-etylanilin |N-Ethylaniline |29214200| |C8H11N |"
+  },
+  {
+    "cas": "139-87-7",
+    "name": "|815|N-etyl diethanol|N-Ethyl diethanol|29221990| |C6H15O2N |"
+  },
+  {
+    "cas": "111-71-7",
+    "name": "|816|N-heptanaldehit |N-Heptanaldehyde |29121990| |C7H14O |"
+  },
+  {
+    "cas": "142-82-5",
+    "name": "|817|N-hepten |N-Heptane |29011000| |C7H16 |"
+  },
+  {
+    "cas": "1299-86-1",
+    "name": "|818|Nhôm cacbua |Aluminium carbide|28499000||Al4C3 |"
+  },
+  {
+    "cas": "7446-70-0",
+    "name": "|819|Nhôm clorua |Aluminium |28273200||AlCl3 |"
+  },
+  {
+    "cas": "54-11-5",
+    "name": "|824|Nicotin |Nicotine |29339990| |C10H14N2 |"
+  },
+  {
+    "cas": "65-30-5",
+    "name": "|826|Nicotin sulfat |Nicotine sulfate |29339990| |C20H30N4O4S |"
+  },
+  {
+    "cas": "65-31-6",
+    "name": "|827|Nicotin tartrat |Nicotine tartrate|29339990| |C18H26N2O12 |"
+  },
+  {
+    "cas": "7727-37-9",
+    "name": "|830|Nitơ |Nitrogen |28043000||N2 |"
+  },
+  {
+    "cas": "7697-37-2",
+    "name": "|831|Nitric axit |Nitric acid |28080000||HNO3 |"
+  },
+  {
+    "cas": "99-09-2",
+    "name": "|833|Nitro anilin |Nitro aniline |29214200|; |C6H6O2N2 |"
+  },
+  {
+    "cas": "100-01-6",
+    "name": "|. | | | |;| |"
+  },
+  {
+    "cas": "88-74-4",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "100-17-4",
+    "name": "|834|Nitro anisol |1-Methoxy-2-nitro|29093000| |C7H7O3N |"
+  },
+  {
+    "cas": "98-95-3",
+    "name": "|835|Nitro benzen |Nitro benzene |29042090| |C6H5O2N |"
+  },
+  {
+    "cas": "92-93-3",
+    "name": "|836|4-Nitro biphenyl|4-Nitro biphenyl |29042090| |C12H9NO2 |"
+  },
+  {
+    "cas": "138-89-6",
+    "name": "|837|P-Nitrosodimetyl|P-Nitroso |29214200| |C8H10ON2 |"
+  },
+  {
+    "cas": "9004-70-0",
+    "name": "|838|Nitroxenlulo |Nitro cellulose |39122011||--- |"
+  },
+  {
+    "cas": "1836-75-5",
+    "name": "|839|Nitrofen |Nitrofen |29093000||C12H7O3NCl2 |"
+  },
+  {
+    "cas": "55-63-0",
+    "name": "|841|Nitro glycerin |Nitro glycerin |29209090| |C3H5N3O9 |"
+  },
+  {
+    "cas": "86-57-7",
+    "name": "|842|2-Nitro |2- |29042090| |C10H7O2N |"
+  },
+  {
+    "cas": "100-02-7",
+    "name": "|843|Nitro phenol |Nitro phenol |29089900|;|C6H5O3N |"
+  },
+  {
+    "cas": "554-84-7",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "88-75-5",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "108-03-2",
+    "name": "|844|Nifro propan |Nitro propane |29042090|;|C3H7O2N |"
+  },
+  {
+    "cas": "79-46-9",
+    "name": "|. | | | | | |"
+  },
+  {
+    "cas": "99-08-1",
+    "name": "|845|Nitro toluen |Nitro toluene |29042090|; |C7H7O2N |"
+  },
+  {
+    "cas": "88-72-2",
+    "name": "|. | | | |; | |"
+  },
+  {
+    "cas": "99-99-0",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "7783-54-2",
+    "name": "|846|Nitro triflorua |Nitrogen |28129000||NF3 |"
+  },
+  {
+    "cas": "79-16-3",
+    "name": "|847|N-Metyl acetamit|N-Methyl |29241900| |C3H7NO |"
+  },
+  {
+    "cas": "479-45-8",
+    "name": "|848|N-Metyl-n, |N-Methyl-n,2,4,6-|36020000| |C7H5N5O8 |"
+  },
+  {
+    "cas": "100-61-8",
+    "name": "|849|N-metyl anilin |N-Methyl aniline |29214200| |C7H9N |"
+  },
+  {
+    "cas": "110-68-9",
+    "name": "|850|N-Metyl butyl |N-Methyl butyl |29211900| |C5H13N |"
+  },
+  {
+    "cas": "111-84-2",
+    "name": "|851|Nonan |Nonane |29011000| |C9H18 |"
+  },
+  {
+    "cas": "121-46-0",
+    "name": "|853|Norbornadien |2,5 |29021900| |C7H8 |"
+  },
+  {
+    "cas": "71-23-8",
+    "name": "|856|N-propanol |Propan-1 -ol |29051200| |C3H8O |"
+  },
+  {
+    "cas": "103-65-1",
+    "name": "|857|N-propybenzen |N-Propyl benzene |29029090| |C9H12 |"
+  },
+  {
+    "cas": "109-60-4",
+    "name": "|858|N-propyl axetat |Propyl acetate |29153990| |C5H10O2 |"
+  },
+  {
+    "cas": "107-08-4",
+    "name": "|859|N-propyl iođua |1-Iodopropane |29033990| |C3H7I |"
+  },
+  {
+    "cas": "110-78-1",
+    "name": "|860|N-Propyl |N-Propyl |29291090| |C4H7ON |"
+  },
+  {
+    "cas": "97-56-3",
+    "name": "|861|O-Aminoazo |O-Aminoazotoluene|29214900| |C14H15N3 |"
+  },
+  {
+    "cas": "90-04-0",
+    "name": "|862|O-anisidin |o-Anisidine |29222900| |C7H9ON |"
+  },
+  {
+    "cas": "95-49-8",
+    "name": "|863|O-Clo toluen |O-Clo toluen |29039900| |C7H7Cl |"
+  },
+  {
+    "cas": "124-13-0",
+    "name": "|864|Ocryl aldehit |Octanal |29121900| |C8H16O |"
+  },
+  {
+    "cas": "115-25-3",
+    "name": "|867|Octaflo |Octafluoro |29038990| |C4F8 |"
+  },
+  {
+    "cas": "111-65-9",
+    "name": "|868|Octan |Octane |29011000| |C8H18 |"
+  },
+  {
+    "cas": "301-12-2",
+    "name": "|871|Oxydemeton-metyl|S-[2-(Ethylsulfin|29309090| |C15H15O4PS2 |"
+  },
+  {
+    "cas": "95-50-1",
+    "name": "|872|O-diclo benzen |o-Dichloro |29039100| |C6H4Cl2 |"
+  },
+  {
+    "cas": "8014-95-7",
+    "name": "|873|Oleum |Oleum |28070000||H2SO4*nSO3 |"
+  },
+  {
+    "cas": "2588-05-8",
+    "name": "|874|oo-Dietyl s-etyl|oo-Diethyl |29309090||C7H17O4PS2 |"
+  },
+  {
+    "cas": "2588-06-9",
+    "name": "|875|oo-Dietyl s-etyl|oo-Diethyl |29309090||C7H17O5PS2 |"
+  },
+  {
+    "cas": "78-52-4",
+    "name": "|876|oo-Dietyl |oo-Diethyl | |78-52-4 |C8H19O2PS3 |"
+  },
+  {
+    "cas": "3309-68-0",
+    "name": "|877|oo-Dietyl |oo-Diethyl |29309090||C8H19O2PS3 |"
+  },
+  {
+    "cas": "2600-69-3",
+    "name": "|878|oo-Dietyl s- |oo-Diethyl |29309090||C7H17O3PS2 |"
+  },
+  {
+    "cas": "119-93-7",
+    "name": "|880|O-tolidin |O-Tolidine |29215900| |C14H16N2 |"
+  },
+  {
+    "cas": "612-82-8",
+    "name": "|881|O-tolidin |O-Tolidine |29215900| |C14H18N2Cl2 |"
+  },
+  {
+    "cas": "7782-44-7",
+    "name": "|882|Oxy |Oxygen |28044000||O2 |"
+  },
+  {
+    "cas": "7783-41-7",
+    "name": "|883|Oxy diflorua |Oxygen difluoride|28129000||F2O |"
+  },
+  {
+    "cas": "2597-07-6",
+    "name": "|884|Oxydisunfoton |Oxydisulfoton |29309090||C8H19O3PS3 |"
+  },
+  {
+    "cas": "7783-41-7",
+    "name": "|885|Oxygen diflorit |Oxygen difloride |28129000||F2O |"
+  },
+  {
+    "cas": "104-94-9",
+    "name": "|886|P-anisidin |p-Anisidine |29222900| |C7H9ON |"
+  },
+  {
+    "cas": "123-63-7",
+    "name": "|887|Paraldehit |Paraldehyde |29125000| |C6H12O3 |"
+  },
+  {
+    "cas": "311-45-5",
+    "name": "|888|Paraoxon (dietyl|Paraoxon (diethyl|29199000| |C10H14NO6P |"
+  },
+  {
+    "cas": "1910-42-5",
+    "name": "|889|Paraquat |Paraquate |29339990||C12H14Cl2N2 |"
+  },
+  {
+    "cas": "56-38-2",
+    "name": "|890|Parathion |Parathion |29201100| |C10H14NO5PS |"
+  },
+  {
+    "cas": "298-00-0",
+    "name": "|891|Parathion-metyl |Parathion-methyl |29201100| |C8H10NO5PS |"
+  },
+  {
+    "cas": "106-43-4",
+    "name": "|892|P-clo toluen |1-chloro-4-methyl|29039900| |C7H7Cl |"
+  },
+  {
+    "cas": "115-90-2",
+    "name": "|893|Pensulfothion |Pensulfothion |29309090| |C11H17O4PS2 |"
+  },
+  {
+    "cas": "1321-64-8",
+    "name": "|897|Pentaclo |Pentachloronaphth|29039900||C10H3Cl5 |"
+  },
+  {
+    "cas": "76-01-7",
+    "name": "|898|Pentaclo etan |Pentachloro |29031990| |C2HCl5 |"
+  },
+  {
+    "cas": "87-86-5",
+    "name": "|899|Pentaclophenol |Pentachlorophenol|29081100| |C6HCl5O |"
+  },
+  {
+    "cas": "504-60-9",
+    "name": "|900|1,3-Pentadien |1,3-Pentadiene |29012990| |C5H8 |"
+  },
+  {
+    "cas": "78-11-5",
+    "name": "|901|pentaerythritol |pentaerythritol |29209090| |C5H8N4O12 |"
+  },
+  {
+    "cas": "123-54-6",
+    "name": "|903|Pentan-2,4-dion |Pentane-2,4-dione|29141900| |C5H8O2 |"
+  },
+  {
+    "cas": "109-66-0",
+    "name": "|904|Pentan |Pentane |29011000| |C5H12 |"
+  },
+  {
+    "cas": "6032-29-7",
+    "name": "|905|Pentanol |2-Pentanol; |29051900||C5H12O |"
+  },
+  {
+    "cas": "71-41-0",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "2310-17-0",
+    "name": "|906|Phosalon |Phosalone |29309090||C12H15ClNO4P|"
+  },
+  {
+    "cas": "1120-71-4",
+    "name": "|908|1,3-Propan |1,3-Propane |29329990||C3H6O3S |"
+  },
+  {
+    "cas": "1918-16-7",
+    "name": "|909|Propaclo |Propachlor |29241200||C11H14ClNO |"
+  },
+  {
+    "cas": "709-98-8",
+    "name": "|910|Propanil |Propanil |29241200| |C9H9Cl2NO |"
+  },
+  {
+    "cas": "2312-35-8",
+    "name": "|911|Propargit |Propachlor |29309090||C19H26O4S |"
+  },
+  {
+    "cas": "109-67-1",
+    "name": "|914|Penten |Pentene |29012990|;|C5H10 |"
+  },
+  {
+    "cas": "646-04-8",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "627-20-3",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "79-21-0",
+    "name": "|915|Peraxetic axit |Peracetic acid |29159090| |C2H4O3 |"
+  },
+  {
+    "cas": "594-42-3",
+    "name": "|916|Perclo metyl |Perchloro methyl |29309090| |CCl4S |"
+  },
+  {
+    "cas": "1691-99-2",
+    "name": "|917|Perflo octan |Perfluorooctane |29350000||--- |"
+  },
+  {
+    "cas": "1763-23-1",
+    "name": "| |perflo octan |perfluorooctane | || |"
+  },
+  {
+    "cas": "2795-39-3",
+    "name": "| | | | || |"
+  },
+  {
+    "cas": "307-35-7",
+    "name": "| | | | |,| |"
+  },
+  {
+    "cas": "4151-50-2",
+    "name": "| | | | || |"
+  },
+  {
+    "cas": "382-21-8",
+    "name": "|918|PFIB: |1-Propene, |29033990| |C4F8 |"
+  },
+  {
+    "cas": "156-43-4",
+    "name": "|919|Phenetidin |Phenetidine |29222900| |C8H11ON |"
+  },
+  {
+    "cas": "108-95-2",
+    "name": "|920|Phenol |Phenol |29071100| |C6H6O |"
+  },
+  {
+    "cas": "77-09-8",
+    "name": "|921|Phenol phthalein|Phenolphthalein |29329990| |C20H14O4 |"
+  },
+  {
+    "cas": "1885-14-9",
+    "name": "|922|Phenyl clo fomat|Phenyl |29159090||C7H5ClO2 |"
+  },
+  {
+    "cas": "103-71-9",
+    "name": "|923|Phenyl isocyanat|Phenyl isocyanate|29291090| |C7H5ON |"
+  },
+  {
+    "cas": "108-98-5",
+    "name": "|924|Phenyl mercaptan|Phenyl mercaptan |29309090| |C6H6S |"
+  },
+  {
+    "cas": "62-53-3",
+    "name": "|925|Phenyl amin |Phenyl amine |29214100| |C6H7N |"
+  },
+  {
+    "cas": "100-63-0",
+    "name": "|926|Phenyl hydrazin |Phenyl hydrazine |29280090| |C6H15N2 |"
+  },
+  {
+    "cas": "644-97-3",
+    "name": "|927|Phenyl photpho |Phenylphosphorus |29319090| |C6H5Cl2P |"
+  },
+  {
+    "cas": "3497-00-5",
+    "name": "|928|Phenyl photpho |Phenyl phosphorus|29319090||C6H5Cl2SP |"
+  },
+  {
+    "cas": "98-13-5",
+    "name": "|929|Phenyl triclo |Phenyl trichloro |29319090| |C6H5Cl3Si |"
+  },
+  {
+    "cas": "298-02-2",
+    "name": "|930|Phorat |Phorate |29309090| |C7H17O2PS3 |"
+  },
+  {
+    "cas": "4104-14-7",
+    "name": "|931|Phosacetim |Phosacetim |29299090||C14H13Cl2N2O|"
+  },
+  {
+    "cas": "2310-17-0",
+    "name": "|932|Phosalon |Phosalone |29349990||C12H15O4NClS|"
+  },
+  {
+    "cas": "7723-14-0",
+    "name": "|934|Photpho (trắng, |Phosphorus |28047000||P4 |"
+  },
+  {
+    "cas": "7719-12-2",
+    "name": "|935|Phosphorus |Phosphorus |28121000||PCl3 |"
+  },
+  {
+    "cas": "7803-51-2",
+    "name": "|936|Photpho |Phosphorus |28121000||PH3 |"
+  },
+  {
+    "cas": "1314-80-3",
+    "name": "|938|Photpho |Phosphorus |28139000||P2S5 |"
+  },
+  {
+    "cas": "1314-56-3",
+    "name": "|939|Photpho pentoxit|Phosphorus |28091000||P2O5 |"
+  },
+  {
+    "cas": "1314-85-8",
+    "name": "|940|Photpho |Phosphorus |28139000||P4S3 |"
+  },
+  {
+    "cas": "85-44-9",
+    "name": "|941|Phthalic |Phthalic |29173500| |C8H4O3 |"
+  },
+  {
+    "cas": "464-07-3",
+    "name": "|943|Pinacolyl |Pinacolyl |29051900| |C6H14O |"
+  },
+  {
+    "cas": "110-85-0",
+    "name": "|944|Piperazin |Piperazine |29335990| |C4H10N2 |"
+  },
+  {
+    "cas": "4676-39-5",
+    "name": "|945|Piperonyl metyl |3,4 - methylene |29329200||C10H10O3 |"
+  },
+  {
+    "cas": "100-00-5",
+    "name": "|946|p-Nitro clo |p-Nitro chloro |29049000| |C6H4O2NCl |"
+  },
+  {
+    "cas": "120-57-0",
+    "name": "|947|Piperonal |Piperonal |29329300| |C8H6O3 |"
+  },
+  {
+    "cas": "5836-73-7",
+    "name": "|951|Promurit |Promurit |29309090||C7H6Cl2N4S |"
+  },
+  {
+    "cas": "463-49-0",
+    "name": "|952|1,2-Propadien |1,2-Propadiene |29012990| |C3H4 |"
+  },
+  {
+    "cas": "75-31-0",
+    "name": "|953|2-Propan amin |2-Propanamine |29211900| |C3H9N |"
+  },
+  {
+    "cas": "74-98-6",
+    "name": "|954|Propan |Propane |27111200| |C3H8 |"
+  },
+  {
+    "cas": "57-55-6",
+    "name": "|955|Propane-1,2-diol|Propane-1,2-diol |29053200| |C3H8O2 |"
+  },
+  {
+    "cas": "79-06-1",
+    "name": "|956|2-Propen amit |2- Propen amit |29241900| |C3H5NO |"
+  },
+  {
+    "cas": "115-07-1",
+    "name": "|958|1-Propen |1-Propene |27111490| |C3H6 |"
+  },
+  {
+    "cas": "107-12-0",
+    "name": "|959|Propen nitril |Propionitrile |29242990| |C3H5N |"
+  },
+  {
+    "cas": "814-68-6",
+    "name": "|960|Propenoyl clorua|Acrylyl chloride |29161900| |C3H3ClO |"
+  },
+  {
+    "cas": "123-38-6",
+    "name": "|961|Propionaldehit |Propionaldehyde |29121990| |C3H6O |"
+  },
+  {
+    "cas": "123-62-6",
+    "name": "|962|Propionic |Propionic |29159090| |C6H10O3 |"
+  },
+  {
+    "cas": "79-03-8",
+    "name": "|963|Propionyl clorua|Propionyl |29159090| |C3H5OCl |"
+  },
+  {
+    "cas": "114-26-1",
+    "name": "|964|Propoxur |Propoxure |29242990| |C11H15NO3 |"
+  },
+  {
+    "cas": "109-61-5",
+    "name": "|965|Propyl cloformat|Propyl |29159090| |C4H7ClO2 |"
+  },
+  {
+    "cas": "110-74-7",
+    "name": "|966|Propyl format |Propyl formate |29151300| |C4H8O2 |"
+  },
+  {
+    "cas": "107-10-8",
+    "name": "|967|Propyl amin |Propyl amine |29211900| |C3H9N |"
+  },
+  {
+    "cas": "75-56-9",
+    "name": "|968|Propylen oxit |Propylen oxide |29102000| |C3H6O |"
+  },
+  {
+    "cas": "6842-15-5",
+    "name": "|969|Propylen |Propylene |29012990||C12H24 |"
+  },
+  {
+    "cas": "78-90-0",
+    "name": "|970|1,2-Propylen |1,2-Propylene |29212900| |C3H10N2 |"
+  },
+  {
+    "cas": "141-57-1",
+    "name": "|971|Propyltriclo |Propyl trichloro |29319090| |C3H7Cl3Si |"
+  },
+  {
+    "cas": "74-99-7",
+    "name": "|972|1 -Propyn |1-Propyne |29012990| |C3H4 |"
+  },
+  {
+    "cas": "106-49-0",
+    "name": "|973|P-Toluidin |P-Toluidin |29214300| |C7H9N |"
+  },
+  {
+    "cas": "108-34-9",
+    "name": "|974|Pyrazoxon |Pyrazoxon |29331990| |C8H15N2O4P |"
+  },
+  {
+    "cas": "110-86-1",
+    "name": "|975|Pyridin |Pyridine |29333100| |C5H5N |"
+  },
+  {
+    "cas": "123-75-1",
+    "name": "|976|Pyrolidin |Pyrrolidine |29339990| |C4H9N |"
+  },
+  {
+    "cas": "91-22-5",
+    "name": "|977|Quinolin |Quinoline |29334900| |C9H7N |"
+  },
+  {
+    "cas": "82-68-8",
+    "name": "|978|Quintozen |pentachloronitrob|29049000| |C6Cl5NO2 |"
+  },
+  {
+    "cas": "108-46-3",
+    "name": "|979|Resorcinol |Resorcinol |29072100| |C6H6O2 |"
+  },
+  {
+    "cas": "83-79-4",
+    "name": "|980|Rotenon |Rotenone |29329990| |C23H22O6 |"
+  },
+  {
+    "cas": "107-18-6",
+    "name": "|981|Rượu Allyl |Allyl alcohol |29052900| |C3H6O |"
+  },
+  {
+    "cas": "107-19-7",
+    "name": "|982|Rượu propargyl |Propargyl alcohol|29052900| |C3H4O |"
+  },
+  {
+    "cas": "7705-08-0",
+    "name": "|983|Sắt (III) clorua|Iron(IIl) |28273920||FeCl3 |"
+  },
+  {
+    "cas": "7440-20-2",
+    "name": "|985|scandi |scandium |28053000||Sc |"
+  },
+  {
+    "cas": "7782-49-2",
+    "name": "|986|Selen (dạng bột)|Selenium (powder)|28049000||Se |"
+  },
+  {
+    "cas": "7746-08-4",
+    "name": "|987|Selen dioxit |Selenium dioxide |28112990||SeO2 |"
+  },
+  {
+    "cas": "7488-56-4",
+    "name": "|988|Selen disunfua |Selenium |28139000||SeS2 |"
+  },
+  {
+    "cas": "7783-79-1",
+    "name": "|989|Selen hexaflorua|Selenium |2812 ||SeF6 |"
+  },
+  {
+    "cas": "7791-23-3",
+    "name": "|990|Selen oxyclorit |Selenium |28129000||SeCl2O |"
+  },
+  {
+    "cas": "7803-62-5",
+    "name": "|991|Silan |Silane |28500000||SiH4 |"
+  },
+  {
+    "cas": "7440-21-3",
+    "name": "|992|Silic |Silicon |28046100||Si |"
+  },
+  {
+    "cas": "7783-61-1",
+    "name": "|994|Silicon |Silicon |28261900||SiF4 |"
+  },
+  {
+    "cas": "93-72-1",
+    "name": "|995|Silvex |Silvex |29189900| |C9H7O3Cl3 |"
+  },
+  {
+    "cas": "122-34-9",
+    "name": "|996|Simazin |Simazine |29339990| |C7H12ClN5 |"
+  },
+  {
+    "cas": "1633-05-2",
+    "name": "|997|Stronti carbonat|Strontium |28369200||SrCO3 |"
+  },
+  {
+    "cas": "1314-18-7",
+    "name": "|999|Stronti peroxit |Strontium |28164000||SrO2 |"
+  },
+  {
+    "cas": "57-24-9",
+    "name": "|100|Strychnin |Strychnine |29339990| |C21H22H2O2 |"
+  },
+  {
+    "cas": "60-41-3",
+    "name": "|100|Strychnin |Strychnine |29399990| |C21H22O6N2S |"
+  },
+  {
+    "cas": "3689-24-5",
+    "name": "|100|Sulfotepp |Sulfotepp |29201900||C8H20O5P2S2 |"
+  },
+  {
+    "cas": "2699-79-8",
+    "name": "|100|Sulphuryl florua|Sulfuryl fluoride|28261900||SF2O2 |"
+  },
+  {
+    "cas": "107-49-3",
+    "name": "|100|T.E.P.P - |T.E.P.P - |29199000| |C8H20O7P2 |"
+  },
+  {
+    "cas": "7440-28-0",
+    "name": "|100|Tali |Thallium |81125200||Tl |"
+  },
+  {
+    "cas": "7446-18-6",
+    "name": "|100|Tali sunphat |Thallium sulfate |28332990||Tl2(SO4) |"
+  },
+  {
+    "cas": "117-18-0",
+    "name": "|100|Technazen |Technazene |29049000| |C6HCl4NO2 |"
+  },
+  {
+    "cas": "731-27-1",
+    "name": "|101|Tolylfluanid |Tolylfluanid |29309090| |C10H13Cl2FN2|"
+  },
+  {
+    "cas": "52-68-6",
+    "name": "|101|Trichlorfon |Trichlorfon |29319090| |C4H8Cl3O4P |"
+  },
+  {
+    "cas": "1582-09-8",
+    "name": "|101|Trifluralin |Trifluralin |29049000||C13H16F3N3O4|"
+  },
+  {
+    "cas": "7783-80-4",
+    "name": "|101|Telu hexaflorua |Tellurium |28261900||TeF6 |"
+  },
+  {
+    "cas": "586-62-9",
+    "name": "|101|Terpinolen |Terpinolene |29021900| |C11H16 |"
+  },
+  {
+    "cas": "1663-39-4",
+    "name": "|101|Tert-butyl |Tert-butyl |291590 ||C7H12O2 |"
+  },
+  {
+    "cas": "507-20-0",
+    "name": "|101|Tert-butyl |T |29031990| |C4H9Cl |"
+  },
+  {
+    "cas": "1609-86-5",
+    "name": "|102|Tert-butyl |Tert-Butyl |29291090||C5H9NO |"
+  },
+  {
+    "cas": "109-13-7",
+    "name": "|102|Tert-butyl |Tert-butyl peroxy|29159090| |C8H16O3 |"
+  },
+  {
+    "cas": "107-71-1",
+    "name": "|102|Tert-butyl |Tert-butyl |29159090| |C6H12O3 |"
+  },
+  {
+    "cas": "81-15-2",
+    "name": "|102|5-Tert-Butyl-2,4|5-tert-Butyl-2,4,|29049000| |C12H15N3O6 |"
+  },
+  {
+    "cas": "2372-21-6",
+    "name": "|102|Tert-butylperoxy|Tert-butyl peroxy|29209090||C8H16O4 |"
+  },
+  {
+    "cas": "1931-62-0",
+    "name": "|102|Tert-butyl |Tert-butyl peroxy|29189900||C8H12O5 |"
+  },
+  {
+    "cas": "927-07-1",
+    "name": "|102|Tert-butylperoxy|Tert-butylperoxy |29189900| |C9H18O3 |"
+  },
+  {
+    "cas": "597-64-8",
+    "name": "|102|Tetra etyl thiếc|Tetraethyltin |29319080| |C8H20Sn |"
+  },
+  {
+    "cas": "79-27-6",
+    "name": "|102|Tetrabrom etan |Tetrabromo ethane|29033919| |C2H2Br4 |"
+  },
+  {
+    "cas": "1746-01-6",
+    "name": "|102|2,3,7,8-Tetraclo|2,3,7,8 |29329990||C12H4Cl4O2 |"
+  },
+  {
+    "cas": "79-34-5",
+    "name": "|103|1,1,2,2-Tetraclo|1,1,2,2-Tetrachlo|29031990| |C2H2Cl4 |"
+  },
+  {
+    "cas": "127-18-4",
+    "name": "|103|Tetraclo etylen |Tetrachloro |29032300| |C2Cl4 |"
+  },
+  {
+    "cas": "58-90-2",
+    "name": "|103|Tetraclo phenol |2,3,4,6-Tetrachlo|29081900| |C6H2Cl4O |"
+  },
+  {
+    "cas": "630-20-6",
+    "name": "|103|1,1,1,2-Tetraclo|1,1,1,2-Tetra |29031990| |C2H2Cl4 |"
+  },
+  {
+    "cas": "78-10-4",
+    "name": "|103|Tetraetyl |Tetraethyl |29209090| |C8H20O4Si |"
+  },
+  {
+    "cas": "112-57-2",
+    "name": "|103|Tetraetyl |Tetraethyl |29212900| |C8H23N5 |"
+  },
+  {
+    "cas": "75-73-0",
+    "name": "|103|Tetraflo metan |Tetrafluoro |29033990| |CF4 |"
+  },
+  {
+    "cas": "116-14-3",
+    "name": "|103|Tetraflo etylen |Tetrafluoro |29033990| |C2F4 |"
+  },
+  {
+    "cas": "533-74-4",
+    "name": "|103|Tetrahydro-3,5- |Tetrahydro-3,5-di|29349990| |C5H10N2S2 |"
+  },
+  {
+    "cas": "109-99-9",
+    "name": "|104|Tetrahydro furan|Tetrahydro furan |29321100| |C4H8O |"
+  },
+  {
+    "cas": "4795-29-3",
+    "name": "|104|Tetrahydro |Furfuryl amine, |29321900||C5H11ON |"
+  },
+  {
+    "cas": "85-43-8",
+    "name": "|104|Tetrahydro |Tetrahydro |29172000| |C8H8O3 |"
+  },
+  {
+    "cas": "110-01-0",
+    "name": "|104|Tetrahydro |Tetrahydro |29349990| |C4H8S |"
+  },
+  {
+    "cas": "80-12-6",
+    "name": "|104|Tetrametylen |Tetramethylene |29349990| |C4H8N4O4S12 |"
+  },
+  {
+    "cas": "75-76-3",
+    "name": "|104|Tetrametyl silan|Tetramethylsilane|29319090| |C4H12Si |"
+  },
+  {
+    "cas": "75-59-2",
+    "name": "|104|Tetrametyl |Tetramethyiammoni|29239000| |C4H13ON |"
+  },
+  {
+    "cas": "7722-88-5",
+    "name": "|104|Tetranatri |Tetrasodium |28353910||Na4O7P2 |"
+  },
+  {
+    "cas": "509-14-8",
+    "name": "|104|Tetranitrometan |Tetranitro |29042090| |CN4O8 |"
+  },
+  {
+    "cas": "3087-37-4",
+    "name": "|104|Tetrapropyl |Tetrapropylorthot|29051900||C12H28O4Ti |"
+  },
+  {
+    "cas": "50-35-1",
+    "name": "|105|Thalidomit |Thalidomide |29339990| |C13H10N2O4 |"
+  },
+  {
+    "cas": "148-79-8",
+    "name": "|105|Thiabendazol |Thiabendazole |29341000| |C10H7N3S |"
+  },
+  {
+    "cas": "3268-49-3",
+    "name": "|105|4-Thiapentanal |4-Thiapentanal |29309090||C4H8OS |"
+  },
+  {
+    "cas": "60-24-2",
+    "name": "|105|Thioglycol |Thiomonoglycol |29309090| |C2H6OS |"
+  },
+  {
+    "cas": "640-15-3",
+    "name": "|105|Thiometon |Thiometon |29309090| |C6H15O2S3P |"
+  },
+  {
+    "cas": "297-97-2",
+    "name": "|105|Thionazin |Thionazin |29339990| |C8H13N2O3PS |"
+  },
+  {
+    "cas": "110-02-1",
+    "name": "|105|Thiophen |Thiophene |29349990| |C4H4S |"
+  },
+  {
+    "cas": "62-56-6",
+    "name": "|105|Thiourea |Thiourea |29309090| |CH4N2S |"
+  },
+  {
+    "cas": "1758-73-2",
+    "name": "|105|Thiourea dioxit |Thiourea dioxide |29309090||CH4O2N2S |"
+  },
+  {
+    "cas": "137-26-8",
+    "name": "|105|Thiram |Thiram |29303000| |C6H12N2S4 |"
+  },
+  {
+    "cas": "132-33-2",
+    "name": "|106|Thorin |Thorine |29319090| |C16H13O11N2S|"
+  },
+  {
+    "cas": "89-83-8",
+    "name": "|106|Thymol |Thymol |29071900| |C10H14O |"
+  },
+  {
+    "cas": "7646-78-8",
+    "name": "|106|Thiếc (IV) |Stannic |28273990||SnCl4 |"
+  },
+  {
+    "cas": "7440-32-6",
+    "name": "|106|Titan |Titanium |81082000||Ti |"
+  },
+  {
+    "cas": "7704-98-5",
+    "name": "|106|Titan hydrua |Titanium hydride |28500000||TiH2 |"
+  },
+  {
+    "cas": "7550-45-0",
+    "name": "|106|Titan |Titanium |28273990||TiCl4 |"
+  },
+  {
+    "cas": "584-84-9",
+    "name": "|106|Toluene |Toluene |29291090|;|C9H6N2O2 |"
+  },
+  {
+    "cas": "91-08-7",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "50-29-3",
+    "name": "|107|1,1,1 |1,1,1-Trichloro-2|29039200| |C14H9Cl5 |"
+  },
+  {
+    "cas": "76-87-9",
+    "name": "|107|Tri phenyl |Triphenyl tin |29319090| |C18H16OSn |"
+  },
+  {
+    "cas": "102-70-5",
+    "name": "|107|Triallyl amin |Triallyl amine |29211900| |C9H6N |"
+  },
+  {
+    "cas": "3058-38-6",
+    "name": "|107|1,3,5-Triamino-2|1,3,5-Triamino-2,|29215900||C6H6N6O6 |"
+  },
+  {
+    "cas": "56-36-0",
+    "name": "|107|Tributyl axetat |Tributylt in |29312000| |C14H30O2Sn |"
+  },
+  {
+    "cas": "3090-36-6",
+    "name": "|107|Tributyl laurat |Tributyl tin |29312000||C24H50O2Sn |"
+  },
+  {
+    "cas": "102-82-9",
+    "name": "|107|Tributyl amin |Tributyl amine |29211900| |[CH3(CH2)3]3|"
+  },
+  {
+    "cas": "79-01-6",
+    "name": "|107|Triclo etylen |Trichloro ethylen|29032200| |CHClCCl2 |"
+  },
+  {
+    "cas": "88-06-2",
+    "name": "|107|2,4,6-Triclo |2,4,6-Trichloro |29081900| |C6H3OCl3 |"
+  },
+  {
+    "cas": "76-02-8",
+    "name": "|108|Triclo acetyl |Trichloro acetyl |29159090| |C2Cl4O |"
+  },
+  {
+    "cas": "108-70-3",
+    "name": "|108|Triclo benzen |Triclo benzen |29039900|;|C6H3C13 |"
+  },
+  {
+    "cas": "120-82-1",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "87-61-6",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "2431-50-7",
+    "name": "|108|Triclo buten |T richlorobutene |29032900||C4H5Cl3 |"
+  },
+  {
+    "cas": "71-55-6",
+    "name": "|108|1,1,1-Triclo |1,1,1 -Trichloro |29031920| |C2H3Cl3 |"
+  },
+  {
+    "cas": "67-66-3",
+    "name": "|108|Triclo metan |Chloroform |29031300| |CHCl3 |"
+  },
+  {
+    "cas": "307-55-1",
+    "name": "|108|Tricosaflododeca|Tricosafluoro |29159070| |C12HF23O2 |"
+  },
+  {
+    "cas": "1330-78-5",
+    "name": "|108|Tricresyl |Tricresyl |29199000||C21H21O4P |"
+  },
+  {
+    "cas": "51-18-3",
+    "name": "|108|Trietyl enemel |Trietyl enemel |29336900| |C9H12N6 |"
+  },
+  {
+    "cas": "1330-78-5",
+    "name": "|108|Trietyl thiếc |Tricresyl |29199000||C21H21O4P |"
+  },
+  {
+    "cas": "122-52-1",
+    "name": "|109|Trietyl photphit|Triethy phosphite|29209090| |C6H15O3P |"
+  },
+  {
+    "cas": "121-44-8",
+    "name": "|109|Trietyl amin |Triethylamine |29211900| |C6H15N |"
+  },
+  {
+    "cas": "112-24-3",
+    "name": "|109|Trietylen |Triethylene |29212900| |C6H18N4 |"
+  },
+  {
+    "cas": "1907-13-7",
+    "name": "|109|Trietyl thiếc |Triethyl tin |29319080||C8H18O2Sn |"
+  },
+  {
+    "cas": "57-52-3",
+    "name": "|109|Trietyl thiếc |Triethyl tin |29319090| |C12H30O4SSn2|"
+  },
+  {
+    "cas": "75-46-7",
+    "name": "|109|Triflo metan |Trifluoro methane|29033990| |CHF3 |"
+  },
+  {
+    "cas": "79-38-9",
+    "name": "|109|Triflo clo |Trifluoro chloro |29037700| |C2ClF3 |"
+  },
+  {
+    "cas": "7756-94-7",
+    "name": "|109|Triiso butylen |Triiso butylene |29012990||C12H24 |"
+  },
+  {
+    "cas": "5419-55-6",
+    "name": "|109|Triisopropyl |Triisopropyl |29209090||C9H21O3B |"
+  },
+  {
+    "cas": "75-50-3",
+    "name": "|109|Trimetylamin |Trimethylamine |29211100| |C3H9N |"
+  },
+  {
+    "cas": "75-77-4",
+    "name": "|110|Trimetylclosilan|Trimethylchlorosi|29319090| |C3H9ClSi |"
+  },
+  {
+    "cas": "3282-30-2",
+    "name": "|110|Trimetyl acetyl |Trimethylacetyl |29159090||C5H9OCl |"
+  },
+  {
+    "cas": "121-43-7",
+    "name": "|110|Trimetyl borat |Trimethyl borate |29209090| |C3H9O3B |"
+  },
+  {
+    "cas": "121-45-9",
+    "name": "|110|Trimetyl |Trimethyl |29209090| |C3H9O3P |"
+  },
+  {
+    "cas": "1118-14-5",
+    "name": "|110|Trimetyl thiếc |Trimethyl tin |2931 ||C5H12O2Sn |"
+  },
+  {
+    "cas": "606-35-9",
+    "name": "|110|2,4,6-trinitro |2,4,6-trinitro |29093000| |C7H5N3O7 |"
+  },
+  {
+    "cas": "99-35-4",
+    "name": "|110|Trinitro benzen |Trinitro benzene |29042090| |C6H3N3O6 |"
+  },
+  {
+    "cas": "129-66-8",
+    "name": "|110|Trinitrobenzoic |Trinitrobenzoic |29163990| |C7H3N3O8 |"
+  },
+  {
+    "cas": "602-99-3",
+    "name": "|111|Trinitrocresol |Trinitrocresol |29089900| |C7H5N3O7 |"
+  },
+  {
+    "cas": "4732-14-3",
+    "name": "|111|2,4,6-Trinitroph|2,4,6- |29093000||C8H7N3O7 |"
+  },
+  {
+    "cas": "88-89-1",
+    "name": "|111|2,4,6- |2,4,6-Trinitrophe|29089900| |C6H3N3O7 |"
+  },
+  {
+    "cas": "118-96-7",
+    "name": "|111|2,4,6-Trinitroto|2,4,6-Trinitrotol|29042010| |C7H5N3O6 |"
+  },
+  {
+    "cas": "78-30-8",
+    "name": "|111|Tri-o-cresyl |Tri-o-cresyl |29199000| |C21H21O4P |"
+  },
+  {
+    "cas": "102-69-2",
+    "name": "|111|Tripropylamin |Tripropylamine |29211900| |C9H18N |"
+  },
+  {
+    "cas": "126-72-7",
+    "name": "|111|Tris (2,3 dibro |Tris (2,3 |29191000| |C9H15Br6PO4 |"
+  },
+  {
+    "cas": "115-96-8",
+    "name": "|111|Tris(2-clo etyl)|Tris(2- |29199000| |C6H12Cl3O4P |"
+  },
+  {
+    "cas": "7440-66-6",
+    "name": "|111|Tro kẽm |Zinc ashe |26201100||Zn |"
+  },
+  {
+    "cas": "1120-21-4",
+    "name": "|112|Undecan |Undecane |29011000||C11H24 |"
+  },
+  {
+    "cas": "124-43-6",
+    "name": "|112|Urea hydro |Urea hydrogen |28470010| |CH6O3N2 |"
+  },
+  {
+    "cas": "110-62-3",
+    "name": "|112|Valeraldehit |Pentanaldehyde |29121990| |C5H10O |"
+  },
+  {
+    "cas": "638-29-9",
+    "name": "|112|Valeryl clo |Valeryl chloride |29159090| |C5H9OCl |"
+  },
+  {
+    "cas": "1314-62-1",
+    "name": "|112|Vanadi pentoxit |Vanadium (V) |28253000||V2O5 |"
+  },
+  {
+    "cas": "689-97-4",
+    "name": "|112|Vinyl axetylen |Vinyl acetylene |29012990| |C4H4 |"
+  },
+  {
+    "cas": "100-42-5",
+    "name": "|112|Vinyl benzen |Vinyl benzene |29025000| |C8H8 |"
+  },
+  {
+    "cas": "593-60-2",
+    "name": "|112|Vinyl brom |Vinyl bromide |29033990| |C2H3Br |"
+  },
+  {
+    "cas": "123-20-6",
+    "name": "|112|Vinyl butyrat |Vinyl butyrate |29156000| |C6H10O2 |"
+  },
+  {
+    "cas": "75-01-4",
+    "name": "|113|Vinyl clorit |Vinyl chloride |29032100| |CH12CHCl |"
+  },
+  {
+    "cas": "109-92-2",
+    "name": "|113|Vinyl etyl ete |Vinyl ethyl ether|29091900| |C4H8O |"
+  },
+  {
+    "cas": "75-02-5",
+    "name": "|113|Vinyl florit |Vinyl fluoride |29033990| |C2H3F |"
+  },
+  {
+    "cas": "109-53-5",
+    "name": "|113|Vinyl isobutyl |Vinyl isobutyl |29091900| |C6H12O |"
+  },
+  {
+    "cas": "107-25-5",
+    "name": "|113|Vinyl metyl ete |Vinyl methyl |29091900| |C3H6O |"
+  },
+  {
+    "cas": "100-42-5",
+    "name": "|113|Vinyl benzen |Vinyl benzene |29025000| |C8H8 |"
+  },
+  {
+    "cas": "75-35-4",
+    "name": "|113|Vinyliden clorit|Vinylidene |29032900| |C2H2Cl2 |"
+  },
+  {
+    "cas": "75-38-7",
+    "name": "|113|Vinyliden florit|Vinylidene |29033990| |C2H2F2 |"
+  },
+  {
+    "cas": "100-69-6",
+    "name": "|113|Vinyl pyridin |Vinyl pyridin |29333990|;|C2H5C5H4N |"
+  },
+  {
+    "cas": "1121-55-7",
+    "name": "| | | | || |"
+  },
+  {
+    "cas": "100-43-6",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "75-94-5",
+    "name": "|114|Vinyltriclo |Vinyl |29319090| |C2H3Cl3Si |"
+  },
+  {
+    "cas": "7783-82-6",
+    "name": "|114|Vonfram |Tungsten |28261900||WF6 |"
+  },
+  {
+    "cas": "81-81-2",
+    "name": "|114|Warfarin |Warfarin |29329990| |C19H16O4 |"
+  },
+  {
+    "cas": "7440-45-1",
+    "name": "|114|Xeri |Cerium |28053000||Ce |"
+  },
+  {
+    "cas": "420-04-2",
+    "name": "|114|Xianamit |Cyanamide |28530000| |CH2N2 |"
+  },
+  {
+    "cas": "75-86-5",
+    "name": "|114|Xyanopropan-2-ol|2-Cyanopropan-2-o|29269000| |C4H7NO |"
+  },
+  {
+    "cas": "108-77-0",
+    "name": "|114|Xyanuric clorua |Cyanuric chloride|29336900| |C3N3Cl3 |"
+  },
+  {
+    "cas": "108-91-8",
+    "name": "|114|Xyclohexanamin |Cyclohexylamine |29213000| |C6H13N |"
+  },
+  {
+    "cas": "85-42-7",
+    "name": "|114|Xyclohexane-1,2-|Hexahydro |29172000| |C8H10O3 |"
+  },
+  {
+    "cas": "106-42-3",
+    "name": "|115|Xylen |Xylen |29024300|;|C8H10 |"
+  },
+  {
+    "cas": "108-38-3",
+    "name": "| | | | |;| |"
+  },
+  {
+    "cas": "95-47-6",
+    "name": "| | | | | | |"
+  },
+  {
+    "cas": "95-68-1",
+    "name": "|115|2,4-Xylidin |2,4-Xylidine; |29214900|; |C8H11N |"
+  },
+  {
+    "cas": "87-62-7",
+    "name": "|1. | |2,6-Xylidine; | | | |"
+  },
+  {
+    "cas": "7440-65-5",
+    "name": "|115|Ytri |Ytrium |28053000||Y |"
+  },
+  {
+    "cas": "7440-67-7",
+    "name": "|115|Zirconi |Zirconium |81092000||Zr |"
+  },
+  {
+    "cas": "7704-99-6",
+    "name": "|115|Zirconi hydrit |Zirconium(II) |28500020||ZrH2 |"
+  },
+  {
+    "cas": "608-93-5",
+    "name": "|115|Pentaclo benzen |Pentachlorobenzene |29039300| |HC6Cl5|"
+  },
+  {
+    "cas": "3194-55-6",
+    "name": "| |(HBCD) | | || |"
+  },
+  {
+    "cas": "1163-19-5",
+    "name": "|116|Decabromo |Decabromodiphenyl ether|29093000||C12Br1|"
+  },
+  {
+    "cas": "335-67-1",
+    "name": "|116|Axit |Perfluorooctanoic acid |29159090| |--- |"
+  },
+  {
+    "cas": "355-46-4",
+    "name": "|116|Axit perflo |Perfluorohexane |29049900| |--- |"
+  }
+]

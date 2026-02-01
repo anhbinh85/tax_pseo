@@ -1,0 +1,6673 @@
+[
+  {
+    "cas": "1341-49-7",
+    "name_vi": "Amon hydro diflorua",
+    "name_en": "Ammonium hydrogen difluoride",
+    "hs_code": "28261900",
+    "formula": "NH4HF2"
+  },
+  {
+    "cas": "75-07-0",
+    "name_vi": "Axetaldehyt",
+    "name_en": "Acetaldehyde",
+    "hs_code": "29121200",
+    "formula": "C2H4O"
+  },
+  {
+    "cas": "75-05-8",
+    "name_vi": "Axetonitril",
+    "name_en": "Acetonitrile",
+    "hs_code": "29269000",
+    "formula": "C2H3N"
+  },
+  {
+    "cas": "513-86-0",
+    "name_vi": "Axetyl metyl cacbinol",
+    "name_en": "Acethyl methyl carbinol",
+    "hs_code": "29144000",
+    "formula": "C4H8O2"
+  },
+  {
+    "cas": "74-86-2",
+    "name_vi": "Axetylen",
+    "name_en": "Acetylene",
+    "hs_code": "29012910",
+    "formula": "C2H2"
+  },
+  {
+    "cas": "30560-19-1",
+    "name_vi": "Acephat",
+    "name_en": "Acephate",
+    "hs_code": "29309090",
+    "formula": "C4H10NO3PS"
+  },
+  {
+    "cas": "34256-82-1",
+    "name_vi": "Acetochlor",
+    "name_en": "Acetochlor",
+    "hs_code": "29242990",
+    "formula": "C14H20ClNO2"
+  },
+  {
+    "cas": "107-02-8",
+    "name_vi": "Acrolein",
+    "name_en": "Acrolein",
+    "hs_code": "29121990",
+    "formula": "C3H4O"
+  },
+  {
+    "cas": "79-06-1",
+    "name_vi": "Acrylamit",
+    "name_en": "Acryl amide",
+    "hs_code": "29241900",
+    "formula": "C3H5NO"
+  },
+  {
+    "cas": "107-13-1",
+    "name_vi": "Acrylo nitril",
+    "name_en": "Acrylo nitrile",
+    "hs_code": "29261000",
+    "formula": "C3H3N"
+  },
+  {
+    "cas": "814-68-6",
+    "name_vi": "Acryloyl clorit",
+    "name_en": "Acryloyl chloride",
+    "hs_code": "29161900",
+    "formula": "C3H3ClO"
+  },
+  {
+    "cas": "111-69-3",
+    "name_vi": "Adiponitril",
+    "name_en": "Adiponitrile",
+    "hs_code": "29269000",
+    "formula": "C6H8N2"
+  },
+  {
+    "cas": "15972-60-8",
+    "name_vi": "Alachlor",
+    "name_en": "Alachlor",
+    "hs_code": "29242990",
+    "formula": "C14H20ClNO2"
+  },
+  {
+    "cas": "116-06-3",
+    "name_vi": "Aldicarb",
+    "name_en": "Aldicarb",
+    "hs_code": "29309090",
+    "formula": "C7H14N2O2S"
+  },
+  {
+    "cas": "309-00-2",
+    "name_vi": "Aldrin",
+    "name_en": "Aldrin",
+    "hs_code": "29038200",
+    "formula": "C12H8Cl6"
+  },
+  {
+    "cas": "85535-84-8",
+    "name_vi": "Ankan, C10-13, clo (Short Chain Chlorinated Paraffins)",
+    "name_en": "Alkanes, C10-13, chloro (Short Chain Chlorinated Paraffins)",
+    "hs_code": "382490",
+    "formula": "---"
+  },
+  {
+    "cas": "591-87-7",
+    "name_vi": "Allyl axetat",
+    "name_en": "Allyl acetate",
+    "hs_code": "29153990",
+    "formula": "C5H8O2"
+  },
+  {
+    "cas": "106-95-6",
+    "name_vi": "Allyl bromua",
+    "name_en": "Allyl bromide",
+    "hs_code": "29033990",
+    "formula": "C3H5Br"
+  },
+  {
+    "cas": "2937-50-0",
+    "name_vi": "Allyl clo fomat",
+    "name_en": "Allyl chloro formate",
+    "hs_code": "29159090",
+    "formula": "C4H5O2Cl"
+  },
+  {
+    "cas": "557-31-3",
+    "name_vi": "Allyl etyl ete",
+    "name_en": "Allyl ethyl ether",
+    "hs_code": "29091900",
+    "formula": "C5H10O"
+  },
+  {
+    "cas": "106-92-3",
+    "name_vi": "Allyl glycidyl ete",
+    "name_en": "Allyl glycidyl ether",
+    "hs_code": "29109000",
+    "formula": "C6H10O2"
+  },
+  {
+    "cas": "57-06-7",
+    "name_vi": "Allyl isothiocynat",
+    "name_en": "Allyl isothiocyanate",
+    "hs_code": "29309090",
+    "formula": "C4H5NS"
+  },
+  {
+    "cas": "107-11-9",
+    "name_vi": "Allyl amin",
+    "name_en": "Allyl amine",
+    "hs_code": "29211900",
+    "formula": "C3H7N"
+  },
+  {
+    "cas": "107-37-9",
+    "name_vi": "Allyl triclo silan",
+    "name_en": "Allyl trichloro silane",
+    "hs_code": "29319090",
+    "formula": "C3H5Cl3Si"
+  },
+  {
+    "cas": "319-84-6",
+    "name_vi": "Alpha-hexaclo xyclohexan",
+    "name_en": "Alpha-hexachloro cyclohexane",
+    "hs_code": "29038100",
+    "formula": "C6H6Cl6"
+  },
+  {
+    "cas": "13323-81-4",
+    "name_vi": "Alpha-metyl benzanol",
+    "name_en": "Alpha-methyl benzyl alcohol",
+    "hs_code": "29062900",
+    "formula": "C8H10O"
+  },
+  {
+    "cas": "123-15-9",
+    "name_vi": "Alpha-metyl valeraldehit",
+    "name_en": "Alpha-methyl valeraldehyde",
+    "hs_code": "29121990",
+    "formula": "C6H12o"
+  },
+  {
+    "cas": "86-88-4",
+    "name_vi": "Alpha-naphthyl thiourea",
+    "name_en": "Alpha-naphthyl thiourea",
+    "hs_code": "29309090",
+    "formula": "C11H10N2S"
+  },
+  {
+    "cas": "4468-48-8",
+    "name_vi": "Alpha-phenyl acetoaceto nitril",
+    "name_en": "3-Oxo-2-phenyl butane nitrile",
+    "hs_code": "29269000",
+    "formula": "C10H9ON"
+  },
+  {
+    "cas": "80-56-8",
+    "name_vi": "Alpha-Pinen",
+    "name_en": "Alpha-pinene",
+    "hs_code": "29021900",
+    "formula": "C10H16"
+  },
+  {
+    "cas": "12001-29-5",
+    "name_vi": "Amiăng trắng",
+    "name_en": "asbestos chysotile",
+    "hs_code": "25249000",
+    "formula": "Mg3(Si2O5)(OH)4"
+  },
+  {
+    "cas": "95-85-2",
+    "name_vi": "2-Amino-4-clo phenol",
+    "name_en": "2-Amino-4- chlorophenol",
+    "hs_code": "29222900",
+    "formula": "C6H6ONCl"
+  },
+  {
+    "cas": "2032-59-9",
+    "name_vi": "Aminocarb",
+    "name_en": "Aminocarb",
+    "hs_code": "29242990",
+    "formula": "C11H16O2N2"
+  },
+  {
+    "cas": "33089-61-1",
+    "name_vi": "Amitraz",
+    "name_en": "Amitraz",
+    "hs_code": "29252900",
+    "formula": "C19H23N3"
+  },
+  {
+    "cas": "7664-41-7",
+    "name_vi": "Amoiac (anhydrous)",
+    "name_en": "Ammonia (anhydrous)",
+    "hs_code": "28141000",
+    "formula": "NH3"
+  },
+  {
+    "cas": "12135-76-1",
+    "name_vi": "Amon sunfua",
+    "name_en": "Ammonium sulfide",
+    "hs_code": "28309090",
+    "formula": "(NH4)2S"
+  },
+  {
+    "cas": "7790-98-9",
+    "name_vi": "Amoni perclorat",
+    "name_en": "Ammonium perchlorate",
+    "hs_code": "28299090",
+    "formula": "NH4ClO4"
+  },
+  {
+    "cas": "7727-54-0",
+    "name_vi": "Amoni persunphat",
+    "name_en": "Ammonium persulfate",
+    "hs_code": "28334000",
+    "formula": "H8N2O8S2"
+  },
+  {
+    "cas": "628-63-7",
+    "name_vi": "Amyl axetat",
+    "name_en": "Amyl acetate",
+    "hs_code": "29153990",
+    "formula": "C7H14O2"
+  },
+  {
+    "cas": "106-27-4",
+    "name_vi": "Amyl butyrat",
+    "name_en": "Amyl butyrate",
+    "hs_code": "29156000",
+    "formula": "C9H18O2"
+  },
+  {
+    "cas": "543-59-9",
+    "name_vi": "Amyl clo",
+    "name_en": "n-Amyl chloride",
+    "hs_code": "29031990",
+    "formula": "C5H11Cl"
+  },
+  {
+    "cas": "638-49-3",
+    "name_vi": "Amyl format",
+    "name_en": "Amyl formate",
+    "hs_code": "29151300",
+    "formula": "C7N5Cl3"
+  },
+  {
+    "cas": "110-66-7",
+    "name_vi": "Amyl mercaptan",
+    "name_en": "Amyl mercaptan",
+    "hs_code": "29309090",
+    "formula": "C5H12S"
+  },
+  {
+    "cas": "1002-16-0",
+    "name_vi": "Amyl nitrat",
+    "name_en": "1-Pentyl nitrate",
+    "hs_code": "2920909029209090",
+    "formula": "C5H11O3N"
+  },
+  {
+    "cas": "110-46-3",
+    "name_vi": "Amyl nitrit",
+    "name_en": "Amyl nitrite",
+    "hs_code": "29209090",
+    "formula": "C5H11O2N"
+  },
+  {
+    "cas": "107-72-2",
+    "name_vi": "Amyl triclo silan",
+    "name_en": "Amyl trichloro silane",
+    "hs_code": "29319090",
+    "formula": "C5H11Cl3Si"
+  },
+  {
+    "cas": "494-52-0",
+    "name_vi": "Anabasine",
+    "name_en": "Anabasine",
+    "hs_code": "29399990",
+    "formula": "C10H14N2"
+  },
+  {
+    "cas": "142-04-1",
+    "name_vi": "Anilin hydroclorit",
+    "name_en": "Aniline hydrocloride",
+    "hs_code": "2921410029214100",
+    "formula": "C6H8NCl"
+  },
+  {
+    "cas": "536-90-3",
+    "name_vi": "Anisidin",
+    "name_en": "Anisidin",
+    "hs_code": "29222900",
+    "formula": "C7H9ON"
+  },
+  {
+    "cas": "100-66-3",
+    "name_vi": "Anisol (metoxy benzen)",
+    "name_en": "Anisole (methoxy benzene)",
+    "hs_code": "29093000",
+    "formula": "C7H8O"
+  },
+  {
+    "cas": "107-05-1",
+    "name_vi": "Anlyl clorua",
+    "name_en": "Allyl chloride",
+    "hs_code": "29032900",
+    "formula": "C3H5Cl"
+  },
+  {
+    "cas": "84-65-1",
+    "name_vi": "Anthraquinon",
+    "name_en": "Anthraquinone",
+    "hs_code": "29146100",
+    "formula": "C14H8O2"
+  },
+  {
+    "cas": "10025-91-9",
+    "name_vi": "Antimony clorua",
+    "name_en": "Antimony trichloride",
+    "hs_code": "28273990",
+    "formula": "SbCl3"
+  },
+  {
+    "cas": "7647-18-9",
+    "name_vi": "Antimony pentaclorua",
+    "name_en": "Antimony pentachloride",
+    "hs_code": "28273990",
+    "formula": "SbCl5"
+  },
+  {
+    "cas": "7783-70-2",
+    "name_vi": "Antimony pentaflorua",
+    "name_en": "Antimony pentafluoride",
+    "hs_code": "28261990",
+    "formula": "SbF5"
+  },
+  {
+    "cas": "7803-52-3",
+    "name_vi": "Antimony hydril",
+    "name_en": "Antimony hydril",
+    "hs_code": "28500000",
+    "formula": "H3Sb"
+  },
+  {
+    "cas": "7440-37-1",
+    "name_vi": "Argon",
+    "name_en": "Argon",
+    "hs_code": "28042100",
+    "formula": "Ar"
+  },
+  {
+    "cas": "75-07-0",
+    "name_vi": "Axetaldehit",
+    "name_en": "Acetadehyde",
+    "hs_code": "29121200",
+    "formula": "C2H4O"
+  },
+  {
+    "cas": "107-29-9",
+    "name_vi": "Axetaldehit oxim",
+    "name_en": "Acetaldehyde oxime",
+    "hs_code": "29280090",
+    "formula": "C2H5ON"
+  },
+  {
+    "cas": "50-78-2",
+    "name_vi": "Axit 2-axetyloxy benzoic",
+    "name_en": "2-Acetyloxy benzoic acid",
+    "hs_code": "29182200",
+    "formula": "C9H8O4"
+  },
+  {
+    "cas": "598-78-7",
+    "name_vi": "Axit 2-clo propionic",
+    "name_en": "2-Chloropropionic acid",
+    "hs_code": "29159070",
+    "formula": "C3H5O2Cl"
+  },
+  {
+    "cas": "79-10-7",
+    "name_vi": "Axit acrylic",
+    "name_en": "Acrylic acid",
+    "hs_code": "29161100",
+    "formula": "C3H4O2"
+  },
+  {
+    "cas": "7578-36-1",
+    "name_vi": "Axit bo triflo axetic",
+    "name_en": "Boron trifluoride acetic acid",
+    "hs_code": "29420000",
+    "formula": "C2H4O2F3B"
+  },
+  {
+    "cas": "79-08-3",
+    "name_vi": "Axit brom axetic",
+    "name_en": "Bromoacetic acid",
+    "hs_code": "29159090",
+    "formula": "C2H3O2Br"
+  },
+  {
+    "cas": "107-92-6",
+    "name_vi": "Axit butyric",
+    "name_en": "Butyric acid",
+    "hs_code": "29156000",
+    "formula": "C4H8O2"
+  },
+  {
+    "cas": "79-11-8",
+    "name_vi": "Axit clo axetic",
+    "name_en": "Chloro acetic acid",
+    "hs_code": "29154000",
+    "formula": "C2H3O2Cl"
+  },
+  {
+    "cas": "7790-94-5",
+    "name_vi": "Axit clo sunfunic",
+    "name_en": "Chloro sulfuric acid",
+    "hs_code": "28062000",
+    "formula": "CIHSO3"
+  },
+  {
+    "cas": "7790-93-4",
+    "name_vi": "Axit cloric",
+    "name_en": "Chloric acid",
+    "hs_code": "28111990",
+    "formula": "HClO3"
+  },
+  {
+    "cas": "1319-77-3",
+    "name_vi": "Axit cresylic",
+    "name_en": "Cresylic acid",
+    "hs_code": "29071200",
+    "formula": "C7H8O"
+  },
+  {
+    "cas": "107-93-7",
+    "name_vi": "Axit crotonic",
+    "name_en": "Crotonic acid",
+    "hs_code": "29161900",
+    "formula": "C4H6O2"
+  },
+  {
+    "cas": "79-43-6",
+    "name_vi": "Axit diclo axetic",
+    "name_en": "Dichloro acetic acid",
+    "hs_code": "29154000",
+    "formula": "C2H2O2Cl2"
+  },
+  {
+    "cas": "2782-57-2",
+    "name_vi": "Axit diclo isocyanuric",
+    "name_en": "Dichloro isocyanuric acid",
+    "hs_code": "29336900",
+    "formula": "C3HO3N3Cl2"
+  },
+  {
+    "cas": "13779-41-4",
+    "name_vi": "Axit diflo photphoric",
+    "name_en": "Difluoro phosphoric acid",
+    "hs_code": "28092099",
+    "formula": "HPO2F2"
+  },
+  {
+    "cas": "16961-83-4",
+    "name_vi": "Axit hexaflo silicic",
+    "name_en": "Hexafluoro silicic acid",
+    "hs_code": "28111990",
+    "formula": "H2SiF6"
+  },
+  {
+    "cas": "7789-21-1",
+    "name_vi": "Axit flo sunphonic",
+    "name_en": "Fluoro sulfonic acid",
+    "hs_code": "28111990",
+    "formula": "HSO3F"
+  },
+  {
+    "cas": "16872-11-0",
+    "name_vi": "Axit flo boric",
+    "name_en": "Fluoro boric acid",
+    "hs_code": "28111990",
+    "formula": "HBF4"
+  },
+  {
+    "cas": "16940-81-1",
+    "name_vi": "Axit hexaflo photphoric",
+    "name_en": "Hexafluoro phosphoric acid",
+    "hs_code": "28111990",
+    "formula": "HPF6"
+  },
+  {
+    "cas": "79-31-2",
+    "name_vi": "Axit isobutyric",
+    "name_en": "Isobutyric acid",
+    "hs_code": "29156000",
+    "formula": "C4H8O2"
+  },
+  {
+    "cas": "79-41-4",
+    "name_vi": "Axit metacrylic",
+    "name_en": "Methacrylic acid",
+    "hs_code": "29161300",
+    "formula": "C4H6O2"
+  },
+  {
+    "cas": "625-45-6",
+    "name_vi": "Axit methoxy axetic",
+    "name_en": "Methoxy acetic acid",
+    "hs_code": "29189900",
+    "formula": "C3H6O3"
+  },
+  {
+    "cas": "31212-28-9",
+    "name_vi": "Axit 2-nitro benzen sunphonic",
+    "name_en": "2-Nitro benzene sulfonic acid",
+    "hs_code": "29049000",
+    "formula": "C6H5O5NS"
+  },
+  {
+    "cas": "98-47-5",
+    "name_vi": "Axit 3-nitro benzen sunphonic",
+    "name_en": "3-Nitro benzene sulfonic acid",
+    "hs_code": "29049000",
+    "formula": "C6H5O5NS"
+  },
+  {
+    "cas": "127-68-4",
+    "name_vi": "Axit 4-nitro benzen sunphonic",
+    "name_en": "4-Nitro benzene sulfonic acid",
+    "hs_code": "29049000",
+    "formula": "C6H5O5NS"
+  },
+  {
+    "cas": "7601-90-3",
+    "name_vi": "Axit percloric",
+    "name_en": "Perchloric acid",
+    "hs_code": "28111990",
+    "formula": "HClO4"
+  },
+  {
+    "cas": "1333-39-7",
+    "name_vi": "Axit phenol sunphonic",
+    "name_en": "Phenol sulfonic acid",
+    "hs_code": "29089900",
+    "formula": "C6H6O4S"
+  },
+  {
+    "cas": "7664-38-2",
+    "name_vi": "Axit photphoric",
+    "name_en": "Phosphoric acid",
+    "hs_code": "280920",
+    "formula": "H3PO4"
+  },
+  {
+    "cas": "79-09-4",
+    "name_vi": "Axit propionic",
+    "name_en": "Propanoic acid",
+    "hs_code": "29155000",
+    "formula": "C3H6O2"
+  },
+  {
+    "cas": "7783-06-6",
+    "name_vi": "Axit selenic",
+    "name_en": "Selenic acid",
+    "hs_code": "28111990",
+    "formula": "H2SeO4"
+  },
+  {
+    "cas": "7783-00-8",
+    "name_vi": "Axit selenious",
+    "name_en": "Selenious acid",
+    "hs_code": "28111990",
+    "formula": "H2SeO3"
+  },
+  {
+    "cas": "68-11-1",
+    "name_vi": "Axit thioglycolic",
+    "name_en": "Thioglycolic acid",
+    "hs_code": "29309090",
+    "formula": "C2H4O2S"
+  },
+  {
+    "cas": "76-03-9",
+    "name_vi": "Axit triclo axetic",
+    "name_en": "Trichloro acetic acid",
+    "hs_code": "29154000",
+    "formula": "C2HO2Cl3"
+  },
+  {
+    "cas": "87-51-4",
+    "name_vi": "Axit indolaxetic",
+    "name_en": "Indolacetic acid",
+    "hs_code": "29183000",
+    "formula": "C10H8NO2"
+  },
+  {
+    "cas": "87-90-1",
+    "name_vi": "Axit triclo isocyanuric",
+    "name_en": "Trichloro isocyanuric acid",
+    "hs_code": "29336900",
+    "formula": "C3O3N3Cl3"
+  },
+  {
+    "cas": "93-76-5",
+    "name_vi": "Axit (2,4,5-triclo phenoxy) axetic",
+    "name_en": "(2,4,5-Trichloro phenoxy) acetic acid (2,4,5-T and its salts and esters)",
+    "hs_code": "29189100",
+    "formula": "C8H5Cl3O3"
+  },
+  {
+    "cas": "1912-24-9",
+    "name_vi": "Atrazin",
+    "name_en": "Atrazine",
+    "hs_code": "29339990",
+    "formula": "C8H14ClN5"
+  },
+  {
+    "cas": "41083-11-8",
+    "name_vi": "Azocyclotin",
+    "name_en": "Azocyclotin",
+    "hs_code": "29339990",
+    "formula": "C20H35N3Sn"
+  },
+  {
+    "cas": "76-05-1",
+    "name_vi": "Axit triflo axetic",
+    "name_en": "Trifluoro acetic acid",
+    "hs_code": "29159090",
+    "formula": "C2HO2F3"
+  },
+  {
+    "cas": "2642-71-9",
+    "name_vi": "Azinphos-etyl",
+    "name_en": "azinphos-ethyl",
+    "hs_code": "29339990",
+    "formula": "C11H16N3O3PS"
+  },
+  {
+    "cas": "86-50-0",
+    "name_vi": "Azinphos-metyl",
+    "name_en": "azinphos-methyl",
+    "hs_code": "29339990",
+    "formula": "C10H12N3O3PS"
+  },
+  {
+    "cas": "7761-88-8",
+    "name_vi": "Bạc nitrat",
+    "name_en": "Silver nitrate",
+    "hs_code": "28432100",
+    "formula": "AgNO3"
+  },
+  {
+    "cas": "7440-39-3",
+    "name_vi": "Bari",
+    "name_en": "Barium",
+    "hs_code": "28051900",
+    "formula": "Ba"
+  },
+  {
+    "cas": "1304-28-5",
+    "name_vi": "Bari oxit",
+    "name_en": "Barium oxide",
+    "hs_code": "28164000",
+    "formula": "BaO"
+  },
+  {
+    "cas": "1304-29-6",
+    "name_vi": "Bari peroxit",
+    "name_en": "Barium peroxide",
+    "hs_code": "28164000",
+    "formula": "BaO2"
+  },
+  {
+    "cas": "56-55-3",
+    "name_vi": "1,2-Benzoanthrac",
+    "name_en": "1,",
+    "hs_code": "29029090",
+    "formula": "C18H12"
+  },
+  {
+    "cas": "98-87-3",
+    "name_vi": "Benzal clorua",
+    "name_en": "Benzal chloride",
+    "hs_code": "29039900",
+    "formula": "C7H6Cl2"
+  },
+  {
+    "cas": "71-43-2",
+    "name_vi": "Benzen",
+    "name_en": "Benzene",
+    "hs_code": "27071000",
+    "formula": "C6H6"
+  },
+  {
+    "cas": "624-18-0",
+    "name_vi": "1,4-Benzen",
+    "name_en": "1,4-Benzene",
+    "hs_code": "29215900",
+    "formula": "C6H10N2Cl2"
+  },
+  {
+    "cas": "98-09-9",
+    "name_vi": "Benzen sunphonyl",
+    "name_en": "Benzene sulfonyl",
+    "hs_code": "29049000",
+    "formula": "C6H5O2ClS"
+  },
+  {
+    "cas": "92-87-5",
+    "name_vi": "Benzidin",
+    "name_en": "Benzidine",
+    "hs_code": "29215990",
+    "formula": "C12H12N2"
+  },
+  {
+    "cas": "98-07-7",
+    "name_vi": "Benzo triclorua",
+    "name_en": "Benzo trichloride",
+    "hs_code": "29039900",
+    "formula": "C7H5Cl3"
+  },
+  {
+    "cas": "98-08-8",
+    "name_vi": "Benzo triflorua",
+    "name_en": "Benzo trifluoride",
+    "hs_code": "29039900",
+    "formula": "C7H5F3"
+  },
+  {
+    "cas": "98-88-4",
+    "name_vi": "Benzoyl clorua",
+    "name_en": "Benzoyl chloride",
+    "hs_code": "29163200",
+    "formula": "C7H5OCl"
+  },
+  {
+    "cas": "94-36-0",
+    "name_vi": "Benzoyl peroxit",
+    "name_en": "Benzoyl peroxide",
+    "hs_code": "29163200",
+    "formula": "C14H10O4"
+  },
+  {
+    "cas": "85-68-7",
+    "name_vi": "Benzyl butyl",
+    "name_en": "Benzyl butyl",
+    "hs_code": "29173490",
+    "formula": "C19H20O4"
+  },
+  {
+    "cas": "100-44-7",
+    "name_vi": "Benzyl clorua",
+    "name_en": "Benzyl chloride",
+    "hs_code": "29039100",
+    "formula": "C6H5Cl"
+  },
+  {
+    "cas": "103-83-3",
+    "name_vi": "Benzyl dimetyl",
+    "name_en": "Dimethyl benzyl",
+    "hs_code": "29214900",
+    "formula": "C9H13N"
+  },
+  {
+    "cas": "7440-41-7",
+    "name_vi": "Beryllium",
+    "name_en": "Beryllium",
+    "hs_code": "811211",
+    "formula": "Be"
+  },
+  {
+    "cas": "319-85-7",
+    "name_vi": "Beta-hexaclo xyclohexan",
+    "name_en": "Beta-hexachloro cyclohexane",
+    "hs_code": "29038100",
+    "formula": "C6H6Cl6"
+  },
+  {
+    "cas": "92-67-1",
+    "name_vi": "4-Biphenyl amin",
+    "name_en": "4-Amino biphenyl",
+    "hs_code": "29214900",
+    "formula": "C12H11N"
+  },
+  {
+    "cas": "1336-36-3",
+    "name_vi": "Biphenyl",
+    "name_en": "Polychlorinated",
+    "hs_code": "27109100",
+    "formula": "---"
+  },
+  {
+    "cas": "485-31-4",
+    "name_vi": "Binapacryl",
+    "name_en": "Binapacryl",
+    "hs_code": "29161600",
+    "formula": "C15H18N2O6"
+  },
+  {
+    "cas": "117-81-7",
+    "name_vi": "Bis (2-etyl",
+    "name_en": "Bis (2-ethyl",
+    "hs_code": "29173200",
+    "formula": "C24H38O4"
+  },
+  {
+    "cas": "131-73-7",
+    "name_vi": "Bis(2,4,6-trinit",
+    "name_en": "Bis(2,4,6-trinitr",
+    "hs_code": "29214400",
+    "formula": "C12H5N7O12"
+  },
+  {
+    "cas": "505-60-2",
+    "name_vi": "Bis(2-clo etyl)",
+    "name_en": "Bis(2-chloro",
+    "hs_code": "29309090",
+    "formula": "C4H8Cl2S"
+  },
+  {
+    "cas": "3030-47-5",
+    "name_vi": "Bis(2-dimetyl",
+    "name_en": "Bis(2-dimethyl",
+    "hs_code": "29212900",
+    "formula": "C9H23N3"
+  },
+  {
+    "cas": "111-96-6",
+    "name_vi": "Bis(2-methoxy",
+    "name_en": "Bis(2-methoxy",
+    "hs_code": "29091900",
+    "formula": "C6H14O3"
+  },
+  {
+    "cas": "117-82-8",
+    "name_vi": "Bis(2-methoxy",
+    "name_en": "Bis(2-methoxy",
+    "hs_code": "29173490",
+    "formula": "C24H38O4"
+  },
+  {
+    "cas": "112-49-2",
+    "name_vi": "1,2-Bis(2-methox",
+    "name_en": "1,2-Bis(2-methoxy",
+    "hs_code": "29091900",
+    "formula": "C8H18O4"
+  },
+  {
+    "cas": "542-88-1",
+    "name_vi": "Bis(clom etyl)",
+    "name_en": "Bis(chloro",
+    "hs_code": "29091900",
+    "formula": "C2H4Cl2O"
+  },
+  {
+    "cas": "2167-23-9",
+    "name_vi": "2,2-Bis(tert-but",
+    "name_en": "2,2-Bis(tert-buty",
+    "hs_code": "29096000",
+    "formula": "C12H26O4"
+  },
+  {
+    "cas": "3006-86-8",
+    "name_vi": "1,1-Bis(tert-but",
+    "name_en": "1,1-Bis(tert-buty",
+    "hs_code": "29096000",
+    "formula": "C14H28O4"
+  },
+  {
+    "cas": "109-63-7",
+    "name_vi": "Bo triflo dietyl",
+    "name_en": "Boron trifluoride",
+    "hs_code": "29420000",
+    "formula": "C4H10OF3B"
+  },
+  {
+    "cas": "7637-07-2",
+    "name_vi": "Bo trifluorua",
+    "name_en": "Boron trifluoride",
+    "hs_code": "28129000",
+    "formula": "BF3"
+  },
+  {
+    "cas": "353-42-4",
+    "name_vi": "Hợp chất của",
+    "name_en": "Boron trifluoride",
+    "hs_code": "29420000",
+    "formula": "C2H6BF3O"
+  },
+  {
+    "cas": "1303-86-2",
+    "name_vi": "Boron trioxit",
+    "name_en": "Diboron trioxide",
+    "hs_code": "28100000",
+    "formula": "B2O3"
+  },
+  {
+    "cas": "1563-66-2",
+    "name_vi": "chứa một sự kết hợp của benomyl tại hoặc cao hơn 7%, carbofuran tại hoặc cao hơn 10% và thiram tại hoặc cao hơn 15%",
+    "name_en": "formulations containing a combination of benomyl at or above 7%, carbofuran at or above 10% and thiram at or above 15%",
+    "hs_code": "",
+    "formula": ""
+  },
+  {
+    "cas": "7429-90-5",
+    "name_vi": "Bột nhôm",
+    "name_en": "Aluminium powder",
+    "hs_code": "76031000",
+    "formula": "Al"
+  },
+  {
+    "cas": "598-31-2",
+    "name_vi": "Brom axeton",
+    "name_en": "Bromo acetone",
+    "hs_code": "29147000",
+    "formula": "C3H5BrO"
+  },
+  {
+    "cas": "109-65-9",
+    "name_vi": "",
+    "name_en": "1-Bromo butane",
+    "hs_code": "",
+    "formula": ""
+  },
+  {
+    "cas": "106-96-7",
+    "name_vi": "3-Bromo propyn",
+    "name_en": "3-Bromo propyne",
+    "hs_code": "29033990",
+    "formula": "C3H3Br"
+  },
+  {
+    "cas": "7789-30-2",
+    "name_vi": "Brom pentaflorua",
+    "name_en": "Bromine",
+    "hs_code": "28129000",
+    "formula": "BrF5"
+  },
+  {
+    "cas": "106-94-5",
+    "name_vi": "1-Brom propan",
+    "name_en": "1-Propyl bromide",
+    "hs_code": "29033990",
+    "formula": "C3H7Br"
+  },
+  {
+    "cas": "52-51-7",
+    "name_vi": "2-Brom-2-nitro-1",
+    "name_en": "2-Bromo-2-nitro-1",
+    "hs_code": "29055900",
+    "formula": "C3H6O4NBr"
+  },
+  {
+    "cas": "7726-95-6",
+    "name_vi": "Brom",
+    "name_en": "Bromine",
+    "hs_code": "28013000",
+    "formula": "Br2"
+  },
+  {
+    "cas": "592-55-2",
+    "name_vi": "1-Brom-2-ethoxy-",
+    "name_en": "Ethane, 1",
+    "hs_code": "29091900",
+    "formula": "C4H9Obr"
+  },
+  {
+    "cas": "107-82-4",
+    "name_vi": "1-Brom-3-metyl",
+    "name_en": "1-Bromo-3- methyl",
+    "hs_code": "29033990",
+    "formula": "C5H11Br"
+  },
+  {
+    "cas": "75-25-2",
+    "name_vi": "Bromoform",
+    "name_en": "Bromoform",
+    "hs_code": "29033990",
+    "formula": "CHBr3"
+  },
+  {
+    "cas": "78-77-3",
+    "name_vi": "propan",
+    "name_en": "propane",
+    "hs_code": "",
+    "formula": ""
+  },
+  {
+    "cas": "75-26-3",
+    "name_vi": "2-Bromo propan",
+    "name_en": "2-Bromo propane",
+    "hs_code": "29033990",
+    "formula": "C3H7Br"
+  },
+  {
+    "cas": "107-81-3",
+    "name_vi": "2-Brom-pentan",
+    "name_en": "2-Bromo pentane",
+    "hs_code": "29033990",
+    "formula": "C5H11Br"
+  },
+  {
+    "cas": "108-86-1",
+    "name_vi": "Bromua benzen",
+    "name_en": "Bromo benzene",
+    "hs_code": "29039900",
+    "formula": "C6H5Br"
+  },
+  {
+    "cas": "106-99-0",
+    "name_vi": "1,3-Butadien",
+    "name_en": "1,3-Butadiene",
+    "hs_code": "29012400",
+    "formula": "CH2CHCHCH2"
+  },
+  {
+    "cas": "513-48-4",
+    "name_vi": "Butan iodua",
+    "name_en": "Butane, 2-iodo-",
+    "hs_code": "29033990",
+    "formula": "C4H9I"
+  },
+  {
+    "cas": "106-97-8",
+    "name_vi": "Butan",
+    "name_en": "Butane",
+    "hs_code": "27111300",
+    "formula": "C4H10"
+  },
+  {
+    "cas": "431-03-8",
+    "name_vi": "2,3-Butan dion",
+    "name_en": "2,3-Butane dione",
+    "hs_code": "29141900",
+    "formula": "C4H6O2"
+  },
+  {
+    "cas": "123-73-9",
+    "name_vi": "Butenal",
+    "name_en": "Crotonaldehyde,",
+    "hs_code": "29121990",
+    "formula": "C4H6O"
+  },
+  {
+    "cas": "1663-39-4",
+    "name_vi": "Tert-butyl",
+    "name_en": "Tert-butyl",
+    "hs_code": "29161200",
+    "formula": "C7H12O2"
+  },
+  {
+    "cas": "123-86-4",
+    "name_vi": "Butyl axetat",
+    "name_en": "n-Butyl acetate",
+    "hs_code": "29153300",
+    "formula": "C6H12O2"
+  },
+  {
+    "cas": "109-79-5",
+    "name_vi": "Butyl mercaptan",
+    "name_en": "Butyl mercaptan",
+    "hs_code": "29309090",
+    "formula": "C4H10S"
+  },
+  {
+    "cas": "628-28-4",
+    "name_vi": "Butyl metyl ete",
+    "name_en": "Butyl methyl",
+    "hs_code": "29091900",
+    "formula": "C5H12O"
+  },
+  {
+    "cas": "544-16-1",
+    "name_vi": "Butyl nitrit",
+    "name_en": "Butyl nitrite",
+    "hs_code": "29209090",
+    "formula": "C4H9O2N"
+  },
+  {
+    "cas": "590-01-2",
+    "name_vi": "Butyl propionat",
+    "name_en": "Butyl propionate",
+    "hs_code": "2955000",
+    "formula": "C7H14O2"
+  },
+  {
+    "cas": "7521-80-4",
+    "name_vi": "n-Butyl triclo",
+    "name_en": "n-Butyl trichloro",
+    "hs_code": "29319090",
+    "formula": "C4H9Cl3Si"
+  },
+  {
+    "cas": "104-51-8",
+    "name_vi": "Butylbenzen",
+    "name_en": "Butyl benzene",
+    "hs_code": "29029020",
+    "formula": "C10H14"
+  },
+  {
+    "cas": "106-88-7",
+    "name_vi": "1,2-Butylen oxit",
+    "name_en": "1,2-Butylene",
+    "hs_code": "29109000",
+    "formula": "C4H8O"
+  },
+  {
+    "cas": "98-51-1",
+    "name_vi": "Butyl toluen",
+    "name_en": "Butyl toluene",
+    "hs_code": "29029090",
+    "formula": "C11H16"
+  },
+  {
+    "cas": "110-65-6",
+    "name_vi": "1,4-Butynediol",
+    "name_en": "1,4-Butynediol",
+    "hs_code": "29053900",
+    "formula": "C4H6O2"
+  },
+  {
+    "cas": "123-72-8",
+    "name_vi": "Butyraldehit",
+    "name_en": "Butyraldehyde",
+    "hs_code": "29121910",
+    "formula": "C4H8O"
+  },
+  {
+    "cas": "106-31-0",
+    "name_vi": "Butyric anhydrit",
+    "name_en": "Butyric anhydride",
+    "hs_code": "29159090",
+    "formula": "C8H14O3"
+  },
+  {
+    "cas": "109-74-0",
+    "name_vi": "Butyronitril",
+    "name_en": "Butyronitrile",
+    "hs_code": "29269000",
+    "formula": "C4H7N"
+  },
+  {
+    "cas": "141-75-3",
+    "name_vi": "Butyryl clorua",
+    "name_en": "Butyryl chloride",
+    "hs_code": "29159090",
+    "formula": "C4H7OCl"
+  },
+  {
+    "cas": "75-44-5",
+    "name_vi": "Cacbon diclorua",
+    "name_en": "Carbonic",
+    "hs_code": "28112990",
+    "formula": "CCl2O"
+  },
+  {
+    "cas": "75-15-0",
+    "name_vi": "Cacbon disunfua",
+    "name_en": "Carbon disulfide",
+    "hs_code": "28131000",
+    "formula": "CS2"
+  },
+  {
+    "cas": "630-08-0",
+    "name_vi": "Cacbon monoxit",
+    "name_en": "Carbon monoxide",
+    "hs_code": "28112990",
+    "formula": "CO"
+  },
+  {
+    "cas": "558-13-4",
+    "name_vi": "Cacbon",
+    "name_en": "Tetrabromo",
+    "hs_code": "29033990",
+    "formula": "CBr4"
+  },
+  {
+    "cas": "353-50-4",
+    "name_vi": "Cacbonyl florua",
+    "name_en": "Carbonyl fluoride",
+    "hs_code": "28129000",
+    "formula": "COF2"
+  },
+  {
+    "cas": "7790-79-6",
+    "name_vi": "Cadimi florua",
+    "name_en": "Cadmium fluoride",
+    "hs_code": "28261900",
+    "formula": "CdF2"
+  },
+  {
+    "cas": "1306-19-0",
+    "name_vi": "Cadimi oxit",
+    "name_en": "Cadmium oxide",
+    "hs_code": "28259000",
+    "formula": "CdO"
+  },
+  {
+    "cas": "1306-24-7",
+    "name_vi": "Cadimi selenua",
+    "name_en": "Cadmium selenide",
+    "hs_code": "28429090",
+    "formula": "CdSe"
+  },
+  {
+    "cas": "1306-23-6",
+    "name_vi": "Cadimi sulfua",
+    "name_en": "Cadmium sulfide",
+    "hs_code": "28309010",
+    "formula": "CdS"
+  },
+  {
+    "cas": "1306-25-8",
+    "name_vi": "Cadmi tellurua",
+    "name_en": "Cadmium telluride",
+    "hs_code": "28530000",
+    "formula": "CdTe"
+  },
+  {
+    "cas": "8001-35-2",
+    "name_vi": "Campheclo",
+    "name_en": "Camphechlo",
+    "hs_code": "38085000",
+    "formula": "C10H10Cl8"
+  },
+  {
+    "cas": "7440-70-2",
+    "name_vi": "Canxi",
+    "name_en": "Calcium",
+    "hs_code": "28051200",
+    "formula": "Ca"
+  },
+  {
+    "cas": "75-20-7",
+    "name_vi": "Canxi cacbua",
+    "name_en": "Calcium carbide",
+    "hs_code": "28491000",
+    "formula": "CaC2"
+  },
+  {
+    "cas": "7778-54-3",
+    "name_vi": "Canxi hypoclorua",
+    "name_en": "Calcium",
+    "hs_code": "28281000",
+    "formula": "Ca(ClO)2"
+  },
+  {
+    "cas": "1305-79-9",
+    "name_vi": "Canxi peroxit",
+    "name_en": "Calcium peroxide",
+    "hs_code": "28259000",
+    "formula": "CaO2"
+  },
+  {
+    "cas": "9007-13-0",
+    "name_vi": "Canxi resinat",
+    "name_en": "Calcium resinate",
+    "hs_code": "29319090",
+    "formula": "C40H58O4Ca"
+  },
+  {
+    "cas": "2425-06-1",
+    "name_vi": "Captafol",
+    "name_en": "Captafol",
+    "hs_code": "29305000",
+    "formula": "C10H9O2NCl4S"
+  },
+  {
+    "cas": "63-25-2",
+    "name_vi": "Cacbaryl",
+    "name_en": "Cacbaryl",
+    "hs_code": "29242990",
+    "formula": "C12H11NO2"
+  },
+  {
+    "cas": "1563-66-2",
+    "name_vi": "Cacbofuran",
+    "name_en": "Carbofuran",
+    "hs_code": "29329910",
+    "formula": "C12H15NO3"
+  },
+  {
+    "cas": "75-15-0",
+    "name_vi": "Cacbon disunfit",
+    "name_en": "Carbon disulfide",
+    "hs_code": "28131000",
+    "formula": "CS2"
+  },
+  {
+    "cas": "463-58-1",
+    "name_vi": "Cacbon oxysunfit",
+    "name_en": "Carbon oxysulfide",
+    "hs_code": "28530000",
+    "formula": "COS"
+  },
+  {
+    "cas": "56-23-5",
+    "name_vi": "Cacbon",
+    "name_en": "Carbon",
+    "hs_code": "29031400",
+    "formula": "CCl4"
+  },
+  {
+    "cas": "786-19-6",
+    "name_vi": "Cacbon",
+    "name_en": "Carbon phenothion",
+    "hs_code": "29309090",
+    "formula": "C11H16ClO2PS"
+  },
+  {
+    "cas": "75-44-5",
+    "name_vi": "Carbonyl",
+    "name_en": "Carbonyl",
+    "hs_code": "281210",
+    "formula": "CCl2O"
+  },
+  {
+    "cas": "7789-18-6",
+    "name_vi": "Ceri nitrat",
+    "name_en": "Caesium nitrate",
+    "hs_code": "28342990",
+    "formula": "Cs(NO3)2"
+  },
+  {
+    "cas": "590-21-6",
+    "name_vi": "1-Clo propylen",
+    "name_en": "1-Chlo propylene",
+    "hs_code": "29032900",
+    "formula": "C3H5Cl"
+  },
+  {
+    "cas": "470-90-6",
+    "name_vi": "Chlorfenvinphos",
+    "name_en": "Chlorfenvinphos",
+    "hs_code": "29199000",
+    "formula": "C12H14Cl3O4P"
+  },
+  {
+    "cas": "7782-50-5",
+    "name_vi": "Clorin",
+    "name_en": "Chlorine",
+    "hs_code": "28011000",
+    "formula": "Cl2"
+  },
+  {
+    "cas": "67-66-3",
+    "name_vi": "Cloroform",
+    "name_en": "Chloroform",
+    "hs_code": "29031300",
+    "formula": "CHCl3"
+  },
+  {
+    "cas": "107-30-2",
+    "name_vi": "Clo metyl metyl",
+    "name_en": "Chloromethyl",
+    "hs_code": "29091900",
+    "formula": "C2H5ClO"
+  },
+  {
+    "cas": "76-06-2",
+    "name_vi": "Clopicrin:",
+    "name_en": "Chloropicrin:",
+    "hs_code": "29049000",
+    "formula": "CCl3NO2"
+  },
+  {
+    "cas": "1861-32-1",
+    "name_vi": "Chlorthal-dimety",
+    "name_en": "Chlorthal-dimethy",
+    "hs_code": "29173990",
+    "formula": "C10H6Cl4O4"
+  },
+  {
+    "cas": "557-98-2",
+    "name_vi": "2-Clo propylen",
+    "name_en": "2-Chloro",
+    "hs_code": "29032900",
+    "formula": "C3H5Cl"
+  },
+  {
+    "cas": "88-88-0",
+    "name_vi": "Clo trinitro",
+    "name_en": "Chloro trinitro",
+    "hs_code": "29049000",
+    "formula": "C6H2ClN3O6"
+  },
+  {
+    "cas": "6164-98-3",
+    "name_vi": "Chlordimeform",
+    "name_en": "Chlordimeform",
+    "hs_code": "29252100",
+    "formula": "C10H13ClN2"
+  },
+  {
+    "cas": "510-15-6",
+    "name_vi": "Clobenzilat",
+    "name_en": "Chlorobenzilate",
+    "hs_code": "29181800",
+    "formula": "C16H14Cl2O3"
+  },
+  {
+    "cas": "218-01-9",
+    "name_vi": "Chrysen",
+    "name_en": "Chrysen",
+    "hs_code": "29029090",
+    "formula": "C18H12"
+  },
+  {
+    "cas": "107-20-0",
+    "name_vi": "2-Clo",
+    "name_en": "2-Chloro",
+    "hs_code": "29130000",
+    "formula": "C2H5ClO"
+  },
+  {
+    "cas": "78-95-5",
+    "name_vi": "Clo axeton",
+    "name_en": "Chloro acetone",
+    "hs_code": "29147000",
+    "formula": "C3H5OCl"
+  },
+  {
+    "cas": "107-14-2",
+    "name_vi": "Clo axetonitril",
+    "name_en": "Chloro",
+    "hs_code": "29269000",
+    "formula": "C2H2NCl"
+  },
+  {
+    "cas": "108-90-7",
+    "name_vi": "Clo benzen",
+    "name_en": "Chlorobenzene",
+    "hs_code": "29039100",
+    "formula": "C6H5Cl"
+  },
+  {
+    "cas": "353-59-3",
+    "name_vi": "Clo diflo brom",
+    "name_en": "Bromo chloro",
+    "hs_code": "29037600",
+    "formula": "CF2ClBr"
+  },
+  {
+    "cas": "75-45-6",
+    "name_vi": "Clo diflo metan",
+    "name_en": "Chloro difluoro",
+    "hs_code": "29037100",
+    "formula": "CHF2Cl"
+  },
+  {
+    "cas": "97-00-7",
+    "name_vi": "2,4- Clo dinitro",
+    "name_en": "2,4-Dinitro",
+    "hs_code": "29049000",
+    "formula": "C6H3O4N2Cl"
+  },
+  {
+    "cas": "107-07-3",
+    "name_vi": "Clo etanol",
+    "name_en": "Chloro ethanol",
+    "hs_code": "29055900",
+    "formula": "C2H5ClO"
+  },
+  {
+    "cas": "3188-13-4",
+    "name_vi": "Clo metyl etyl",
+    "name_en": "Chloro methyl",
+    "hs_code": "29091900",
+    "formula": "C3H7OCl"
+  },
+  {
+    "cas": "121-87-9",
+    "name_vi": "Clo nitro anilin",
+    "name_en": "Chloro nitro",
+    "hs_code": "29214200",
+    "formula": "C6H5O2N2Cl"
+  },
+  {
+    "cas": "532-27-4",
+    "name_vi": "2-Clo-1-phenyl",
+    "name_en": "2-Chloro-1-phenyl",
+    "hs_code": "29147000",
+    "formula": "C8H7OCl"
+  },
+  {
+    "cas": "126-99-8",
+    "name_vi": "Clo pren",
+    "name_en": "Chloroprene",
+    "hs_code": "29032900",
+    "formula": "C4H5Cl"
+  },
+  {
+    "cas": "540-54-5",
+    "name_vi": "1-Clo propan",
+    "name_en": "n-Propyl chloride",
+    "hs_code": "29031990",
+    "formula": "C3H7Cl"
+  },
+  {
+    "cas": "302-17-0",
+    "name_vi": "Clo ral hydrat",
+    "name_en": "Chloral hydrate",
+    "hs_code": "29055900",
+    "formula": "C2H3Cl3O2"
+  },
+  {
+    "cas": "305-03-3",
+    "name_vi": "Clo rambucil",
+    "name_en": "Chlorambucil",
+    "hs_code": "29224990",
+    "formula": "C14H19Cl2NO2"
+  },
+  {
+    "cas": "7790-91-2",
+    "name_vi": "Clo triflorua",
+    "name_en": "Chlorine",
+    "hs_code": "28121000",
+    "formula": "ClF3"
+  },
+  {
+    "cas": "75-88-7",
+    "name_vi": "1-Clo-2,2,2-trif",
+    "name_en": "1",
+    "hs_code": "29037900",
+    "formula": "C2H2F3Cl"
+  },
+  {
+    "cas": "88-73-3",
+    "name_vi": "1-Clo-2-nitro",
+    "name_en": "1",
+    "hs_code": "29049000",
+    "formula": "C6H4O2NCl"
+  },
+  {
+    "cas": "121-73-3",
+    "name_vi": "1-Clo-3-nitro",
+    "name_en": "1-Chloro-3-nitro",
+    "hs_code": "29049000",
+    "formula": "C6H4O2NCl"
+  },
+  {
+    "cas": "79-04-9",
+    "name_vi": "Cloaxetyl clorua",
+    "name_en": "Chloroa cetyl",
+    "hs_code": "29159090",
+    "formula": "C2H2OCl2"
+  },
+  {
+    "cas": "1702-17-6",
+    "name_vi": "Clopyralit",
+    "name_en": "Clopyralid",
+    "hs_code": "29333990",
+    "formula": "C6H3O2NCl2"
+  },
+  {
+    "cas": "57-74-9",
+    "name_vi": "Clordran",
+    "name_en": "Chlordrane",
+    "hs_code": "29038200",
+    "formula": "C10H6Cl8"
+  },
+  {
+    "cas": "2921-88-2",
+    "name_vi": "Clorpyrifos",
+    "name_en": "Chlorpyrifos",
+    "hs_code": "29333990",
+    "formula": "C9H11O3NCl3S"
+  },
+  {
+    "cas": "74-87-3",
+    "name_vi": "Clorua metyl",
+    "name_en": "Methyl chloride",
+    "hs_code": "29031110",
+    "formula": "CH3Cl"
+  },
+  {
+    "cas": "7646-79-9",
+    "name_vi": "Coban diclorua",
+    "name_en": "Cobalt dichloride",
+    "hs_code": "28273910",
+    "formula": "CoCl2"
+  },
+  {
+    "cas": "535-89-7",
+    "name_vi": "Crimidin",
+    "name_en": "Crimidine",
+    "hs_code": "29335990",
+    "formula": "C7H10ClN3"
+  },
+  {
+    "cas": "460-19-5",
+    "name_vi": "Cyanogen (Etan",
+    "name_en": "Cyanogen (Ethane",
+    "hs_code": "28530000",
+    "formula": "C2N2"
+  },
+  {
+    "cas": "506-77-4",
+    "name_vi": "Cyanogen clorit",
+    "name_en": "Cyanogen chloride",
+    "hs_code": "28530000",
+    "formula": "CClN"
+  },
+  {
+    "cas": "75-86-5",
+    "name_vi": "2-Cyanopropan-2-",
+    "name_en": "2-cyanopropan-2-o",
+    "hs_code": "29269000",
+    "formula": "C4H7NO"
+  },
+  {
+    "cas": "3734-95-0",
+    "name_vi": "Cyathoat",
+    "name_en": "Cyathoate",
+    "hs_code": "29309090",
+    "formula": "C10H19N2O4PS"
+  },
+  {
+    "cas": "287-23-0",
+    "name_vi": "Cyclo butan",
+    "name_en": "Cyclo butane",
+    "hs_code": "29021900",
+    "formula": "C4H8"
+  },
+  {
+    "cas": "4904-61-4",
+    "name_vi": "1,5,9-Cyclo",
+    "name_en": "1,5,9-Cyclo",
+    "hs_code": "29021900",
+    "formula": "C12H18"
+  },
+  {
+    "cas": "291-64-5",
+    "name_vi": "Cyclo heptan",
+    "name_en": "Cyclo heptane",
+    "hs_code": "29021900",
+    "formula": "C7H14"
+  },
+  {
+    "cas": "544-25-2",
+    "name_vi": "Cyclo heptatrien",
+    "name_en": "Cyclo heptatriene",
+    "hs_code": "29021900",
+    "formula": "C7H8"
+  },
+  {
+    "cas": "628-92-2",
+    "name_vi": "Cyclo hepten",
+    "name_en": "Cyclo heptene",
+    "hs_code": "29021900",
+    "formula": "C7H12"
+  },
+  {
+    "cas": "110-82-7",
+    "name_vi": "Cyclo hexan",
+    "name_en": "Cyclo hexane",
+    "hs_code": "29021100",
+    "formula": "C6H12"
+  },
+  {
+    "cas": "108-94-1",
+    "name_vi": "Cyclo hexanon",
+    "name_en": "Cyclo hexanone",
+    "hs_code": "29142200",
+    "formula": "C6H10O"
+  },
+  {
+    "cas": "110-83-8",
+    "name_vi": "Cyclo hexen",
+    "name_en": "Cyclo hexene",
+    "hs_code": "29021900",
+    "formula": "C6H10"
+  },
+  {
+    "cas": "66-81-9",
+    "name_vi": "Cycloheximit",
+    "name_en": "Cyclo heximide",
+    "hs_code": "29419000",
+    "formula": "C15H23NO4"
+  },
+  {
+    "cas": "622-45-7",
+    "name_vi": "Cyclo hexyl",
+    "name_en": "Cyclo hexyl",
+    "hs_code": "29153990",
+    "formula": "C8H14O2"
+  },
+  {
+    "cas": "3173-53-3",
+    "name_vi": "Cyclo hexyl",
+    "name_en": "Cyclohexyl",
+    "hs_code": "29291090",
+    "formula": "C7H11ON"
+  },
+  {
+    "cas": "1569-69-3",
+    "name_vi": "Cyclo hexyl",
+    "name_en": "Cyclo hexyl",
+    "hs_code": "29309090",
+    "formula": "C6H12S"
+  },
+  {
+    "cas": "108-91-8",
+    "name_vi": "Cyclo hexyl amin",
+    "name_en": "Cyclo hexyl amine",
+    "hs_code": "29419000",
+    "formula": "C6H13N"
+  },
+  {
+    "cas": "629-20-9",
+    "name_vi": "Cyclo",
+    "name_en": "1,3,5,7-cyclo",
+    "hs_code": "29021900",
+    "formula": "C8H8"
+  },
+  {
+    "cas": "287-92-3",
+    "name_vi": "Cyclo pentan",
+    "name_en": "Cyclo pentane",
+    "hs_code": "29021900",
+    "formula": "C5H12"
+  },
+  {
+    "cas": "96-41-3",
+    "name_vi": "Cyclo pentanol",
+    "name_en": "Cyclo pentanol",
+    "hs_code": "29061900",
+    "formula": "C5H11O"
+  },
+  {
+    "cas": "120-92-3",
+    "name_vi": "Cyclo pentanon",
+    "name_en": "Cyclo pentanone",
+    "hs_code": "29142900",
+    "formula": "C5H8O"
+  },
+  {
+    "cas": "142-29-0",
+    "name_vi": "Cyclo penten",
+    "name_en": "Cyclo pentene",
+    "hs_code": "29021900",
+    "formula": "C5H8"
+  },
+  {
+    "cas": "75-19-4",
+    "name_vi": "Cyclo propan",
+    "name_en": "Cyclo propane",
+    "hs_code": "29021900",
+    "formula": "C3H6"
+  },
+  {
+    "cas": "2691-41-0",
+    "name_vi": "Cyclo",
+    "name_en": "Cyclo",
+    "hs_code": "29339990",
+    "formula": "C4H8N8O8"
+  },
+  {
+    "cas": "121-82-4",
+    "name_vi": "Cyclotrimetylen",
+    "name_en": "Cyclo",
+    "hs_code": "29336900",
+    "formula": "C3H6N6O6"
+  },
+  {
+    "cas": "99-87-6",
+    "name_vi": "Cymen (Metyl",
+    "name_en": "Cymen (Methyl",
+    "hs_code": "29029000",
+    "formula": "C10H14"
+  },
+  {
+    "cas": "91-17-8",
+    "name_vi": "Decahydro",
+    "name_en": "Decahydro",
+    "hs_code": "29021900",
+    "formula": "C10H18"
+  },
+  {
+    "cas": "126-75-0",
+    "name_vi": "Demeton",
+    "name_en": "Demeton",
+    "hs_code": "29309090",
+    "formula": "C8H19O3PS2"
+  },
+  {
+    "cas": "919-86-8",
+    "name_vi": "Demeton-s-metyl",
+    "name_en": "Demeton-s-methyl",
+    "hs_code": "29309090",
+    "formula": "C6H15O3S2P"
+  },
+  {
+    "cas": "101-77-9",
+    "name_vi": "4,4’-Diamino",
+    "name_en": "4,4’-Methylene",
+    "hs_code": "29215900",
+    "formula": "C13H14N2"
+  },
+  {
+    "cas": "818-08-6",
+    "name_vi": "Di butyl oxit",
+    "name_en": "Dibultyltin oxide",
+    "hs_code": "29319090",
+    "formula": "C8H18OSn"
+  },
+  {
+    "cas": "75-09-2",
+    "name_vi": "Di clo metan",
+    "name_en": "Dichloromethane",
+    "hs_code": "29031200",
+    "formula": "CH2Cl2"
+  },
+  {
+    "cas": "110-18-9",
+    "name_vi": "1,2-Di-(dimetyl",
+    "name_en": "1,2-Di-(dimethyl",
+    "hs_code": "29212900",
+    "formula": "C6H16N2"
+  },
+  {
+    "cas": "557-40-4",
+    "name_vi": "Diallyl ete",
+    "name_en": "Diallyl ether",
+    "hs_code": "29091900",
+    "formula": "C6H10O"
+  },
+  {
+    "cas": "124-02-7",
+    "name_vi": "Diallyl amin",
+    "name_en": "Diallyl amine",
+    "hs_code": "29091900",
+    "formula": "C6H11N"
+  },
+  {
+    "cas": "95-80-7",
+    "name_vi": "2,4-Diamino",
+    "name_en": "2,4-Diamino",
+    "hs_code": "29215100",
+    "formula": "C7H10N2"
+  },
+  {
+    "cas": "333-41-5",
+    "name_vi": "Diazinon",
+    "name_en": "Diazinon",
+    "hs_code": "29335910",
+    "formula": "C12H21O3N2SP"
+  },
+  {
+    "cas": "87-31-0",
+    "name_vi": "Diazo dinitro",
+    "name_en": "Diazo dinitro",
+    "hs_code": "29349990",
+    "formula": "C6H2N4O5"
+  },
+  {
+    "cas": "334-88-3",
+    "name_vi": "Diazo metan",
+    "name_en": "Diazo methane",
+    "hs_code": "29270090",
+    "formula": "CH2N2"
+  },
+  {
+    "cas": "53-70-3",
+    "name_vi": "Dibenz(a,h)",
+    "name_en": "Dibenz(a,h)",
+    "hs_code": "29029090",
+    "formula": "C22H14"
+  },
+  {
+    "cas": "53-70-3",
+    "name_vi": "Dibenz(a,h)",
+    "name_en": "Dibenz(a,h)",
+    "hs_code": "29029000",
+    "formula": "C22H14"
+  },
+  {
+    "cas": "2144-45-8",
+    "name_vi": "Dibenzyl peroxy",
+    "name_en": "Dibenzyl peroxy",
+    "hs_code": "29209090",
+    "formula": "C16H14O6"
+  },
+  {
+    "cas": "122-39-4",
+    "name_vi": "Diphenyl amin",
+    "name_en": "N-Phenyl aniline",
+    "hs_code": "29214200",
+    "formula": "C12H11N"
+  },
+  {
+    "cas": "96-12-8",
+    "name_vi": "1,2-Dibrom-3-clo",
+    "name_en": "1,2-Dibrom-3-",
+    "hs_code": "29037900",
+    "formula": "C3H5Br2Cl"
+  },
+  {
+    "cas": "106-93-4",
+    "name_vi": "1,2-Dibro etan",
+    "name_en": "1,2-Dibromo",
+    "hs_code": "29033100",
+    "formula": "C2H4Br2"
+  },
+  {
+    "cas": "142-96-1",
+    "name_vi": "Dibutyl ete",
+    "name_en": "Dibutyl ether",
+    "hs_code": "29091900",
+    "formula": "C8H18O"
+  },
+  {
+    "cas": "84-74-2",
+    "name_vi": "Dibutyl phthalat",
+    "name_en": "Dibutyl phthalate",
+    "hs_code": "29173490",
+    "formula": "C16H22O4"
+  },
+  {
+    "cas": "102-81-8",
+    "name_vi": "Dibutyl amino",
+    "name_en": "Dibutyl amino",
+    "hs_code": "29221990",
+    "formula": "C6H15ON"
+  },
+  {
+    "cas": "1194-65-6",
+    "name_vi": "Dichlobenil",
+    "name_en": "Dichlobenil",
+    "hs_code": "29269000",
+    "formula": "C7H3Cl2N"
+  },
+  {
+    "cas": "62-73-7",
+    "name_vi": "Dichlorvos",
+    "name_en": "Dichlorvos",
+    "hs_code": "29199000",
+    "formula": "C4H7Cl2O4P"
+  },
+  {
+    "cas": "99-30-9",
+    "name_vi": "Dicloran",
+    "name_en": "Dicloran",
+    "hs_code": "29214200",
+    "formula": "C6H4Cl2N2O2"
+  },
+  {
+    "cas": "115-32-2",
+    "name_vi": "Dicofol",
+    "name_en": "Dicofol",
+    "hs_code": "29062900",
+    "formula": "C14H9Cl5O"
+  },
+  {
+    "cas": "4109-96-0",
+    "name_vi": "Dichlorosilan",
+    "name_en": "Dichloro silane",
+    "hs_code": "28530000",
+    "formula": "Cl2H2Si"
+  },
+  {
+    "cas": "534-07-6",
+    "name_vi": "1,3-Diclo aceton",
+    "name_en": "1,3-Dichloroaceto",
+    "hs_code": "29147000",
+    "formula": "C3H4Cl2O"
+  },
+  {
+    "cas": "79-36-7",
+    "name_vi": "Diclo acetyl",
+    "name_en": "Dichloroacetyl",
+    "hs_code": "29159090",
+    "formula": "C2HOCl3"
+  },
+  {
+    "cas": "91-94-1",
+    "name_vi": "3,3’-Diclo",
+    "name_en": "3,3’-Dichloro",
+    "hs_code": "29215900",
+    "formula": "C12H10Cl2N2"
+  },
+  {
+    "cas": "111-44-4",
+    "name_vi": "2,2’-Diclo",
+    "name_en": "2,2’-Dichloro",
+    "hs_code": "29091900",
+    "formula": "C4H8Cl2O"
+  },
+  {
+    "cas": "628-76-2",
+    "name_vi": "1,5-Diclo pentan",
+    "name_en": "1,5-Dichloro",
+    "hs_code": "29031990",
+    "formula": "C5H10Cl2"
+  },
+  {
+    "cas": "120-83-2",
+    "name_vi": "2,4-Diclo phenol",
+    "name_en": "2,4-Dichloro",
+    "hs_code": "29081900",
+    "formula": "C6H4OCl2"
+  },
+  {
+    "cas": "2612-57-9",
+    "name_vi": "isoxyanua",
+    "name_en": "isocyanate",
+    "hs_code": "",
+    "formula": ""
+  },
+  {
+    "cas": "78-87-5",
+    "name_vi": "1,2-Diclo propan",
+    "name_en": "1,2-Dichloro",
+    "hs_code": "29031900",
+    "formula": "C3H6Cl2"
+  },
+  {
+    "cas": "96-23-1",
+    "name_vi": "1,3-Diclo",
+    "name_en": "1,3-Dichloro",
+    "hs_code": "29055900",
+    "formula": "C3H6OCl2"
+  },
+  {
+    "cas": "542-75-6",
+    "name_vi": "Diclo propen",
+    "name_en": "1,3-Dichloro",
+    "hs_code": "29032900",
+    "formula": "C3H4Cl2"
+  },
+  {
+    "cas": "594-72-9",
+    "name_vi": "1,1 -Diclo-1",
+    "name_en": "1,1",
+    "hs_code": "29049000",
+    "formula": "C2H3O2NCl2"
+  },
+  {
+    "cas": "141-66-2",
+    "name_vi": "Dicrotophos",
+    "name_en": "Dicrotophos",
+    "hs_code": "29201900",
+    "formula": "C8H16NO5P"
+  },
+  {
+    "cas": "101-83-7",
+    "name_vi": "Dicyclo hexyl",
+    "name_en": "Dicyclo hexyl",
+    "hs_code": "29213000",
+    "formula": "C12H23N"
+  },
+  {
+    "cas": "60-57-1",
+    "name_vi": "Dieldrin",
+    "name_en": "Dieldrin",
+    "hs_code": "29104000",
+    "formula": "C12H8Cl6O"
+  },
+  {
+    "cas": "84-66-2",
+    "name_vi": "Dietyl phthalat",
+    "name_en": "Diethyl phthalate",
+    "hs_code": "29173490",
+    "formula": "C12H14O4"
+  },
+  {
+    "cas": "693-21-0",
+    "name_vi": "Dietylen glycol",
+    "name_en": "Diethylene glycol",
+    "hs_code": "29299090",
+    "formula": "C4H8N2O7"
+  },
+  {
+    "cas": "462-95-3",
+    "name_vi": "Dietoxy metan",
+    "name_en": "Diethoxy methane",
+    "hs_code": "29110000",
+    "formula": "C5H12O2"
+  },
+  {
+    "cas": "3054-95-3",
+    "name_vi": "3,3-Dietoxy",
+    "name_en": "3,3 -Diethoxy",
+    "hs_code": "29110000",
+    "formula": "C7H14O2"
+  },
+  {
+    "cas": "105-58-8",
+    "name_vi": "Dietyl cacbonat",
+    "name_en": "Diethyl cacbonate",
+    "hs_code": "29209090",
+    "formula": "C5H10O3"
+  },
+  {
+    "cas": "1719-53-5",
+    "name_vi": "Dietyl diclo",
+    "name_en": "Diethyl",
+    "hs_code": "29319090",
+    "formula": "C4H10Cl2Si"
+  },
+  {
+    "cas": "557-20-0",
+    "name_vi": "Dietyl kẽm",
+    "name_en": "Diethyl zinc",
+    "hs_code": "29319090",
+    "formula": "C4H10Zn"
+  },
+  {
+    "cas": "96-22-0",
+    "name_vi": "Dietyl keton",
+    "name_en": "3-Pentanone",
+    "hs_code": "29141900",
+    "formula": "C5H10O"
+  },
+  {
+    "cas": "14666-78-5",
+    "name_vi": "Dietyl peroxydicacbonat",
+    "name_en": "Dietyl peroxy dicarbonate",
+    "hs_code": "29209090",
+    "formula": "C6H10O6"
+  },
+  {
+    "cas": "762-04-9",
+    "name_vi": "Dietyl photphit",
+    "name_en": "Diethyl Phosphite",
+    "hs_code": "29209090",
+    "formula": "C4H11O3P"
+  },
+  {
+    "cas": "64-67-5",
+    "name_vi": "Dietyl sulfat",
+    "name_en": "Dietyl sulfate",
+    "hs_code": "29209090",
+    "formula": "C4H10O4S"
+  },
+  {
+    "cas": "352-93-2",
+    "name_vi": "Dietyl sunfua",
+    "name_en": "Diethyl sulfide",
+    "hs_code": "29309090",
+    "formula": "C4H10S"
+  },
+  {
+    "cas": "109-55-7",
+    "name_vi": "Dietyl amino",
+    "name_en": "Diethyl amino",
+    "hs_code": "29212900",
+    "formula": "C5H14N2"
+  },
+  {
+    "cas": "123-91-1",
+    "name_vi": "1,4-Dietylen",
+    "name_en": "1,4-Dioxane",
+    "hs_code": "29329990",
+    "formula": "C4H8O2"
+  },
+  {
+    "cas": "111-40-0",
+    "name_vi": "Dietylen triamin",
+    "name_en": "Diethylene",
+    "hs_code": "29212900",
+    "formula": "C4H13N3"
+  },
+  {
+    "cas": "2524-04-1",
+    "name_vi": "Dietyl thiophot",
+    "name_en": "Diethylthio",
+    "hs_code": "29209090",
+    "formula": "C4H10O2ClSP"
+  },
+  {
+    "cas": "75-10-5",
+    "name_vi": "Diflo metan",
+    "name_en": "Difluoro methane",
+    "hs_code": "29033990",
+    "formula": "CH2F2"
+  },
+  {
+    "cas": "75-37-6",
+    "name_vi": "Diflo etan",
+    "name_en": "Difluoro ethane",
+    "hs_code": "29033990",
+    "formula": "C2H4F2"
+  },
+  {
+    "cas": "2614-76-8",
+    "name_vi": "2,2-Dihydro",
+    "name_en": "2,2-Dihydro",
+    "hs_code": "29173990",
+    "formula": "C3H8O4"
+  },
+  {
+    "cas": "110-87-2",
+    "name_vi": "Dihydropyran",
+    "name_en": "2,3-Dihydropyran",
+    "hs_code": "29329990",
+    "formula": "C5H8O"
+  },
+  {
+    "cas": "108-83-8",
+    "name_vi": "Diisobutyl keton",
+    "name_en": "Diisobutyl ketone",
+    "hs_code": "29141900",
+    "formula": "C9H18O"
+  },
+  {
+    "cas": "84-69-5",
+    "name_vi": "Diisobutyl",
+    "name_en": "Diisobutyl",
+    "hs_code": "29173490",
+    "formula": "C16H22O4"
+  },
+  {
+    "cas": "110-96-3",
+    "name_vi": "Diisobutyl amin",
+    "name_en": "Diisobutyl amine",
+    "hs_code": "29211900",
+    "formula": "C8H19N"
+  },
+  {
+    "cas": "107-39-1",
+    "name_vi": "Diisobutylen",
+    "name_en": "Diisobutylene",
+    "hs_code": "29012990",
+    "formula": "C8H16"
+  },
+  {
+    "cas": "3437-84-1",
+    "name_vi": "Di-isobutyryl",
+    "name_en": "Di-isobutyryl",
+    "hs_code": "29096000",
+    "formula": "C8H14O4"
+  },
+  {
+    "cas": "108-20-3",
+    "name_vi": "Diisopropyl ete",
+    "name_en": "Diisopropyl ether",
+    "hs_code": "29091900",
+    "formula": "C6H14O"
+  },
+  {
+    "cas": "108-18-9",
+    "name_vi": "Diisopropyl amin",
+    "name_en": "Diisopropyl amine",
+    "hs_code": "29211900",
+    "formula": "C6H15N"
+  },
+  {
+    "cas": "674-82-8",
+    "name_vi": "Diketen",
+    "name_en": "Diketene",
+    "hs_code": "29322000",
+    "formula": "C4H4O2"
+  },
+  {
+    "cas": "115-26-4",
+    "name_vi": "Dimefox",
+    "name_en": "Dimefox",
+    "hs_code": "29299090",
+    "formula": "C4H12FN2OP"
+  },
+  {
+    "cas": "110-71-4",
+    "name_vi": "1,2-Dimethoxy",
+    "name_en": "1,2-dimethoxyetha",
+    "hs_code": "29091900",
+    "formula": "C4H10O2"
+  },
+  {
+    "cas": "124-40-3",
+    "name_vi": "Dimetyl amin",
+    "name_en": "Dimethyl amine",
+    "hs_code": "29211100",
+    "formula": "C2H7N"
+  },
+  {
+    "cas": "2439-35-2",
+    "name_vi": "2-Dimetyla mino",
+    "name_en": "2-Dimethyl amino",
+    "hs_code": "29221990",
+    "formula": "C7H13NO2"
+  },
+  {
+    "cas": "79-44-7",
+    "name_vi": "Dimetyl",
+    "name_en": "Dimethyl",
+    "hs_code": "29241900",
+    "formula": "C3H6CINO"
+  },
+  {
+    "cas": "75-78-5",
+    "name_vi": "Dimetyl",
+    "name_en": "Dimethyl",
+    "hs_code": "29319090",
+    "formula": "C2H6Cl2Si"
+  },
+  {
+    "cas": "62-75-9",
+    "name_vi": "Dimetyl",
+    "name_en": "Dimethyl",
+    "hs_code": "29299090",
+    "formula": "C2H6N2O"
+  },
+  {
+    "cas": "463-82-1",
+    "name_vi": "2,2-Dimetyl",
+    "name_en": "2,2-Dimethylpropa",
+    "hs_code": "29011000",
+    "formula": "C5H12"
+  },
+  {
+    "cas": "534-15-6",
+    "name_vi": "1,1 -Dimetoxy",
+    "name_en": "1,1 -Dimethoxy",
+    "hs_code": "29110000",
+    "formula": "C4H10O2"
+  },
+  {
+    "cas": "616-38-6",
+    "name_vi": "Dimetyl cacbon",
+    "name_en": "Dimethyl",
+    "hs_code": "29209090",
+    "formula": "C3H6O3"
+  },
+  {
+    "cas": "624-92-0",
+    "name_vi": "Dimetyl disunfua",
+    "name_en": "Dimethyl",
+    "hs_code": "29309090",
+    "formula": "C2H6S2"
+  },
+  {
+    "cas": "540-73-8",
+    "name_vi": "1,2-Dimetyl",
+    "name_en": "1,2-Dimetylhydraz",
+    "hs_code": "29280090",
+    "formula": "C2H8N2"
+  },
+  {
+    "cas": "544-97-8",
+    "name_vi": "Dimetyl kẽm",
+    "name_en": "Dimethylzinc",
+    "hs_code": "29319090",
+    "formula": "C2H6Zn"
+  },
+  {
+    "cas": "868-85-9",
+    "name_vi": "Dimetyl photphit",
+    "name_en": "Dimethyl",
+    "hs_code": "29209090",
+    "formula": "C2H7O3P"
+  },
+  {
+    "cas": "75-18-3",
+    "name_vi": "Dimetyl sunfua",
+    "name_en": "Dimethyl sulfide",
+    "hs_code": "29309090",
+    "formula": "C2H6S"
+  },
+  {
+    "cas": "77-78-1",
+    "name_vi": "Dimetyl sunphat",
+    "name_en": "Dimethyl sulfate",
+    "hs_code": "29209010",
+    "formula": "C2H6O4S"
+  },
+  {
+    "cas": "2524-03-0",
+    "name_vi": "Dimetyl",
+    "name_en": "Dimethyl",
+    "hs_code": "29209090",
+    "formula": "C2H6ClO2PS"
+  },
+  {
+    "cas": "79-44-7",
+    "name_vi": "Dimetyl amin",
+    "name_en": "Dimethyl",
+    "hs_code": "29241900",
+    "formula": "C3H6ClNO"
+  },
+  {
+    "cas": "926-64-7",
+    "name_vi": "2-Dimetyl amino",
+    "name_en": "2-Dimethyl amino",
+    "hs_code": "29269000",
+    "formula": "C4H8N2"
+  },
+  {
+    "cas": "2867-47-2",
+    "name_vi": "2-Dimetyl-amino-",
+    "name_en": "2-Dimetyl-amino-e",
+    "hs_code": "29221990",
+    "formula": "C8H15NO2"
+  },
+  {
+    "cas": "2867-47-2",
+    "name_vi": "Dimetyl amino",
+    "name_en": "2-Dimethyl amino",
+    "hs_code": "29221990",
+    "formula": "C8H15O2N"
+  },
+  {
+    "cas": "79-29-8",
+    "name_vi": "2,3-Dimetyl",
+    "name_en": "2,3-Dimethyl",
+    "hs_code": "29011000",
+    "formula": "C6H14"
+  },
+  {
+    "cas": "78-62-6",
+    "name_vi": "Dimetyl dietoxy",
+    "name_en": "Dimethyl diethoxy",
+    "hs_code": "29319080",
+    "formula": "C6H16O2Si"
+  },
+  {
+    "cas": "62-75-9",
+    "name_vi": "Dimetylnitro",
+    "name_en": "Dimethyl",
+    "hs_code": "29299090",
+    "formula": "C2H6N2O"
+  },
+  {
+    "cas": "2050-92-2",
+    "name_vi": "Di-n-amyl amin",
+    "name_en": "Di-n-amyl amine",
+    "hs_code": "29211900",
+    "formula": "C10H23N"
+  },
+  {
+    "cas": "1420-07-1",
+    "name_vi": "Dinoterb",
+    "name_en": "Dinoterb",
+    "hs_code": "29089900",
+    "formula": "C10H12N2O5"
+  },
+  {
+    "cas": "111-92-2",
+    "name_vi": "Di-n-butylamin",
+    "name_en": "Dibutylamine",
+    "hs_code": "29211900",
+    "formula": "C8H19N"
+  },
+  {
+    "cas": "1313-60-6",
+    "name_vi": "Dinatri peroxit",
+    "name_en": "Sodium peroxide",
+    "hs_code": "28153000",
+    "formula": "Na2O2"
+  },
+  {
+    "cas": "97-02-9",
+    "name_vi": "2,4-Dinitro",
+    "name_en": "2,4-Dinitro",
+    "hs_code": "29214200",
+    "formula": "C6H5O4N3"
+  },
+  {
+    "cas": "534-52-1",
+    "name_vi": "Dinitro-o-cresol",
+    "name_en": "Dinitro-o-cresol",
+    "hs_code": "29089200",
+    "formula": "C7H6N2O5"
+  },
+  {
+    "cas": "51-28-5",
+    "name_vi": "2,4-Dinitro phenol và các muối",
+    "name_en": "2,4-dinitro phenol, salts",
+    "hs_code": "29089900",
+    "formula": "C6H4N2O5"
+  },
+  {
+    "cas": "88-85-7",
+    "name_vi": "Dinoseb",
+    "name_en": "Dinoseb",
+    "hs_code": "29089100",
+    "formula": "C10H12N2O5"
+  },
+  {
+    "cas": "111-43-3",
+    "name_vi": "Di-n-propyl ete",
+    "name_en": "Di-n-propyl ether",
+    "hs_code": "29091900",
+    "formula": "C6H14O"
+  },
+  {
+    "cas": "78-34-2",
+    "name_vi": "Dioxathion (hỗn",
+    "name_en": "Dioxathion",
+    "hs_code": "29329990",
+    "formula": "C12H26O6S4P2"
+  },
+  {
+    "cas": "646-06-0",
+    "name_vi": "Dioxolan",
+    "name_en": "Dioxolane",
+    "hs_code": "29329990",
+    "formula": "C3H6O2"
+  },
+  {
+    "cas": "82-66-6",
+    "name_vi": "Diphacinon",
+    "name_en": "Diphacinone",
+    "hs_code": "9143900",
+    "formula": "C23H16O3"
+  },
+  {
+    "cas": "122-39-4",
+    "name_vi": "Diphenyl amin",
+    "name_en": "Diphenyl amine",
+    "hs_code": "29214400",
+    "formula": "C12H11N"
+  },
+  {
+    "cas": "80-10-4",
+    "name_vi": "Diphenyl diclo",
+    "name_en": "Diphenyl dichloro",
+    "hs_code": "29319090",
+    "formula": "C12H10Cl2Si"
+  },
+  {
+    "cas": "122-66-7",
+    "name_vi": "1,2-Diphenyl",
+    "name_en": "1,2-Diphenyl",
+    "hs_code": "29280090",
+    "formula": "C12H12N2"
+  },
+  {
+    "cas": "123-19-3",
+    "name_vi": "Dipropyl keton",
+    "name_en": "Dipropyl ketone",
+    "hs_code": "29141900",
+    "formula": "C7H14O"
+  },
+  {
+    "cas": "142-84-7",
+    "name_vi": "Dipropyl amin",
+    "name_en": "Dipropyl amine",
+    "hs_code": "29211900",
+    "formula": "C6H15N"
+  },
+  {
+    "cas": "298-04-4",
+    "name_vi": "Disulfoton",
+    "name_en": "Disulfoton",
+    "hs_code": "29309090",
+    "formula": "C8H19O2PS3"
+  },
+  {
+    "cas": "112-53-8",
+    "name_vi": "Dodecan-1-ol",
+    "name_en": "Dodecan-1-ol",
+    "hs_code": "29051700",
+    "formula": "C12H26O"
+  },
+  {
+    "cas": "2385-85-5",
+    "name_vi": "Dodecaclo",
+    "name_en": "Dodecachloro",
+    "hs_code": "29038900",
+    "formula": "C10Cl12"
+  },
+  {
+    "cas": "7758-89-6",
+    "name_vi": "Đồng (I) clorua",
+    "name_en": "Đồng (I) clorua",
+    "hs_code": "28273990",
+    "formula": "CuCl"
+  },
+  {
+    "cas": "7447-39-4",
+    "name_vi": "Đồng (II) clorua",
+    "name_en": "Copper (II)",
+    "hs_code": "28273990",
+    "formula": "CuCl2"
+  },
+  {
+    "cas": "115-29-7",
+    "name_vi": "Endosulfan (hỗn",
+    "name_en": "Endosulfane",
+    "hs_code": "29209090",
+    "formula": "C25H6O3S"
+  },
+  {
+    "cas": "72-20-8",
+    "name_vi": "Endrin",
+    "name_en": "Endrine",
+    "hs_code": "29061900",
+    "formula": "C12H8Cl6O"
+  },
+  {
+    "cas": "3132-64-7",
+    "name_vi": "Epibrom hydrin",
+    "name_en": "Epibromo hydrin",
+    "hs_code": "29109000",
+    "formula": "C3H5Obr"
+  },
+  {
+    "cas": "106-89-8",
+    "name_vi": "Epiclo hydrin",
+    "name_en": "Epichloro hydrin",
+    "hs_code": "29103000",
+    "formula": "C3H5ClO"
+  },
+  {
+    "cas": "2104-64-5",
+    "name_vi": "Epn",
+    "name_en": "Epn",
+    "hs_code": "29319090",
+    "formula": "C14H14NO4PS"
+  },
+  {
+    "cas": "556-52-5",
+    "name_vi": "2,3 -Epoxy-1",
+    "name_en": "2,3-Epoxy-1",
+    "hs_code": "29109000",
+    "formula": "C3H6O2"
+  },
+  {
+    "cas": "4016-11-9",
+    "name_vi": "1,2-Epoxy-3-etho",
+    "name_en": "1,2-Epoxy-3-ethox",
+    "hs_code": "29109000",
+    "formula": "C5H10O2"
+  },
+  {
+    "cas": "141-43-5",
+    "name_vi": "Etanol amin",
+    "name_en": "Ethano lamine",
+    "hs_code": "29221100",
+    "formula": "C2H7ON"
+  },
+  {
+    "cas": "74-84-0",
+    "name_vi": "Etan",
+    "name_en": "Ethane",
+    "hs_code": "29011000",
+    "formula": "C2H6"
+  },
+  {
+    "cas": "563-12-2",
+    "name_vi": "Ethion",
+    "name_en": "Ethion",
+    "hs_code": "29309090",
+    "formula": "C9H22O4P2S4"
+  },
+  {
+    "cas": "111-15-9",
+    "name_vi": "2-Ethoxy etyl",
+    "name_en": "2-Ethoxy ethyl",
+    "hs_code": "29153920",
+    "formula": "C6H12O3"
+  },
+  {
+    "cas": "107-00-6",
+    "name_vi": "Etyl axetylen",
+    "name_en": "Ethyl acetylene",
+    "hs_code": "29012400",
+    "formula": "C4H6"
+  },
+  {
+    "cas": "51-79-6",
+    "name_vi": "Etyl carbany",
+    "name_en": "Ethyl carbamate",
+    "hs_code": "29241900",
+    "formula": "C3H7O2N"
+  },
+  {
+    "cas": "91-53-2",
+    "name_vi": "Ethoxyquin",
+    "name_en": "Ethoxyquin",
+    "hs_code": "29333990",
+    "formula": "C14H19NO"
+  },
+  {
+    "cas": "75-00-3",
+    "name_vi": "Etyl chlorit",
+    "name_en": "Ethyl chloride",
+    "hs_code": "29031190",
+    "formula": "C2H5Cl"
+  },
+  {
+    "cas": "541-41-3",
+    "name_vi": "Etyl clo format",
+    "name_en": "Ethyl chloro",
+    "hs_code": "29159090",
+    "formula": "C3H5ClO2"
+  },
+  {
+    "cas": "75-08-1",
+    "name_vi": "Etyl mercaptan",
+    "name_en": "Ethyl mercaptan",
+    "hs_code": "29309090",
+    "formula": "C2H6S"
+  },
+  {
+    "cas": "625-58-1",
+    "name_vi": "Etyl nitrat",
+    "name_en": "Ethyl nitrate",
+    "hs_code": "29209090",
+    "formula": "C2H5NO3"
+  },
+  {
+    "cas": "109-95-5",
+    "name_vi": "Etyl nitrit",
+    "name_en": "Ethyl nitrite",
+    "hs_code": "29209090",
+    "formula": "C2H5NO2"
+  },
+  {
+    "cas": "623-70-1",
+    "name_vi": "Etyl",
+    "name_en": "Ethyl",
+    "hs_code": "29161900",
+    "formula": "C6H10O2"
+  },
+  {
+    "cas": "75-04-7",
+    "name_vi": "Etyl amin (Etan",
+    "name_en": "Ethylamine",
+    "hs_code": "29211900",
+    "formula": "C2H7N"
+  },
+  {
+    "cas": "113-18-8",
+    "name_vi": "Ethchlorvynol",
+    "name_en": "Ethchlorvynol",
+    "hs_code": "29055100",
+    "formula": "C7H9ClO"
+  },
+  {
+    "cas": "628-96-6",
+    "name_vi": "Etylen glycol",
+    "name_en": "Ethylene glycol",
+    "hs_code": "29209090",
+    "formula": "C2H4N2O6"
+  },
+  {
+    "cas": "75-21-8",
+    "name_vi": "Etylen oxit",
+    "name_en": "Ethylene oxide",
+    "hs_code": "29101000",
+    "formula": "C2H4O"
+  },
+  {
+    "cas": "107-15-3",
+    "name_vi": "Etylen diamin",
+    "name_en": "Ethylene diamine",
+    "hs_code": "29212100",
+    "formula": "C2H8N2"
+  },
+  {
+    "cas": "151-56-4",
+    "name_vi": "Etylen imin",
+    "name_en": "Ethylene imine",
+    "hs_code": "29093000",
+    "formula": "C2H5N"
+  },
+  {
+    "cas": "535-13-7",
+    "name_vi": "Etyl 2-clo",
+    "name_en": "Ethyl 2-",
+    "hs_code": "29159090",
+    "formula": "C5H9O2Cl"
+  },
+  {
+    "cas": "140-88-5",
+    "name_vi": "Etyl acrylat",
+    "name_en": "Ethyl acrylate",
+    "hs_code": "29161200",
+    "formula": "C5H8O2"
+  },
+  {
+    "cas": "541-85-5",
+    "name_vi": "Etyl amyl ceton",
+    "name_en": "Ethyl amyl ketone",
+    "hs_code": "29141900",
+    "formula": "C8H16O"
+  },
+  {
+    "cas": "141-78-6",
+    "name_vi": "Etyl axetat",
+    "name_en": "Ethyl acetate",
+    "hs_code": "29153100",
+    "formula": "C4H8O2"
+  },
+  {
+    "cas": "150-46-9",
+    "name_vi": "Etyl borat",
+    "name_en": "Triethyl borate",
+    "hs_code": "29209090",
+    "formula": "C6H15O3B"
+  },
+  {
+    "cas": "105-36-2",
+    "name_vi": "Etyl bromaxetat",
+    "name_en": "Ethyl",
+    "hs_code": "29159090",
+    "formula": "C4H7O2Br"
+  },
+  {
+    "cas": "74-96-4",
+    "name_vi": "Etyl bromua",
+    "name_en": "Bromo ethane",
+    "hs_code": "29033990",
+    "formula": "C2H5Br"
+  },
+  {
+    "cas": "628-81-9",
+    "name_vi": "Etyl butyl ete",
+    "name_en": "Ethyl butyl ether",
+    "hs_code": "29091900",
+    "formula": "C6H14O"
+  },
+  {
+    "cas": "105-39-5",
+    "name_vi": "Etyl clo axetat",
+    "name_en": "Ethyl",
+    "hs_code": "29154000",
+    "formula": "C4H7O2Cl"
+  },
+  {
+    "cas": "142-62-1",
+    "name_vi": "Etyl clo",
+    "name_en": "Ethyl",
+    "hs_code": "29159090",
+    "formula": "C6H12O2"
+  },
+  {
+    "cas": "1789-58-8",
+    "name_vi": "Etyl diclo silan",
+    "name_en": "Ethyl dichloro",
+    "hs_code": "29319090",
+    "formula": "C2H6Cl2Si"
+  },
+  {
+    "cas": "60-29-7",
+    "name_vi": "Etyl ete",
+    "name_en": "Ethyl ether",
+    "hs_code": "29094900",
+    "formula": "C4H10O"
+  },
+  {
+    "cas": "109-94-4",
+    "name_vi": "Etyl format",
+    "name_en": "Ethyl formate",
+    "hs_code": "29151300",
+    "formula": "C3H6O2"
+  },
+  {
+    "cas": "5397-31-9",
+    "name_vi": "3-(2-Etylhexylox",
+    "name_en": "3-(2-",
+    "hs_code": "29221990",
+    "formula": "C11H25NO"
+  },
+  {
+    "cas": "97-62-1",
+    "name_vi": "Etyl isobutyrat",
+    "name_en": "Ethyl isobutyrate",
+    "hs_code": "29156000",
+    "formula": "C6H12O2"
+  },
+  {
+    "cas": "687-47-8",
+    "name_vi": "Etyl lactat",
+    "name_en": "Ethyl lactate",
+    "hs_code": "29181100",
+    "formula": "C5H10O3"
+  },
+  {
+    "cas": "97-63-2",
+    "name_vi": "Etyl metacrylat",
+    "name_en": "Ethyl",
+    "hs_code": "29161490",
+    "formula": "C6H10O2"
+  },
+  {
+    "cas": "122-51-0",
+    "name_vi": "Etyl orthoformat",
+    "name_en": "Ethyl",
+    "hs_code": "29159090",
+    "formula": "C7H16O3"
+  },
+  {
+    "cas": "105-37-3",
+    "name_vi": "Etyl propionat",
+    "name_en": "Ethyl propionate",
+    "hs_code": "29155000",
+    "formula": "C5H10O2"
+  },
+  {
+    "cas": "628-32-0",
+    "name_vi": "Etyl propyl ete",
+    "name_en": "Ethyl propyl",
+    "hs_code": "29091900",
+    "formula": "C5H12O"
+  },
+  {
+    "cas": "115-21-9",
+    "name_vi": "Etyl triclo",
+    "name_en": "Ethyl trichloro",
+    "hs_code": "29319090",
+    "formula": "C2H5Cl3Si"
+  },
+  {
+    "cas": "100-41-4",
+    "name_vi": "Etyl benzen",
+    "name_en": "Ethyl benzene",
+    "hs_code": "29026000",
+    "formula": "C8H10"
+  },
+  {
+    "cas": "137-32-6",
+    "name_vi": "2-Etyl butanol",
+    "name_en": "2-Ethyl butanol",
+    "hs_code": "29051900",
+    "formula": "C5H12O"
+  },
+  {
+    "cas": "97-96-1",
+    "name_vi": "Etyl butyl",
+    "name_en": "2-Ethyl butyr",
+    "hs_code": "29121990",
+    "formula": "C6H12O"
+  },
+  {
+    "cas": "110-80-5",
+    "name_vi": "2-Ethoxy etanol",
+    "name_en": "2-Ethoxy ethanol",
+    "hs_code": "29094400",
+    "formula": "C4H10O2"
+  },
+  {
+    "cas": "74-85-1",
+    "name_vi": "Etylen",
+    "name_en": "Ethylene",
+    "hs_code": "29012100",
+    "formula": "C2H4"
+  },
+  {
+    "cas": "151-56-4",
+    "name_vi": "Etylen imin",
+    "name_en": "Ethylen imine",
+    "hs_code": "29339990",
+    "formula": "C2H5N"
+  },
+  {
+    "cas": "104-75-6",
+    "name_vi": "Etyl hexyl amin",
+    "name_en": "2-Ethylhexyl",
+    "hs_code": "29211900",
+    "formula": "C8H19N"
+  },
+  {
+    "cas": "766-09-6",
+    "name_vi": "1-Etyl piperidin",
+    "name_en": "1-Ethyl",
+    "hs_code": "29333990",
+    "formula": "C7H15N"
+  },
+  {
+    "cas": "122-14-5",
+    "name_vi": "Fenitrothion",
+    "name_en": "O,O-Dimethyl O-4-",
+    "hs_code": "29201900",
+    "formula": "C9H12O5NSP"
+  },
+  {
+    "cas": "55-38-9",
+    "name_vi": "Fenthion",
+    "name_en": "Fenthion",
+    "hs_code": "29309090",
+    "formula": "C10H15O3S2P"
+  },
+  {
+    "cas": "7782-41-4",
+    "name_vi": "Flo",
+    "name_en": "Fluorine",
+    "hs_code": "28013000",
+    "formula": "F2"
+  },
+  {
+    "cas": "640-19-7",
+    "name_vi": "Fluoraxetamit",
+    "name_en": "Fluoracetamide",
+    "hs_code": "29241200",
+    "formula": "C2H4FNO"
+  },
+  {
+    "cas": "462-06-6",
+    "name_vi": "Flo benzen",
+    "name_en": "Fluoro benzene",
+    "hs_code": "29039900",
+    "formula": "C6H5F"
+  },
+  {
+    "cas": "7616-94-6",
+    "name_vi": "Flo percloryl",
+    "name_en": "Perchloryl",
+    "hs_code": "28129000",
+    "formula": "FClO3"
+  },
+  {
+    "cas": "348-54-9",
+    "name_vi": "Floro anilin",
+    "name_en": "Fluoro aniline",
+    "hs_code": "29214200",
+    "formula": "C6H6NF"
+  },
+  {
+    "cas": "4301-50-2",
+    "name_vi": "Fluenetil",
+    "name_en": "Fluenetil",
+    "hs_code": "29153990",
+    "formula": "C16H15FO2"
+  },
+  {
+    "cas": "144-49-0",
+    "name_vi": "Fluoroaxetic",
+    "name_en": "Fluoroacetic acid",
+    "hs_code": "29159090",
+    "formula": "C2H3FO2"
+  },
+  {
+    "cas": "900-95-8",
+    "name_vi": "Fentin axetat",
+    "name_en": "Triphenylzinn",
+    "hs_code": "29319090",
+    "formula": "C20H18O2Sn"
+  },
+  {
+    "cas": "76-87-9",
+    "name_vi": "Fentin hydroxit",
+    "name_en": "Hydroxy triphenyl",
+    "hs_code": "29319090",
+    "formula": "C18H16OSn"
+  },
+  {
+    "cas": "50-00-0",
+    "name_vi": "Formaldehit",
+    "name_en": "Formaldehyde",
+    "hs_code": "29121110",
+    "formula": "CH2O"
+  },
+  {
+    "cas": "944-22-9",
+    "name_vi": "Fonofos",
+    "name_en": "Fonofos",
+    "hs_code": "29309090",
+    "formula": "C10H15OS2P"
+  },
+  {
+    "cas": "98-01-1",
+    "name_vi": "Fufural",
+    "name_en": "Furfural",
+    "hs_code": "29321200",
+    "formula": "C5H4O2"
+  },
+  {
+    "cas": "110-00-9",
+    "name_vi": "Furan",
+    "name_en": "Furan",
+    "hs_code": "29321900",
+    "formula": "C4H4O"
+  },
+  {
+    "cas": "98-00-0",
+    "name_vi": "Furfuryl alcohol",
+    "name_en": "Furfuryl alcohol",
+    "hs_code": "29321300",
+    "formula": "C5H6O2"
+  },
+  {
+    "cas": "617-89-0",
+    "name_vi": "Furfuryl amin",
+    "name_en": "Furfuryl amine",
+    "hs_code": "29321900",
+    "formula": "C5H7ON"
+  },
+  {
+    "cas": "7440-55-3",
+    "name_vi": "Gali",
+    "name_en": "Gallium",
+    "hs_code": "81129200",
+    "formula": "Ga"
+  },
+  {
+    "cas": "96-48-0",
+    "name_vi": "Gamma-butyro lacton (GBL)",
+    "name_en": "Dihidrofuran-2(3H )- one",
+    "hs_code": "29322000",
+    "formula": "C4H6O2"
+  },
+  {
+    "cas": "96-24-2",
+    "name_vi": "Glycerol",
+    "name_en": "Glycerol",
+    "hs_code": "29055900",
+    "formula": "C3H7O2Cl"
+  },
+  {
+    "cas": "765-34-4",
+    "name_vi": "Glycid aldehit",
+    "name_en": "Glycid aldehyde",
+    "hs_code": "29124900",
+    "formula": "C3H4O2"
+  },
+  {
+    "cas": "506-93-4",
+    "name_vi": "Guanidine nitrat",
+    "name_en": "Guanidine nitrate",
+    "hs_code": "29252900",
+    "formula": "CH6O3N4"
+  },
+  {
+    "cas": "109-27-3",
+    "name_vi": "Guanyl-4-",
+    "name_en": "1-guanyl-4-nitros",
+    "hs_code": "29299090",
+    "formula": "C2H8N10O"
+  },
+  {
+    "cas": "7440-59-7",
+    "name_vi": "Heli",
+    "name_en": "Helium",
+    "hs_code": "28042900",
+    "formula": "He"
+  },
+  {
+    "cas": "76-44-8",
+    "name_vi": "Heptaclorua",
+    "name_en": "Heptachlorane",
+    "hs_code": "29038200",
+    "formula": "C10H5Cl7"
+  },
+  {
+    "cas": "3194-55-6",
+    "name_vi": "Hexabrom xyclo",
+    "name_en": "Hexabromo cyclo",
+    "hs_code": "29038900",
+    "formula": "C11H18Br6"
+  },
+  {
+    "cas": "118-74-1",
+    "name_vi": "Hexaclo benzen",
+    "name_en": "Hexachloro",
+    "hs_code": "29039200",
+    "formula": "C6Cl6"
+  },
+  {
+    "cas": "87-68-3",
+    "name_vi": "Hexaclo butadien",
+    "name_en": "Hexachloro",
+    "hs_code": "29032900",
+    "formula": "C4Cl6"
+  },
+  {
+    "cas": "77-47-4",
+    "name_vi": "Hexaclo",
+    "name_en": "Hexachloro cyclo",
+    "hs_code": "29033990",
+    "formula": "C5Cl6"
+  },
+  {
+    "cas": "608-73-1",
+    "name_vi": "Hexaclo",
+    "name_en": "1,2,3,4,5,6-",
+    "hs_code": "29038100",
+    "formula": "C6H6Cl6"
+  },
+  {
+    "cas": "70-30-4",
+    "name_vi": "Hexaclophen",
+    "name_en": "Hexachlorophene",
+    "hs_code": "29081900",
+    "formula": "C13H6O2Cl6"
+  },
+  {
+    "cas": "5894-60-0",
+    "name_vi": "Hexadecyltriclo",
+    "name_en": "Hexadecyl",
+    "hs_code": "29319090",
+    "formula": "C16H33Cl3Si"
+  },
+  {
+    "cas": "684-16-2",
+    "name_vi": "Hexaflo axeton",
+    "name_en": "Hexafluoroacetone",
+    "hs_code": "29147000",
+    "formula": "C3OF6"
+  },
+  {
+    "cas": "66-25-1",
+    "name_vi": "Hexaldehit",
+    "name_en": "Hexanal",
+    "hs_code": "29121990",
+    "formula": "C6H12O"
+  },
+  {
+    "cas": "680-31-9",
+    "name_vi": "Hexametyl",
+    "name_en": "Hexamethyl",
+    "hs_code": "29299090",
+    "formula": "C6H18N3OP"
+  },
+  {
+    "cas": "680-31-9",
+    "name_vi": "Hexametyl",
+    "name_en": "Hexamethyl",
+    "hs_code": "29212900",
+    "formula": "C6H18N3OP"
+  },
+  {
+    "cas": "822-06-0",
+    "name_vi": "Hexametylen",
+    "name_en": "Hexamethylene",
+    "hs_code": "29291090",
+    "formula": "C8H12N2O2"
+  },
+  {
+    "cas": "124-09-4",
+    "name_vi": "Hexametylen",
+    "name_en": "Hexamethylene",
+    "hs_code": "29212200",
+    "formula": "C6H16N2"
+  },
+  {
+    "cas": "111-49-9",
+    "name_vi": "Hexametylen imin",
+    "name_en": "Hexamethylene",
+    "hs_code": "29339990",
+    "formula": "C6H13N"
+  },
+  {
+    "cas": "100-97-0",
+    "name_vi": "Hexamin",
+    "name_en": "Hexamine",
+    "hs_code": "29336900",
+    "formula": "C6H12N4"
+  },
+  {
+    "cas": "110-54-3",
+    "name_vi": "Hexan",
+    "name_en": "Hexane",
+    "hs_code": "29011000",
+    "formula": "C6H14"
+  },
+  {
+    "cas": "111-27-3",
+    "name_vi": "Hexanol",
+    "name_en": "Hexanol",
+    "hs_code": "29051900",
+    "formula": "C6H14O"
+  },
+  {
+    "cas": "591-78-6",
+    "name_vi": "2-Hexanon",
+    "name_en": "2-Hexanone",
+    "hs_code": "29141900",
+    "formula": "C6H12O"
+  },
+  {
+    "cas": "592-41-6",
+    "name_vi": "1-Hexen",
+    "name_en": "1-Hexene",
+    "hs_code": "29012990",
+    "formula": "C6H12"
+  },
+  {
+    "cas": "302-01-2",
+    "name_vi": "Hydrazin và các",
+    "name_en": "Hydrazine and",
+    "hs_code": "28251000",
+    "formula": "N2H4"
+  },
+  {
+    "cas": "7722-84-1",
+    "name_vi": "Hydro peroxit",
+    "name_en": "Hydrogen peroxide",
+    "hs_code": "28470010",
+    "formula": "H2O2"
+  },
+  {
+    "cas": "7783-07-5",
+    "name_vi": "Hydro selenua",
+    "name_en": "Hydrogen selenide",
+    "hs_code": "28470000",
+    "formula": "H2Se"
+  },
+  {
+    "cas": "1333-74-0",
+    "name_vi": "Hydrogen",
+    "name_en": "Hydrogen",
+    "hs_code": "28041000",
+    "formula": "H2"
+  },
+  {
+    "cas": "7664-39-3",
+    "name_vi": "Hydrogen fluorit",
+    "name_en": "Hydrogen fluoride",
+    "hs_code": "28111100",
+    "formula": "HF"
+  },
+  {
+    "cas": "7783-07-5",
+    "name_vi": "Hydrogen selenit",
+    "name_en": "Hydrogen selenide",
+    "hs_code": "28111990",
+    "formula": "H2Se"
+  },
+  {
+    "cas": "7783-06-4",
+    "name_vi": "Hydrogen sunphit",
+    "name_en": "Hydrogen sulphide",
+    "hs_code": "28139000",
+    "formula": "H2S"
+  },
+  {
+    "cas": "123-31-9",
+    "name_vi": "Hydroquinon",
+    "name_en": "Hydroquinone",
+    "hs_code": "29072200",
+    "formula": "C6H6O2"
+  },
+  {
+    "cas": "481-39-0",
+    "name_vi": "Hydroxy-1,4-naph",
+    "name_en": "5-Hydroxy-1,4-nap",
+    "hs_code": "29420000",
+    "formula": "C10H6O3"
+  },
+  {
+    "cas": "107-16-4",
+    "name_vi": "Hydroxy",
+    "name_en": "Hydroxy",
+    "hs_code": "293299",
+    "formula": "C2H3NO"
+  },
+  {
+    "cas": "107-16-4",
+    "name_vi": "Hydroxy",
+    "name_en": "Hydroxy",
+    "hs_code": "29269000",
+    "formula": "C2H3NO"
+  },
+  {
+    "cas": "7803-49-8",
+    "name_vi": "Hydroxyl amin",
+    "name_en": "Hydroxyl amine",
+    "hs_code": "28251000",
+    "formula": "H3NO"
+  },
+  {
+    "cas": "5470-11-1",
+    "name_vi": "Hydroxyl amin",
+    "name_en": "Hydroxyl amine",
+    "hs_code": "28251000",
+    "formula": "H3NOHCl"
+  },
+  {
+    "cas": "53-86-1",
+    "name_vi": "Indomethacin",
+    "name_en": "Indomethacine",
+    "hs_code": "29339990",
+    "formula": "C19H16CNIO4"
+  },
+  {
+    "cas": "7783-66-6",
+    "name_vi": "lot pentaflorua",
+    "name_en": "Iodine",
+    "hs_code": "28129000",
+    "formula": "IF5"
+  },
+  {
+    "cas": "7553-56-2",
+    "name_vi": "lot",
+    "name_en": "Iodine",
+    "hs_code": "28012000",
+    "formula": "I2"
+  },
+  {
+    "cas": "507-02-8",
+    "name_vi": "Iot acetyl",
+    "name_en": "Iodide acetyl",
+    "hs_code": "29159090",
+    "formula": "C2H3OI"
+  },
+  {
+    "cas": "513-38-2",
+    "name_vi": "Iot metyl propan",
+    "name_en": "Iodo methyl",
+    "hs_code": "29033990",
+    "formula": "C4H9I"
+  },
+  {
+    "cas": "297-78-9",
+    "name_vi": "Isobenzan",
+    "name_en": "Isobenzan",
+    "hs_code": "29329990",
+    "formula": "C9H4Cl8O"
+  },
+  {
+    "cas": "78-83-1",
+    "name_vi": "Isobutanol",
+    "name_en": "Isobutanol",
+    "hs_code": "29051400",
+    "formula": "C4H10O"
+  },
+  {
+    "cas": "106-63-8",
+    "name_vi": "Isobutyl acrylat",
+    "name_en": "Isobutyl acrylate",
+    "hs_code": "29161200",
+    "formula": "C7H12O2"
+  },
+  {
+    "cas": "110-19-0",
+    "name_vi": "Isobutyl axetat",
+    "name_en": "Isobutyl acetate",
+    "hs_code": "29153900",
+    "formula": "C6H12O2"
+  },
+  {
+    "cas": "542-55-2",
+    "name_vi": "Isobutyl format",
+    "name_en": "Isobutyl formate",
+    "hs_code": "29151300",
+    "formula": "C5H10O2"
+  },
+  {
+    "cas": "97-85-8",
+    "name_vi": "Isobutyl",
+    "name_en": "Isobutyl",
+    "hs_code": "29156000",
+    "formula": "C8H16O2"
+  },
+  {
+    "cas": "97-86-9",
+    "name_vi": "Isobutyl",
+    "name_en": "Isobutyl",
+    "hs_code": "29161400",
+    "formula": "C8H14O2"
+  },
+  {
+    "cas": "540-42-1",
+    "name_vi": "Isobutyl",
+    "name_en": "Isobutyl",
+    "hs_code": "29155000",
+    "formula": "C7H14O2"
+  },
+  {
+    "cas": "78-81-9",
+    "name_vi": "Isobutyl amin",
+    "name_en": "Isobutyl amine",
+    "hs_code": "29211900",
+    "formula": "C4H11N"
+  },
+  {
+    "cas": "78-84-2",
+    "name_vi": "Isobutyraldehit",
+    "name_en": "Isobutyraldehyde",
+    "hs_code": "29121990",
+    "formula": "C4H8O"
+  },
+  {
+    "cas": "97-72-3",
+    "name_vi": "Isobutyric",
+    "name_en": "Isobutyric",
+    "hs_code": "29159090",
+    "formula": "C8H14O3"
+  },
+  {
+    "cas": "79-30-1",
+    "name_vi": "Isobutyryl",
+    "name_en": "Isobutyryl",
+    "hs_code": "29159090",
+    "formula": "C4H7OCl"
+  },
+  {
+    "cas": "329-01-1",
+    "name_vi": "Isocyanato",
+    "name_en": "Isocyanato",
+    "hs_code": "29291090",
+    "formula": "C8H4ONF3"
+  },
+  {
+    "cas": "465-73-6",
+    "name_vi": "Isodrin",
+    "name_en": "Isodrin",
+    "hs_code": "29039900",
+    "formula": "C12H8Cl6"
+  },
+  {
+    "cas": "691-37-2",
+    "name_vi": "Isohexen",
+    "name_en": "Isohexene",
+    "hs_code": "29012990",
+    "formula": "C6H12"
+  },
+  {
+    "cas": "513-35-9",
+    "name_vi": "Isopenten",
+    "name_en": "Isopentene",
+    "hs_code": "29012990",
+    "formula": "C5H10"
+  },
+  {
+    "cas": "4098-71-9",
+    "name_vi": "Isophoron",
+    "name_en": "Isophorone",
+    "hs_code": "29291090",
+    "formula": "C12H18N2O2"
+  },
+  {
+    "cas": "2855-13-2",
+    "name_vi": "Isophoron diamin",
+    "name_en": "Isophorone",
+    "hs_code": "29213000",
+    "formula": "C9H8N2O"
+  },
+  {
+    "cas": "67-63-0",
+    "name_vi": "Isopropanol",
+    "name_en": "Isopropyl alcohol",
+    "hs_code": "29051200",
+    "formula": "C3H8O"
+  },
+  {
+    "cas": "108-22-5",
+    "name_vi": "Isopropenyl",
+    "name_en": "Isopropenyl",
+    "hs_code": "29153990",
+    "formula": "C5H8O2"
+  },
+  {
+    "cas": "98-83-9",
+    "name_vi": "Isopropenyl",
+    "name_en": "Isopropenyl",
+    "hs_code": "29029020",
+    "formula": "C9H10"
+  },
+  {
+    "cas": "108-21-4",
+    "name_vi": "Isopropyl axetat",
+    "name_en": "Isopropyl acetate",
+    "hs_code": "29153900",
+    "formula": "C5H10O2"
+  },
+  {
+    "cas": "638-11-9",
+    "name_vi": "Isopropyl",
+    "name_en": "Isopropyl",
+    "hs_code": "29156000",
+    "formula": "C7H14O2"
+  },
+  {
+    "cas": "105-48-6",
+    "name_vi": "Isopropyl",
+    "name_en": "Isopropyl",
+    "hs_code": "29154000",
+    "formula": "C5H9O2Cl"
+  },
+  {
+    "cas": "75-30-9",
+    "name_vi": "Isopropyl iođua",
+    "name_en": "2-Iodopropane",
+    "hs_code": "29033990",
+    "formula": "C3H7I"
+  },
+  {
+    "cas": "617-50-5",
+    "name_vi": "Isopropyl",
+    "name_en": "Isopropyl",
+    "hs_code": "29156000",
+    "formula": "C7H14O2"
+  },
+  {
+    "cas": "1795-48-8",
+    "name_vi": "Isopropyl",
+    "name_en": "Isopropyl",
+    "hs_code": "29291090",
+    "formula": "C4H7NO"
+  },
+  {
+    "cas": "1712-64-7",
+    "name_vi": "Isopropyl nitrat",
+    "name_en": "Isopropyl nitrate",
+    "hs_code": "29209090",
+    "formula": "C3H7O3N"
+  },
+  {
+    "cas": "637-78-5",
+    "name_vi": "Isopropyl",
+    "name_en": "Isopropyl",
+    "hs_code": "29155000",
+    "formula": "C6H12O2"
+  },
+  {
+    "cas": "98-82-8",
+    "name_vi": "Isopropyl benzen",
+    "name_en": "Cumene",
+    "hs_code": "29027000",
+    "formula": "C9H12"
+  },
+  {
+    "cas": "7440-09-7",
+    "name_vi": "Kali",
+    "name_en": "Potassium",
+    "hs_code": "28051900",
+    "formula": "K"
+  },
+  {
+    "cas": "7758-01-2",
+    "name_vi": "Kali bromat",
+    "name_en": "Potassium bromate",
+    "hs_code": "28299090",
+    "formula": "KBrO3"
+  },
+  {
+    "cas": "7789-23-3",
+    "name_vi": "Kali florua",
+    "name_en": "Potassium",
+    "hs_code": "28261990",
+    "formula": "KF"
+  },
+  {
+    "cas": "7646-93-7",
+    "name_vi": "Kali hydro",
+    "name_en": "Potassium",
+    "hs_code": "28332990",
+    "formula": "KHSO4"
+  },
+  {
+    "cas": "1310-58-3",
+    "name_vi": "Kali hydroxit",
+    "name_en": "Potassium",
+    "hs_code": "28152000",
+    "formula": "KOH"
+  },
+  {
+    "cas": "7758-09-0",
+    "name_vi": "Kali nitrit",
+    "name_en": "Potassium nitrite",
+    "hs_code": "28341000",
+    "formula": "KNO2"
+  },
+  {
+    "cas": "7727-21-1",
+    "name_vi": "Kali persunphat",
+    "name_en": "Potassium",
+    "hs_code": "28334000",
+    "formula": "K2S2O8"
+  },
+  {
+    "cas": "1312-73-8",
+    "name_vi": "Kali sunfua",
+    "name_en": "Potassium sulfide",
+    "hs_code": "283090",
+    "formula": "K2S"
+  },
+  {
+    "cas": "7646-85-7",
+    "name_vi": "Kẽm clorua",
+    "name_en": "Zinc chloride",
+    "hs_code": "28273990",
+    "formula": "ZnCl2"
+  },
+  {
+    "cas": "7704-99-6",
+    "name_vi": "Kẽm hydrua",
+    "name_en": "Zirconium (II)",
+    "hs_code": "28500000",
+    "formula": "ZrH2"
+  },
+  {
+    "cas": "7779-88-6",
+    "name_vi": "Kẽm nitrat",
+    "name_en": "Zinc nitrate",
+    "hs_code": "28342990",
+    "formula": "Zn(NO3)2"
+  },
+  {
+    "cas": "1314-22-3",
+    "name_vi": "Kẽm peroxit",
+    "name_en": "Zinc peroxide",
+    "hs_code": "28170020",
+    "formula": "ZnO2"
+  },
+  {
+    "cas": "1314-84-7",
+    "name_vi": "Kẽm photphua",
+    "name_en": "Zinc phosphide",
+    "hs_code": "28480000",
+    "formula": "Zn3P3"
+  },
+  {
+    "cas": "7439-90-9",
+    "name_vi": "Krypton",
+    "name_en": "Krypton",
+    "hs_code": "28042900",
+    "formula": "Kr"
+  },
+  {
+    "cas": "58-89-9",
+    "name_vi": "Lindan",
+    "name_en": "Lindane",
+    "hs_code": "29038100",
+    "formula": "C6H6Cl6"
+  },
+  {
+    "cas": "7439-93-2",
+    "name_vi": "Liti",
+    "name_en": "Lithium",
+    "hs_code": "28051900",
+    "formula": "Li"
+  },
+  {
+    "cas": "7580-67-8",
+    "name_vi": "Liti hydrit",
+    "name_en": "Lithium hydride",
+    "hs_code": "28500000",
+    "formula": "LiH"
+  },
+  {
+    "cas": "1310-65-2",
+    "name_vi": "Liti hydroxit",
+    "name_en": "Lithium hydroxide",
+    "hs_code": "28252000",
+    "formula": "LiOH"
+  },
+  {
+    "cas": "7790-69-4",
+    "name_vi": "Liti nitrat",
+    "name_en": "Lithium nitrate",
+    "hs_code": "28342980",
+    "formula": "LiNO3"
+  },
+  {
+    "cas": "7790-99-0",
+    "name_vi": "Iod monoclorua",
+    "name_en": "Iodine",
+    "hs_code": "28121000",
+    "formula": "ICl"
+  },
+  {
+    "cas": "7704-34-9",
+    "name_vi": "Lưu huỳnh",
+    "name_en": "Sulfur",
+    "hs_code": "28020000",
+    "formula": "S"
+  },
+  {
+    "cas": "7446-09-5",
+    "name_vi": "Lưu huỳnh dioxit",
+    "name_en": "Sulfur dioxide",
+    "hs_code": "28112820",
+    "formula": "SO2"
+  },
+  {
+    "cas": "2551-62-4",
+    "name_vi": "Lưu huỳnh",
+    "name_en": "Sulfur",
+    "hs_code": "28129000",
+    "formula": "SF6"
+  },
+  {
+    "cas": "7783-60-0",
+    "name_vi": "Lưu huỳnh",
+    "name_en": "Sulfur",
+    "hs_code": "28129000",
+    "formula": "SF4"
+  },
+  {
+    "cas": "7446-11-9",
+    "name_vi": "Lưu huỳnh",
+    "name_en": "Sulfur trioxide",
+    "hs_code": "28112990",
+    "formula": "SO3"
+  },
+  {
+    "cas": "7439-95-4",
+    "name_vi": "Magie",
+    "name_en": "Magnesium",
+    "hs_code": "8104",
+    "formula": "Mg"
+  },
+  {
+    "cas": "1335-26-8",
+    "name_vi": "Magie peroxit",
+    "name_en": "Magnesium",
+    "hs_code": "28161000",
+    "formula": "MgO2"
+  },
+  {
+    "cas": "108-31-6",
+    "name_vi": "Maleic anhydrit",
+    "name_en": "Maleic anhydride",
+    "hs_code": "29171400",
+    "formula": "C4H2O3"
+  },
+  {
+    "cas": "109-77-3",
+    "name_vi": "Malono nitril",
+    "name_en": "Malono nitrile",
+    "hs_code": "29269000",
+    "formula": "C3H2N2"
+  },
+  {
+    "cas": "9008-34-8",
+    "name_vi": "Mangan resinat",
+    "name_en": "Manganese",
+    "hs_code": "29319090",
+    "formula": "C41H58O4Mg"
+  },
+  {
+    "cas": "108-41-8",
+    "name_vi": "M-clo toluen",
+    "name_en": "1-chloro-3-",
+    "hs_code": "29039990",
+    "formula": "C7H7Cl"
+  },
+  {
+    "cas": "96-37-7",
+    "name_vi": "Metyl",
+    "name_en": "Methyl",
+    "hs_code": "29021900",
+    "formula": "C6H12"
+  },
+  {
+    "cas": "96-45-7",
+    "name_vi": "2-Mercapto",
+    "name_en": "2-Mercapto",
+    "hs_code": "29332990",
+    "formula": "C3H6N2S"
+  },
+  {
+    "cas": "141-79-7",
+    "name_vi": "Mesityl oxit",
+    "name_en": "Mesityl oxide",
+    "hs_code": "29141900",
+    "formula": "C6H10O"
+  },
+  {
+    "cas": "78-85-3",
+    "name_vi": "Metacryl aldehit",
+    "name_en": "Methacryl",
+    "hs_code": "29121990",
+    "formula": "C4H6O"
+  },
+  {
+    "cas": "108-62-3",
+    "name_vi": "Metaldehit",
+    "name_en": "Metaldehyde",
+    "hs_code": "29125000",
+    "formula": "C8H16O4"
+  },
+  {
+    "cas": "67-56-1",
+    "name_vi": "Metanol",
+    "name_en": "Methanol",
+    "hs_code": "29051100",
+    "formula": "CH4O"
+  },
+  {
+    "cas": "124-63-0",
+    "name_vi": "Metan sunphonyl",
+    "name_en": "Methane sulfonyl",
+    "hs_code": "29049000",
+    "formula": "CH3ClO2S"
+  },
+  {
+    "cas": "513-42-8",
+    "name_vi": "Methallanol",
+    "name_en": "Methallyl alcohol",
+    "hs_code": "29052900",
+    "formula": "C4H8O"
+  },
+  {
+    "cas": "74-82-8",
+    "name_vi": "Metan",
+    "name_en": "Methane",
+    "hs_code": "27111490",
+    "formula": "CH4"
+  },
+  {
+    "cas": "110-49-6",
+    "name_vi": "2-Methoxy etyl",
+    "name_en": "2-Methoxy ethyl",
+    "hs_code": "29153990",
+    "formula": "C5H10O3"
+  },
+  {
+    "cas": "563-45-1",
+    "name_vi": "3-Metyl -1-buten",
+    "name_en": "3-Methyl -1",
+    "hs_code": "29012990",
+    "formula": "C5H10"
+  },
+  {
+    "cas": "96-33-3",
+    "name_vi": "Metyl acrylat",
+    "name_en": "Methyl acrylate",
+    "hs_code": "29161200",
+    "formula": "C4H6O2"
+  },
+  {
+    "cas": "78-78-4",
+    "name_vi": "2-Metyl- butan",
+    "name_en": "2-methyl- butane",
+    "hs_code": "29011000",
+    "formula": "C5H12"
+  },
+  {
+    "cas": "74-87-3",
+    "name_vi": "Metyl clorit",
+    "name_en": "Methyl chloride",
+    "hs_code": "29031110",
+    "formula": "CH3Cl"
+  },
+  {
+    "cas": "74-83-9",
+    "name_vi": "Metyl bromit",
+    "name_en": "Bromo methane",
+    "hs_code": "29033910",
+    "formula": "CH3Br"
+  },
+  {
+    "cas": "298-00-0",
+    "name_vi": "Metyl-parathion",
+    "name_en": "Metyl-parathion",
+    "hs_code": "29199000",
+    "formula": "(CH3O)2P(S)O"
+  },
+  {
+    "cas": "79-22-1",
+    "name_vi": "Metyl cloformat",
+    "name_en": "Methyl",
+    "hs_code": "29159090",
+    "formula": "C2H3ClO2"
+  },
+  {
+    "cas": "115-10-6",
+    "name_vi": "Metyl ete",
+    "name_en": "Methyl ether",
+    "hs_code": "29091900",
+    "formula": "C2H6O"
+  },
+  {
+    "cas": "1338-23-4",
+    "name_vi": "Metyl etyl keton",
+    "name_en": "Methyl ethyl",
+    "hs_code": "29096000",
+    "formula": "C8H18O6"
+  },
+  {
+    "cas": "107-31-3",
+    "name_vi": "Metyl format",
+    "name_en": "Methyl formate",
+    "hs_code": "29151300",
+    "formula": "C2H4O2"
+  },
+  {
+    "cas": "60-34-4",
+    "name_vi": "Metyl hydrazin",
+    "name_en": "Methyl hydrazine",
+    "hs_code": "29280090",
+    "formula": "CH6N2"
+  },
+  {
+    "cas": "624-83-9",
+    "name_vi": "Metyl isoxyanat",
+    "name_en": "Methyl isocyanate",
+    "hs_code": "29291090",
+    "formula": "C2H3NO"
+  },
+  {
+    "cas": "74-93-1",
+    "name_vi": "Metyl mercaptan",
+    "name_en": "Methyl mercaptan",
+    "hs_code": "29309090",
+    "formula": "CH4S"
+  },
+  {
+    "cas": "556-64-9",
+    "name_vi": "Metyl thioxyanat",
+    "name_en": "Methyl",
+    "hs_code": "29309090",
+    "formula": "C2H3NS"
+  },
+  {
+    "cas": "78-79-5",
+    "name_vi": "2-Metyl-1,3-buta dien",
+    "name_en": "2-Methyl-1,3-buta diene",
+    "hs_code": "29012400",
+    "formula": "C5H8"
+  },
+  {
+    "cas": "563-46-2",
+    "name_vi": "Metyl-1-buten",
+    "name_en": "2-Methyl-1",
+    "hs_code": "29012990",
+    "formula": "C5H10"
+  },
+  {
+    "cas": "126-98-7",
+    "name_vi": "2-Metyl-2-Propen",
+    "name_en": "2-Methyl-2-",
+    "hs_code": "29269000",
+    "formula": "C4H5N"
+  },
+  {
+    "cas": "75-55-8",
+    "name_vi": "2-Metyl-aziridin",
+    "name_en": "2-Methyl-Aziridin",
+    "hs_code": "29339990",
+    "formula": "C3H7N"
+  },
+  {
+    "cas": "101-14-4",
+    "name_vi": "4,4’-Metyl",
+    "name_en": "4,4’-Methylenebis",
+    "hs_code": "29215900",
+    "formula": "C13H12Cl2N2"
+  },
+  {
+    "cas": "108-23-6",
+    "name_vi": "1-Metyl etyl",
+    "name_en": "1-Methyl ethyl",
+    "hs_code": "29151300",
+    "formula": "C4H7CIO2"
+  },
+  {
+    "cas": "75-56-9",
+    "name_vi": "Metyl oxiran",
+    "name_en": "Methyl oxirane",
+    "hs_code": "29102000",
+    "formula": "C3H6O"
+  },
+  {
+    "cas": "78-82-0",
+    "name_vi": "2-Metyl-propan",
+    "name_en": "2-Methyl-Propane",
+    "hs_code": "29269000",
+    "formula": "C4H7N"
+  },
+  {
+    "cas": "115-11-7",
+    "name_vi": "2-Metyl propen",
+    "name_en": "2-Methyl propene",
+    "hs_code": "29012300",
+    "formula": "C4H8"
+  },
+  {
+    "cas": "108-99-6",
+    "name_vi": "3-Metyl pyridin",
+    "name_en": "3-Methyl pyridine",
+    "hs_code": "29333990",
+    "formula": "C6H7N"
+  },
+  {
+    "cas": "75-79-6",
+    "name_vi": "Metyl triclo",
+    "name_en": "Methyl trichloro",
+    "hs_code": "29319090",
+    "formula": "CH3Cl3Si"
+  },
+  {
+    "cas": "107-98-2",
+    "name_vi": "1-Metoxy-2-propa",
+    "name_en": "l-Methoxy-2-",
+    "hs_code": "29094900",
+    "formula": "C4H10O2"
+  },
+  {
+    "cas": "79-20-9",
+    "name_vi": "Metyl axetat",
+    "name_en": "Methyl acetate",
+    "hs_code": "29150990",
+    "formula": "C3H6O2"
+  },
+  {
+    "cas": "623-42-7",
+    "name_vi": "Metyl butyrat",
+    "name_en": "Methyln-butyrate",
+    "hs_code": "29156000",
+    "formula": "C5H10O2"
+  },
+  {
+    "cas": "96-34-4",
+    "name_vi": "Metyl clo axetat",
+    "name_en": "Methyl",
+    "hs_code": "29153990",
+    "formula": "C3H5ClO2"
+  },
+  {
+    "cas": "75-54-7",
+    "name_vi": "Metyl diclo",
+    "name_en": "Methyl dichloro",
+    "hs_code": "29319041",
+    "formula": "CH4Cl2Si"
+  },
+  {
+    "cas": "108-11-2",
+    "name_vi": "Metyl isobutyl",
+    "name_en": "Methyl isobutyl",
+    "hs_code": "9051900",
+    "formula": "C6H14O"
+  },
+  {
+    "cas": "108-10-1",
+    "name_vi": "Metyl isobutyl",
+    "name_en": "Methyl isobutyl",
+    "hs_code": "29141300",
+    "formula": "C6H12O"
+  },
+  {
+    "cas": "563-80-4",
+    "name_vi": "Metyl",
+    "name_en": "Methyl",
+    "hs_code": "29141900",
+    "formula": "C5H10O"
+  },
+  {
+    "cas": "556-61-6",
+    "name_vi": "Metyl",
+    "name_en": "Methyl",
+    "hs_code": "29309090",
+    "formula": "C2H3NS"
+  },
+  {
+    "cas": "556-24-1",
+    "name_vi": "Metyl isovalerat",
+    "name_en": "Methyl",
+    "hs_code": "29156090",
+    "formula": "C6H12O2"
+  },
+  {
+    "cas": "624-83-9",
+    "name_vi": "Metyl isoxyanat",
+    "name_en": "Methyl isocyanate",
+    "hs_code": "29291000",
+    "formula": "C2H3NO"
+  },
+  {
+    "cas": "74-88-4",
+    "name_vi": "Metyl lotua",
+    "name_en": "Iodo methane",
+    "hs_code": "29033990",
+    "formula": "CH3I"
+  },
+  {
+    "cas": "80-62-6",
+    "name_vi": "Metyl metacrylat",
+    "name_en": "Methyl",
+    "hs_code": "29161410",
+    "formula": "C5H8O2"
+  },
+  {
+    "cas": "681-84-5",
+    "name_vi": "Metyl",
+    "name_en": "Methyl",
+    "hs_code": "29209090",
+    "formula": "C4H12O4Si"
+  },
+  {
+    "cas": "554-12-1",
+    "name_vi": "Metyl propionat",
+    "name_en": "Methyl propionate",
+    "hs_code": "29155000",
+    "formula": "C4H8O2"
+  },
+  {
+    "cas": "557-17-5",
+    "name_vi": "Metyl propyl ete",
+    "name_en": "Methyl propyl ether",
+    "hs_code": "29091900",
+    "formula": "C4H10O"
+  },
+  {
+    "cas": "107-87-9",
+    "name_vi": "Metyl propyl",
+    "name_en": "2-Pentanone",
+    "hs_code": "29141900",
+    "formula": "C5H10O"
+  },
+  {
+    "cas": "1634-04-4",
+    "name_vi": "Metyl tert-butyl",
+    "name_en": "Methyl tert-butyl",
+    "hs_code": "29091900",
+    "formula": "C5H12O"
+  },
+  {
+    "cas": "78-94-4",
+    "name_vi": "Metyl vinyl",
+    "name_en": "Methyl vinyl",
+    "hs_code": "29141900",
+    "formula": "C4H6O"
+  },
+  {
+    "cas": "104-90-5",
+    "name_vi": "Metyl-5-etyl",
+    "name_en": "2-Methyl-5-ethyl",
+    "hs_code": "29333990",
+    "formula": "C8H11N"
+  },
+  {
+    "cas": "109-87-5",
+    "name_vi": "Metylal",
+    "name_en": "Dimethoxy methane",
+    "hs_code": "29110000",
+    "formula": "C3H8O2"
+  },
+  {
+    "cas": "563-47-3",
+    "name_vi": "Metylallyl clo",
+    "name_en": "Methyl allyl",
+    "hs_code": "29032900",
+    "formula": "C4H7Cl"
+  },
+  {
+    "cas": "108-84-9",
+    "name_vi": "Metylamyl axetat",
+    "name_en": "Methyl amyl",
+    "hs_code": "29153900",
+    "formula": "C8H16O2"
+  },
+  {
+    "cas": "108-87-2",
+    "name_vi": "Metyl cyclo",
+    "name_en": "Methyl",
+    "hs_code": "29021900",
+    "formula": "C7H14"
+  },
+  {
+    "cas": "105-59-9",
+    "name_vi": "Metyl dietanol",
+    "name_en": "Methyl diethanol",
+    "hs_code": "29221990",
+    "formula": "C5H13ON"
+  },
+  {
+    "cas": "534-22-5",
+    "name_vi": "2-Metylfuran",
+    "name_en": "2-Methylfuran",
+    "hs_code": "29321900",
+    "formula": "C5H6O"
+  },
+  {
+    "cas": "109-02-4",
+    "name_vi": "4-Metyl",
+    "name_en": "4-Methyl",
+    "hs_code": "29349990",
+    "formula": "C5H11ON"
+  },
+  {
+    "cas": "926-56-7",
+    "name_vi": "Metyl pentadien",
+    "name_en": "Methyl pentadiene",
+    "hs_code": "29012990",
+    "formula": "C6H10"
+  },
+  {
+    "cas": "590-36-3",
+    "name_vi": "2-Metyl",
+    "name_en": "2-Methyl-2-pentan",
+    "hs_code": "29051900",
+    "formula": "C6H14O"
+  },
+  {
+    "cas": "149-74-6",
+    "name_vi": "Metyl phenyl",
+    "name_en": "Methyl phenyl",
+    "hs_code": "29319090",
+    "formula": "C7H8Cl2Si"
+  },
+  {
+    "cas": "626-67-5",
+    "name_vi": "1-Metyl",
+    "name_en": "1-Methyl",
+    "hs_code": "29333990",
+    "formula": "C6H13N"
+  },
+  {
+    "cas": "96-47-9",
+    "name_vi": "Metyl",
+    "name_en": "2-Methyl",
+    "hs_code": "29321900",
+    "formula": "C5H10O"
+  },
+  {
+    "cas": "7786-34-7",
+    "name_vi": "Mevinphos",
+    "name_en": "Mevinphos",
+    "hs_code": "29199000",
+    "formula": "C7H13O6P"
+  },
+  {
+    "cas": "108-05-4",
+    "name_vi": "Monovinyl axetat",
+    "name_en": "Vinyl acetate",
+    "hs_code": "29153200",
+    "formula": "C4H6O2"
+  },
+  {
+    "cas": "6923-22-4",
+    "name_vi": "Monocrotopho",
+    "name_en": "Monocrotophos",
+    "hs_code": "29241200",
+    "formula": "C7H14NO5P"
+  },
+  {
+    "cas": "110-91-8",
+    "name_vi": "Morpholin",
+    "name_en": "Morpholine",
+    "hs_code": "29349990",
+    "formula": "C4H9ON"
+  },
+  {
+    "cas": "109-69-3",
+    "name_vi": "N- butyl clorua",
+    "name_en": "n-Butylchloride",
+    "hs_code": "29031990",
+    "formula": "C4H9Cl"
+  },
+  {
+    "cas": "100-37-8",
+    "name_vi": "N,n-dietyl amino",
+    "name_en": "n,n-Diethyl amino",
+    "hs_code": "29221990",
+    "formula": "C6H15ON"
+  },
+  {
+    "cas": "100-36-7",
+    "name_vi": "N,n-Dietyl",
+    "name_en": "n,n-Diethyl",
+    "hs_code": "29212900",
+    "formula": "C6H16N2"
+  },
+  {
+    "cas": "127-19-5",
+    "name_vi": "N,N-Dimetyl",
+    "name_en": "N,N-dimethyl",
+    "hs_code": "29241900",
+    "formula": "C4H9NO"
+  },
+  {
+    "cas": "68-12-2",
+    "name_vi": "N,N-Dimetyl",
+    "name_en": "N,N-dimethyl",
+    "hs_code": "29241900",
+    "formula": "C3H7NO"
+  },
+  {
+    "cas": "121-69-7",
+    "name_vi": "N,N-Dimetyl",
+    "name_en": "n,n-Dimethyl",
+    "hs_code": "29214200",
+    "formula": "C8H11N"
+  },
+  {
+    "cas": "108-01-0",
+    "name_vi": "N,n-dimetyl",
+    "name_en": "n,n-Dimetyl amino",
+    "hs_code": "29221990",
+    "formula": "C4H11ON"
+  },
+  {
+    "cas": "99-97-8",
+    "name_vi": "N,n-dimetyl-p-to",
+    "name_en": "n,n-Dimethyl-p-",
+    "hs_code": "29214300",
+    "formula": "C9H13N"
+  },
+  {
+    "cas": "140-31-8",
+    "name_vi": "N-amino etyl",
+    "name_en": "n-Amino ethyl",
+    "hs_code": "29335990",
+    "formula": "C6H15N3"
+  },
+  {
+    "cas": "110-43-0",
+    "name_vi": "N-amyl metyl",
+    "name_en": "2-Heptanone",
+    "hs_code": "29141900",
+    "formula": "C7H14O"
+  },
+  {
+    "cas": "110-58-7",
+    "name_vi": "Pentyl amin",
+    "name_en": "Penthyl amine",
+    "hs_code": "29211999",
+    "formula": "C5H13N"
+  },
+  {
+    "cas": "91-20-3",
+    "name_vi": "Naphthalen",
+    "name_en": "Naphthalene",
+    "hs_code": "29029000",
+    "formula": "C10H8"
+  },
+  {
+    "cas": "7440-23-5",
+    "name_vi": "Natri",
+    "name_en": "Sodium",
+    "hs_code": "28051100",
+    "formula": "Na"
+  },
+  {
+    "cas": "1302-42-7",
+    "name_vi": "Natri aluminat",
+    "name_en": "Sodium aluminate",
+    "hs_code": "28419000",
+    "formula": "NaAlO2"
+  },
+  {
+    "cas": "300-76-5",
+    "name_vi": "Naled",
+    "name_en": "Naled",
+    "hs_code": "29199000",
+    "formula": "(CH3O)2P(O)O"
+  },
+  {
+    "cas": "9016-45-9",
+    "name_vi": "Nonylphenol",
+    "name_en": "Ethoxylated",
+    "hs_code": "29072990",
+    "formula": "C15H23O.(C2H"
+  },
+  {
+    "cas": "144-55-8",
+    "name_vi": "Natri bicacbonat",
+    "name_en": "Sodium hydrogen",
+    "hs_code": "28363000",
+    "formula": "NaHCO3"
+  },
+  {
+    "cas": "7789-38-0",
+    "name_vi": "Natri bromat",
+    "name_en": "Sodium bromate",
+    "hs_code": "28299090",
+    "formula": "NaBrO3"
+  },
+  {
+    "cas": "3926-62-3",
+    "name_vi": "Natri clo axetat",
+    "name_en": "Sodium",
+    "hs_code": "29154000",
+    "formula": "C2H3O2ClNa"
+  },
+  {
+    "cas": "7758-19-2",
+    "name_vi": "Natri clorit",
+    "name_en": "Sodium chlorite",
+    "hs_code": "28289090",
+    "formula": "NaClO2"
+  },
+  {
+    "cas": "62-74-8",
+    "name_vi": "Natri flo acetat",
+    "name_en": "Sodium",
+    "hs_code": "29159090",
+    "formula": "C2H3FO2.Na"
+  },
+  {
+    "cas": "7775-09-9",
+    "name_vi": "Natri clorat",
+    "name_en": "Sodium chlorate",
+    "hs_code": "2829110",
+    "formula": "NaClO3"
+  },
+  {
+    "cas": "831-52-7",
+    "name_vi": "Natri picramat",
+    "name_en": "Sodium picramate",
+    "hs_code": "29089900",
+    "formula": "C6H4N3NaO5"
+  },
+  {
+    "cas": "7681-49-4",
+    "name_vi": "Natri florua",
+    "name_en": "Sodium fluoride",
+    "hs_code": "28261900",
+    "formula": "NaF"
+  },
+  {
+    "cas": "1333-83-1",
+    "name_vi": "Natri",
+    "name_en": "Sodium",
+    "hs_code": "28261900",
+    "formula": "NaHF2"
+  },
+  {
+    "cas": "1310-73-2",
+    "name_vi": "Natri hydroxit",
+    "name_en": "Sodium hydroxide",
+    "hs_code": "28151200",
+    "formula": "NaOH"
+  },
+  {
+    "cas": "124-41-4",
+    "name_vi": "Natri metylat",
+    "name_en": "Sodium methylate",
+    "hs_code": "29051900",
+    "formula": "CH3NaO"
+  },
+  {
+    "cas": "1313-59-3",
+    "name_vi": "Natri oxit",
+    "name_en": "Sodium oxide",
+    "hs_code": "28500000",
+    "formula": "Na2O"
+  },
+  {
+    "cas": "7632-04-4",
+    "name_vi": "Natri perborat",
+    "name_en": "Sodium perborate",
+    "hs_code": "28403000",
+    "formula": "NaBO3"
+  },
+  {
+    "cas": "7601-89-0",
+    "name_vi": "Natri perclorat",
+    "name_en": "Sodium",
+    "hs_code": "28299010",
+    "formula": "NaClO4"
+  },
+  {
+    "cas": "7775-27-1",
+    "name_vi": "Natri persunphat",
+    "name_en": "Sodium persulfate",
+    "hs_code": "28334000",
+    "formula": "Na2S2O8"
+  },
+  {
+    "cas": "6834-92-0",
+    "name_vi": "Natri silicat",
+    "name_en": "Sodium",
+    "hs_code": "28391100",
+    "formula": "Na2SiO3"
+  },
+  {
+    "cas": "1313-82-2",
+    "name_vi": "Natri sunfua",
+    "name_en": "Sodium sulfide",
+    "hs_code": "28301000",
+    "formula": "Na2S"
+  },
+  {
+    "cas": "1330-43-4",
+    "name_vi": "Natri tetraborat",
+    "name_en": "Sodium",
+    "hs_code": "28401100",
+    "formula": "Na2B4O7"
+  },
+  {
+    "cas": "7758-29-4",
+    "name_vi": "Natri",
+    "name_en": "Sodium",
+    "hs_code": "283531",
+    "formula": "Na5P3O10"
+  },
+  {
+    "cas": "7775-14-6",
+    "name_vi": "Natri",
+    "name_en": "Sodium dithionite",
+    "hs_code": "28311000",
+    "formula": "Na2S2O4"
+  },
+  {
+    "cas": "592-34-7",
+    "name_vi": "N-butyl clo",
+    "name_en": "N-Butyl",
+    "hs_code": "29159090",
+    "formula": "C5H9O2Cl"
+  },
+  {
+    "cas": "592-84-7",
+    "name_vi": "N-butyl format",
+    "name_en": "N-Butyl formate",
+    "hs_code": "29151300",
+    "formula": "C5H10O2"
+  },
+  {
+    "cas": "111-36-4",
+    "name_vi": "N-Butyl",
+    "name_en": "N-Butyl",
+    "hs_code": "29291090",
+    "formula": "C5H9NO"
+  },
+  {
+    "cas": "97-88-1",
+    "name_vi": "N-butyl",
+    "name_en": "N-Butyl",
+    "hs_code": "29161490",
+    "formula": "C8H14O2"
+  },
+  {
+    "cas": "109-73-9",
+    "name_vi": "N-butyl amin",
+    "name_en": "n-Butyl amine",
+    "hs_code": "29211900",
+    "formula": "C4H11N"
+  },
+  {
+    "cas": "124-18-5",
+    "name_vi": "N-decan",
+    "name_en": "N-Decane",
+    "hs_code": "29011000",
+    "formula": "C10H22"
+  },
+  {
+    "cas": "7440-01-9",
+    "name_vi": "Neon",
+    "name_en": "Neon",
+    "hs_code": "28042900",
+    "formula": "Ne"
+  },
+  {
+    "cas": "103-69-5",
+    "name_vi": "N-etylanilin",
+    "name_en": "N-Ethylaniline",
+    "hs_code": "29214200",
+    "formula": "C8H11N"
+  },
+  {
+    "cas": "139-87-7",
+    "name_vi": "N-etyl diethanol",
+    "name_en": "N-Ethyl diethanol",
+    "hs_code": "29221990",
+    "formula": "C6H15O2N"
+  },
+  {
+    "cas": "111-71-7",
+    "name_vi": "N-heptanaldehit",
+    "name_en": "N-Heptanaldehyde",
+    "hs_code": "29121990",
+    "formula": "C7H14O"
+  },
+  {
+    "cas": "142-82-5",
+    "name_vi": "N-hepten",
+    "name_en": "N-Heptane",
+    "hs_code": "29011000",
+    "formula": "C7H16"
+  },
+  {
+    "cas": "1299-86-1",
+    "name_vi": "Nhôm cacbua",
+    "name_en": "Aluminium carbide",
+    "hs_code": "28499000",
+    "formula": "Al4C3"
+  },
+  {
+    "cas": "7446-70-0",
+    "name_vi": "Nhôm clorua",
+    "name_en": "Aluminium",
+    "hs_code": "28273200",
+    "formula": "AlCl3"
+  },
+  {
+    "cas": "54-11-5",
+    "name_vi": "Nicotin",
+    "name_en": "Nicotine",
+    "hs_code": "29339990",
+    "formula": "C10H14N2"
+  },
+  {
+    "cas": "65-30-5",
+    "name_vi": "Nicotin sulfat",
+    "name_en": "Nicotine sulfate",
+    "hs_code": "29339990",
+    "formula": "C20H30N4O4S"
+  },
+  {
+    "cas": "65-31-6",
+    "name_vi": "Nicotin tartrat",
+    "name_en": "Nicotine tartrate",
+    "hs_code": "29339990",
+    "formula": "C18H26N2O12"
+  },
+  {
+    "cas": "7727-37-9",
+    "name_vi": "Nitơ",
+    "name_en": "Nitrogen",
+    "hs_code": "28043000",
+    "formula": "N2"
+  },
+  {
+    "cas": "7697-37-2",
+    "name_vi": "Nitric axit",
+    "name_en": "Nitric acid",
+    "hs_code": "28080000",
+    "formula": "HNO3"
+  },
+  {
+    "cas": "100-17-4",
+    "name_vi": "Nitro anisol",
+    "name_en": "1-Methoxy-2-nitro",
+    "hs_code": "29093000",
+    "formula": "C7H7O3N"
+  },
+  {
+    "cas": "98-95-3",
+    "name_vi": "Nitro benzen",
+    "name_en": "Nitro benzene",
+    "hs_code": "29042090",
+    "formula": "C6H5O2N"
+  },
+  {
+    "cas": "92-93-3",
+    "name_vi": "4-Nitro biphenyl",
+    "name_en": "4-Nitro biphenyl",
+    "hs_code": "29042090",
+    "formula": "C12H9NO2"
+  },
+  {
+    "cas": "138-89-6",
+    "name_vi": "P-Nitrosodimetyl",
+    "name_en": "P-Nitroso",
+    "hs_code": "29214200",
+    "formula": "C8H10ON2"
+  },
+  {
+    "cas": "9004-70-0",
+    "name_vi": "Nitroxenlulo",
+    "name_en": "Nitro cellulose",
+    "hs_code": "39122011",
+    "formula": "---"
+  },
+  {
+    "cas": "1836-75-5",
+    "name_vi": "Nitrofen",
+    "name_en": "Nitrofen",
+    "hs_code": "29093000",
+    "formula": "C12H7O3NCl2"
+  },
+  {
+    "cas": "55-63-0",
+    "name_vi": "Nitro glycerin",
+    "name_en": "Nitro glycerin",
+    "hs_code": "29209090",
+    "formula": "C3H5N3O9"
+  },
+  {
+    "cas": "86-57-7",
+    "name_vi": "2-Nitro",
+    "name_en": "2-",
+    "hs_code": "29042090",
+    "formula": "C10H7O2N"
+  },
+  {
+    "cas": "7783-54-2",
+    "name_vi": "Nitro triflorua",
+    "name_en": "Nitrogen",
+    "hs_code": "28129000",
+    "formula": "NF3"
+  },
+  {
+    "cas": "79-16-3",
+    "name_vi": "N-Metyl acetamit",
+    "name_en": "N-Methyl",
+    "hs_code": "29241900",
+    "formula": "C3H7NO"
+  },
+  {
+    "cas": "479-45-8",
+    "name_vi": "N-Metyl-n,",
+    "name_en": "N-Methyl-n,2,4,6-",
+    "hs_code": "36020000",
+    "formula": "C7H5N5O8"
+  },
+  {
+    "cas": "100-61-8",
+    "name_vi": "N-metyl anilin",
+    "name_en": "N-Methyl aniline",
+    "hs_code": "29214200",
+    "formula": "C7H9N"
+  },
+  {
+    "cas": "110-68-9",
+    "name_vi": "N-Metyl butyl",
+    "name_en": "N-Methyl butyl",
+    "hs_code": "29211900",
+    "formula": "C5H13N"
+  },
+  {
+    "cas": "111-84-2",
+    "name_vi": "Nonan",
+    "name_en": "Nonane",
+    "hs_code": "29011000",
+    "formula": "C9H18"
+  },
+  {
+    "cas": "121-46-0",
+    "name_vi": "Norbornadien",
+    "name_en": "2,5",
+    "hs_code": "29021900",
+    "formula": "C7H8"
+  },
+  {
+    "cas": "71-23-8",
+    "name_vi": "N-propanol",
+    "name_en": "Propan-1 -ol",
+    "hs_code": "29051200",
+    "formula": "C3H8O"
+  },
+  {
+    "cas": "103-65-1",
+    "name_vi": "N-propybenzen",
+    "name_en": "N-Propyl benzene",
+    "hs_code": "29029090",
+    "formula": "C9H12"
+  },
+  {
+    "cas": "109-60-4",
+    "name_vi": "N-propyl axetat",
+    "name_en": "Propyl acetate",
+    "hs_code": "29153990",
+    "formula": "C5H10O2"
+  },
+  {
+    "cas": "107-08-4",
+    "name_vi": "N-propyl iođua",
+    "name_en": "1-Iodopropane",
+    "hs_code": "29033990",
+    "formula": "C3H7I"
+  },
+  {
+    "cas": "110-78-1",
+    "name_vi": "N-Propyl",
+    "name_en": "N-Propyl",
+    "hs_code": "29291090",
+    "formula": "C4H7ON"
+  },
+  {
+    "cas": "97-56-3",
+    "name_vi": "O-Aminoazo",
+    "name_en": "O-Aminoazotoluene",
+    "hs_code": "29214900",
+    "formula": "C14H15N3"
+  },
+  {
+    "cas": "90-04-0",
+    "name_vi": "O-anisidin",
+    "name_en": "o-Anisidine",
+    "hs_code": "29222900",
+    "formula": "C7H9ON"
+  },
+  {
+    "cas": "95-49-8",
+    "name_vi": "O-Clo toluen",
+    "name_en": "O-Clo toluen",
+    "hs_code": "29039900",
+    "formula": "C7H7Cl"
+  },
+  {
+    "cas": "124-13-0",
+    "name_vi": "Ocryl aldehit",
+    "name_en": "Octanal",
+    "hs_code": "29121900",
+    "formula": "C8H16O"
+  },
+  {
+    "cas": "115-25-3",
+    "name_vi": "Octaflo",
+    "name_en": "Octafluoro",
+    "hs_code": "29038990",
+    "formula": "C4F8"
+  },
+  {
+    "cas": "111-65-9",
+    "name_vi": "Octan",
+    "name_en": "Octane",
+    "hs_code": "29011000",
+    "formula": "C8H18"
+  },
+  {
+    "cas": "32536-52-0",
+    "name_vi": "Octabromo diphenyl ete",
+    "name_en": "Octabromo diphenyl ether",
+    "hs_code": "29093000",
+    "formula": "C12H2Br8O"
+  },
+  {
+    "cas": "301-12-2",
+    "name_vi": "Oxydemeton-metyl",
+    "name_en": "S-[2-(Ethylsulfin",
+    "hs_code": "29309090",
+    "formula": "C15H15O4PS2"
+  },
+  {
+    "cas": "95-50-1",
+    "name_vi": "O-diclo benzen",
+    "name_en": "o-Dichloro",
+    "hs_code": "29039100",
+    "formula": "C6H4Cl2"
+  },
+  {
+    "cas": "8014-95-7",
+    "name_vi": "Oleum",
+    "name_en": "Oleum",
+    "hs_code": "28070000",
+    "formula": "H2SO4*nSO3"
+  },
+  {
+    "cas": "2588-05-8",
+    "name_vi": "oo-Dietyl s-etyl",
+    "name_en": "oo-Diethyl",
+    "hs_code": "29309090",
+    "formula": "C7H17O4PS2"
+  },
+  {
+    "cas": "2588-06-9",
+    "name_vi": "oo-Dietyl s-etyl",
+    "name_en": "oo-Diethyl",
+    "hs_code": "29309090",
+    "formula": "C7H17O5PS2"
+  },
+  {
+    "cas": "78-52-4",
+    "name_vi": "oo-Dietyl",
+    "name_en": "oo-Diethyl",
+    "hs_code": "78-52-4",
+    "formula": "C8H19O2PS3"
+  },
+  {
+    "cas": "3309-68-0",
+    "name_vi": "oo-Dietyl",
+    "name_en": "oo-Diethyl",
+    "hs_code": "29309090",
+    "formula": "C8H19O2PS3"
+  },
+  {
+    "cas": "2600-69-3",
+    "name_vi": "oo-Dietyl s-",
+    "name_en": "oo-Diethyl",
+    "hs_code": "29309090",
+    "formula": "C7H17O3PS2"
+  },
+  {
+    "cas": "119-93-7",
+    "name_vi": "O-tolidin",
+    "name_en": "O-Tolidine",
+    "hs_code": "29215900",
+    "formula": "C14H16N2"
+  },
+  {
+    "cas": "612-82-8",
+    "name_vi": "O-tolidin",
+    "name_en": "O-Tolidine",
+    "hs_code": "29215900",
+    "formula": "C14H18N2Cl2"
+  },
+  {
+    "cas": "7782-44-7",
+    "name_vi": "Oxy",
+    "name_en": "Oxygen",
+    "hs_code": "28044000",
+    "formula": "O2"
+  },
+  {
+    "cas": "7783-41-7",
+    "name_vi": "Oxy diflorua",
+    "name_en": "Oxygen difluoride",
+    "hs_code": "28129000",
+    "formula": "F2O"
+  },
+  {
+    "cas": "2597-07-6",
+    "name_vi": "Oxydisunfoton",
+    "name_en": "Oxydisulfoton",
+    "hs_code": "29309090",
+    "formula": "C8H19O3PS3"
+  },
+  {
+    "cas": "7783-41-7",
+    "name_vi": "Oxygen diflorit",
+    "name_en": "Oxygen difloride",
+    "hs_code": "28129000",
+    "formula": "F2O"
+  },
+  {
+    "cas": "104-94-9",
+    "name_vi": "P-anisidin",
+    "name_en": "p-Anisidine",
+    "hs_code": "29222900",
+    "formula": "C7H9ON"
+  },
+  {
+    "cas": "123-63-7",
+    "name_vi": "Paraldehit",
+    "name_en": "Paraldehyde",
+    "hs_code": "29125000",
+    "formula": "C6H12O3"
+  },
+  {
+    "cas": "311-45-5",
+    "name_vi": "Paraoxon (dietyl",
+    "name_en": "Paraoxon (diethyl",
+    "hs_code": "29199000",
+    "formula": "C10H14NO6P"
+  },
+  {
+    "cas": "1910-42-5",
+    "name_vi": "Paraquat",
+    "name_en": "Paraquate",
+    "hs_code": "29339990",
+    "formula": "C12H14Cl2N2"
+  },
+  {
+    "cas": "56-38-2",
+    "name_vi": "Parathion",
+    "name_en": "Parathion",
+    "hs_code": "29201100",
+    "formula": "C10H14NO5PS"
+  },
+  {
+    "cas": "298-00-0",
+    "name_vi": "Parathion-metyl",
+    "name_en": "Parathion-methyl",
+    "hs_code": "29201100",
+    "formula": "C8H10NO5PS"
+  },
+  {
+    "cas": "106-43-4",
+    "name_vi": "P-clo toluen",
+    "name_en": "1-chloro-4-methyl",
+    "hs_code": "29039900",
+    "formula": "C7H7Cl"
+  },
+  {
+    "cas": "115-90-2",
+    "name_vi": "Pensulfothion",
+    "name_en": "Pensulfothion",
+    "hs_code": "29309090",
+    "formula": "C11H17O4PS2"
+  },
+  {
+    "cas": "1321-64-8",
+    "name_vi": "Pentaclo",
+    "name_en": "Pentachloronaphth",
+    "hs_code": "29039900",
+    "formula": "C10H3Cl5"
+  },
+  {
+    "cas": "76-01-7",
+    "name_vi": "Pentaclo etan",
+    "name_en": "Pentachloro",
+    "hs_code": "29031990",
+    "formula": "C2HCl5"
+  },
+  {
+    "cas": "87-86-5",
+    "name_vi": "Pentaclophenol",
+    "name_en": "Pentachlorophenol",
+    "hs_code": "29081100",
+    "formula": "C6HCl5O"
+  },
+  {
+    "cas": "504-60-9",
+    "name_vi": "1,3-Pentadien",
+    "name_en": "1,3-Pentadiene",
+    "hs_code": "29012990",
+    "formula": "C5H8"
+  },
+  {
+    "cas": "78-11-5",
+    "name_vi": "pentaerythritol",
+    "name_en": "pentaerythritol",
+    "hs_code": "29209090",
+    "formula": "C5H8N4O12"
+  },
+  {
+    "cas": "123-54-6",
+    "name_vi": "Pentan-2,4-dion",
+    "name_en": "Pentane-2,4-dione",
+    "hs_code": "29141900",
+    "formula": "C5H8O2"
+  },
+  {
+    "cas": "109-66-0",
+    "name_vi": "Pentan",
+    "name_en": "Pentane",
+    "hs_code": "29011000",
+    "formula": "C5H12"
+  },
+  {
+    "cas": "6032-29-7",
+    "name_vi": "Pentanol",
+    "name_en": "2-Pentanol;",
+    "hs_code": "29051900",
+    "formula": "C5H12O"
+  },
+  {
+    "cas": "2310-17-0",
+    "name_vi": "Phosalon",
+    "name_en": "Phosalone",
+    "hs_code": "29309090",
+    "formula": "C12H15ClNO4P"
+  },
+  {
+    "cas": "1120-71-4",
+    "name_vi": "1,3-Propan",
+    "name_en": "1,3-Propane",
+    "hs_code": "29329990",
+    "formula": "C3H6O3S"
+  },
+  {
+    "cas": "1918-16-7",
+    "name_vi": "Propaclo",
+    "name_en": "Propachlor",
+    "hs_code": "29241200",
+    "formula": "C11H14ClNO"
+  },
+  {
+    "cas": "709-98-8",
+    "name_vi": "Propanil",
+    "name_en": "Propanil",
+    "hs_code": "29241200",
+    "formula": "C9H9Cl2NO"
+  },
+  {
+    "cas": "2312-35-8",
+    "name_vi": "Propargit",
+    "name_en": "Propachlor",
+    "hs_code": "29309090",
+    "formula": "C19H26O4S"
+  },
+  {
+    "cas": "79-21-0",
+    "name_vi": "Peraxetic axit",
+    "name_en": "Peracetic acid",
+    "hs_code": "29159090",
+    "formula": "C2H4O3"
+  },
+  {
+    "cas": "594-42-3",
+    "name_vi": "Perclo metyl",
+    "name_en": "Perchloro methyl",
+    "hs_code": "29309090",
+    "formula": "CCl4S"
+  },
+  {
+    "cas": "1691-99-2",
+    "name_vi": "Perflo octan",
+    "name_en": "Perfluorooctane",
+    "hs_code": "29350000",
+    "formula": "---"
+  },
+  {
+    "cas": "382-21-8",
+    "name_vi": "PFIB:",
+    "name_en": "1-Propene,",
+    "hs_code": "29033990",
+    "formula": "C4F8"
+  },
+  {
+    "cas": "156-43-4",
+    "name_vi": "Phenetidin",
+    "name_en": "Phenetidine",
+    "hs_code": "29222900",
+    "formula": "C8H11ON"
+  },
+  {
+    "cas": "108-95-2",
+    "name_vi": "Phenol",
+    "name_en": "Phenol",
+    "hs_code": "29071100",
+    "formula": "C6H6O"
+  },
+  {
+    "cas": "77-09-8",
+    "name_vi": "Phenol phthalein",
+    "name_en": "Phenolphthalein",
+    "hs_code": "29329990",
+    "formula": "C20H14O4"
+  },
+  {
+    "cas": "1885-14-9",
+    "name_vi": "Phenyl clo fomat",
+    "name_en": "Phenyl",
+    "hs_code": "29159090",
+    "formula": "C7H5ClO2"
+  },
+  {
+    "cas": "103-71-9",
+    "name_vi": "Phenyl isocyanat",
+    "name_en": "Phenyl isocyanate",
+    "hs_code": "29291090",
+    "formula": "C7H5ON"
+  },
+  {
+    "cas": "108-98-5",
+    "name_vi": "Phenyl mercaptan",
+    "name_en": "Phenyl mercaptan",
+    "hs_code": "29309090",
+    "formula": "C6H6S"
+  },
+  {
+    "cas": "62-53-3",
+    "name_vi": "Phenyl amin",
+    "name_en": "Phenyl amine",
+    "hs_code": "29214100",
+    "formula": "C6H7N"
+  },
+  {
+    "cas": "100-63-0",
+    "name_vi": "Phenyl hydrazin",
+    "name_en": "Phenyl hydrazine",
+    "hs_code": "29280090",
+    "formula": "C6H15N2"
+  },
+  {
+    "cas": "644-97-3",
+    "name_vi": "Phenyl photpho",
+    "name_en": "Phenylphosphorus",
+    "hs_code": "29319090",
+    "formula": "C6H5Cl2P"
+  },
+  {
+    "cas": "3497-00-5",
+    "name_vi": "Phenyl photpho",
+    "name_en": "Phenyl phosphorus",
+    "hs_code": "29319090",
+    "formula": "C6H5Cl2SP"
+  },
+  {
+    "cas": "98-13-5",
+    "name_vi": "Phenyl triclo",
+    "name_en": "Phenyl trichloro",
+    "hs_code": "29319090",
+    "formula": "C6H5Cl3Si"
+  },
+  {
+    "cas": "298-02-2",
+    "name_vi": "Phorat",
+    "name_en": "Phorate",
+    "hs_code": "29309090",
+    "formula": "C7H17O2PS3"
+  },
+  {
+    "cas": "4104-14-7",
+    "name_vi": "Phosacetim",
+    "name_en": "Phosacetim",
+    "hs_code": "29299090",
+    "formula": "C14H13Cl2N2O"
+  },
+  {
+    "cas": "2310-17-0",
+    "name_vi": "Phosalon",
+    "name_en": "Phosalone",
+    "hs_code": "29349990",
+    "formula": "C12H15O4NClS"
+  },
+  {
+    "cas": "7723-14-0",
+    "name_vi": "Photpho (trắng,",
+    "name_en": "Phosphorus",
+    "hs_code": "28047000",
+    "formula": "P4"
+  },
+  {
+    "cas": "7719-12-2",
+    "name_vi": "Phosphorus",
+    "name_en": "Phosphorus",
+    "hs_code": "28121000",
+    "formula": "PCl3"
+  },
+  {
+    "cas": "7803-51-2",
+    "name_vi": "Photpho",
+    "name_en": "Phosphorus",
+    "hs_code": "28121000",
+    "formula": "PH3"
+  },
+  {
+    "cas": "1314-80-3",
+    "name_vi": "Photpho",
+    "name_en": "Phosphorus",
+    "hs_code": "28139000",
+    "formula": "P2S5"
+  },
+  {
+    "cas": "1314-56-3",
+    "name_vi": "Photpho pentoxit",
+    "name_en": "Phosphorus",
+    "hs_code": "28091000",
+    "formula": "P2O5"
+  },
+  {
+    "cas": "1314-85-8",
+    "name_vi": "Photpho",
+    "name_en": "Phosphorus",
+    "hs_code": "28139000",
+    "formula": "P4S3"
+  },
+  {
+    "cas": "85-44-9",
+    "name_vi": "Phthalic",
+    "name_en": "Phthalic",
+    "hs_code": "29173500",
+    "formula": "C8H4O3"
+  },
+  {
+    "cas": "464-07-3",
+    "name_vi": "Pinacolyl",
+    "name_en": "Pinacolyl",
+    "hs_code": "29051900",
+    "formula": "C6H14O"
+  },
+  {
+    "cas": "110-85-0",
+    "name_vi": "Piperazin",
+    "name_en": "Piperazine",
+    "hs_code": "29335990",
+    "formula": "C4H10N2"
+  },
+  {
+    "cas": "4676-39-5",
+    "name_vi": "Piperonyl metyl",
+    "name_en": "3,4 - methylene",
+    "hs_code": "29329200",
+    "formula": "C10H10O3"
+  },
+  {
+    "cas": "100-00-5",
+    "name_vi": "p-Nitro clo",
+    "name_en": "p-Nitro chloro",
+    "hs_code": "29049000",
+    "formula": "C6H4O2NCl"
+  },
+  {
+    "cas": "120-57-0",
+    "name_vi": "Piperonal",
+    "name_en": "Piperonal",
+    "hs_code": "29329300",
+    "formula": "C8H6O3"
+  },
+  {
+    "cas": "5836-73-7",
+    "name_vi": "Promurit",
+    "name_en": "Promurit",
+    "hs_code": "29309090",
+    "formula": "C7H6Cl2N4S"
+  },
+  {
+    "cas": "463-49-0",
+    "name_vi": "1,2-Propadien",
+    "name_en": "1,2-Propadiene",
+    "hs_code": "29012990",
+    "formula": "C3H4"
+  },
+  {
+    "cas": "75-31-0",
+    "name_vi": "2-Propan amin",
+    "name_en": "2-Propanamine",
+    "hs_code": "29211900",
+    "formula": "C3H9N"
+  },
+  {
+    "cas": "74-98-6",
+    "name_vi": "Propan",
+    "name_en": "Propane",
+    "hs_code": "27111200",
+    "formula": "C3H8"
+  },
+  {
+    "cas": "57-55-6",
+    "name_vi": "Propane-1,2-diol",
+    "name_en": "Propane-1,2-diol",
+    "hs_code": "29053200",
+    "formula": "C3H8O2"
+  },
+  {
+    "cas": "79-06-1",
+    "name_vi": "2-Propen amit",
+    "name_en": "2- Propen amit",
+    "hs_code": "29241900",
+    "formula": "C3H5NO"
+  },
+  {
+    "cas": "115-07-1",
+    "name_vi": "1-Propen",
+    "name_en": "1-Propene",
+    "hs_code": "27111490",
+    "formula": "C3H6"
+  },
+  {
+    "cas": "107-12-0",
+    "name_vi": "Propen nitril",
+    "name_en": "Propionitrile",
+    "hs_code": "29242990",
+    "formula": "C3H5N"
+  },
+  {
+    "cas": "814-68-6",
+    "name_vi": "Propenoyl clorua",
+    "name_en": "Acrylyl chloride",
+    "hs_code": "29161900",
+    "formula": "C3H3ClO"
+  },
+  {
+    "cas": "123-38-6",
+    "name_vi": "Propionaldehit",
+    "name_en": "Propionaldehyde",
+    "hs_code": "29121990",
+    "formula": "C3H6O"
+  },
+  {
+    "cas": "123-62-6",
+    "name_vi": "Propionic",
+    "name_en": "Propionic",
+    "hs_code": "29159090",
+    "formula": "C6H10O3"
+  },
+  {
+    "cas": "79-03-8",
+    "name_vi": "Propionyl clorua",
+    "name_en": "Propionyl",
+    "hs_code": "29159090",
+    "formula": "C3H5OCl"
+  },
+  {
+    "cas": "114-26-1",
+    "name_vi": "Propoxur",
+    "name_en": "Propoxure",
+    "hs_code": "29242990",
+    "formula": "C11H15NO3"
+  },
+  {
+    "cas": "109-61-5",
+    "name_vi": "Propyl cloformat",
+    "name_en": "Propyl",
+    "hs_code": "29159090",
+    "formula": "C4H7ClO2"
+  },
+  {
+    "cas": "110-74-7",
+    "name_vi": "Propyl format",
+    "name_en": "Propyl formate",
+    "hs_code": "29151300",
+    "formula": "C4H8O2"
+  },
+  {
+    "cas": "107-10-8",
+    "name_vi": "Propyl amin",
+    "name_en": "Propyl amine",
+    "hs_code": "29211900",
+    "formula": "C3H9N"
+  },
+  {
+    "cas": "75-56-9",
+    "name_vi": "Propylen oxit",
+    "name_en": "Propylen oxide",
+    "hs_code": "29102000",
+    "formula": "C3H6O"
+  },
+  {
+    "cas": "6842-15-5",
+    "name_vi": "Propylen",
+    "name_en": "Propylene",
+    "hs_code": "29012990",
+    "formula": "C12H24"
+  },
+  {
+    "cas": "78-90-0",
+    "name_vi": "1,2-Propylen",
+    "name_en": "1,2-Propylene",
+    "hs_code": "29212900",
+    "formula": "C3H10N2"
+  },
+  {
+    "cas": "141-57-1",
+    "name_vi": "Propyltriclo",
+    "name_en": "Propyl trichloro",
+    "hs_code": "29319090",
+    "formula": "C3H7Cl3Si"
+  },
+  {
+    "cas": "74-99-7",
+    "name_vi": "1 -Propyn",
+    "name_en": "1-Propyne",
+    "hs_code": "29012990",
+    "formula": "C3H4"
+  },
+  {
+    "cas": "106-49-0",
+    "name_vi": "P-Toluidin",
+    "name_en": "P-Toluidin",
+    "hs_code": "29214300",
+    "formula": "C7H9N"
+  },
+  {
+    "cas": "108-34-9",
+    "name_vi": "Pyrazoxon",
+    "name_en": "Pyrazoxon",
+    "hs_code": "29331990",
+    "formula": "C8H15N2O4P"
+  },
+  {
+    "cas": "110-86-1",
+    "name_vi": "Pyridin",
+    "name_en": "Pyridine",
+    "hs_code": "29333100",
+    "formula": "C5H5N"
+  },
+  {
+    "cas": "123-75-1",
+    "name_vi": "Pyrolidin",
+    "name_en": "Pyrrolidine",
+    "hs_code": "29339990",
+    "formula": "C4H9N"
+  },
+  {
+    "cas": "91-22-5",
+    "name_vi": "Quinolin",
+    "name_en": "Quinoline",
+    "hs_code": "29334900",
+    "formula": "C9H7N"
+  },
+  {
+    "cas": "82-68-8",
+    "name_vi": "Quintozen",
+    "name_en": "pentachloronitrob enzene",
+    "hs_code": "29049000",
+    "formula": "C6Cl5NO2"
+  },
+  {
+    "cas": "108-46-3",
+    "name_vi": "Resorcinol",
+    "name_en": "Resorcinol",
+    "hs_code": "29072100",
+    "formula": "C6H6O2"
+  },
+  {
+    "cas": "83-79-4",
+    "name_vi": "Rotenon",
+    "name_en": "Rotenone",
+    "hs_code": "29329990",
+    "formula": "C23H22O6"
+  },
+  {
+    "cas": "107-18-6",
+    "name_vi": "Rượu Allyl",
+    "name_en": "Allyl alcohol",
+    "hs_code": "29052900",
+    "formula": "C3H6O"
+  },
+  {
+    "cas": "107-19-7",
+    "name_vi": "Rượu propargyl",
+    "name_en": "Propargyl alcohol",
+    "hs_code": "29052900",
+    "formula": "C3H4O"
+  },
+  {
+    "cas": "7705-08-0",
+    "name_vi": "Sắt (III) clorua",
+    "name_en": "Iron(IIl)",
+    "hs_code": "28273920",
+    "formula": "FeCl3"
+  },
+  {
+    "cas": "7440-20-2",
+    "name_vi": "scandi",
+    "name_en": "scandium",
+    "hs_code": "28053000",
+    "formula": "Sc"
+  },
+  {
+    "cas": "7782-49-2",
+    "name_vi": "Selen (dạng bột)",
+    "name_en": "Selenium (powder)",
+    "hs_code": "28049000",
+    "formula": "Se"
+  },
+  {
+    "cas": "7746-08-4",
+    "name_vi": "Selen dioxit",
+    "name_en": "Selenium dioxide",
+    "hs_code": "28112990",
+    "formula": "SeO2"
+  },
+  {
+    "cas": "7488-56-4",
+    "name_vi": "Selen disunfua",
+    "name_en": "Selenium",
+    "hs_code": "28139000",
+    "formula": "SeS2"
+  },
+  {
+    "cas": "7783-79-1",
+    "name_vi": "Selen hexaflorua",
+    "name_en": "Selenium",
+    "hs_code": "2812",
+    "formula": "SeF6"
+  },
+  {
+    "cas": "7791-23-3",
+    "name_vi": "Selen oxyclorit",
+    "name_en": "Selenium",
+    "hs_code": "28129000",
+    "formula": "SeCl2O"
+  },
+  {
+    "cas": "7803-62-5",
+    "name_vi": "Silan",
+    "name_en": "Silane",
+    "hs_code": "28500000",
+    "formula": "SiH4"
+  },
+  {
+    "cas": "7440-21-3",
+    "name_vi": "Silic",
+    "name_en": "Silicon",
+    "hs_code": "28046100",
+    "formula": "Si"
+  },
+  {
+    "cas": "7783-61-1",
+    "name_vi": "Silicon",
+    "name_en": "Silicon",
+    "hs_code": "28261900",
+    "formula": "SiF4"
+  },
+  {
+    "cas": "93-72-1",
+    "name_vi": "Silvex",
+    "name_en": "Silvex",
+    "hs_code": "29189900",
+    "formula": "C9H7O3Cl3"
+  },
+  {
+    "cas": "122-34-9",
+    "name_vi": "Simazin",
+    "name_en": "Simazine",
+    "hs_code": "29339990",
+    "formula": "C7H12ClN5"
+  },
+  {
+    "cas": "1633-05-2",
+    "name_vi": "Stronti carbonat",
+    "name_en": "Strontium",
+    "hs_code": "28369200",
+    "formula": "SrCO3"
+  },
+  {
+    "cas": "1314-18-7",
+    "name_vi": "Stronti peroxit",
+    "name_en": "Strontium",
+    "hs_code": "28164000",
+    "formula": "SrO2"
+  },
+  {
+    "cas": "57-24-9",
+    "name_vi": "Strychnin",
+    "name_en": "Strychnine",
+    "hs_code": "29339990",
+    "formula": "C21H22H2O2"
+  },
+  {
+    "cas": "60-41-3",
+    "name_vi": "Strychnin",
+    "name_en": "Strychnine",
+    "hs_code": "29399990",
+    "formula": "C21H22O6N2S"
+  },
+  {
+    "cas": "3689-24-5",
+    "name_vi": "Sulfotepp",
+    "name_en": "Sulfotepp",
+    "hs_code": "29201900",
+    "formula": "C8H20O5P2S2"
+  },
+  {
+    "cas": "2699-79-8",
+    "name_vi": "Sulphuryl florua",
+    "name_en": "Sulfuryl fluoride",
+    "hs_code": "28261900",
+    "formula": "SF2O2"
+  },
+  {
+    "cas": "107-49-3",
+    "name_vi": "T.E.P.P -",
+    "name_en": "T.E.P.P -",
+    "hs_code": "29199000",
+    "formula": "C8H20O7P2"
+  },
+  {
+    "cas": "7440-28-0",
+    "name_vi": "Tali",
+    "name_en": "Thallium",
+    "hs_code": "81125200",
+    "formula": "Tl"
+  },
+  {
+    "cas": "7446-18-6",
+    "name_vi": "Tali sunphat",
+    "name_en": "Thallium sulfate",
+    "hs_code": "28332990",
+    "formula": "Tl2(SO4)"
+  },
+  {
+    "cas": "117-18-0",
+    "name_vi": "Technazen",
+    "name_en": "Technazene",
+    "hs_code": "29049000",
+    "formula": "C6HCl4NO2"
+  },
+  {
+    "cas": "731-27-1",
+    "name_vi": "Tolylfluanid",
+    "name_en": "Tolylfluanid",
+    "hs_code": "29309090",
+    "formula": "C10H13Cl2FN2"
+  },
+  {
+    "cas": "52-68-6",
+    "name_vi": "Trichlorfon",
+    "name_en": "Trichlorfon",
+    "hs_code": "29319090",
+    "formula": "C4H8Cl3O4P"
+  },
+  {
+    "cas": "1582-09-8",
+    "name_vi": "Trifluralin",
+    "name_en": "Trifluralin",
+    "hs_code": "29049000",
+    "formula": "C13H16F3N3O4"
+  },
+  {
+    "cas": "7783-80-4",
+    "name_vi": "Telu hexaflorua",
+    "name_en": "Tellurium",
+    "hs_code": "28261900",
+    "formula": "TeF6"
+  },
+  {
+    "cas": "586-62-9",
+    "name_vi": "Terpinolen",
+    "name_en": "Terpinolene",
+    "hs_code": "29021900",
+    "formula": "C11H16"
+  },
+  {
+    "cas": "1663-39-4",
+    "name_vi": "Tert-butyl",
+    "name_en": "Tert-butyl",
+    "hs_code": "291590",
+    "formula": "C7H12O2"
+  },
+  {
+    "cas": "507-20-0",
+    "name_vi": "Tert-butyl",
+    "name_en": "T",
+    "hs_code": "29031990",
+    "formula": "C4H9Cl"
+  },
+  {
+    "cas": "1609-86-5",
+    "name_vi": "Tert-butyl",
+    "name_en": "Tert-Butyl",
+    "hs_code": "29291090",
+    "formula": "C5H9NO"
+  },
+  {
+    "cas": "109-13-7",
+    "name_vi": "Tert-butyl",
+    "name_en": "Tert-butyl peroxy",
+    "hs_code": "29159090",
+    "formula": "C8H16O3"
+  },
+  {
+    "cas": "107-71-1",
+    "name_vi": "Tert-butyl",
+    "name_en": "Tert-butyl",
+    "hs_code": "29159090",
+    "formula": "C6H12O3"
+  },
+  {
+    "cas": "81-15-2",
+    "name_vi": "5-Tert-Butyl-2,4",
+    "name_en": "5-tert-Butyl-2,4,",
+    "hs_code": "29049000",
+    "formula": "C12H15N3O6"
+  },
+  {
+    "cas": "2372-21-6",
+    "name_vi": "Tert-butylperoxy",
+    "name_en": "Tert-butyl peroxy",
+    "hs_code": "29209090",
+    "formula": "C8H16O4"
+  },
+  {
+    "cas": "1931-62-0",
+    "name_vi": "Tert-butyl",
+    "name_en": "Tert-butyl peroxy",
+    "hs_code": "29189900",
+    "formula": "C8H12O5"
+  },
+  {
+    "cas": "927-07-1",
+    "name_vi": "Tert-butylperoxy",
+    "name_en": "Tert-butylperoxy",
+    "hs_code": "29189900",
+    "formula": "C9H18O3"
+  },
+  {
+    "cas": "597-64-8",
+    "name_vi": "Tetra etyl thiếc",
+    "name_en": "Tetraethyltin",
+    "hs_code": "29319080",
+    "formula": "C8H20Sn"
+  },
+  {
+    "cas": "79-27-6",
+    "name_vi": "Tetrabrom etan",
+    "name_en": "Tetrabromo ethane",
+    "hs_code": "29033919",
+    "formula": "C2H2Br4"
+  },
+  {
+    "cas": "1746-01-6",
+    "name_vi": "2,3,7,8-Tetraclo",
+    "name_en": "2,3,7,8",
+    "hs_code": "29329990",
+    "formula": "C12H4Cl4O2"
+  },
+  {
+    "cas": "79-34-5",
+    "name_vi": "1,1,2,2-Tetraclo",
+    "name_en": "1,1,2,2-Tetrachlo",
+    "hs_code": "29031990",
+    "formula": "C2H2Cl4"
+  },
+  {
+    "cas": "127-18-4",
+    "name_vi": "Tetraclo etylen",
+    "name_en": "Tetrachloro",
+    "hs_code": "29032300",
+    "formula": "C2Cl4"
+  },
+  {
+    "cas": "58-90-2",
+    "name_vi": "Tetraclo phenol",
+    "name_en": "2,3,4,6-Tetrachlo",
+    "hs_code": "29081900",
+    "formula": "C6H2Cl4O"
+  },
+  {
+    "cas": "630-20-6",
+    "name_vi": "1,1,1,2-Tetraclo",
+    "name_en": "1,1,1,2-Tetra",
+    "hs_code": "29031990",
+    "formula": "C2H2Cl4"
+  },
+  {
+    "cas": "78-10-4",
+    "name_vi": "Tetraetyl",
+    "name_en": "Tetraethyl",
+    "hs_code": "29209090",
+    "formula": "C8H20O4Si"
+  },
+  {
+    "cas": "112-57-2",
+    "name_vi": "Tetraetyl",
+    "name_en": "Tetraethyl",
+    "hs_code": "29212900",
+    "formula": "C8H23N5"
+  },
+  {
+    "cas": "75-73-0",
+    "name_vi": "Tetraflo metan",
+    "name_en": "Tetrafluoro",
+    "hs_code": "29033990",
+    "formula": "CF4"
+  },
+  {
+    "cas": "116-14-3",
+    "name_vi": "Tetraflo etylen",
+    "name_en": "Tetrafluoro",
+    "hs_code": "29033990",
+    "formula": "C2F4"
+  },
+  {
+    "cas": "533-74-4",
+    "name_vi": "Tetrahydro-3,5-",
+    "name_en": "Tetrahydro-3,5-di",
+    "hs_code": "29349990",
+    "formula": "C5H10N2S2"
+  },
+  {
+    "cas": "109-99-9",
+    "name_vi": "Tetrahydro furan",
+    "name_en": "Tetrahydro furan",
+    "hs_code": "29321100",
+    "formula": "C4H8O"
+  },
+  {
+    "cas": "4795-29-3",
+    "name_vi": "Tetrahydro",
+    "name_en": "Furfuryl amine,",
+    "hs_code": "29321900",
+    "formula": "C5H11ON"
+  },
+  {
+    "cas": "85-43-8",
+    "name_vi": "Tetrahydro",
+    "name_en": "Tetrahydro",
+    "hs_code": "29172000",
+    "formula": "C8H8O3"
+  },
+  {
+    "cas": "110-01-0",
+    "name_vi": "Tetrahydro",
+    "name_en": "Tetrahydro",
+    "hs_code": "29349990",
+    "formula": "C4H8S"
+  },
+  {
+    "cas": "80-12-6",
+    "name_vi": "Tetrametylen",
+    "name_en": "Tetramethylene",
+    "hs_code": "29349990",
+    "formula": "C4H8N4O4S12"
+  },
+  {
+    "cas": "75-76-3",
+    "name_vi": "Tetrametyl silan",
+    "name_en": "Tetramethylsilane",
+    "hs_code": "29319090",
+    "formula": "C4H12Si"
+  },
+  {
+    "cas": "75-59-2",
+    "name_vi": "Tetrametyl",
+    "name_en": "Tetramethyiammoni",
+    "hs_code": "29239000",
+    "formula": "C4H13ON"
+  },
+  {
+    "cas": "7722-88-5",
+    "name_vi": "Tetranatri",
+    "name_en": "Tetrasodium",
+    "hs_code": "28353910",
+    "formula": "Na4O7P2"
+  },
+  {
+    "cas": "509-14-8",
+    "name_vi": "Tetranitrometan",
+    "name_en": "Tetranitro",
+    "hs_code": "29042090",
+    "formula": "CN4O8"
+  },
+  {
+    "cas": "3087-37-4",
+    "name_vi": "Tetrapropyl",
+    "name_en": "Tetrapropylorthot",
+    "hs_code": "29051900",
+    "formula": "C12H28O4Ti"
+  },
+  {
+    "cas": "50-35-1",
+    "name_vi": "Thalidomit",
+    "name_en": "Thalidomide",
+    "hs_code": "29339990",
+    "formula": "C13H10N2O4"
+  },
+  {
+    "cas": "148-79-8",
+    "name_vi": "Thiabendazol",
+    "name_en": "Thiabendazole",
+    "hs_code": "29341000",
+    "formula": "C10H7N3S"
+  },
+  {
+    "cas": "3268-49-3",
+    "name_vi": "4-Thiapentanal",
+    "name_en": "4-Thiapentanal",
+    "hs_code": "29309090",
+    "formula": "C4H8OS"
+  },
+  {
+    "cas": "60-24-2",
+    "name_vi": "Thioglycol",
+    "name_en": "Thiomonoglycol",
+    "hs_code": "29309090",
+    "formula": "C2H6OS"
+  },
+  {
+    "cas": "640-15-3",
+    "name_vi": "Thiometon",
+    "name_en": "Thiometon",
+    "hs_code": "29309090",
+    "formula": "C6H15O2S3P"
+  },
+  {
+    "cas": "297-97-2",
+    "name_vi": "Thionazin",
+    "name_en": "Thionazin",
+    "hs_code": "29339990",
+    "formula": "C8H13N2O3PS"
+  },
+  {
+    "cas": "110-02-1",
+    "name_vi": "Thiophen",
+    "name_en": "Thiophene",
+    "hs_code": "29349990",
+    "formula": "C4H4S"
+  },
+  {
+    "cas": "62-56-6",
+    "name_vi": "Thiourea",
+    "name_en": "Thiourea",
+    "hs_code": "29309090",
+    "formula": "CH4N2S"
+  },
+  {
+    "cas": "1758-73-2",
+    "name_vi": "Thiourea dioxit",
+    "name_en": "Thiourea dioxide",
+    "hs_code": "29309090",
+    "formula": "CH4O2N2S"
+  },
+  {
+    "cas": "137-26-8",
+    "name_vi": "Thiram",
+    "name_en": "Thiram",
+    "hs_code": "29303000",
+    "formula": "C6H12N2S4"
+  },
+  {
+    "cas": "132-33-2",
+    "name_vi": "Thorin",
+    "name_en": "Thorine",
+    "hs_code": "29319090",
+    "formula": "C16H13O11N2S"
+  },
+  {
+    "cas": "89-83-8",
+    "name_vi": "Thymol",
+    "name_en": "Thymol",
+    "hs_code": "29071900",
+    "formula": "C10H14O"
+  },
+  {
+    "cas": "7646-78-8",
+    "name_vi": "Thiếc (IV)",
+    "name_en": "Stannic",
+    "hs_code": "28273990",
+    "formula": "SnCl4"
+  },
+  {
+    "cas": "7440-32-6",
+    "name_vi": "Titan",
+    "name_en": "Titanium",
+    "hs_code": "81082000",
+    "formula": "Ti"
+  },
+  {
+    "cas": "7704-98-5",
+    "name_vi": "Titan hydrua",
+    "name_en": "Titanium hydride",
+    "hs_code": "28500000",
+    "formula": "TiH2"
+  },
+  {
+    "cas": "7550-45-0",
+    "name_vi": "Titan",
+    "name_en": "Titanium",
+    "hs_code": "28273990",
+    "formula": "TiCl4"
+  },
+  {
+    "cas": "91-08-7",
+    "name_vi": "di-isocyanat",
+    "name_en": "di-isocyanate",
+    "hs_code": "",
+    "formula": ""
+  },
+  {
+    "cas": "50-29-3",
+    "name_vi": "1,1,1",
+    "name_en": "1,1,1-Trichloro-2",
+    "hs_code": "29039200",
+    "formula": "C14H9Cl5"
+  },
+  {
+    "cas": "76-87-9",
+    "name_vi": "Tri phenyl",
+    "name_en": "Triphenyl tin",
+    "hs_code": "29319090",
+    "formula": "C18H16OSn"
+  },
+  {
+    "cas": "102-70-5",
+    "name_vi": "Triallyl amin",
+    "name_en": "Triallyl amine",
+    "hs_code": "29211900",
+    "formula": "C9H6N"
+  },
+  {
+    "cas": "3058-38-6",
+    "name_vi": "1,3,5-Triamino-2",
+    "name_en": "1,3,5-Triamino-2,",
+    "hs_code": "29215900",
+    "formula": "C6H6N6O6"
+  },
+  {
+    "cas": "56-36-0",
+    "name_vi": "Tributyl axetat",
+    "name_en": "Tributylt in",
+    "hs_code": "29312000",
+    "formula": "C14H30O2Sn"
+  },
+  {
+    "cas": "3090-36-6",
+    "name_vi": "Tributyl laurat",
+    "name_en": "Tributyl tin",
+    "hs_code": "29312000",
+    "formula": "C24H50O2Sn"
+  },
+  {
+    "cas": "102-82-9",
+    "name_vi": "Tributyl amin",
+    "name_en": "Tributyl amine",
+    "hs_code": "29211900",
+    "formula": "[CH3(CH2)3]3"
+  },
+  {
+    "cas": "79-01-6",
+    "name_vi": "Triclo etylen",
+    "name_en": "Trichloro ethylen",
+    "hs_code": "29032200",
+    "formula": "CHClCCl2"
+  },
+  {
+    "cas": "88-06-2",
+    "name_vi": "2,4,6-Triclo",
+    "name_en": "2,4,6-Trichloro",
+    "hs_code": "29081900",
+    "formula": "C6H3OCl3"
+  },
+  {
+    "cas": "76-02-8",
+    "name_vi": "Triclo acetyl",
+    "name_en": "Trichloro acetyl",
+    "hs_code": "29159090",
+    "formula": "C2Cl4O"
+  },
+  {
+    "cas": "2431-50-7",
+    "name_vi": "Triclo buten",
+    "name_en": "T richlorobutene",
+    "hs_code": "29032900",
+    "formula": "C4H5Cl3"
+  },
+  {
+    "cas": "71-55-6",
+    "name_vi": "1,1,1-Triclo",
+    "name_en": "1,1,1 -Trichloro",
+    "hs_code": "29031920",
+    "formula": "C2H3Cl3"
+  },
+  {
+    "cas": "67-66-3",
+    "name_vi": "Triclo metan",
+    "name_en": "Chloroform",
+    "hs_code": "29031300",
+    "formula": "CHCl3"
+  },
+  {
+    "cas": "307-55-1",
+    "name_vi": "Tricosaflododeca",
+    "name_en": "Tricosafluoro",
+    "hs_code": "29159070",
+    "formula": "C12HF23O2"
+  },
+  {
+    "cas": "1330-78-5",
+    "name_vi": "Tricresyl",
+    "name_en": "Tricresyl",
+    "hs_code": "29199000",
+    "formula": "C21H21O4P"
+  },
+  {
+    "cas": "51-18-3",
+    "name_vi": "Trietyl enemel",
+    "name_en": "Trietyl enemel",
+    "hs_code": "29336900",
+    "formula": "C9H12N6"
+  },
+  {
+    "cas": "1330-78-5",
+    "name_vi": "Trietyl thiếc",
+    "name_en": "Tricresyl",
+    "hs_code": "29199000",
+    "formula": "C21H21O4P"
+  },
+  {
+    "cas": "122-52-1",
+    "name_vi": "Trietyl photphit",
+    "name_en": "Triethy phosphite",
+    "hs_code": "29209090",
+    "formula": "C6H15O3P"
+  },
+  {
+    "cas": "121-44-8",
+    "name_vi": "Trietyl amin",
+    "name_en": "Triethylamine",
+    "hs_code": "29211900",
+    "formula": "C6H15N"
+  },
+  {
+    "cas": "112-24-3",
+    "name_vi": "Trietylen",
+    "name_en": "Triethylene",
+    "hs_code": "29212900",
+    "formula": "C6H18N4"
+  },
+  {
+    "cas": "1907-13-7",
+    "name_vi": "Trietyl thiếc",
+    "name_en": "Triethyl tin",
+    "hs_code": "29319080",
+    "formula": "C8H18O2Sn"
+  },
+  {
+    "cas": "57-52-3",
+    "name_vi": "Trietyl thiếc",
+    "name_en": "Triethyl tin",
+    "hs_code": "29319090",
+    "formula": "C12H30O4SSn2"
+  },
+  {
+    "cas": "75-46-7",
+    "name_vi": "Triflo metan",
+    "name_en": "Trifluoro methane",
+    "hs_code": "29033990",
+    "formula": "CHF3"
+  },
+  {
+    "cas": "79-38-9",
+    "name_vi": "Triflo clo",
+    "name_en": "Trifluoro chloro",
+    "hs_code": "29037700",
+    "formula": "C2ClF3"
+  },
+  {
+    "cas": "7756-94-7",
+    "name_vi": "Triiso butylen",
+    "name_en": "Triiso butylene",
+    "hs_code": "29012990",
+    "formula": "C12H24"
+  },
+  {
+    "cas": "5419-55-6",
+    "name_vi": "Triisopropyl",
+    "name_en": "Triisopropyl",
+    "hs_code": "29209090",
+    "formula": "C9H21O3B"
+  },
+  {
+    "cas": "75-50-3",
+    "name_vi": "Trimetylamin",
+    "name_en": "Trimethylamine",
+    "hs_code": "29211100",
+    "formula": "C3H9N"
+  },
+  {
+    "cas": "75-77-4",
+    "name_vi": "Trimetylclosilan",
+    "name_en": "Trimethylchlorosi",
+    "hs_code": "29319090",
+    "formula": "C3H9ClSi"
+  },
+  {
+    "cas": "3282-30-2",
+    "name_vi": "Trimetyl acetyl",
+    "name_en": "Trimethylacetyl",
+    "hs_code": "29159090",
+    "formula": "C5H9OCl"
+  },
+  {
+    "cas": "121-43-7",
+    "name_vi": "Trimetyl borat",
+    "name_en": "Trimethyl borate",
+    "hs_code": "29209090",
+    "formula": "C3H9O3B"
+  },
+  {
+    "cas": "121-45-9",
+    "name_vi": "Trimetyl",
+    "name_en": "Trimethyl",
+    "hs_code": "29209090",
+    "formula": "C3H9O3P"
+  },
+  {
+    "cas": "1118-14-5",
+    "name_vi": "Trimetyl thiếc",
+    "name_en": "Trimethyl tin",
+    "hs_code": "2931",
+    "formula": "C5H12O2Sn"
+  },
+  {
+    "cas": "606-35-9",
+    "name_vi": "2,4,6-trinitro",
+    "name_en": "2,4,6-trinitro",
+    "hs_code": "29093000",
+    "formula": "C7H5N3O7"
+  },
+  {
+    "cas": "99-35-4",
+    "name_vi": "Trinitro benzen",
+    "name_en": "Trinitro benzene",
+    "hs_code": "29042090",
+    "formula": "C6H3N3O6"
+  },
+  {
+    "cas": "129-66-8",
+    "name_vi": "Trinitrobenzoic",
+    "name_en": "Trinitrobenzoic",
+    "hs_code": "29163990",
+    "formula": "C7H3N3O8"
+  },
+  {
+    "cas": "602-99-3",
+    "name_vi": "Trinitrocresol",
+    "name_en": "Trinitrocresol",
+    "hs_code": "29089900",
+    "formula": "C7H5N3O7"
+  },
+  {
+    "cas": "4732-14-3",
+    "name_vi": "2,4,6-Trinitroph",
+    "name_en": "2,4,6-",
+    "hs_code": "29093000",
+    "formula": "C8H7N3O7"
+  },
+  {
+    "cas": "88-89-1",
+    "name_vi": "2,4,6-",
+    "name_en": "2,4,6-Trinitrophe",
+    "hs_code": "29089900",
+    "formula": "C6H3N3O7"
+  },
+  {
+    "cas": "118-96-7",
+    "name_vi": "2,4,6-Trinitroto",
+    "name_en": "2,4,6-Trinitrotol",
+    "hs_code": "29042010",
+    "formula": "C7H5N3O6"
+  },
+  {
+    "cas": "78-30-8",
+    "name_vi": "Tri-o-cresyl",
+    "name_en": "Tri-o-cresyl",
+    "hs_code": "29199000",
+    "formula": "C21H21O4P"
+  },
+  {
+    "cas": "102-69-2",
+    "name_vi": "Tripropylamin",
+    "name_en": "Tripropylamine",
+    "hs_code": "29211900",
+    "formula": "C9H18N"
+  },
+  {
+    "cas": "126-72-7",
+    "name_vi": "Tris (2,3 dibro",
+    "name_en": "Tris (2,3",
+    "hs_code": "29191000",
+    "formula": "C9H15Br6PO4"
+  },
+  {
+    "cas": "115-96-8",
+    "name_vi": "Tris(2-clo etyl)",
+    "name_en": "Tris(2-",
+    "hs_code": "29199000",
+    "formula": "C6H12Cl3O4P"
+  },
+  {
+    "cas": "7440-66-6",
+    "name_vi": "Tro kẽm",
+    "name_en": "Zinc ashe",
+    "hs_code": "26201100",
+    "formula": "Zn"
+  },
+  {
+    "cas": "1120-21-4",
+    "name_vi": "Undecan",
+    "name_en": "Undecane",
+    "hs_code": "29011000",
+    "formula": "C11H24"
+  },
+  {
+    "cas": "124-43-6",
+    "name_vi": "Urea hydro",
+    "name_en": "Urea hydrogen",
+    "hs_code": "28470010",
+    "formula": "CH6O3N2"
+  },
+  {
+    "cas": "110-62-3",
+    "name_vi": "Valeraldehit",
+    "name_en": "Pentanaldehyde",
+    "hs_code": "29121990",
+    "formula": "C5H10O"
+  },
+  {
+    "cas": "638-29-9",
+    "name_vi": "Valeryl clo",
+    "name_en": "Valeryl chloride",
+    "hs_code": "29159090",
+    "formula": "C5H9OCl"
+  },
+  {
+    "cas": "1314-62-1",
+    "name_vi": "Vanadi pentoxit",
+    "name_en": "Vanadium (V)",
+    "hs_code": "28253000",
+    "formula": "V2O5"
+  },
+  {
+    "cas": "689-97-4",
+    "name_vi": "Vinyl axetylen",
+    "name_en": "Vinyl acetylene",
+    "hs_code": "29012990",
+    "formula": "C4H4"
+  },
+  {
+    "cas": "100-42-5",
+    "name_vi": "Vinyl benzen",
+    "name_en": "Vinyl benzene",
+    "hs_code": "29025000",
+    "formula": "C8H8"
+  },
+  {
+    "cas": "593-60-2",
+    "name_vi": "Vinyl brom",
+    "name_en": "Vinyl bromide",
+    "hs_code": "29033990",
+    "formula": "C2H3Br"
+  },
+  {
+    "cas": "123-20-6",
+    "name_vi": "Vinyl butyrat",
+    "name_en": "Vinyl butyrate",
+    "hs_code": "29156000",
+    "formula": "C6H10O2"
+  },
+  {
+    "cas": "75-01-4",
+    "name_vi": "Vinyl clorit",
+    "name_en": "Vinyl chloride",
+    "hs_code": "29032100",
+    "formula": "CH12CHCl"
+  },
+  {
+    "cas": "109-92-2",
+    "name_vi": "Vinyl etyl ete",
+    "name_en": "Vinyl ethyl ether",
+    "hs_code": "29091900",
+    "formula": "C4H8O"
+  },
+  {
+    "cas": "75-02-5",
+    "name_vi": "Vinyl florit",
+    "name_en": "Vinyl fluoride",
+    "hs_code": "29033990",
+    "formula": "C2H3F"
+  },
+  {
+    "cas": "109-53-5",
+    "name_vi": "Vinyl isobutyl",
+    "name_en": "Vinyl isobutyl",
+    "hs_code": "29091900",
+    "formula": "C6H12O"
+  },
+  {
+    "cas": "107-25-5",
+    "name_vi": "Vinyl metyl ete",
+    "name_en": "Vinyl methyl",
+    "hs_code": "29091900",
+    "formula": "C3H6O"
+  },
+  {
+    "cas": "75-35-4",
+    "name_vi": "Vinyliden clorit",
+    "name_en": "Vinylidene",
+    "hs_code": "29032900",
+    "formula": "C2H2Cl2"
+  },
+  {
+    "cas": "75-38-7",
+    "name_vi": "Vinyliden florit",
+    "name_en": "Vinylidene",
+    "hs_code": "29033990",
+    "formula": "C2H2F2"
+  },
+  {
+    "cas": "75-94-5",
+    "name_vi": "Vinyltriclo",
+    "name_en": "Vinyl",
+    "hs_code": "29319090",
+    "formula": "C2H3Cl3Si"
+  },
+  {
+    "cas": "7783-82-6",
+    "name_vi": "Vonfram",
+    "name_en": "Tungsten",
+    "hs_code": "28261900",
+    "formula": "WF6"
+  },
+  {
+    "cas": "81-81-2",
+    "name_vi": "Warfarin",
+    "name_en": "Warfarin",
+    "hs_code": "29329990",
+    "formula": "C19H16O4"
+  },
+  {
+    "cas": "7440-45-1",
+    "name_vi": "Xeri",
+    "name_en": "Cerium",
+    "hs_code": "28053000",
+    "formula": "Ce"
+  },
+  {
+    "cas": "420-04-2",
+    "name_vi": "Xianamit",
+    "name_en": "Cyanamide",
+    "hs_code": "28530000",
+    "formula": "CH2N2"
+  },
+  {
+    "cas": "75-86-5",
+    "name_vi": "Xyanopropan-2-ol",
+    "name_en": "2-Cyanopropan-2-o",
+    "hs_code": "29269000",
+    "formula": "C4H7NO"
+  },
+  {
+    "cas": "108-77-0",
+    "name_vi": "Xyanuric clorua",
+    "name_en": "Cyanuric chloride",
+    "hs_code": "29336900",
+    "formula": "C3N3Cl3"
+  },
+  {
+    "cas": "108-91-8",
+    "name_vi": "Xyclohexanamin",
+    "name_en": "Cyclohexylamine",
+    "hs_code": "29213000",
+    "formula": "C6H13N"
+  },
+  {
+    "cas": "85-42-7",
+    "name_vi": "Xyclohexane-1,2-",
+    "name_en": "Hexahydro",
+    "hs_code": "29172000",
+    "formula": "C8H10O3"
+  },
+  {
+    "cas": "87-62-7",
+    "name_vi": "",
+    "name_en": "2,6-Xylidine;",
+    "hs_code": "",
+    "formula": ""
+  },
+  {
+    "cas": "7440-65-5",
+    "name_vi": "Ytri",
+    "name_en": "Ytrium",
+    "hs_code": "28053000",
+    "formula": "Y"
+  },
+  {
+    "cas": "7440-67-7",
+    "name_vi": "Zirconi",
+    "name_en": "Zirconium",
+    "hs_code": "81092000",
+    "formula": "Zr"
+  },
+  {
+    "cas": "7704-99-6",
+    "name_vi": "Zirconi hydrit",
+    "name_en": "Zirconium(II)",
+    "hs_code": "28500020",
+    "formula": "ZrH2"
+  },
+  {
+    "cas": "608-93-5",
+    "name_vi": "Pentaclo benzen",
+    "name_en": "Pentachlorobenzene",
+    "hs_code": "29039300",
+    "formula": "HC6Cl5"
+  },
+  {
+    "cas": "1163-19-5",
+    "name_vi": "Decabromo",
+    "name_en": "Decabromodiphenyl ether",
+    "hs_code": "29093000",
+    "formula": "C12Br1"
+  },
+  {
+    "cas": "335-67-1",
+    "name_vi": "Axit",
+    "name_en": "Perfluorooctanoic acid",
+    "hs_code": "29159090",
+    "formula": "---"
+  },
+  {
+    "cas": "355-46-4",
+    "name_vi": "Axit perflo",
+    "name_en": "Perfluorohexane",
+    "hs_code": "29049900",
+    "formula": "---"
+  }
+]
