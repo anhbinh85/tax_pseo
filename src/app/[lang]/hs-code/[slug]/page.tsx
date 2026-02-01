@@ -5,7 +5,7 @@ import { AIInsight } from "@/components/AIInsight";
 import { DeepTaxCalculator } from "@/components/DeepTaxCalculator";
 import { HsCodePdfButton } from "@/components/HsCodePdfButton";
 import { TaxTable } from "@/components/TaxTable";
-import { getGradientClass } from "@/lib/gradient";
+import { SITE_YEAR } from "@/lib/site";
 import {
   findBySlug,
   getAllHscodes,
@@ -35,12 +35,12 @@ export const generateMetadata = ({ params }: PageProps) => {
 
   const title =
     lang === "en"
-      ? `Import Duty for ${item.name_en} (${item.hs_code}) to Vietnam 2026`
-      : `Thuế Nhập khẩu ${item.name_vi} (${item.hs_code}) năm 2026`;
+      ? `Import Duty for ${item.name_en} (${item.hs_code}) to Vietnam ${SITE_YEAR}`
+      : `Thuế Nhập khẩu ${item.name_vi} (${item.hs_code}) năm ${SITE_YEAR}`;
   const description =
     lang === "en"
-      ? `HS code ${item.hs_code} duties, MFN and EVFTA rates, plus a quick AI insight for ${item.name_en}.`
-      : `Mã HS ${item.hs_code} gồm thuế MFN, EVFTA và gợi ý AI cho ${item.name_vi}.`;
+      ? `HS code ${item.hs_code} duties, MFN and EVFTA rates, plus a quick AI insight for ${item.name_en} in ${SITE_YEAR}.`
+      : `Mã HS ${item.hs_code} gồm thuế MFN, EVFTA và gợi ý AI cho ${item.name_vi} năm ${SITE_YEAR}.`;
 
   const canonical = `/${lang}/hs-code/${item.slug}`;
 
@@ -139,10 +139,10 @@ export default function DetailPage({ params }: PageProps) {
         : `Mã HS ${item.hs_code}: ${item.name_vi}`,
     description:
       lang === "en"
-        ? `Import tax rate for ${item.name_en} in Vietnam 2026. MFN Rate: ${formatPercent(
+        ? `Import tax rate for ${item.name_en} in Vietnam ${SITE_YEAR}. MFN Rate: ${formatPercent(
             item.taxes?.mfn
           )}.`
-        : `Thuế nhập khẩu cho ${item.name_vi} năm 2026. Thuế MFN: ${formatPercent(
+        : `Thuế nhập khẩu cho ${item.name_vi} năm ${SITE_YEAR}. Thuế MFN: ${formatPercent(
             item.taxes?.mfn
           )}.`,
     sku: item.hs_code,

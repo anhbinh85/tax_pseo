@@ -10,10 +10,13 @@ const normalizeHeader = (value: string | undefined) =>
     .replace(/\s+/g, " ")
     .trim();
 
+const dataYear = process.env.NEXT_PUBLIC_SITE_YEAR ?? "2026";
+const shortYear = dataYear.slice(-2);
+
 const sourcePath = path.join(
   process.cwd(),
   "Ref",
-  "BIEU THUE XNK 2026 UPDATE 07.01.26.xlsx - BT2026.csv"
+  `BIEU THUE XNK ${dataYear} UPDATE 07.01.${shortYear}.xlsx - BT${dataYear}.csv`
 );
 const outputPath = path.join(process.cwd(), "src", "data", "hscode.json");
 

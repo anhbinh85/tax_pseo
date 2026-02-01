@@ -14,7 +14,14 @@ type Props = {
   lang: Locale;
 };
 
-const MAX_IMAGE_SIZE_MB = 2;
+const MAX_IMAGE_SIZE_MB = 5;
+const SUPPORTED_IMAGE_TYPES = new Set([
+  "image/jpeg",
+  "image/jpg",
+  "image/png",
+  "image/webp"
+]);
+const SUPPORTED_IMAGE_EXTS = [".jpg", ".jpeg", ".png", ".webp"];
 
 export const HsSuggest = ({ lang }: Props) => {
   const [description, setDescription] = useState("");
@@ -29,12 +36,24 @@ export const HsSuggest = ({ lang }: Props) => {
       setImageDataUrl(null);
       return;
     }
+    const lowerName = file.name.toLowerCase();
+    const hasValidExt = SUPPORTED_IMAGE_EXTS.some((ext) => lowerName.endsWith(ext));
+    if (!SUPPORTED_IMAGE_TYPES.has(file.type) || !hasValidExt) {
+      setError(
+        lang === "en"
+          ? `Unsupported file format. Please upload ${SUPPORTED_IMAGE_EXTS.join(", ")} only.`
+          : `Định dạng không hỗ trợ. Vui lòng chỉ tải lên ${SUPPORTED_IMAGE_EXTS.join(", ")}.`
+      );
+      setImageDataUrl(null);
+      return;
+    }
     if (file.size > MAX_IMAGE_SIZE_MB * 1024 * 1024) {
       setError(
         lang === "en"
-          ? "Image is too large. Please use a file under 2MB."
-          : "Ảnh quá lớn. Vui lòng dùng ảnh dưới 2MB."
+          ? `Image is too large. Please use a file under ${MAX_IMAGE_SIZE_MB}MB.`
+          : `Ảnh quá lớn. Vui lòng dùng ảnh dưới ${MAX_IMAGE_SIZE_MB}MB.`
       );
+      setImageDataUrl(null);
       return;
     }
     const reader = new FileReader();
@@ -85,8 +104,8 @@ export const HsSuggest = ({ lang }: Props) => {
         </h2>
         <p className="text-sm text-slate-600">
           {lang === "en"
-            ? "Enter product details and optional image. AI will suggest suitable HS codes from the tariff list."
-            : "Nhập mô tả sản phẩm và ảnh (nếu có). AI sẽ gợi ý mã HS phù hợp từ danh mục thuế."}
+            ? "Use text, an image, or both. AI will suggest likely HS codes."
+            : "Có thể dùng mô tả, hình ảnh, hoặc cả hai. AI sẽ gợi ý mã HS phù hợp."}
         </p>
       </div>
 
@@ -104,10 +123,15 @@ export const HsSuggest = ({ lang }: Props) => {
         />
         <input
           type="file"
-          accept="image/*"
+          accept={SUPPORTED_IMAGE_EXTS.join(",")}
           onChange={(event) => handleImageChange(event.target.files?.[0])}
           className="block text-sm text-slate-600"
         />
+        <div className="text-xs text-slate-500">
+          {lang === "en"
+            ? `Supported: ${SUPPORTED_IMAGE_EXTS.join(", ")} • Max ${MAX_IMAGE_SIZE_MB}MB`
+            : `Hỗ trợ: ${SUPPORTED_IMAGE_EXTS.join(", ")} • Tối đa ${MAX_IMAGE_SIZE_MB}MB`}
+        </div>
         <div className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-800">
           {lang === "en"
             ? "AI can be wrong. Please validate its result."
@@ -142,10 +166,9 @@ export const HsSuggest = ({ lang }: Props) => {
       {suggestions.length > 0 && (
         <div className="space-y-3">
           {suggestions.map((item) => (
-            <a
+            <div
               key={item.hs_code}
-              href={`/${lang}/hs-code/${item.hs_code.replace(/\./g, "")}`}
-              className="block rounded-xl border border-slate-200 p-4 hover:bg-slate-50"
+              className="block rounded-xl border border-slate-200 bg-white p-4"
             >
               <div className="text-sm font-semibold text-slate-900">
                 {item.hs_code} - {lang === "en" ? item.name_en : item.name_vi}
@@ -156,7 +179,7 @@ export const HsSuggest = ({ lang }: Props) => {
               <div className="mt-2 text-xs text-slate-600">
                 {item.reason}
               </div>
-            </a>
+            </div>
           ))}
         </div>
       )}

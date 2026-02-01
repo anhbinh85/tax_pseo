@@ -2,16 +2,19 @@ import path from "path";
 import fs from "fs";
 import * as XLSX from "xlsx";
 
+const dataYear = process.env.NEXT_PUBLIC_SITE_YEAR ?? "2026";
+const shortYear = dataYear.slice(-2);
+
 const sourcePath = path.join(
   process.cwd(),
   "Ref",
-  "BIEU THUE XNK 2026 UPDATE 07.01.26.xlsx"
+  `BIEU THUE XNK ${dataYear} UPDATE 07.01.${shortYear}.xlsx`
 );
 
 const outputPath = path.join(
   process.cwd(),
   "Ref",
-  "BIEU THUE XNK 2026 UPDATE 07.01.26.xlsx - BT2026.csv"
+  `BIEU THUE XNK ${dataYear} UPDATE 07.01.${shortYear}.xlsx - BT${dataYear}.csv`
 );
 
 const main = () => {
@@ -26,7 +29,7 @@ const main = () => {
   });
 
   const sheetName =
-    workbook.SheetNames.find((name) => name === "BT2026") ??
+    workbook.SheetNames.find((name) => name === `BT${dataYear}`) ??
     workbook.SheetNames[0];
   if (!sheetName) {
     console.error("No sheets found in the XLSX file.");

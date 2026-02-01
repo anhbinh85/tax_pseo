@@ -3,7 +3,8 @@ import Link from "next/link";
 import { SearchBar } from "@/components/SearchBar";
 import { HsSuggest } from "@/components/HsSuggest";
 import { getChapterCodes, hasHscodeData } from "@/lib/hscode";
-import { getLocaleStrings, isLocale, type Locale } from "@/lib/i18n";
+import { isLocale, type Locale } from "@/lib/i18n";
+import { SITE_YEAR } from "@/lib/site";
 
 type PageProps = {
   params: { lang: string };
@@ -12,7 +13,6 @@ type PageProps = {
 export default function HomePage({ params }: PageProps) {
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang as Locale;
-  const strings = getLocaleStrings(lang);
   const chapters = hasHscodeData() ? getChapterCodes() : [];
 
   return (
@@ -38,7 +38,7 @@ export default function HomePage({ params }: PageProps) {
             Vietnam Logistics Portal
           </span>
           <h1 className="text-3xl font-bold leading-tight md:text-5xl">
-            Vietnam Import Tax &amp; HS Code Portal 2026
+            Vietnam Import Tax &amp; HS Code Portal {SITE_YEAR}
           </h1>
           <p className="text-base text-slate-200 md:text-lg">
             Official Tariff Data • Decree 26/2023 • Decree 174/2025
@@ -57,8 +57,8 @@ export default function HomePage({ params }: PageProps) {
             </h2>
             <p className="mt-2 text-sm text-slate-600">
               {lang === "en"
-                ? "Search by HS code or commodity name to view the 2026 import duties."
-                : "Tra cứu mã HS hoặc tên hàng hoá để xem thuế nhập khẩu năm 2026."}
+                ? `Search by HS code or commodity name to view the ${SITE_YEAR} import duties.`
+                : `Tra cứu mã HS hoặc tên hàng hoá để xem thuế nhập khẩu năm ${SITE_YEAR}.`}
             </p>
             <div className="mt-4">
               <HsSuggest lang={lang} />

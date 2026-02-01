@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { ContactForm } from "@/components/ContactForm";
 import { getLocaleStrings, isLocale, type Locale } from "@/lib/i18n";
+import { SITE_YEAR } from "@/lib/site";
 
 type PageProps = {
   params: { lang: string };
@@ -11,8 +12,8 @@ export const generateMetadata = ({ params }: PageProps) => {
   const lang = params.lang as Locale;
   const title =
     lang === "en"
-      ? "Contact - Vietnam Import Tax & HS Code Portal 2026"
-      : "Liên hệ - Cổng tra cứu thuế nhập khẩu 2026";
+      ? `Contact - Vietnam Import Tax & HS Code Portal ${SITE_YEAR}`
+      : `Liên hệ - Cổng tra cứu thuế nhập khẩu ${SITE_YEAR}`;
   const description =
     lang === "en"
       ? "Send a private message about HS codes, tariffs, or compliance."

@@ -68,13 +68,6 @@ export const HsCodePdfButton = ({ lang, item }: Props) => {
           scrollY: -window.scrollY
         });
 
-      const addCanvas = (canvas: HTMLCanvasElement, startNewPage: boolean) => {
-        const scale = usableWidth / canvas.width;
-        const imgHeight = canvas.height * scale;
-        if (startNewPage) doc.addPage();
-        doc.addImage(canvas, "PNG", margin, margin, usableWidth, imgHeight);
-      };
-
       const addCanvasWithSlicing = (canvas: HTMLCanvasElement) => {
         const scale = usableWidth / canvas.width;
         const pageHeightPx = Math.floor(usableHeight / scale);
@@ -145,7 +138,7 @@ export const HsCodePdfButton = ({ lang, item }: Props) => {
       }
 
       doc.save(`hs-code-${item.hs_code}.pdf`);
-    } catch (err) {
+    } catch {
       setError(
         lang === "en"
           ? "PDF generation failed. Please try again."

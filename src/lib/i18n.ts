@@ -1,3 +1,5 @@
+import { SITE_YEAR } from "@/lib/site";
+
 export const locales = ["vi", "en"] as const;
 export type Locale = (typeof locales)[number];
 
@@ -12,7 +14,7 @@ export const getLocaleFromPath = (pathname: string): Locale => {
 export const getLocaleStrings = (locale: Locale) => {
   if (locale === "en") {
     return {
-      homeTitle: "Vietnam Import Tariff Lookup 2026",
+      homeTitle: `Vietnam Import Tariff Lookup ${SITE_YEAR}`,
       searchPlaceholder: "Search HS code or product name",
       mfn: "MFN Import Duty",
       evfta: "EVFTA Import Duty",
@@ -27,7 +29,7 @@ export const getLocaleStrings = (locale: Locale) => {
   }
 
   return {
-    homeTitle: "Tra cứu thuế nhập khẩu Việt Nam 2026",
+    homeTitle: `Tra cứu thuế nhập khẩu Việt Nam ${SITE_YEAR}`,
     searchPlaceholder: "Tìm mã HS hoặc tên hàng hoá",
     mfn: "Thuế NK ưu đãi (MFN)",
     evfta: "Thuế EVFTA",

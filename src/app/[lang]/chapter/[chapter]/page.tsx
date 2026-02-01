@@ -6,6 +6,7 @@ import {
   hasHscodeData
 } from "@/lib/hscode";
 import { getLocaleStrings, isLocale, type Locale } from "@/lib/i18n";
+import { SITE_YEAR } from "@/lib/site";
 
 type PageProps = {
   params: { lang: string; chapter: string };
@@ -27,8 +28,8 @@ export const generateMetadata = ({ params }: PageProps) => {
 
   const title =
     lang === "en"
-      ? `Import Duties for Chapter ${chapter} (Vietnam 2026)`
-      : `Thuế Nhập khẩu Chương ${chapter} (Việt Nam 2026)`;
+      ? `Import Duties for Chapter ${chapter} (Vietnam ${SITE_YEAR})`
+      : `Thuế Nhập khẩu Chương ${chapter} (Việt Nam ${SITE_YEAR})`;
   const description =
     lang === "en"
       ? `Browse HS codes in Chapter ${chapter} with MFN and FTA import duties.`
