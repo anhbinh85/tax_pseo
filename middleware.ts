@@ -21,6 +21,13 @@ export const middleware = (request: NextRequest) => {
     return NextResponse.redirect(url);
   }
 
+  // US HTS pages are locale-agnostic (English)
+  if (pathname.startsWith("/us-hts")) {
+    return NextResponse.next({
+      request: { headers: requestHeaders }
+    });
+  }
+
   const hasLocale = LOCALES.some((locale) => pathname.startsWith(`/${locale}`));
   if (!hasLocale) {
     const url = request.nextUrl.clone();

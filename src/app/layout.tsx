@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { Be_Vietnam_Pro } from "next/font/google";
 import { LangSwitch } from "@/components/LangSwitch";
 import { Footer } from "@/components/Footer";
+import { JsonLd, websiteJsonLd } from "@/components/JsonLd";
 
 const beVietnamPro = Be_Vietnam_Pro({
   subsets: ["latin", "vietnamese"],
@@ -16,7 +17,10 @@ const gscId = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  ...(gscId ? { verification: { google: gscId } } : {})
+  openGraph: {
+    images: [{ url: "/hero-bg.jpg", width: 1200, height: 630, alt: "Vietnam HS & US HTS Import Duty Lookup" }],
+  },
+  ...(gscId ? { verification: { google: gscId } } : {}),
 };
 
 const getPathname = () => headers().get("x-pathname") ?? "";
@@ -41,6 +45,7 @@ export default function RootLayout({
       <body
         className={`${beVietnamPro.className} min-h-screen bg-slate-100 text-slate-900 antialiased`}
       >
+        <JsonLd data={websiteJsonLd()} />
         {gaId && (
           <>
             <Script

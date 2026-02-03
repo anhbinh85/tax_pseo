@@ -9,7 +9,10 @@
     "lint": "next lint",
     "process-data": "tsx scripts/process-data.ts",
     "convert-xlsx": "tsx scripts/convert-xlsx-to-csv.ts",
-    "build-embeddings": "tsx scripts/build-embeddings.ts"
+    "build-embeddings": "tsx scripts/build-embeddings.ts",
+    "download-us-hts": "tsx scripts/download-us-hts.ts",
+    "process-us-data": "tsx scripts/process-us-data.ts",
+    "test-us-hts": "tsx scripts/test-us-hts.ts"
   },
   "dependencies": {
     "@xenova/transformers": "^2.17.2",

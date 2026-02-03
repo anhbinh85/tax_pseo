@@ -71,18 +71,44 @@ export default function ChapterPage({ params }: PageProps) {
   );
   if (items.length === 0) notFound();
 
+  const breadcrumbParentLabel = lang === "en" ? "Vietnam HS" : "Mã HS VN";
+
   return (
     <main className="mx-auto flex max-w-5xl flex-col gap-8 px-6 py-16">
-      <div className="space-y-3">
-        <h1 className="text-3xl font-bold text-slate-900 md:text-4xl">
-          {lang === "en" ? `Chapter ${chapter}` : `Chương ${chapter}`}
-        </h1>
-        <p className="text-base text-slate-600">
-          {lang === "en"
-            ? "Browse HS codes and open each detail page to view tariffs."
-            : "Danh sách mã HS; mở từng trang để xem thuế nhập khẩu."}
-        </p>
-      </div>
+      <nav className="mb-6 flex flex-wrap items-center justify-between gap-3" aria-label="Breadcrumb">
+        <div className="flex flex-wrap items-center gap-2 text-sm text-slate-600">
+          <Link href="/" className="hover:text-slate-900">
+            {lang === "en" ? "Home" : "Trang chủ"}
+          </Link>
+          <span aria-hidden>/</span>
+          <Link href={`/${lang}`} className="hover:text-slate-900">
+            {breadcrumbParentLabel}
+          </Link>
+          <span aria-hidden>/</span>
+          <span className="font-medium text-slate-900">
+            {lang === "en" ? `Chapter ${chapter}` : `Chương ${chapter}`}
+          </span>
+        </div>
+        <Link
+          href="/"
+          className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50"
+        >
+          ← {lang === "en" ? "Home" : "Trang chủ"}
+        </Link>
+      </nav>
+      <header className="mb-2 flex items-start gap-3">
+        <span className="text-3xl" aria-hidden>🇻🇳</span>
+        <div className="space-y-1">
+          <h1 className="text-3xl font-bold text-slate-900 md:text-4xl">
+            {lang === "en" ? `Chapter ${chapter}` : `Chương ${chapter}`}
+          </h1>
+          <p className="text-base text-slate-600">
+            {lang === "en"
+              ? "Browse HS codes and open each detail page to view tariffs."
+              : "Danh sách mã HS; mở từng trang để xem thuế nhập khẩu."}
+          </p>
+        </div>
+      </header>
 
       <div className="grid gap-3 md:grid-cols-2">
         {items.slice(0, 200).map((item) => (

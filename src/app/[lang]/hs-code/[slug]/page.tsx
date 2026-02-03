@@ -5,13 +5,17 @@ import { AIInsight } from "@/components/AIInsight";
 import { DeepTaxCalculator } from "@/components/DeepTaxCalculator";
 import { HsCodePdfButton } from "@/components/HsCodePdfButton";
 import { TaxTable } from "@/components/TaxTable";
+import { JsonLd, webPageWithBreadcrumb } from "@/components/JsonLd";
 import { SITE_YEAR } from "@/lib/site";
 import {
+  getAllHscodes,
   findBySlug,
   getRelatedByChapter,
   hasHscodeData
 } from "@/lib/hscode";
 import { getLocaleStrings, isLocale, type Locale } from "@/lib/i18n";
+
+const VN_HS_PREBUILD_LIMIT = 2000;
 
 type PageProps = {
   params: { lang: string; slug: string };
@@ -19,6 +23,16 @@ type PageProps = {
 
 export const dynamicParams = true;
 export const revalidate = 60 * 60 * 24;
+
+export function generateStaticParams() {
+  if (!hasHscodeData()) return [];
+  const all = getAllHscodes();
+  const slugs = all.slice(0, VN_HS_PREBUILD_LIMIT).map((item) => item.slug);
+  return slugs.flatMap((slug) => [
+    { lang: "vi", slug },
+    { lang: "en", slug }
+  ]);
+}
 
 export const generateMetadata = ({ params }: PageProps) => {
   if (!isLocale(params.lang)) return {};
@@ -36,6 +50,7 @@ export const generateMetadata = ({ params }: PageProps) => {
       : `Mã HS ${item.hs_code} gồm thuế MFN, EVFTA và gợi ý AI cho ${item.name_vi} năm ${SITE_YEAR}.`;
 
   const canonical = `/${lang}/hs-code/${item.slug}`;
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://vietnamhs.info";
 
   return {
     title,
@@ -46,7 +61,13 @@ export const generateMetadata = ({ params }: PageProps) => {
         en: `/en/hs-code/${item.slug}`,
         vi: `/vi/hs-code/${item.slug}`
       }
-    }
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${siteUrl}${canonical}`,
+      images: [{ url: "/hero-bg.jpg", width: 1200, height: 630, alt: item.hs_code }],
+    },
   };
 };
 
@@ -202,8 +223,23 @@ export default function DetailPage({ params }: PageProps) {
     }
   ].filter((entry) => entry.value && entry.value !== strings.checkPolicy);
 
+  const chapter = item.hs_code.slice(0, 2);
+  const pageName = lang === "en" ? `Import Duty for ${item.name_en} (${item.hs_code})` : `Thuế Nhập khẩu ${item.name_vi} (${item.hs_code})`;
+  const pageDesc = lang === "en" ? `HS code ${item.hs_code} duties, MFN and EVFTA rates.` : `Mã HS ${item.hs_code} thuế MFN và EVFTA.`;
+  const breadcrumbJsonLd = webPageWithBreadcrumb(
+    pageName,
+    pageDesc,
+    `/${lang}/hs-code/${item.slug}`,
+    [
+      { name: "Home", path: `/${lang}` },
+      { name: `Chapter ${chapter}`, path: `/${lang}/chapter/${chapter}` },
+      { name: item.hs_code, path: `/${lang}/hs-code/${item.slug}` },
+    ]
+  );
+
   return (
     <main className="min-h-screen bg-slate-100">
+      <JsonLd data={breadcrumbJsonLd} />
       <Script
         id="json-ld"
         type="application/ld+json"
@@ -357,6 +393,34 @@ export default function DetailPage({ params }: PageProps) {
           <div data-pdf-section>
             <AIInsight hs_code={item.hs_code} name_en={item.name_en} lang={lang} />
           </div>
+
+          <section
+            className="relative overflow-hidden rounded-2xl border-l-4 border-amber-500 bg-amber-50/95 p-6 shadow-lg ring-2 ring-amber-300/60"
+            data-pdf-section
+            style={{ boxShadow: "0 4px 14px rgba(245, 158, 11, 0.25)" }}
+          >
+            <div className="absolute right-4 top-4 text-4xl opacity-20" aria-hidden>🇺🇸</div>
+            <div className="relative flex flex-wrap items-center gap-3">
+              <span className="text-3xl" aria-hidden>🇺🇸</span>
+              <h2 className="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">
+                {lang === "en"
+                  ? "US Import Duty (Global Sourcing)"
+                  : "Thuế nhập khẩu Mỹ (Nguồn toàn cầu)"}
+              </h2>
+            </div>
+            <p className="relative mt-3 text-base text-slate-700">
+              {lang === "en"
+                ? `Compare US import duty for ${item.hs_code} from Vietnam vs. China vs. Mexico vs. Korea, EU, UK, Australia.`
+                : `So sánh thuế nhập khẩu Mỹ cho ${item.hs_code} từ Việt Nam, Trung Quốc, Mexico, Hàn Quốc, EU, UK, Australia.`}
+            </p>
+            <Link
+              href={`/us-hts/${item.slug}`}
+              className="relative mt-5 inline-flex items-center gap-2 rounded-xl bg-amber-500 px-5 py-3 text-base font-bold text-amber-950 shadow-lg transition hover:bg-amber-400 hover:shadow-xl"
+            >
+              <span aria-hidden>🇺🇸</span>
+              {lang === "en" ? "US HTS " : "US HTS "}{item.hs_code} →
+            </Link>
+          </section>
 
           {related.length > 0 && (
             <section className="space-y-4" data-pdf-section>

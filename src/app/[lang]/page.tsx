@@ -3,8 +3,12 @@ import Link from "next/link";
 import { SearchBar } from "@/components/SearchBar";
 import { HsSuggest } from "@/components/HsSuggest";
 import { CasLookup } from "@/components/CasLookup";
+import { BrowseByChapterTabs } from "@/components/BrowseByChapterTabs";
+import { JsonLd, webPageWithBreadcrumb } from "@/components/JsonLd";
 import { getChapterCodes, hasHscodeData } from "@/lib/hscode";
-import { isLocale, type Locale } from "@/lib/i18n";
+import { getUsHtsChapterCodes } from "@/lib/hts-chapters";
+import { hasUsHtsData } from "@/lib/us-data";
+import { getLocaleStrings, isLocale, type Locale } from "@/lib/i18n";
 import { SITE_YEAR } from "@/lib/site";
 
 type PageProps = {
@@ -14,10 +18,19 @@ type PageProps = {
 export default function HomePage({ params }: PageProps) {
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang as Locale;
+  const strings = getLocaleStrings(lang);
   const chapters = hasHscodeData() ? getChapterCodes() : [];
+  const path = `/${lang}`;
+  const jsonLd = webPageWithBreadcrumb(
+    strings.homeTitle,
+    lang === "en" ? `Search HS codes and import duties in Vietnam for ${SITE_YEAR}.` : `Tra cứu mã HS và thuế nhập khẩu Việt Nam năm ${SITE_YEAR}.`,
+    path,
+    [{ name: "Home", path }]
+  );
 
   return (
     <main className="flex min-h-screen flex-col">
+      <JsonLd data={jsonLd} />
       <section className="relative min-h-[360px] overflow-hidden sm:min-h-[460px]">
         <div className="absolute inset-0">
           <video
@@ -52,6 +65,23 @@ export default function HomePage({ params }: PageProps) {
         <div className="absolute inset-0 bg-[url('/hero-bg.jpg')] bg-cover bg-center" />
         <div className="absolute inset-0 bg-brand-navy/35" />
         <div className="relative mx-auto flex w-full max-w-6xl flex-col gap-8 px-6">
+          <div className="rounded-2xl border-2 border-amber-400/80 bg-white p-6 shadow-lg">
+            <h2 className="text-xl font-bold text-slate-900">
+              🇺🇸 US HTS Import Duty Lookup
+            </h2>
+            <p className="mt-2 text-sm text-slate-600">
+              {lang === "en"
+                ? "Compare US import duty by origin: China vs Vietnam vs Mexico vs EU, UK, Australia, Korea, Japan, Canada, Russia. FTA/preferential rates (e.g. USMCA, KORUS) shown where available; EU/UK/AU may have lower rates—check detail page."
+                : "So sánh thuế nhập khẩu Mỹ theo nguồn gốc: Trung Quốc, Việt Nam, Mexico, EU, UK, Australia, Hàn Quốc, Nhật, Canada, Nga. Thuế FTA/ưu đãi (USMCA, KORUS) hiển thị khi có; EU/UK/AU có thể thấp hơn—xem trang chi tiết."}
+            </p>
+            <Link
+              href="/us-hts"
+              className="mt-4 inline-flex items-center gap-2 rounded-lg bg-amber-500 px-5 py-2.5 text-sm font-bold text-amber-950 shadow-md transition hover:bg-amber-400"
+            >
+              Open US HTS Lookup →
+            </Link>
+          </div>
+
           <div className="rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-sm">
             <h2 className="text-lg font-semibold text-slate-900">
               {lang === "en" ? "Fast HS Lookup" : "Tra cứu HS nhanh"}
@@ -69,23 +99,27 @@ export default function HomePage({ params }: PageProps) {
             </div>
           </div>
 
-          {chapters.length > 0 && (
-            <section className="rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-sm">
-              <h2 className="text-lg font-semibold text-slate-900">
-                {lang === "en" ? "Browse by Chapter" : "Tra cứu theo Chương"}
-              </h2>
-              <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-                {chapters.map((chapter) => (
-                  <Link
-                    key={chapter}
-                    href={`/${lang}/chapter/${chapter}`}
-                    className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-brand-red hover:bg-white"
-                  >
-                    {lang === "en" ? `Chapter ${chapter}` : `Chương ${chapter}`}
-                  </Link>
-                ))}
-              </div>
-            </section>
+          {(chapters.length > 0 || hasUsHtsData()) && (
+            <BrowseByChapterTabs
+              lang={lang}
+              vnChapters={chapters}
+              usChapters={hasUsHtsData() ? getUsHtsChapterCodes() : []}
+              labels={
+                lang === "en"
+                  ? {
+                      browseByChapter: "Browse by Chapter",
+                      chapter: "Chapter",
+                      vnHsCode: "VN HS Code",
+                      usHts: "US HTS",
+                    }
+                  : {
+                      browseByChapter: "Tra cứu theo Chương",
+                      chapter: "Chương",
+                      vnHsCode: "Mã HS VN",
+                      usHts: "US HTS",
+                    }
+              }
+            />
           )}
         </div>
       </section>

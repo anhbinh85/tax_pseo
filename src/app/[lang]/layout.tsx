@@ -17,16 +17,24 @@ export const generateMetadata = ({ params }: LayoutProps): Metadata => {
     lang === "en"
       ? `Search HS codes and import duties in Vietnam for ${SITE_YEAR}.`
       : `Tra cứu mã HS và thuế nhập khẩu Việt Nam năm ${SITE_YEAR}.`;
+  const canonical = `/${lang}`;
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://vietnamhs.info";
   return {
     title,
     description,
     alternates: {
-      canonical: `/${lang}`,
+      canonical,
       languages: {
         en: "/en",
         vi: "/vi"
       }
-    }
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${siteUrl}${canonical}`,
+      images: [{ url: "/hero-bg.jpg", width: 1200, height: 630, alt: title }],
+    },
   };
 };
 

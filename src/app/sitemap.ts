@@ -1,8 +1,10 @@
 import { getAllHscodes, getChapterCodes, hasHscodeData } from "@/lib/hscode";
+import { getUsHtsChapterCodes } from "@/lib/hts-chapters";
+import { hasUsHtsData, getAllUsHtsSlugs } from "@/lib/us-data";
 import type { MetadataRoute } from "next";
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://vietnamhs.info";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [
@@ -13,8 +15,44 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${siteUrl}/en`,
       lastModified: new Date()
+    },
+    {
+      url: `${siteUrl}/us-hts`,
+      lastModified: new Date()
+    },
+    {
+      url: `${siteUrl}/vi/disclaimer`,
+      lastModified: new Date()
+    },
+    {
+      url: `${siteUrl}/en/disclaimer`,
+      lastModified: new Date()
+    },
+    {
+      url: `${siteUrl}/vi/contact`,
+      lastModified: new Date()
+    },
+    {
+      url: `${siteUrl}/en/contact`,
+      lastModified: new Date()
     }
   ];
+
+  if (hasUsHtsData()) {
+    const usSlugs = getAllUsHtsSlugs();
+    usSlugs.forEach((slug) => {
+      entries.push({
+        url: `${siteUrl}/us-hts/${slug}`,
+        lastModified: new Date()
+      });
+    });
+    getUsHtsChapterCodes().forEach((chapter) => {
+      entries.push({
+        url: `${siteUrl}/us-hts/chapter/${chapter}`,
+        lastModified: new Date()
+      });
+    });
+  }
 
   if (!hasHscodeData()) return entries;
 
