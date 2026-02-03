@@ -11,7 +11,7 @@ Use this after major changes and before pushing to git.
 npm run build
 ```
 - **Fixed in this pass:** ESLint unused `displayCode` in `GlobalDutyMatrix.tsx` (now used in subtitle). Type guard for `item` in `us-hts/[slug]/page.tsx` `generateMetadata`.
-- Build compiles, lints, and runs static generation. Expect ~5.3k+ static pages; full run can take several minutes.
+- Build compiles, lints, and runs static generation. Expect ~4,800 static pages (4k US HTS + 500 VN HS + index/chapter/disclaimer/contact).
 
 ### Manual smoke tests (recommended)
 - **Home:** `/vi`, `/en` — hero, search bar, US HTS CTA, Browse by Chapter (VN HS | US HTS tabs).
@@ -33,18 +33,18 @@ Approximate counts (from current data):
 |--------|--------|--------|
 | Root / locale / US HTS index | 3 | `/vi`, `/en`, `/us-hts` |
 | Disclaimer + Contact | 4 | `/vi/disclaimer`, `/en/disclaimer`, `/vi/contact`, `/en/contact` |
-| US HTS detail `[slug]` | **5,000** (capped) | `generateStaticParams` returns first 5,000 slugs; remaining ~22k are on-demand with ISR |
+| US HTS detail `[slug]` | **4,000** (capped) | `generateStaticParams` returns first 4,000 slugs; remaining ~23k are on-demand with ISR |
 | US HTS chapter | 97 | `/us-hts/chapter/[chapter]` |
 | VN chapter (vi + en) | 2 × 97 = 194 | `/vi/chapter/{c}`, `/en/chapter/{c}` |
-| VN HS detail `[slug]` | **4,000** (first 2k × vi/en) | `generateStaticParams` returns first 2,000 slugs × 2 locales; rest on-demand + ISR |
+| VN HS detail `[slug]` | **500** (first 250 × vi/en) | `generateStaticParams` returns first 250 slugs × 2 locales; rest on-demand + ISR |
 
-**Total pre-rendered at build:** ~**9,298** (3 + 4 + 5,000 + 97 + 194 + 4,000). Sitemap includes all of the above plus full US HTS slug list and VN HS slug list for discovery.
+**Total pre-rendered at build:** ~**4,798** (3 + 4 + 4,000 + 97 + 194 + 500). Sitemap includes all of the above plus full US HTS slug list and VN HS slug list for discovery.
 
-**Total URLs in sitemap:** 3 + 4 + 27,061 (US HTS slugs) + 97 (US chapter) + 194 (VN chapter) + 23,742 (VN HS vi+en) = **51,101** (all of these are valid; VN HS and US HTS beyond 5k are generated on first request, then cached with ISR).
+**Total URLs in sitemap:** unchanged (all US HTS + VN HS URLs); pages beyond prebuild are generated on first request, then cached with ISR.
 
-**US HTS cap:** Kept at 5,000 to stay within Vercel build limits; remaining ~22k US HTS pages are on-demand with ISR. Do not remove the cap unless build time/resources allow.
+**US HTS cap:** 4,000 pre-built; remaining ~23k US HTS pages are on-demand with ISR.
 
-**VN HS prebuild:** First 2,000 slugs × 2 locales (vi/en) are pre-built via `generateStaticParams` in `[lang]/hs-code/[slug]/page.tsx`; limit is `VN_HS_PREBUILD_LIMIT = 2000`.
+**VN HS prebuild:** First 250 slugs × 2 locales (vi/en) = 500 pages via `VN_HS_PREBUILD_LIMIT = 250` in `[lang]/hs-code/[slug]/page.tsx`; rest on-demand + ISR.
 
 ---
 

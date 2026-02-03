@@ -15,7 +15,7 @@ import {
 } from "@/lib/hscode";
 import { getLocaleStrings, isLocale, type Locale } from "@/lib/i18n";
 
-const VN_HS_PREBUILD_LIMIT = 2000;
+const VN_HS_PREBUILD_LIMIT = 250;
 
 type PageProps = {
   params: { lang: string; slug: string };

@@ -22,7 +22,7 @@ export const revalidate = 60 * 60 * 24;
 export async function generateStaticParams() {
   if (!hasUsHtsData()) return [];
   const slugs = getAllUsHtsSlugs();
-  return slugs.slice(0, 5000).map((slug) => ({ slug }));
+  return slugs.slice(0, 4000).map((slug) => ({ slug }));
 }
 
 export function generateMetadata({ params }: PageProps): Metadata {
