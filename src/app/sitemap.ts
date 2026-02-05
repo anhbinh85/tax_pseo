@@ -4,10 +4,11 @@ import { hasUsHtsData, getAllUsHtsSlugs } from "@/lib/us-data";
 import { SITE_CONFIG } from "@/config/site";
 import type { MetadataRoute } from "next";
 
-const ITEMS_PER_SITEMAP = 2000;
+export const ITEMS_PER_SITEMAP = 2000;
 const domain = SITE_CONFIG.domain;
 
-function getTotalUrlCount(): number {
+/** Exported for sitemap index route. */
+export function getTotalUrlCount(): number {
   let total = 7; // static: vi, en, us-hts, vi/en disclaimer, vi/en contact
   if (hasUsHtsData()) {
     total += getAllUsHtsSlugs().length;
