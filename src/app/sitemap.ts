@@ -1,89 +1,136 @@
 import { getAllHscodes, getChapterCodes, hasHscodeData } from "@/lib/hscode";
 import { getUsHtsChapterCodes } from "@/lib/hts-chapters";
 import { hasUsHtsData, getAllUsHtsSlugs } from "@/lib/us-data";
+import { SITE_CONFIG } from "@/config/site";
 import type { MetadataRoute } from "next";
 
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://vietnamhs.info";
+const ITEMS_PER_SITEMAP = 2000;
+const domain = SITE_CONFIG.domain;
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const entries: MetadataRoute.Sitemap = [
-    {
-      url: `${siteUrl}/vi`,
-      lastModified: new Date()
-    },
-    {
-      url: `${siteUrl}/en`,
-      lastModified: new Date()
-    },
-    {
-      url: `${siteUrl}/us-hts`,
-      lastModified: new Date()
-    },
-    {
-      url: `${siteUrl}/vi/disclaimer`,
-      lastModified: new Date()
-    },
-    {
-      url: `${siteUrl}/en/disclaimer`,
-      lastModified: new Date()
-    },
-    {
-      url: `${siteUrl}/vi/contact`,
-      lastModified: new Date()
-    },
-    {
-      url: `${siteUrl}/en/contact`,
-      lastModified: new Date()
-    }
+function getTotalUrlCount(): number {
+  let total = 7; // static: vi, en, us-hts, vi/en disclaimer, vi/en contact
+  if (hasUsHtsData()) {
+    total += getAllUsHtsSlugs().length;
+    total += getUsHtsChapterCodes().length;
+  }
+  if (hasHscodeData()) {
+    total += getChapterCodes().length * 2; // vi + en chapter
+    total += getAllHscodes().length * 2; // vi + en hs-code
+  }
+  return total;
+}
+
+/** Return only the chunk of entries for the given id (avoids building full list). */
+function getChunkEntries(chunkId: number): MetadataRoute.Sitemap {
+  const start = chunkId * ITEMS_PER_SITEMAP;
+  const end = start + ITEMS_PER_SITEMAP;
+  const entries: MetadataRoute.Sitemap = [];
+  let offset = 0;
+
+  const now = new Date();
+
+  // Static
+  const staticUrls: MetadataRoute.Sitemap = [
+    { url: `${domain}/vi`, lastModified: now },
+    { url: `${domain}/en`, lastModified: now },
+    { url: `${domain}/us-hts`, lastModified: now },
+    { url: `${domain}/vi/disclaimer`, lastModified: now },
+    { url: `${domain}/en/disclaimer`, lastModified: now },
+    { url: `${domain}/vi/contact`, lastModified: now },
+    { url: `${domain}/en/contact`, lastModified: now },
   ];
+  if (start < offset + staticUrls.length) {
+    const from = Math.max(0, start - offset);
+    const to = Math.min(staticUrls.length, end - offset);
+    entries.push(...staticUrls.slice(from, to));
+  }
+  if (entries.length >= ITEMS_PER_SITEMAP) return entries;
+  offset += staticUrls.length;
 
+  // US HTS slugs
   if (hasUsHtsData()) {
     const usSlugs = getAllUsHtsSlugs();
-    usSlugs.forEach((slug) => {
-      entries.push({
-        url: `${siteUrl}/us-hts/${slug}`,
-        lastModified: new Date()
-      });
-    });
-    getUsHtsChapterCodes().forEach((chapter) => {
-      entries.push({
-        url: `${siteUrl}/us-hts/chapter/${chapter}`,
-        lastModified: new Date()
-      });
-    });
+    const n = usSlugs.length;
+    if (start < offset + n) {
+      const from = Math.max(0, start - offset);
+      const to = Math.min(n, end - offset);
+      for (let i = from; i < to; i++) {
+        entries.push({ url: `${domain}/us-hts/${usSlugs[i]}`, lastModified: now });
+      }
+    }
+    if (entries.length >= ITEMS_PER_SITEMAP) return entries;
+    offset += n;
   }
 
-  if (!hasHscodeData()) return entries;
-
-  const data = getAllHscodes();
-  const chapters = getChapterCodes();
-
-  chapters.forEach((chapter) => {
-    entries.push(
-      {
-        url: `${siteUrl}/vi/chapter/${chapter}`,
-        lastModified: new Date()
-      },
-      {
-        url: `${siteUrl}/en/chapter/${chapter}`,
-        lastModified: new Date()
+  // US HTS chapter
+  if (hasUsHtsData()) {
+    const usChapters = getUsHtsChapterCodes();
+    const n = usChapters.length;
+    if (start < offset + n) {
+      const from = Math.max(0, start - offset);
+      const to = Math.min(n, end - offset);
+      for (let i = from; i < to; i++) {
+        entries.push({
+          url: `${domain}/us-hts/chapter/${usChapters[i]}`,
+          lastModified: now,
+        });
       }
-    );
-  });
+    }
+    if (entries.length >= ITEMS_PER_SITEMAP) return entries;
+    offset += n;
+  }
 
-  data.forEach((item) => {
-    entries.push(
-      {
-        url: `${siteUrl}/vi/hs-code/${item.slug}`,
-        lastModified: new Date()
-      },
-      {
-        url: `${siteUrl}/en/hs-code/${item.slug}`,
-        lastModified: new Date()
+  // VN chapter (vi + en)
+  if (hasHscodeData()) {
+    const vnChapters = getChapterCodes();
+    const n = vnChapters.length * 2;
+    if (start < offset + n) {
+      const from = Math.max(0, start - offset);
+      const to = Math.min(n, end - offset);
+      for (let i = from; i < to; i++) {
+        const chapter = vnChapters[Math.floor(i / 2)];
+        const lang = i % 2 === 0 ? "vi" : "en";
+        entries.push({
+          url: `${domain}/${lang}/chapter/${chapter}`,
+          lastModified: now,
+        });
       }
-    );
-  });
+    }
+    if (entries.length >= ITEMS_PER_SITEMAP) return entries;
+    offset += n;
+  }
+
+  // VN HS (vi + en)
+  if (hasHscodeData()) {
+    const data = getAllHscodes();
+    const n = data.length * 2;
+    if (start < offset + n) {
+      const from = Math.max(0, start - offset);
+      const to = Math.min(n, end - offset);
+      for (let i = from; i < to; i++) {
+        const item = data[Math.floor(i / 2)];
+        const lang = i % 2 === 0 ? "vi" : "en";
+        entries.push({
+          url: `${domain}/${lang}/hs-code/${item.slug}`,
+          lastModified: now,
+        });
+      }
+    }
+  }
 
   return entries;
+}
+
+export async function generateSitemaps() {
+  const total = getTotalUrlCount();
+  const totalChunks = Math.ceil(total / ITEMS_PER_SITEMAP);
+  return Array.from({ length: Math.max(1, totalChunks) }, (_, i) => ({ id: i }));
+}
+
+export default async function sitemap(
+  props: { id: string | number }
+): Promise<MetadataRoute.Sitemap> {
+  const id = typeof props.id === "string" ? parseInt(props.id, 10) : props.id;
+  if (Number.isNaN(id) || id < 0) return [];
+  return getChunkEntries(id);
 }
